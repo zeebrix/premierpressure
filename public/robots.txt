@@ -1,0 +1,11 @@
+# robots.txt for Premier Pressure Solutions WA
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Disallow admin sections
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://premierpressuresolutionswa.com.au/sitemap.xml

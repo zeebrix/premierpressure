@@ -1,0 +1,85 @@
+/* Critical Above-the-Fold Styles - Inlined for Fast First Paint */
+/* This CSS contains only the styles needed for initial render */
+
+/* Reset and Base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  color: #0a1628;
+}
+
+/* Header Critical Styles */
+.header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Hero Section Critical Styles */
+.hero-section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-bg-image {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero-bg-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* CTA Buttons Critical Styles */
+.cta-button-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #00d4ff;
+  color: #0a1628;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  min-height: 48px; /* Touch target size */
+  min-width: 48px;
+}
+
+.cta-button-primary:hover {
+  background-color: #00c4ef;
+}
+
+/* Mobile-First Responsive Adjustments */
+@media (max-width: 640px) {
+  .hero-section {
+    min-height: 100svh; /* Use small viewport height for mobile */
+  }
+  
+  .cta-button-primary {
+    width: 100%;
+    padding: 1.25rem 2rem;
+  }
+}
