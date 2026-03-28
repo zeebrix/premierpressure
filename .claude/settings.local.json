@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /d/Upwork/premierpressure -type f -name *.env* -o -name *config*)",
+      "Bash(grep -r \"info@\\\\|contact\\\\|email\" /d/Upwork/premierpressure/src --include=*.tsx --include=*.ts)"
+    ]
+  }
+}
