@@ -711,21 +711,21 @@ export function OrganicStainingGuide() {
           <h2 className="text-2xl font-bold text-[#0a1628] mb-6">Related Services</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             <Link 
-              to="/services/roof-cleaning-perth"
+              to="/services/roof-cleaning"
               className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors border border-gray-200"
             >
               <h3 className="font-bold text-[#0a1628] mb-2">Roof Cleaning</h3>
               <p className="text-sm text-gray-600">Remove algae, lichen, and moss from your roof safely</p>
             </Link>
             <Link 
-              to="/services/house-washing-perth"
+              to="/services/house-washing"
               className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors border border-gray-200"
             >
               <h3 className="font-bold text-[#0a1628] mb-2">House Washing</h3>
               <p className="text-sm text-gray-600">Eliminate mould and mildew from exterior walls</p>
             </Link>
             <Link 
-              to="/services/driveway-cleaning-perth"
+              to="/services/driveway-cleaning"
               className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors border border-gray-200"
             >
               <h3 className="font-bold text-[#0a1628] mb-2">Driveway Cleaning</h3>
