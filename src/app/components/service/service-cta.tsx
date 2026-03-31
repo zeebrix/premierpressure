@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import { Phone, Mail, Send, BadgePercent } from 'lucide-react';
 import { motion } from 'motion/react';
-import { projectId, publicAnonKey } from '/utils/supabase/info';
+
+// Web3Forms API key - linked to maharzain76@gmail.com
+const WEB3FORMS_KEY = '25ea480e-c6b3-44f6-a5c5-9f59ae8447d0';
 
 interface ServiceCTAProps {
   serviceName?: string;
@@ -28,24 +30,29 @@ export function ServiceCTA({
     setErrorMessage('');
 
     try {
-      const API_URL = `https://${projectId}.supabase.co/functions/v1/make-server-bb20e683`;
-      
-      const response = await fetch(`${API_URL}/submit-quote`, {
+      const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${publicAnonKey}`,
+          'Accept': 'application/json',
         },
         body: JSON.stringify({
-          ...formData,
-          formType: 'service',
+          access_key: WEB3FORMS_KEY,
+          subject: `New ${serviceName} Service Inquiry from ${formData.name}`,
+          from_name: 'Premier Pressure Solutions WA Website',
+          name: formData.name,
+          phone: formData.phone,
+          suburb: formData.suburb || 'Not provided',
+          service: serviceName,
+          description: formData.description || 'No description provided',
+          botcheck: '',
         }),
       });
 
       const result = await response.json();
 
-      if (!response.ok) {
-        throw new Error(result.error || 'Failed to submit quote');
+      if (!response.ok || !result.success) {
+        throw new Error(result.message || 'Failed to submit quote');
       }
 
       setIsSubmitting(false);
@@ -110,7 +117,7 @@ export function ServiceCTA({
               </a>
 
               <a
-                href="mailto:info@premierpressuresolutions.com"
+                href="mailto:maharzain76@gmail.com"
                 className="flex items-center gap-3 md:gap-4 p-3 md:p-4 bg-white/10 rounded-xl hover:bg-white/15 transition-colors group backdrop-blur-sm border border-white/20"
               >
                 <div className="w-12 h-12 md:w-14 md:h-14 bg-[#00d4ff] rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0">
@@ -118,7 +125,7 @@ export function ServiceCTA({
                 </div>
                 <div className="min-w-0 overflow-hidden">
                   <p className="text-sm text-white/70 mb-1">Email us</p>
-                  <p className="text-sm sm:text-base font-semibold text-white break-all">info@premierpressuresolutions.com</p>
+                  <p className="text-sm sm:text-base font-semibold text-white break-all">maharzain76@gmail.com</p>
                 </div>
               </a>
             </div>
@@ -160,89 +167,137 @@ export function ServiceCTA({
               <span>10% OFF New Customers</span>
             </div>
 
-            <h3 className="text-xl sm:text-2xl font-bold text-[#0a1628] mb-2">
-              Request Your Free Quote
-            </h3>
-            <p className="text-sm sm:text-base text-gray-600 mb-6">
-              Fill out the form below and we'll get back to you within 24 hours
-            </p>
-
-            <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-5">
-              <div>
-                <label htmlFor="name" className="block text-sm font-semibold text-[#0a1628] mb-2">
-                  Your Name *
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  required
-                  value={formData.name}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent transition-all"
-                  placeholder="John Smith"
-                />
+            {submitStatus === 'success' ? (
+              <div className="text-center py-12">
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-bold text-[#0a1628] mb-2">Thank You!</h3>
+                <p className="text-gray-600 mb-6">We've received your inquiry and will contact you within 24 hours.</p>
+                <a
+                  href="tel:+61452579657"
+                  className="inline-flex items-center gap-2 bg-[#00d4ff] text-[#0a1628] px-6 py-3 rounded-lg font-semibold hover:bg-[#00c4ef] transition-all"
+                >
+                  <Phone className="w-5 h-5" />
+                  Call Now: 0452 579 657
+                </a>
               </div>
-
-              <div>
-                <label htmlFor="phone" className="block text-sm font-semibold text-[#0a1628] mb-2">
-                  Phone Number *
-                </label>
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  required
-                  value={formData.phone}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent transition-all"
-                  placeholder="0400 000 000"
-                />
+            ) : submitStatus === 'error' ? (
+              <div className="text-center py-12">
+                <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-bold text-[#0a1628] mb-2">Something went wrong</h3>
+                <p className="text-gray-600 mb-6">{errorMessage}</p>
+                <a
+                  href="tel:+61452579657"
+                  className="inline-flex items-center gap-2 bg-[#00d4ff] text-[#0a1628] px-6 py-3 rounded-lg font-semibold hover:bg-[#00c4ef] transition-all"
+                >
+                  <Phone className="w-5 h-5" />
+                  Call Now: 0452 579 657
+                </a>
               </div>
+            ) : (
+              <>
+                <h3 className="text-xl sm:text-2xl font-bold text-[#0a1628] mb-2">
+                  Request Your Free Quote
+                </h3>
+                <p className="text-sm sm:text-base text-gray-600 mb-6">
+                  Fill out the form below and we'll get back to you within 24 hours
+                </p>
 
-              <div>
-                <label htmlFor="suburb" className="block text-sm font-semibold text-[#0a1628] mb-2">
-                  Suburb *
-                </label>
-                <input
-                  type="text"
-                  id="suburb"
-                  name="suburb"
-                  required
-                  value={formData.suburb}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent transition-all"
-                  placeholder="e.g. Applecross, Nedlands"
-                />
-              </div>
+                <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-5">
+                  <div>
+                    <label htmlFor="name" className="block text-sm font-semibold text-[#0a1628] mb-2">
+                      Your Name *
+                    </label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      required
+                      value={formData.name}
+                      onChange={handleChange}
+                      className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent transition-all"
+                      placeholder="John Smith"
+                    />
+                  </div>
 
-              <div>
-                <label htmlFor="description" className="block text-sm font-semibold text-[#0a1628] mb-2">
-                  Job Description
-                </label>
-                <textarea
-                  id="description"
-                  name="description"
-                  rows={4}
-                  value={formData.description}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent transition-all resize-none"
-                  placeholder={descriptionPlaceholder}
-                />
-              </div>
+                  <div>
+                    <label htmlFor="phone" className="block text-sm font-semibold text-[#0a1628] mb-2">
+                      Phone Number *
+                    </label>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      required
+                      value={formData.phone}
+                      onChange={handleChange}
+                      className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent transition-all"
+                      placeholder="0400 000 000"
+                    />
+                  </div>
 
-              <button
-                type="submit"
-                className="w-full bg-[#00d4ff] text-[#0a1628] px-6 py-4 rounded-lg font-bold text-base sm:text-lg hover:bg-[#00c4ef] transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2"
-              >
-                <Send className="w-5 h-5" />
-                <span>Get Your Free Quote</span>
-              </button>
+                  <div>
+                    <label htmlFor="suburb" className="block text-sm font-semibold text-[#0a1628] mb-2">
+                      Suburb *
+                    </label>
+                    <input
+                      type="text"
+                      id="suburb"
+                      name="suburb"
+                      required
+                      value={formData.suburb}
+                      onChange={handleChange}
+                      className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent transition-all"
+                      placeholder="e.g. Applecross, Nedlands"
+                    />
+                  </div>
 
-              <p className="text-xs sm:text-sm text-gray-500 text-center leading-relaxed">
-                By submitting this form, you agree to be contacted by Premier Pressure Solutions WA
-              </p>
-            </form>
+                  <div>
+                    <label htmlFor="description" className="block text-sm font-semibold text-[#0a1628] mb-2">
+                      Job Description
+                    </label>
+                    <textarea
+                      id="description"
+                      name="description"
+                      rows={4}
+                      value={formData.description}
+                      onChange={handleChange}
+                      className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent transition-all resize-none"
+                      placeholder={descriptionPlaceholder}
+                    />
+                  </div>
+
+                  <button
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="w-full bg-[#00d4ff] text-[#0a1628] px-6 py-4 rounded-lg font-bold text-base sm:text-lg hover:bg-[#00c4ef] transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    {isSubmitting ? (
+                      <>
+                        <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-[#0a1628]"></div>
+                        <span>Sending...</span>
+                      </>
+                    ) : (
+                      <>
+                        <Send className="w-5 h-5" />
+                        <span>Get Your Free Quote</span>
+                      </>
+                    )}
+                  </button>
+
+                  <p className="text-xs sm:text-sm text-gray-500 text-center leading-relaxed">
+                    By submitting this form, you agree to be contacted by Premier Pressure Solutions WA
+                  </p>
+                </form>
+              </>
+            )}
           </motion.div>
         </div>
       </div>

@@ -1,6 +1,8 @@
 import { useState } from 'react';
-import { Phone, Mail, MapPin, MessageSquare } from 'lucide-react';
-import { projectId, publicAnonKey } from '/utils/supabase/info';
+import { Phone, MessageSquare } from 'lucide-react';
+
+// Web3Forms API key - linked to maharzain76@gmail.com
+const WEB3FORMS_KEY = '25ea480e-c6b3-44f6-a5c5-9f59ae8447d0';
 
 export function QuoteForm() {
   const [formData, setFormData] = useState({
@@ -21,24 +23,30 @@ export function QuoteForm() {
     setErrorMessage('');
 
     try {
-      const API_URL = `https://${projectId}.supabase.co/functions/v1/make-server-bb20e683`;
-      
-      const response = await fetch(`${API_URL}/submit-quote`, {
+      const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${publicAnonKey}`,
+          'Accept': 'application/json',
         },
         body: JSON.stringify({
-          ...formData,
-          formType: 'quote',
+          access_key: WEB3FORMS_KEY,
+          subject: `New Quote Request from ${formData.name}`,
+          from_name: 'Premier Pressure Solutions WA Website',
+          name: formData.name,
+          email: formData.email || 'Not provided',
+          phone: formData.phone,
+          address: formData.address || 'Not provided',
+          service: formData.service || 'Not specified',
+          message: formData.message || 'No additional details',
+          botcheck: '',
         }),
       });
 
       const result = await response.json();
 
-      if (!response.ok) {
-        throw new Error(result.error || 'Failed to submit quote');
+      if (!response.ok || !result.success) {
+        throw new Error(result.message || 'Failed to submit quote');
       }
 
       setIsSubmitting(false);

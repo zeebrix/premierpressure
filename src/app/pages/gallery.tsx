@@ -174,17 +174,17 @@ export function GalleryPage() {
     }
 
     fetchImages();
-    
+
     // Auto-refresh every 5 seconds to pick up gallery visibility changes
     const interval = setInterval(fetchImages, 5000);
-    
+
     return () => clearInterval(interval);
   }, [selectedCategory]);
 
   // Group images into before/after pairs
   // Filter for only images marked to show in gallery
   const galleryImages = images.filter((img: any) => img.showInGallery === true);
-  
+
   // Debug logging
   console.log('Gallery Debug:', {
     totalImages: images.length,
@@ -193,7 +193,7 @@ export function GalleryPage() {
     imagesWithTrue: images.filter((img: any) => img.showInGallery === true).length,
     imagesWithFalse: images.filter((img: any) => img.showInGallery === false).length,
   });
-  
+
   const imagePairs: ImagePair[] = [];
   for (let i = 0; i < galleryImages.length; i += 2) {
     if (galleryImages[i + 1]) {
@@ -320,11 +320,10 @@ export function GalleryPage() {
               <button
                 key={category.value}
                 onClick={() => setSelectedCategory(category.value)}
-                className={`px-4 py-2 rounded-lg font-medium transition-all ${
-                  selectedCategory === category.value
+                className={`px-4 py-2 rounded-lg font-medium transition-all ${selectedCategory === category.value
                     ? 'bg-[#00d4ff] text-[#0a1628] shadow-md'
                     : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-300'
-                }`}
+                  }`}
               >
                 {category.label}
               </button>
@@ -382,8 +381,9 @@ export function GalleryPage() {
                   <motion.div
                     key={index}
                     initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: index * 0.1 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, margin: "100px" }}
+                    transition={{ duration: 0.5 }}
                     className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
                   >
                     {/* Side-by-Side Before/After */}
