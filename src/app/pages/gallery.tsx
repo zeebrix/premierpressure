@@ -137,13 +137,14 @@ export function GalleryPage() {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [images, setImages] = useState<ImageMetadata[]>([]);
   const [loading, setLoading] = useState(true);
+  const [initialLoad, setInitialLoad] = useState(true);
 
   const API_URL = `https://${projectId}.supabase.co/functions/v1/make-server-bb20e683`;
 
   useEffect(() => {
-    async function fetchImages() {
+    async function fetchImages(showSpinner = false) {
       try {
-        setLoading(true);
+        if (showSpinner) setLoading(true);
         const url = selectedCategory === 'all'
           ? `${API_URL}/images`
           : `${API_URL}/images?category=${selectedCategory}`;
@@ -170,13 +171,15 @@ export function GalleryPage() {
         setImages([]);
       } finally {
         setLoading(false);
+        setInitialLoad(false);
       }
     }
 
-    fetchImages();
+    // Show spinner on first load and on category change
+    fetchImages(true);
 
-    // Auto-refresh every 5 seconds to pick up gallery visibility changes
-    const interval = setInterval(fetchImages, 5000);
+    // Auto-refresh every 30 seconds silently (no spinner)
+    const interval = setInterval(() => fetchImages(false), 30000);
 
     return () => clearInterval(interval);
   }, [selectedCategory]);
