@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Phone, Mail, Send, BadgePercent } from 'lucide-react';
 import { motion } from 'motion/react';
 
-// Web3Forms API key - linked to maharzain76@gmail.com
+// Web3Forms API key - linked to info@premierpressuresolutions.com
 const WEB3FORMS_KEY = '25ea480e-c6b3-44f6-a5c5-9f59ae8447d0';
 
 interface ServiceCTAProps {
@@ -117,7 +117,7 @@ export function ServiceCTA({
               </a>
 
               <a
-                href="mailto:maharzain76@gmail.com"
+                href="mailto:info@premierpressuresolutions.com"
                 className="flex items-center gap-3 md:gap-4 p-3 md:p-4 bg-white/10 rounded-xl hover:bg-white/15 transition-colors group backdrop-blur-sm border border-white/20"
               >
                 <div className="w-12 h-12 md:w-14 md:h-14 bg-[#00d4ff] rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0">
@@ -125,7 +125,7 @@ export function ServiceCTA({
                 </div>
                 <div className="min-w-0 overflow-hidden">
                   <p className="text-sm text-white/70 mb-1">Email us</p>
-                  <p className="text-sm sm:text-base font-semibold text-white break-all">maharzain76@gmail.com</p>
+                  <p className="text-sm sm:text-base font-semibold text-white break-all">info@premierpressuresolutions.com</p>
                 </div>
               </a>
             </div>
