@@ -2,6 +2,9 @@ import { useState } from 'react';
 import { ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ImageWithFallback } from '../figma/ImageWithFallback';
+import windowImg1 from '../../../assets/PPSWA-window-cleaning.jpeg';
+import windowImg2 from '../../../assets/window-cleaning-perth.png';
+import windowImg3 from '../../../assets/Window-cleaning-pps-perth.jpg';
 
 interface WindowBeforeAfterProps {
   serviceName: string;
@@ -9,21 +12,21 @@ interface WindowBeforeAfterProps {
 
 const beforeAfterData = [
   {
-    before: 'https://images.unsplash.com/photo-1726041452947-c91302d15c4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800',
-    after: 'https://images.unsplash.com/photo-1605100673524-394e344c5c5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800',
-    location: 'Nedlands',
-    description: 'Window cleaning restoration',
+    before: windowImg1,
+    after: windowImg2,
+    location: 'Perth',
+    description: 'Professional window cleaning results',
   },
   {
-    before: 'https://images.unsplash.com/photo-1586269941030-3c0019ba4bbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800',
-    after: 'https://images.unsplash.com/photo-1700455350393-34e80e3e0997?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800',
-    location: 'Wembley',
+    before: windowImg3,
+    after: windowImg2,
+    location: 'Perth WA',
     description: 'Streak-free glass cleaning',
   },
   {
-    before: 'https://images.unsplash.com/photo-1769527818855-588befec1b33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800',
-    after: 'https://images.unsplash.com/photo-1759632789123-ae5b55ae2755?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800',
-    location: 'Mosman Park',
+    before: windowImg1,
+    after: windowImg3,
+    location: 'Perth',
     description: 'Complete window detailing',
   },
 ];

@@ -1,6 +1,5 @@
 import { ServiceHero } from '../components/service/service-hero';
 import { ServiceTrust } from '../components/service/service-trust';
-import { RoofBeforeAfter } from '../components/service/roof-before-after';
 import { RoofMethodsComparison } from '../components/service/roof-methods-comparison';
 import { RoofTreatmentDetail } from '../components/service/roof-treatment-detail';
 import { RoofByNumbers } from '../components/service/roof-by-numbers';
@@ -158,7 +157,6 @@ We use specialized soft washing techniques combined with professional biocidal t
         closing={serviceData.benefits.closingCopy}
         serviceName="Roof Cleaning"
       />
-      <RoofBeforeAfter serviceName="roof" />
       <RoofMethodsComparison />
       <RoofTreatmentDetail />
       <ServiceProcess steps={serviceData.process} />
