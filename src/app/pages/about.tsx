@@ -1,4 +1,4 @@
-import image_3825eeae6ac41dce0ee90580b9d8c79b9558cd3f from 'figma:asset/3825eeae6ac41dce0ee90580b9d8c79b9558cd3f.png'
+import image_3825eeae6ac41dce0ee90580b9d8c79b9558cd3f from 'figma:asset/3825eeae6ac41dce0ee90580b9d8c79b9558cd3f.webp'
 import { motion } from 'motion/react';
 import { Award, Shield, Users, Zap, CheckCircle, Phone } from 'lucide-react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';

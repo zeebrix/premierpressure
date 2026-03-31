@@ -24,12 +24,12 @@ import { TestimonialsCarousel } from '../components/testimonials-carousel';
 import { useState, useEffect } from 'react';
 
 // Import transformation images from homepage
-import image_41faf7d8dc2e33e937b3a8d5a242a0b96f9b3f9e from 'figma:asset/41faf7d8dc2e33e937b3a8d5a242a0b96f9b3f9e.png';
-import image_87d5f8ec1d66b7b825355f53597f786bcaca1fbc from 'figma:asset/87d5f8ec1d66b7b825355f53597f786bcaca1fbc.png';
-import image_6bbaf4ca5bf4a991f067849bdb8c19880078fe6d from 'figma:asset/6bbaf4ca5bf4a991f067849bdb8c19880078fe6d.png';
-import image_9f60771b69b9073d71cb6e9b0f8857c1f1462658 from 'figma:asset/9f60771b69b9073d71cb6e9b0f8857c1f1462658.png';
-import image_69c22a3e1fa74dd17b18bde80f0c9cc3ea318b06 from 'figma:asset/69c22a3e1fa74dd17b18bde80f0c9cc3ea318b06.png';
-import image_1ef480a4697ca3350ef723e0ead8e0aa6892ee92 from 'figma:asset/1ef480a4697ca3350ef723e0ead8e0aa6892ee92.png';
+import image_41faf7d8dc2e33e937b3a8d5a242a0b96f9b3f9e from 'figma:asset/41faf7d8dc2e33e937b3a8d5a242a0b96f9b3f9e.webp';
+import image_87d5f8ec1d66b7b825355f53597f786bcaca1fbc from 'figma:asset/87d5f8ec1d66b7b825355f53597f786bcaca1fbc.webp';
+import image_6bbaf4ca5bf4a991f067849bdb8c19880078fe6d from 'figma:asset/6bbaf4ca5bf4a991f067849bdb8c19880078fe6d.webp';
+import image_9f60771b69b9073d71cb6e9b0f8857c1f1462658 from 'figma:asset/9f60771b69b9073d71cb6e9b0f8857c1f1462658.webp';
+import image_69c22a3e1fa74dd17b18bde80f0c9cc3ea318b06 from 'figma:asset/69c22a3e1fa74dd17b18bde80f0c9cc3ea318b06.webp';
+import image_1ef480a4697ca3350ef723e0ead8e0aa6892ee92 from 'figma:asset/1ef480a4697ca3350ef723e0ead8e0aa6892ee92.webp';
 
 const services = [
   {

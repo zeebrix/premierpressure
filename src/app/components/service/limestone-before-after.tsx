@@ -1,6 +1,6 @@
-import image_c7d4fc88143ed06b153de9e8393f52bb62afa98e from 'figma:asset/c7d4fc88143ed06b153de9e8393f52bb62afa98e.png'
-import image_2b7041eca5d18b5bed17d538d7e6af0d637e9ae5 from 'figma:asset/2b7041eca5d18b5bed17d538d7e6af0d637e9ae5.png'
-import image_c1ad607c64109c9af2b69e96ceb3b3ac026b13ab from 'figma:asset/c1ad607c64109c9af2b69e96ceb3b3ac026b13ab.png'
+import image_c7d4fc88143ed06b153de9e8393f52bb62afa98e from 'figma:asset/c7d4fc88143ed06b153de9e8393f52bb62afa98e.webp'
+import image_2b7041eca5d18b5bed17d538d7e6af0d637e9ae5 from 'figma:asset/2b7041eca5d18b5bed17d538d7e6af0d637e9ae5.webp'
+import image_c1ad607c64109c9af2b69e96ceb3b3ac026b13ab from 'figma:asset/c1ad607c64109c9af2b69e96ceb3b3ac026b13ab.webp'
 import { useState } from 'react';
 import { ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
