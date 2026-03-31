@@ -2,7 +2,10 @@ import { CommercialHero } from '../../components/commercial/commercial-hero';
 import { CommercialBenefits } from '../../components/commercial/commercial-benefits';
 import { CommercialProcess } from '../../components/commercial/commercial-process';
 import { CommercialCTA } from '../../components/commercial/commercial-cta';
-import { Briefcase, Shield, Users, Clock, CheckCircle } from 'lucide-react';
+import { Briefcase, Shield, Users, Clock, CheckCircle, Star, Award, Building2 } from 'lucide-react';
+import { motion } from 'motion/react';
+import heroImage from '../../../assets/1ef480a4697ca3350ef723e0ead8e0aa6892ee92.webp';
+import showcaseImage from '../../../assets/6bbaf4ca5bf4a991f067849bdb8c19880078fe6d.webp';
 
 export function CommercialPressureCleaningPage() {
   const benefits = [
@@ -48,132 +51,131 @@ export function CommercialPressureCleaningPage() {
   ];
 
   return (
-    <main>
+    <main className="bg-white">
       <CommercialHero
         title="Commercial Pressure Cleaning Perth"
-        subtitle="Professional pressure cleaning services for businesses across Perth"
-        description="Maintain your commercial property's professional appearance with expert pressure cleaning services. We work around your business operations to keep your property looking pristine and welcoming."
+        subtitle="Professional Excellence"
+        description="Pristine business exteriors that command respect. We deliver top-tier pressure cleaning for Perth's commercial properties with zero operational downtime."
       />
       
+      {/* Trust Bar */}
+      <div className="bg-[#0a1628] py-8 border-t border-white/5">
+        <div className="max-w-7xl mx-auto px-4 flex flex-wrap justify-center gap-8 md:gap-16 text-white/60">
+          <div className="flex items-center gap-2">
+            <Award className="w-5 h-5 text-[#00d4ff]" />
+            <span className="font-semibold uppercase tracking-wider text-xs">Fully Insured</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <Star className="w-5 h-5 text-[#00d4ff]" />
+            <span className="font-semibold uppercase tracking-wider text-xs">5-Star Rated</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <Shield className="w-5 h-5 text-[#00d4ff]" />
+            <span className="font-semibold uppercase tracking-wider text-xs">WA Local Expert</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <Building2 className="w-5 h-5 text-[#00d4ff]" />
+            <span className="font-semibold uppercase tracking-wider text-xs">Commercial Grade</span>
+          </div>
+        </div>
+      </div>
+
       <CommercialBenefits benefits={benefits} />
 
-      {/* Service Overview */}
-      <section className="py-16 md:py-24 bg-white">
+      {/* Modern Showcase Section */}
+      <section className="py-20 md:py-32 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-6">
-              Perth's Trusted Commercial Pressure Cleaning Service
-            </h2>
-            <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-              <p>
-                Your commercial property's appearance directly impacts how customers, clients, and visitors perceive your business. A clean, well-maintained exterior projects professionalism, attention to detail, and success - qualities that matter in competitive Perth business environments. Conversely, dirty walkways, stained building exteriors, or neglected parking areas create negative first impressions that can affect customer trust and business reputation.
-              </p>
-              <p>
-                Premier Pressure Solutions WA provides comprehensive commercial pressure cleaning services for businesses throughout Perth's metropolitan area. We understand that commercial properties face unique challenges from high foot traffic, weather exposure, and the need to maintain professional appearances that support brand image and customer experience.
-              </p>
-              <p>
-                Our team specializes in working with commercial clients, from small retail stores to large corporate complexes. We deliver professional cleaning services that maintain your property's appeal while working flexibly to minimize disruption to your business operations, customers, and staff.
-              </p>
-
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
-                Commercial Properties We Service
-              </h3>
-              <div className="grid sm:grid-cols-2 gap-3 my-6">
-                {[
-                  'Office buildings and complexes',
-                  'Retail stores and shopping areas',
-                  'Medical and dental centers',
-                  'Restaurants and hospitality venues',
-                  'Car dealerships and showrooms',
-                  'Professional services offices',
-                  'Real estate properties',
-                  'Gyms and fitness centers',
-                  'Beauty and wellness centers',
-                  'Veterinary clinics',
-                  'Child care centers',
-                  'Storage facilities',
-                ].map((item) => (
-                  <div key={item} className="flex items-start gap-2">
-                    <CheckCircle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
-                    <span>{item}</span>
-                  </div>
-                ))}
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+            >
+              <h2 className="text-3xl md:text-5xl font-bold text-[#0a1628] mb-8 leading-tight">
+                Command Attention with a <span className="text-[#00d4ff]">Pristine Business</span> Exterior
+              </h2>
+              <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+                <p>
+                  Your property is your silent salesperson. Our professional cleaning services ensure it's always saying the right thing. From high-rise facades to expansive parking complexes, we use commercial-grade equipment and eco-friendly techniques to restore your property's primary appeal.
+                </p>
+                <div className="grid sm:grid-cols-2 gap-4 pt-4">
+                  {[
+                    'Office Complexes',
+                    'Retail Centers',
+                    'Medical Facilities',
+                    'Industrial Sites',
+                    'Educational Campus',
+                    'Hospitality Venues'
+                  ].map((item) => (
+                    <div key={item} className="flex items-center gap-3">
+                      <div className="w-2 h-2 rounded-full bg-[#00d4ff]" />
+                      <span className="font-semibold text-[#0a1628]">{item}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
+            </motion.div>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
-                Areas We Clean for Commercial Clients
-              </h3>
-              <div className="grid sm:grid-cols-2 gap-3 my-6">
-                {[
-                  'Building facades and exteriors',
-                  'Entry ways and reception areas',
-                  'Walkways and pedestrian paths',
-                  'Parking lots and driveways',
-                  'Loading bays and service areas',
-                  'Outdoor seating and dining areas',
-                  'Signage and building lettering',
-                  'Window surrounds and frames',
-                  'Awnings and canopies',
-                  'Waste enclosure areas',
-                  'Fencing and boundary walls',
-                  'Concrete and paved surfaces',
-                ].map((item) => (
-                  <div key={item} className="flex items-start gap-2">
-                    <CheckCircle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
-                    <span>{item}</span>
-                  </div>
-                ))}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="relative"
+            >
+              <div className="absolute -inset-4 bg-[#00d4ff]/10 rounded-2xl -rotate-2" />
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-100">
+                <img 
+                  src={showcaseImage} 
+                  alt="Commercial pressure cleaning showcase" 
+                  className="w-full h-full object-cover aspect-[4/3]"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628]/60 to-transparent" />
+                <div className="absolute bottom-6 left-6 right-6">
+                  <p className="text-white font-bold text-xl uppercase tracking-widest">Premium Results Guaranteed</p>
+                </div>
               </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
-                Why Perth Businesses Choose Our Service
-              </h3>
-              <p>
-                Commercial clients need cleaning providers who understand business operations, work professionally, and deliver consistent results. We've developed specialized processes for commercial properties that minimize disruption while ensuring your business maintains the professional appearance customers expect.
-              </p>
-              <p>
-                Our team works efficiently and professionally, understanding that we're representing your business when on your premises. We arrive in clearly marked vehicles, wear professional uniforms, and conduct ourselves appropriately in customer-facing environments. We also use proper signage and safety protocols to ensure customer and staff safety during cleaning operations.
-              </p>
-              <p>
-                We understand commercial decision-making processes and provide detailed quotes suitable for approval workflows. Our pricing is transparent with no hidden fees, and we deliver service that represents excellent value for commercial property maintenance budgets.
-              </p>
-
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
-                Scheduled Maintenance Programs
-              </h3>
-              <p>
-                Many Perth businesses benefit from regular scheduled pressure cleaning that maintains consistent professional appearances year-round. Preventative maintenance is more cost-effective than reactive cleaning and ensures your property always looks its best for customers and clients.
-              </p>
-              <p>
-                We offer flexible maintenance contracts that can include monthly, quarterly, or annual cleaning based on your property's specific needs and traffic levels. Regular service means you don't have to think about property maintenance - we handle it on schedule, keeping your business looking pristine without requiring your ongoing attention.
-              </p>
-
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
-                Special Event and Pre-Inspection Cleaning
-              </h3>
-              <p>
-                Need your commercial property looking perfect for a special event, important client visit, or property inspection? We provide responsive service for special occasions when you need your property looking its absolute best. Many businesses call us before major events, grand openings, or when preparing properties for lease or sale.
-              </p>
-
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
-                Tenant Changeover and Lease Preparation
-              </h3>
-              <p>
-                Property managers and commercial landlords rely on us for tenant changeover cleaning and lease preparation. We help present properties in the best possible condition for new tenants, supporting faster leasing and positive tenant relationships from day one.
-              </p>
+      {/* Split Comparison Section */}
+      <section className="py-20 bg-[#0a1628] text-white overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-bold mb-6">The Power of Clean</h2>
+            <p className="text-xl text-white/60 max-w-2xl mx-auto">See the transformative difference our industrial-grade equipment delivers for Perth businesses.</p>
+          </div>
+          
+          <div className="relative group rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
+            <div className="grid md:grid-cols-2 gap-1">
+              <div className="relative aspect-video md:aspect-auto h-[400px]">
+                <img src={heroImage} alt="Before cleaning" className="w-full h-full object-cover" />
+                <div className="absolute top-6 left-6 bg-[#0a1628] text-white px-6 py-2 rounded-full font-bold text-sm tracking-widest uppercase">Before</div>
+              </div>
+              <div className="relative aspect-video md:aspect-auto h-[400px]">
+                <img src={showcaseImage} alt="After cleaning" className="w-full h-full object-cover" />
+                <div className="absolute top-6 right-6 bg-[#00d4ff] text-[#0a1628] px-6 py-2 rounded-full font-bold text-sm tracking-widest uppercase">After Restoration</div>
+              </div>
+            </div>
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-2xl border-4 border-[#00d4ff] z-10 hidden md:flex">
+              <Star className="w-8 h-8 text-[#00d4ff] animate-pulse" />
             </div>
           </div>
         </div>
       </section>
 
       <CommercialProcess 
-        title="Our Commercial Cleaning Process"
+        title="Our Engineered Approach"
         steps={process}
       />
+
       <CommercialCTA 
         serviceName="Business"
         descriptionPlaceholder="Tell us about your commercial pressure cleaning needs..."
       />
     </main>
   );
-}
+}
