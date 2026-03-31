@@ -5,6 +5,7 @@ import { SuburbWhyChoose } from '../../components/suburb/suburb-why-choose';
 import { SuburbProcess } from '../../components/suburb/suburb-process';
 import { SuburbFAQ } from '../../components/suburb/suburb-faq';
 import { BeforeAfterGallery } from '../../components/before-after-gallery';
+import { BeforeAfterCarousel } from '../../components/before-after-carousel';
 import { GoogleReviews } from '../../components/google-reviews';
 import { QuoteForm } from '../../components/quote-form';
 import { StickyCallButton } from '../../components/sticky-call-button';

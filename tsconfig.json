@@ -25,8 +25,7 @@
       "/utils/*": ["./utils/*"],
       "@/*": ["./src/*"]
     },
-    "baseUrl": ".",
-    "ignoreDeprecations": "6.0"
+    "baseUrl": "."
   },
   "include": ["src", "utils"],
   "exclude": ["node_modules", "dist", "public"]
