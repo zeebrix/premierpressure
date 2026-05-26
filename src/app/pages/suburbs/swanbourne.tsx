@@ -19,8 +19,7 @@ export default function Swanbourne() {
       <Helmet>
         <title>Pressure Cleaning Swanbourne WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Swanbourne. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Swanbourne, house washing Swanbourne, driveway cleaning Swanbourne, coastal cleaning, Swanbourne pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/swanbourne" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/swanbourne" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

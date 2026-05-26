@@ -18,8 +18,7 @@ export default function AlexanderHeights() {
       <Helmet>
         <title>Pressure Cleaning Alexander Heights WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Alexander Heights. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Alexander Heights homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Alexander Heights, house washing Alexander Heights, driveway cleaning Alexander Heights, roof cleaning Alexander Heights, Alexander Heights pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/alexander-heights" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/alexander-heights" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

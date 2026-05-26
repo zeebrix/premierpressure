@@ -75,7 +75,7 @@ export function OrganicStainingGuide() {
       "name": "Premier Pressure Solutions WA",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://premierpressuresolutionswa.com.au/logo.png"
+        "url": "https://www.premierpressuresolutions.com.au/logo.png"
       }
     },
     "datePublished": "2026-03-13",
@@ -90,8 +90,7 @@ export function OrganicStainingGuide() {
           name="description" 
           content="Complete guide to organic staining problems in Perth. Learn about mould, algae, mildew, and lichen - their causes, health risks, property damage, and professional solutions." 
         />
-        <meta name="keywords" content="organic staining, mould removal, algae cleaning, mildew treatment, lichen removal, Perth, Western Australia" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/resources/organic-staining-guide" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/resources/organic-staining-guide" />
         <script type="application/ld+json">
           {JSON.stringify(articleSchema)}
         </script>

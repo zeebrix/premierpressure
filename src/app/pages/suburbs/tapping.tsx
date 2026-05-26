@@ -19,8 +19,7 @@ export default function Tapping() {
       <Helmet>
         <title>Pressure Cleaning Tapping WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Tapping. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Tapping, house washing Tapping, driveway cleaning Tapping, roof cleaning Tapping, Tapping pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/tapping" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/tapping" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

@@ -19,8 +19,7 @@ export default function Mindarie() {
       <Helmet>
         <title>Pressure Cleaning Mindarie WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Mindarie. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Mindarie, house washing Mindarie, driveway cleaning Mindarie, coastal cleaning Mindarie, Mindarie pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/mindarie" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/mindarie" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

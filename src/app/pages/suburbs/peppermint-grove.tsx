@@ -19,8 +19,7 @@ export default function PeppermintGrove() {
       <Helmet>
         <title>Pressure Cleaning Peppermint Grove WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Peppermint Grove. Premium property care for luxury homes, driveways & more. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Peppermint Grove, house washing Peppermint Grove, driveway cleaning Peppermint Grove, luxury home cleaning, Peppermint Grove pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/peppermint-grove" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/peppermint-grove" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

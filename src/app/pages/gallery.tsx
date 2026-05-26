@@ -214,8 +214,7 @@ export function GalleryPage() {
       <SEO
         title="Before & After Gallery | Premier Pressure Solutions WA"
         description="See the incredible transformations from our pressure cleaning services across Perth. Browse before and after photos of driveways, limestone, roofs, and more."
-        keywords="pressure cleaning gallery, before after photos, Perth pressure washing, cleaning results, driveway cleaning Perth, house washing Perth"
-        canonical="https://premierpressuresolutionswa.com.au/gallery"
+        canonical="https://www.premierpressuresolutions.com.au/gallery"
       />
 
       {/* Hero Section */}

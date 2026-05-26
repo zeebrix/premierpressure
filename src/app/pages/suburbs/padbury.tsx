@@ -20,8 +20,7 @@ export default function Padbury() {
       <Helmet>
         <title>Pressure Cleaning Padbury WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Padbury. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Padbury, house washing Padbury, driveway cleaning Padbury, roof cleaning Padbury, Padbury pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/padbury" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/padbury" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

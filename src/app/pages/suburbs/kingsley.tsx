@@ -19,8 +19,7 @@ export default function Kingsley() {
       <Helmet>
         <title>Pressure Cleaning Kingsley WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Kingsley. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Kingsley, house washing Kingsley, driveway cleaning Kingsley, roof cleaning Kingsley, Kingsley pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/kingsley" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/kingsley" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

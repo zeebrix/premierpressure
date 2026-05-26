@@ -19,8 +19,7 @@ export default function Wembley() {
       <Helmet>
         <title>Pressure Cleaning Wembley WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Wembley. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Wembley, house washing Wembley, driveway cleaning Wembley, roof cleaning Wembley, Wembley pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/wembley" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/wembley" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

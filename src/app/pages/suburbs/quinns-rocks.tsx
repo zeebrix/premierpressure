@@ -19,8 +19,7 @@ export default function QuinnsRocks() {
       <Helmet>
         <title>Pressure Cleaning Quinns Rocks WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Quinns Rocks. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Quinns Rocks, house washing Quinns Rocks, driveway cleaning Quinns Rocks, coastal cleaning, Quinns Rocks pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/quinns-rocks" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/quinns-rocks" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

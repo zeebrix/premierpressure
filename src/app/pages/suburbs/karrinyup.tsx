@@ -19,8 +19,7 @@ export default function Karrinyup() {
       <Helmet>
         <title>Pressure Cleaning Karrinyup WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Karrinyup. Premium property care for house washing, driveway cleaning & more. Serving Karrinyup. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Karrinyup, house washing Karrinyup, driveway cleaning Karrinyup, roof cleaning Karrinyup, Karrinyup pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/karrinyup" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/karrinyup" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

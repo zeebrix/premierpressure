@@ -12,12 +12,12 @@ export function HomePage() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://premierpressuresolutionswa.com.au",
+    "@id": "https://www.premierpressuresolutions.com.au",
     "name": "Premier Pressure Solutions WA",
-    "image": "https://premierpressuresolutionswa.com.au/og-image.png",
-    "url": "https://premierpressuresolutionswa.com.au",
+    "image": "https://www.premierpressuresolutions.com.au/og-image.png",
+    "url": "https://www.premierpressuresolutions.com.au",
     "telephone": "+61452579657",
-    "email": "info@premierpressuresolutionswa.com.au",
+    "email": "info@premierpressuresolutions.com.au",
     "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
@@ -96,7 +96,6 @@ export function HomePage() {
       <SEO 
         title="Professional Pressure Cleaning Services in Perth"
         description="Premier Pressure Solutions WA offers expert pressure cleaning services across Perth. Driveways, house washing, roof cleaning, pavers & more. 10% off for new customers. Call 0452 579 657."
-        keywords="pressure cleaning perth, pressure washing perth, driveway cleaning, house washing, roof cleaning, paver cleaning, limestone cleaning"
         canonical="/"
         preloadImages={[
           'https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/make-bb20e683-images/general/1772546534545-3460df8e-5613-401a-be7d-a720ad396872.webp'

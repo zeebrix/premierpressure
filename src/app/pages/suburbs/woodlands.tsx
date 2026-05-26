@@ -19,8 +19,7 @@ export default function Woodlands() {
       <Helmet>
         <title>Pressure Cleaning Woodlands WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Woodlands. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Woodlands homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Woodlands, house washing Woodlands, driveway cleaning Woodlands, roof cleaning Woodlands, Woodlands pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/woodlands" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/woodlands" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

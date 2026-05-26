@@ -19,8 +19,7 @@ export default function Edgewater() {
       <Helmet>
         <title>Pressure Cleaning Edgewater WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Edgewater. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Edgewater, house washing Edgewater, driveway cleaning Edgewater, roof cleaning Edgewater, Edgewater pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/edgewater" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/edgewater" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

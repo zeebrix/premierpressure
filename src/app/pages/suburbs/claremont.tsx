@@ -19,8 +19,7 @@ export default function Claremont() {
       <Helmet>
         <title>Pressure Cleaning Claremont WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Claremont. Premium property care for house washing, driveway cleaning & more. Serving Claremont. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Claremont, house washing Claremont, driveway cleaning Claremont, roof cleaning Claremont, Claremont pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/claremont" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/claremont" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

@@ -19,8 +19,7 @@ export default function Wanneroo() {
       <Helmet>
         <title>Pressure Cleaning Wanneroo WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Wanneroo. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Wanneroo properties. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Wanneroo, house washing Wanneroo, driveway cleaning Wanneroo, roof cleaning Wanneroo, Wanneroo pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/wanneroo" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/wanneroo" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

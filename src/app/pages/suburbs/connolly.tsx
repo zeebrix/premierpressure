@@ -18,8 +18,7 @@ export default function Connolly() {
       <Helmet>
         <title>Pressure Cleaning Connolly WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Connolly. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Connolly homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Connolly, house washing Connolly, driveway cleaning Connolly, roof cleaning Connolly, Connolly pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/connolly" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/connolly" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

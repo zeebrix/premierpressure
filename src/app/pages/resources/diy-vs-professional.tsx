@@ -19,7 +19,7 @@ export function DIYvsProfessionalPage() {
       'name': 'Premier Pressure Solutions WA',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://premierpressurewa.com.au/logo.png'
+        'url': 'https://www.premierpressuresolutions.com.au/logo.png'
       }
     }
   };
@@ -29,7 +29,7 @@ export function DIYvsProfessionalPage() {
       <SEO
         title="DIY vs Professional Pressure Cleaning | Complete Cost & Risk Comparison"
         description="Should you DIY or hire professionals? Compare real costs, risks, results and time investment. Expert analysis for Perth homeowners making the right choice."
-        canonical="https://premierpressurewa.com.au/resources/diy-vs-professional"
+        canonical="https://www.premierpressuresolutions.com.au/resources/diy-vs-professional"
         schema={structuredData}
       />
 

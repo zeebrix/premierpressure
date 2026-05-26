@@ -19,8 +19,7 @@ export default function Merriwa() {
       <Helmet>
         <title>Pressure Cleaning Merriwa WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Merriwa. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Merriwa, house washing Merriwa, driveway cleaning Merriwa, roof cleaning Merriwa, Merriwa pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/merriwa" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/merriwa" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

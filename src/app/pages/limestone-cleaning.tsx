@@ -121,7 +121,7 @@ We employ specialised low-pressure cleaning methods combined with limestone-safe
   // Local Business Schema
   const localBusinessSchema = generateLocalBusinessSchema({
     name: 'Premier Pressure Solutions WA',
-    url: 'https://www.premierpressuresolutionswa.com.au',
+    url: 'https://www.premierpressuresolutions.com.au',
     logo: 'https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/sign/make-bb20e683-images/general/1771574477338-80d6d2fc-ec14-4508-b0e8-5bae0c9df45d.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hMjhhMmJhNi1lYjVhLTQ5OGQtODVlMC0wZTUxMmZiNDJhNzIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJtYWtlLWJiMjBlNjgzLWltYWdlcy9nZW5lcmFsLzE3NzE1NzQ0NzczMzgtODBkNmQyZmMtZWMxNC00NTA4LWIwZTgtNWJhZTBjOWRmNDVkLnBuZyIsImlhdCI6MTc3MTU3NDQ3NywiZXhwIjoxODAzMTEwNDc3fQ.cUoBmQEnmX6fReUUHoQDoqk5bRZk7JVy95oiobzMJHg',
     address: {
       streetAddress: '123 Main St',
@@ -131,7 +131,7 @@ We employ specialised low-pressure cleaning methods combined with limestone-safe
       addressCountry: 'Australia'
     },
     telephone: '+61 8 1234 5678',
-    email: 'info@premierpressuresolutionswa.com.au',
+    email: 'info@premierpressuresolutions.com.au',
     openingHoursSpecification: [
       {
         dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
@@ -150,12 +150,12 @@ We employ specialised low-pressure cleaning methods combined with limestone-safe
   // Service Schema
   const serviceSchema = generateServiceSchema({
     name: 'Limestone Cleaning',
-    url: 'https://www.premierpressuresolutionswa.com.au/residential/limestone-cleaning',
+    url: 'https://www.premierpressuresolutions.com.au/residential/limestone-cleaning',
     image: 'https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/sign/make-bb20e683-images/general/1771574477338-80d6d2fc-ec14-4508-b0e8-5bae0c9df45d.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hMjhhMmJhNi1lYjVhLTQ5OGQtODVlMC0wZTUxMmZiNDJhNzIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJtYWtlLWJiMjBlNjgzLWltYWdlcy9nZW5lcmFsLzE3NzE1NzQ0NzczMzgtODBkNmQyZmMtZWMxNC00NTA4LWIwZTgtNWJhZTBjOWRmNDVkLnBuZyIsImlhdCI6MTc3MTU3NDQ3NywiZXhwIjoxODAzMTEwNDc3fQ.cUoBmQEnmX6fReUUHoQDoqk5bRZk7JVy95oiobzMJHg',
     description: 'Professional limestone cleaning services in Perth. Restore walls, pavers, and features with gentle, effective cleaning. Free quotes. Fully insured.',
     provider: {
       name: 'Premier Pressure Solutions WA',
-      url: 'https://www.premierpressuresolutionswa.com.au'
+      url: 'https://www.premierpressuresolutions.com.au'
     }
   });
 

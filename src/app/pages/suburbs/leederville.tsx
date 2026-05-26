@@ -19,8 +19,7 @@ export default function Leederville() {
       <Helmet>
         <title>Pressure Cleaning Leederville WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Leederville. Inner-city property care for house washing, driveway cleaning & more. Serving Leederville. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Leederville, house washing Leederville, driveway cleaning Leederville, inner city cleaning Leederville, Leederville pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/leederville" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/leederville" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

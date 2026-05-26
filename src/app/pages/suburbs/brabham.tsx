@@ -18,8 +18,7 @@ export default function Brabham() {
       <Helmet>
         <title>Pressure Cleaning Brabham WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Brabham. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Brabham new homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Brabham, house washing Brabham, driveway cleaning Brabham, roof cleaning Brabham, Brabham pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/brabham" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/brabham" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

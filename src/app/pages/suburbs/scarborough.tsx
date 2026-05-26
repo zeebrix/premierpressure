@@ -25,11 +25,7 @@ export default function Scarborough() {
           name="description" 
           content="Professional pressure cleaning in Scarborough. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!" 
         />
-        <meta 
-          name="keywords" 
-          content="pressure cleaning Scarborough, house washing Scarborough, driveway cleaning Scarborough, coastal cleaning, Scarborough pressure washing"
-        />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/scarborough" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/scarborough" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

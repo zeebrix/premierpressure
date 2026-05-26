@@ -5,12 +5,12 @@
 export function generateLocalBusinessSchema() {
   return {
     "@type": "LocalBusiness",
-    "@id": "https://premierpressuresolutionswa.com.au/#business",
+    "@id": "https://www.premierpressuresolutions.com.au/#business",
     "name": "Premier Pressure Solutions WA",
-    "image": "https://premierpressuresolutionswa.com.au/logo.png",
-    "url": "https://premierpressuresolutionswa.com.au",
+    "image": "https://www.premierpressuresolutions.com.au/logo.png",
+    "url": "https://www.premierpressuresolutions.com.au",
     "telephone": "+61452579657",
-    "email": "info@premierpressuresolutionswa.com.au",
+    "email": "info@premierpressuresolutions.com.au",
     "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
@@ -42,12 +42,12 @@ export function generateLocalBusinessSchema() {
 export function generateServiceSchema(serviceName: string, description: string, canonicalUrl: string, serviceOfferings?: string[]) {
   const schema: any = {
     "@type": "Service",
-    "@id": `https://premierpressuresolutionswa.com.au${canonicalUrl}#service`,
+    "@id": `https://www.premierpressuresolutions.com.au${canonicalUrl}#service`,
     "serviceType": serviceName,
     "name": serviceName,
     "description": description,
     "provider": {
-      "@id": "https://premierpressuresolutionswa.com.au/#business"
+      "@id": "https://www.premierpressuresolutions.com.au/#business"
     },
     "areaServed": {
       "@type": "City",

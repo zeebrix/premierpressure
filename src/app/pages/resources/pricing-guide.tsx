@@ -19,7 +19,7 @@ export function PricingGuidePage() {
       'name': 'Premier Pressure Solutions WA',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://premierpressurewa.com.au/logo.png'
+        'url': 'https://www.premierpressuresolutions.com.au/logo.png'
       }
     }
   };
@@ -29,7 +29,7 @@ export function PricingGuidePage() {
       <SEO
         title="Perth Pressure Cleaning Pricing Guide 2026 | Cost Estimates & Factors"
         description="Comprehensive pricing guide for pressure cleaning services in Perth. Understand costs, factors affecting pricing, and get accurate estimates for driveways, houses, roofs & more."
-        canonical="https://premierpressurewa.com.au/resources/pricing-guide"
+        canonical="https://www.premierpressuresolutions.com.au/resources/pricing-guide"
         schema={structuredData}
       />
 

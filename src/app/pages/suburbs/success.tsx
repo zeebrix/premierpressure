@@ -19,8 +19,7 @@ export default function Success() {
       <Helmet>
         <title>Pressure Cleaning Success WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Success. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Success, house washing Success, driveway cleaning Success, roof cleaning Success, Success pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/success" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/success" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

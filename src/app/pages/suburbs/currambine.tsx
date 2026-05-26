@@ -19,8 +19,7 @@ export default function Currambine() {
       <Helmet>
         <title>Pressure Cleaning Currambine WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Currambine. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Currambine homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Currambine, house washing Currambine, driveway cleaning Currambine, roof cleaning Currambine, Currambine pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/currambine" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/currambine" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

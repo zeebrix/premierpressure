@@ -54,7 +54,6 @@ export function AboutPage() {
       <SEO 
         title="About Us - Professional Pressure Cleaning Perth"
         description="Learn about Premier Pressure Solutions WA, Perth's trusted pressure cleaning specialists. Fully insured, experienced team serving residential & commercial properties across Perth."
-        keywords="pressure cleaning perth about, pressure washing company perth, professional cleaners perth, fully insured pressure cleaning"
         canonical="/about"
       />
       {/* Hero Section */}

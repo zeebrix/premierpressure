@@ -19,8 +19,7 @@ export default function Kallaroo() {
       <Helmet>
         <title>Pressure Cleaning Kallaroo WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Kallaroo. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Kallaroo, house washing Kallaroo, driveway cleaning Kallaroo, roof cleaning Kallaroo, Kallaroo pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/kallaroo" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/kallaroo" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

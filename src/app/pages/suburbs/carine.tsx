@@ -18,8 +18,7 @@ export default function Carine() {
       <Helmet>
         <title>Pressure Cleaning Carine WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Carine. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Carine homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Carine, house washing Carine, driveway cleaning Carine, roof cleaning Carine, Carine pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/carine" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/carine" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

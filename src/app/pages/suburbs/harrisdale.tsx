@@ -19,8 +19,7 @@ export default function Harrisdale() {
       <Helmet>
         <title>Pressure Cleaning Harrisdale WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Harrisdale. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Harrisdale homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Harrisdale, house washing Harrisdale, driveway cleaning Harrisdale, roof cleaning Harrisdale, Harrisdale pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/harrisdale" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/harrisdale" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

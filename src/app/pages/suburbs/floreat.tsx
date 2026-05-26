@@ -19,8 +19,7 @@ export default function Floreat() {
       <Helmet>
         <title>Pressure Cleaning Floreat WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Floreat. Premium property care for house washing, driveway cleaning & more. Serving Floreat. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Floreat, house washing Floreat, driveway cleaning Floreat, roof cleaning Floreat, Floreat pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/floreat" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/floreat" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

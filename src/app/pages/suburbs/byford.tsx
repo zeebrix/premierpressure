@@ -18,8 +18,7 @@ export default function Byford() {
       <Helmet>
         <title>Pressure Cleaning Byford WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Byford. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Byford properties. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Byford, house washing Byford, driveway cleaning Byford, roof cleaning Byford, Byford pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/byford" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/byford" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

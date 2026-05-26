@@ -130,8 +130,8 @@ Unlike basic cleaning services, our pre-sale and end of lease package is thoroug
     name: 'Premier Pressure Solutions WA',
     address: '123 Main St, Perth, WA 6000',
     phone: '+61 412 345 678',
-    email: 'info@premierpressuresolutionswa.com',
-    url: 'https://www.premierpressuresolutionswa.com',
+    email: 'info@premierpressuresolutions.com.au',
+    url: 'https://www.premierpressuresolutions.com.au',
     openingHours: 'Mo-Fr 08:00-17:00',
     description: 'Professional pre-sale and end of lease cleaning in Perth. Complete exterior transformation. Boost property value. Secure your bond. Free quotes.',
     image: 'https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/sign/make-bb20e683-images/general/1771566509962-32e36156-e863-4ba5-82fe-935bff54406d.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hMjhhMmJhNi1lYjVhLTQ5OGQtODVlMC0wZTUxMmZiNDJhNzIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJtYWtlLWJiMjBlNjgzLWltYWdlcy9nZW5lcmFsLzE3NzE1NjY1MDk5NjItMzJlMzYxNTYtZTg2My00YmE1LTgyZmUtOTM1YmZmNTQ0MDZkLnBuZyIsImlhdCI6MTc3MTU2NjUxMCwiZXhwIjoxODAzMTAyNTEwfQ.xNN0I9YKJS9aZPq_w1xQi17A5hyO880RpZUEC4b2FZo'
@@ -141,7 +141,7 @@ Unlike basic cleaning services, our pre-sale and end of lease package is thoroug
   const serviceSchema = generateServiceSchema({
     name: 'Pre-Sale & End of Lease Cleaning',
     description: 'Professional pre-sale and end of lease cleaning in Perth. Complete exterior transformation. Boost property value. Secure your bond. Free quotes.',
-    url: 'https://www.premierpressuresolutionswa.com/residential/presale-cleaning',
+    url: 'https://www.premierpressuresolutions.com.au/residential/presale-cleaning',
     image: 'https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/sign/make-bb20e683-images/general/1771566509962-32e36156-e863-4ba5-82fe-935bff54406d.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hMjhhMmJhNi1lYjVhLTQ5OGQtODVlMC0wZTUxMmZiNDJhNzIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJtYWtlLWJiMjBlNjgzLWltYWdlcy9nZW5lcmFsLzE3NzE1NjY1MDk5NjItMzJlMzYxNTYtZTg2My00YmE1LTgyZmUtOTM1YmZmNTQ0MDZkLnBuZyIsImlhdCI6MTc3MTU2NjUxMCwiZXhwIjoxODAzMTAyNTEwfQ.xNN0I9YKJS9aZPq_w1xQi17A5hyO880RpZUEC4b2FZo'
   });
 

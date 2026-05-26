@@ -18,8 +18,7 @@ export default function Alkimos() {
       <Helmet>
         <title>Pressure Cleaning Alkimos WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Alkimos. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Alkimos new homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Alkimos, house washing Alkimos, driveway cleaning Alkimos, roof cleaning Alkimos, Alkimos pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/alkimos" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/alkimos" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

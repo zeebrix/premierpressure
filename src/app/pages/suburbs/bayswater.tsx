@@ -18,8 +18,7 @@ export default function Bayswater() {
       <Helmet>
         <title>Pressure Cleaning Bayswater WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Bayswater. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Bayswater, house washing Bayswater, driveway cleaning Bayswater, roof cleaning Bayswater, Bayswater pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/bayswater" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/bayswater" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

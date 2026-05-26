@@ -20,8 +20,7 @@ export default function Sorrento() {
       <Helmet>
         <title>Pressure Cleaning Sorrento WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Sorrento. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Sorrento coastal homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Sorrento, house washing Sorrento, driveway cleaning Sorrento, roof cleaning Sorrento, Sorrento pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/sorrento" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/sorrento" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

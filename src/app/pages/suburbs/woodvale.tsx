@@ -19,8 +19,7 @@ export default function Woodvale() {
       <Helmet>
         <title>Pressure Cleaning Woodvale WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Woodvale. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Woodvale, house washing Woodvale, driveway cleaning Woodvale, roof cleaning Woodvale, Woodvale pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/woodvale" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/woodvale" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

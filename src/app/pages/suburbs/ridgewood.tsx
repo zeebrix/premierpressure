@@ -19,8 +19,7 @@ export default function Ridgewood() {
       <Helmet>
         <title>Pressure Cleaning Ridgewood WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Ridgewood. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Ridgewood, house washing Ridgewood, driveway cleaning Ridgewood, roof cleaning Ridgewood, Ridgewood pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/ridgewood" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/ridgewood" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

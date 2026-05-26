@@ -19,8 +19,7 @@ export default function TwoRocks() {
       <Helmet>
         <title>Pressure Cleaning Two Rocks WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Two Rocks. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Two Rocks, house washing Two Rocks, driveway cleaning Two Rocks, coastal cleaning, Two Rocks pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/two-rocks" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/two-rocks" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

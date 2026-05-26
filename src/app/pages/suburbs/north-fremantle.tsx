@@ -19,8 +19,7 @@ export default function NorthFremantle() {
       <Helmet>
         <title>Pressure Cleaning North Fremantle WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in North Fremantle. Coastal & heritage property care for house washing, driveway cleaning & more. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning North Fremantle, house washing North Fremantle, driveway cleaning North Fremantle, North Fremantle pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/north-fremantle" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/north-fremantle" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

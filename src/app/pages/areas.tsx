@@ -121,9 +121,8 @@ export function AreasPage() {
     <>
       <SEO
         title="Service Areas Perth | Pressure Cleaning Across 26+ Suburbs | Premier Pressure Solutions WA"
-        description="Premier Pressure Solutions WA services 26+ suburbs across Perth including Cottesloe, Subiaco, Nedlands, Claremont, South Perth & more. Professional pressure cleaning for your local area." 
-        keywords="pressure cleaning Perth areas, Perth suburbs pressure washing, local pressure cleaning services, Perth service areas" 
-        canonical="https://premierpressuresolutionswa.com.au/areas"
+        description="Premier Pressure Solutions WA services 26+ suburbs across Perth including Cottesloe, Subiaco, Nedlands, Claremont, South Perth & more. Professional pressure cleaning for your local area."
+        canonical="https://www.premierpressuresolutions.com.au/areas"
       />
 
       {/* Hero Section */}

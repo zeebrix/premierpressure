@@ -19,8 +19,7 @@ export default function VictoriaPark() {
       <Helmet>
         <title>Pressure Cleaning Victoria Park WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Victoria Park. Inner-city property care for house washing, driveway cleaning & more. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Victoria Park, house washing Victoria Park, driveway cleaning Victoria Park, inner city cleaning, Victoria Park pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/victoria-park" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/victoria-park" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

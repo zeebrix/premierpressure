@@ -19,7 +19,7 @@ export function PreparationChecklistPage() {
       'name': 'Premier Pressure Solutions WA',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://premierpressurewa.com.au/logo.png'
+        'url': 'https://www.premierpressuresolutions.com.au/logo.png'
       }
     }
   };
@@ -29,7 +29,7 @@ export function PreparationChecklistPage() {
       <SEO
         title="Pressure Cleaning Preparation Checklist | Essential Pre-Cleaning Steps"
         description="Complete preparation checklist for pressure cleaning. Essential steps to prepare your Perth property, ensure safety, save time and get the best cleaning results."
-        canonical="https://premierpressurewa.com.au/resources/preparation-checklist"
+        canonical="https://www.premierpressuresolutions.com.au/resources/preparation-checklist"
         schema={structuredData}
       />
 

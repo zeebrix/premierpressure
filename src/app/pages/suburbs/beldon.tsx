@@ -18,8 +18,7 @@ export default function Beldon() {
       <Helmet>
         <title>Pressure Cleaning Beldon WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Beldon. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Beldon homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Beldon, house washing Beldon, driveway cleaning Beldon, roof cleaning Beldon, Beldon pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/beldon" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/beldon" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

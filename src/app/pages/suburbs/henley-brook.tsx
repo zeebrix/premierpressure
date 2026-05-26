@@ -19,8 +19,7 @@ export default function HenleyBrook() {
       <Helmet>
         <title>Pressure Cleaning Henley Brook WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Henley Brook. House washing, driveway & roof cleaning specialists. Expert service. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Henley Brook, house washing Henley Brook, driveway cleaning Henley Brook, roof cleaning Henley Brook, Henley Brook pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/henley-brook" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/henley-brook" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

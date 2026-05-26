@@ -19,8 +19,7 @@ export default function Hocking() {
       <Helmet>
         <title>Pressure Cleaning Hocking WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Hocking. House washing, driveway & roof cleaning specialists. Expert service for local properties. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Hocking, house washing Hocking, driveway cleaning Hocking, roof cleaning Hocking, Hocking pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/hocking" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/hocking" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

@@ -19,8 +19,7 @@ export default function Iluka() {
       <Helmet>
         <title>Pressure Cleaning Iluka WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Iluka. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Iluka, house washing Iluka, driveway cleaning Iluka, coastal cleaning Iluka, Iluka pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/iluka" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/iluka" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

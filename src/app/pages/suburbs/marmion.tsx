@@ -19,8 +19,7 @@ export default function Marmion() {
       <Helmet>
         <title>Pressure Cleaning Marmion WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Marmion. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Marmion, house washing Marmion, driveway cleaning Marmion, coastal cleaning Marmion, Marmion pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/marmion" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/marmion" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

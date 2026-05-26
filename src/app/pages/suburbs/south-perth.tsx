@@ -19,8 +19,7 @@ export default function SouthPerth() {
       <Helmet>
         <title>Pressure Cleaning South Perth WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in South Perth. Premium riverside property care for house washing, driveway cleaning & more. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning South Perth, house washing South Perth, driveway cleaning South Perth, South Perth pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/south-perth" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/south-perth" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

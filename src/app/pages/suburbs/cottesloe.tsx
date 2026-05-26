@@ -21,8 +21,7 @@ export default function Cottesloe() {
       <Helmet>
         <title>Pressure Cleaning Cottesloe WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Cottesloe. Premium coastal property care for house washing, driveway cleaning & more. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Cottesloe, house washing Cottesloe, driveway cleaning Cottesloe, coastal cleaning Cottesloe, Cottesloe pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/cottesloe" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/cottesloe" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

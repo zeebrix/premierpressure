@@ -19,8 +19,7 @@ export default function Innaloo() {
       <Helmet>
         <title>Pressure Cleaning Innaloo WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Innaloo. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Innaloo, house washing Innaloo, driveway cleaning Innaloo, roof cleaning Innaloo, Innaloo pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/innaloo" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/innaloo" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

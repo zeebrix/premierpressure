@@ -18,8 +18,7 @@ export default function Dayton() {
       <Helmet>
         <title>Pressure Cleaning Dayton WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Dayton. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Dayton properties. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Dayton, house washing Dayton, driveway cleaning Dayton, roof cleaning Dayton, Dayton pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/dayton" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/dayton" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

@@ -19,8 +19,7 @@ export default function MountLawley() {
       <Helmet>
         <title>Pressure Cleaning Mount Lawley WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Mount Lawley. Heritage home specialists for house washing, driveway cleaning & more. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Mount Lawley, house washing Mount Lawley, driveway cleaning Mount Lawley, heritage home cleaning, Mount Lawley pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/mount-lawley" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/mount-lawley" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

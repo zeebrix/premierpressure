@@ -23,11 +23,7 @@ export default function Subiaco() {
           name="description" 
           content="Professional pressure cleaning services in Subiaco. Heritage home specialists, driveway cleaning, roof washing & more. Serving Subiaco & Daglish. Call 0452 579 657!" 
         />
-        <meta 
-          name="keywords" 
-          content="pressure cleaning Subiaco, house washing Subiaco, driveway cleaning Subiaco, heritage home cleaning Subiaco, Subiaco pressure washing" 
-        />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/subiaco" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/subiaco" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

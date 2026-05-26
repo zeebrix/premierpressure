@@ -18,8 +18,7 @@ export default function Balcatta() {
       <Helmet>
         <title>Pressure Cleaning Balcatta WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Balcatta. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Balcatta homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Balcatta, house washing Balcatta, driveway cleaning Balcatta, roof cleaning Balcatta, Balcatta pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/balcatta" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/balcatta" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

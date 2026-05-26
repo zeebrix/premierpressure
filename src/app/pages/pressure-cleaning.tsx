@@ -231,7 +231,7 @@ export function PressureCleaningPage() {
     'provider': {
       '@type': 'LocalBusiness',
       'name': 'Premier Pressure Solutions WA',
-      'image': 'https://premierpressurewa.com.au/logo.png',
+      'image': 'https://www.premierpressuresolutions.com.au/logo.png',
       'telephone': '0488 844 911',
       'areaServed': {
         '@type': 'City',
@@ -276,9 +276,8 @@ export function PressureCleaningPage() {
       <SEO
         title="Pressure Cleaning Perth | Expert Pressure Washing Services WA"
         description="Professional pressure cleaning services in Perth. Expert house washing, driveway cleaning, roof cleaning & more. Licensed, insured, 10% off for new customers. Call 0488 844 911"
-        canonical="https://premierpressurewa.com.au/services/pressure-cleaning"
+        canonical="https://www.premierpressuresolutions.com.au/services/pressure-cleaning"
         schema={[structuredData, faqStructuredData]}
-        keywords="pressure cleaning Perth, pressure washing Perth, high pressure cleaning, house washing Perth, driveway cleaning Perth, roof cleaning Perth, exterior cleaning Perth"
       />
 
       {/* Hero Section */}

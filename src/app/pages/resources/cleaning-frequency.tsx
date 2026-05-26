@@ -19,7 +19,7 @@ export function CleaningFrequencyPage() {
       'name': 'Premier Pressure Solutions WA',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://premierpressuresolutionswa.com.au/logo.png'
+        'url': 'https://www.premierpressuresolutions.com.au/logo.png'
       }
     }
   };
@@ -34,7 +34,7 @@ export function CleaningFrequencyPage() {
       <SEO
         title="How Often Should You Pressure Clean in Perth? | Maintenance Schedule Guide"
         description="Expert guide on pressure cleaning frequency for Perth properties. Learn optimal schedules for driveways, houses, roofs based on Perth's climate. Protect your investment."
-        canonical="https://premierpressurewa.com.au/resources/cleaning-frequency"
+        canonical="https://www.premierpressuresolutions.com.au/resources/cleaning-frequency"
         structuredData={combinedSchema}
       />
 

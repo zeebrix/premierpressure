@@ -67,7 +67,7 @@ export function ResourcesPage() {
       <SEO
         title="Pressure Cleaning Resources & Guides | Perth Expert Tips & Advice"
         description="Expert pressure cleaning guides for Perth homeowners. Pricing information, preparation checklists, maintenance schedules, DIY comparisons and more professional advice."
-        canonical="https://premierpressurewa.com.au/resources"
+        canonical="https://www.premierpressuresolutions.com.au/resources"
         schema={structuredData}
       />
 

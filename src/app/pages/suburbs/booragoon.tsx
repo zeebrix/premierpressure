@@ -18,8 +18,7 @@ export default function Booragoon() {
       <Helmet>
         <title>Pressure Cleaning Booragoon WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Booragoon. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Booragoon, house washing Booragoon, driveway cleaning Booragoon, roof cleaning Booragoon, Booragoon pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/booragoon" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/booragoon" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

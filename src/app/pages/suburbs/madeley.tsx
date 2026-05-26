@@ -19,8 +19,7 @@ export default function Madeley() {
       <Helmet>
         <title>Pressure Cleaning Madeley WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Madeley. House washing, driveway & roof cleaning specialists. Expert service for local properties. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Madeley, house washing Madeley, driveway cleaning Madeley, roof cleaning Madeley, Madeley pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/madeley" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/madeley" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

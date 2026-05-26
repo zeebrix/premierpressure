@@ -19,8 +19,7 @@ export default function Warwick() {
       <Helmet>
         <title>Pressure Cleaning Warwick WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Warwick. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Warwick, house washing Warwick, driveway cleaning Warwick, roof cleaning Warwick, Warwick pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/warwick" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/warwick" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

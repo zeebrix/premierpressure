@@ -19,8 +19,7 @@ export default function TamalaPark() {
       <Helmet>
         <title>Pressure Cleaning Tamala Park WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Tamala Park. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Tamala Park, house washing Tamala Park, driveway cleaning Tamala Park, roof cleaning Tamala Park, Tamala Park pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/tamala-park" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/tamala-park" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

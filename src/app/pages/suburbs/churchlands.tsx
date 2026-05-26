@@ -18,8 +18,7 @@ export default function Churchlands() {
       <Helmet>
         <title>Pressure Cleaning Churchlands WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Churchlands. Premium property care for house washing, driveway cleaning & more. Serving Churchlands. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Churchlands, house washing Churchlands, driveway cleaning Churchlands, roof cleaning Churchlands, Churchlands pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/churchlands" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/churchlands" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

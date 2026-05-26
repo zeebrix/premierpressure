@@ -18,8 +18,7 @@ export default function Craigie() {
       <Helmet>
         <title>Pressure Cleaning Craigie WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Craigie. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Craigie homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Craigie, house washing Craigie, driveway cleaning Craigie, roof cleaning Craigie, Craigie pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/craigie" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/craigie" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

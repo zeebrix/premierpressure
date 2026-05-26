@@ -3,15 +3,14 @@ import { Helmet } from 'react-helmet-async';
 interface SEOProps {
   title: string;
   description: string;
-  keywords?: string;
   ogImage?: string;
   canonical?: string;
   preloadImages?: string[]; // Critical images to preload for LCP
   structuredData?: object; // JSON-LD structured data
 }
 
-export function SEO({ title, description, keywords, ogImage, canonical, preloadImages, structuredData }: SEOProps) {
-  const siteUrl = 'https://premierpressuresolutionswa.com.au';
+export function SEO({ title, description, ogImage, canonical, preloadImages, structuredData }: SEOProps) {
+  const siteUrl = 'https://www.premierpressuresolutions.com.au';
   const defaultImage = `${siteUrl}/og-image.png`;
   const fullTitle = `${title} | Premier Pressure Solutions WA`;
   
@@ -20,7 +19,6 @@ export function SEO({ title, description, keywords, ogImage, canonical, preloadI
       {/* Basic Meta Tags */}
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
-      {keywords && <meta name="keywords" content={keywords} />}
       {canonical && <link rel="canonical" href={`${siteUrl}${canonical}`} />}
       
       {/* Preconnect to external domains for faster loading */}

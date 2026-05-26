@@ -18,8 +18,7 @@ export default function BurnsBeach() {
       <Helmet>
         <title>Pressure Cleaning Burns Beach WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Burns Beach. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Burns Beach, house washing Burns Beach, driveway cleaning Burns Beach, coastal cleaning Burns Beach, Burns Beach pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/burns-beach" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/burns-beach" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

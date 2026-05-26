@@ -19,8 +19,7 @@ export default function PiaraWaters() {
       <Helmet>
         <title>Pressure Cleaning Piara Waters WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Piara Waters. House washing, driveway & roof cleaning specialists. Expert service for homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Piara Waters, house washing Piara Waters, driveway cleaning Piara Waters, roof cleaning Piara Waters, Piara Waters pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/piara-waters" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/piara-waters" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

@@ -19,8 +19,7 @@ export default function MosmanPark() {
       <Helmet>
         <title>Pressure Cleaning Mosman Park WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Mosman Park. Premium riverside property care for house washing, driveway cleaning & more. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Mosman Park, house washing Mosman Park, driveway cleaning Mosman Park, Mosman Park pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/mosman-park" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/mosman-park" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

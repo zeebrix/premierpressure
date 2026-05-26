@@ -19,8 +19,7 @@ export default function Stirling() {
       <Helmet>
         <title>Pressure Cleaning Stirling WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Stirling. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Stirling, house washing Stirling, driveway cleaning Stirling, roof cleaning Stirling, Stirling pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/stirling" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/stirling" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

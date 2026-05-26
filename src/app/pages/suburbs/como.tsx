@@ -19,8 +19,7 @@ export default function Como() {
       <Helmet>
         <title>Pressure Cleaning Como WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Como. House washing, driveway & roof cleaning specialists for riverside homes. Expert service. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Como, house washing Como, driveway cleaning Como, roof cleaning Como, Como pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/como" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/como" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

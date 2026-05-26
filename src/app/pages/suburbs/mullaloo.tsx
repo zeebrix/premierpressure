@@ -19,8 +19,7 @@ export default function Mullaloo() {
       <Helmet>
         <title>Pressure Cleaning Mullaloo WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Mullaloo. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Mullaloo, house washing Mullaloo, driveway cleaning Mullaloo, coastal cleaning Mullaloo, Mullaloo pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/mullaloo" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/mullaloo" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

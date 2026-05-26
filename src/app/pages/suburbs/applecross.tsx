@@ -22,11 +22,7 @@ export default function Applecross() {
           name="description" 
           content="Professional pressure cleaning in Applecross. Premium house washing, driveway cleaning, roof cleaning & more. Servicing Applecross properties. Call 0452 579 657!" 
         />
-        <meta 
-          name="keywords" 
-          content="pressure cleaning Applecross, house washing Applecross, driveway cleaning Applecross, roof cleaning Applecross, Applecross pressure washing" 
-        />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/applecross" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/applecross" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

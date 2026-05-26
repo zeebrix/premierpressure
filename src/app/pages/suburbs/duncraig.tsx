@@ -18,8 +18,7 @@ export default function Duncraig() {
       <Helmet>
         <title>Pressure Cleaning Duncraig WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Duncraig. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Duncraig, house washing Duncraig, driveway cleaning Duncraig, roof cleaning Duncraig, Duncraig pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/duncraig" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/duncraig" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

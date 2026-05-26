@@ -19,8 +19,7 @@ export default function Heathridge() {
       <Helmet>
         <title>Pressure Cleaning Heathridge WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Heathridge. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Heathridge, house washing Heathridge, driveway cleaning Heathridge, roof cleaning Heathridge, Heathridge pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/heathridge" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/heathridge" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

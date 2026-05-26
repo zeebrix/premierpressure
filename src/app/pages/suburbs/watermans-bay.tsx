@@ -19,8 +19,7 @@ export default function WatermansBay() {
       <Helmet>
         <title>Pressure Cleaning Watermans Bay WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Watermans Bay. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Watermans Bay, house washing Watermans Bay, driveway cleaning Watermans Bay, coastal cleaning, Watermans Bay pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/watermans-bay" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/watermans-bay" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

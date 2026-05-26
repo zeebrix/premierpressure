@@ -19,8 +19,7 @@ export default function Greenwood() {
       <Helmet>
         <title>Pressure Cleaning Greenwood WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning in Greenwood. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Greenwood, house washing Greenwood, driveway cleaning Greenwood, roof cleaning Greenwood, Greenwood pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/greenwood" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/greenwood" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

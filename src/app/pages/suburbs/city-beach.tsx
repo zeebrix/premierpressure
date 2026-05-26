@@ -19,8 +19,7 @@ export default function CityBeach() {
       <Helmet>
         <title>Pressure Cleaning City Beach WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in City Beach. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning City Beach, house washing City Beach, driveway cleaning City Beach, coastal cleaning City Beach, City Beach pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/city-beach" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/city-beach" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

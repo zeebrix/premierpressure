@@ -19,8 +19,7 @@ export default function Yanchep() {
       <Helmet>
         <title>Pressure Cleaning Yanchep WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Yanchep. Coastal property specialists for house washing, driveway cleaning & more. Serving Yanchep homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Yanchep, house washing Yanchep, driveway cleaning Yanchep, coastal cleaning Yanchep, Yanchep pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/yanchep" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/yanchep" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

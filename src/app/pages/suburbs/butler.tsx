@@ -18,8 +18,7 @@ export default function Butler() {
       <Helmet>
         <title>Pressure Cleaning Butler WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Butler. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Butler family homes. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Butler, house washing Butler, driveway cleaning Butler, roof cleaning Butler, Butler pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/butler" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/butler" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">

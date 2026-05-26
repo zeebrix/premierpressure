@@ -18,8 +18,7 @@ export default function Burswood() {
       <Helmet>
         <title>Pressure Cleaning Burswood WA | House & Driveway Washing | Premier Pressure Solutions WA</title>
         <meta name="description" content="Professional pressure cleaning services in Burswood. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Burswood properties. Call 0452 579 657!" />
-        <meta name="keywords" content="pressure cleaning Burswood, house washing Burswood, driveway cleaning Burswood, roof cleaning Burswood, Burswood pressure washing" />
-        <link rel="canonical" href="https://premierpressuresolutionswa.com.au/suburbs/burswood" />
+        <link rel="canonical" href="https://www.premierpressuresolutions.com.au/perth/burswood" />
         
         {/* FAQ Schema */}
         <script type="application/ld+json">
