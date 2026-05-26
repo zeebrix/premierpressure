@@ -1,6 +1,8 @@
+'use client';
+
 import { useState } from 'react';
 import { ArrowRight } from 'lucide-react';
-import { Link } from 'react-router';
+import Link from 'next/link';
 import { motion } from 'motion/react';
 import { OptimizedImage } from './optimized-image';
 
@@ -108,7 +110,7 @@ export function ServicesShowcase() {
                   {service.description}
                 </p>
                 <Link
-                  to={service.link}
+                  href={service.link}
                   className="inline-flex items-center gap-2 text-[#00d4ff] hover:gap-3 transition-all"
                 >
                   <span className="font-semibold">Learn More About {service.title}</span>
@@ -149,7 +151,7 @@ export function ServicesShowcase() {
                     {service.description}
                   </p>
                   <Link
-                    to={service.link}
+                    href={service.link}
                     className="inline-flex items-center gap-2 text-[#00d4ff] hover:gap-3 transition-all"
                   >
                     <span className="font-semibold">Learn More About {service.title}</span>

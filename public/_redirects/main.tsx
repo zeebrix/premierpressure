@@ -1,4 +1,0 @@
-# Netlify redirect rules for React Router
-# This ensures all routes are handled by index.html for client-side routing
-
-/*    /index.html   200

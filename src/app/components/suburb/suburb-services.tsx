@@ -1,6 +1,8 @@
+'use client';
+
 import { Home, Building2, Droplets, Wind, Sparkles, Package, Layers, Wrench, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Link } from 'react-router';
+import Link from 'next/link';
 import { useState } from 'react';
 
 const mainServices = [
@@ -88,7 +90,7 @@ export function SuburbServices({ suburbName }: SuburbServicesProps) {
             return (
               <Link
                 key={service.title}
-                to={service.link}
+                href={service.link}
                 className="block"
               >
                 <motion.div
@@ -150,7 +152,7 @@ export function SuburbServices({ suburbName }: SuburbServicesProps) {
                     return (
                       <Link
                         key={service.title}
-                        to={service.link}
+                        href={service.link}
                         className="block"
                       >
                         <motion.div

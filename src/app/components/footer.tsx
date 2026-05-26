@@ -1,5 +1,7 @@
+'use client';
+
 import { Facebook, Instagram, Mail, Phone, MapPin, Star, ChevronDown } from 'lucide-react';
-import { Link } from 'react-router';
+import Link from 'next/link';
 import { useState } from 'react';
 
 export function Footer() {
@@ -67,47 +69,47 @@ export function Footer() {
               </button>
               <ul className={`mt-2 ml-3 space-y-2 text-sm overflow-hidden transition-all duration-300 ${residentialOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
                 <li>
-                  <Link to="/services/driveway-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/services/driveway-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Driveway Cleaning
                   </Link>
                 </li>
                 <li>
-                  <Link to="/services/concrete-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/services/concrete-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Concrete Cleaning
                   </Link>
                 </li>
                 <li>
-                  <Link to="/services/limestone-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/services/limestone-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Limestone Cleaning
                   </Link>
                 </li>
                 <li>
-                  <Link to="/services/roof-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/services/roof-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Roof Cleaning
                   </Link>
                 </li>
                 <li>
-                  <Link to="/services/paver-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/services/paver-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Paver Cleaning
                   </Link>
                 </li>
                 <li>
-                  <Link to="/services/pool-patio-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/services/pool-patio-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Pool Area & Patio Cleaning
                   </Link>
                 </li>
                 <li>
-                  <Link to="/services/window-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/services/window-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Window Cleaning
                   </Link>
                 </li>
                 <li>
-                  <Link to="/services/house-washing" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/services/house-washing" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     House Washing
                   </Link>
                 </li>
                 <li>
-                  <Link to="/services/presale-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/services/presale-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Pre-Sale Cleaning
                   </Link>
                 </li>
@@ -125,37 +127,37 @@ export function Footer() {
               </button>
               <ul className={`mt-2 ml-3 space-y-2 text-sm overflow-hidden transition-all duration-300 ${commercialOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
                 <li>
-                  <Link to="/commercial/school-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/commercial/school-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     School Cleaning
                   </Link>
                 </li>
                 <li>
-                  <Link to="/commercial/strata-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/commercial/strata-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Strata Cleaning
                   </Link>
                 </li>
                 <li>
-                  <Link to="/commercial/shopping-centre-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/commercial/shopping-centre-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Shopping Centres
                   </Link>
                 </li>
                 <li>
-                  <Link to="/commercial/building-washing" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/commercial/building-washing" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Building Washing
                   </Link>
                 </li>
                 <li>
-                  <Link to="/commercial/industrial-washing" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/commercial/industrial-washing" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Industrial Washing
                   </Link>
                 </li>
                 <li>
-                  <Link to="/commercial/playground-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/commercial/playground-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Playground Cleaning
                   </Link>
                 </li>
                 <li>
-                  <Link to="/commercial/restaurant-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/commercial/restaurant-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Restaurant Cleaning
                   </Link>
                 </li>
@@ -193,10 +195,10 @@ export function Footer() {
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-white/60">
           <p>© 2026 Premier Pressure Solutions WA. All rights reserved.</p>
           <div className="flex gap-6">
-            <Link to="/privacy" className="hover:text-[#00d4ff] transition-colors">
+            <Link href="/privacy" className="hover:text-[#00d4ff] transition-colors">
               Privacy Policy
             </Link>
-            <Link to="/terms" className="hover:text-[#00d4ff] transition-colors">
+            <Link href="/terms" className="hover:text-[#00d4ff] transition-colors">
               Terms of Service
             </Link>
           </div>

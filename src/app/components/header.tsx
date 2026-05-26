@@ -1,7 +1,9 @@
+'use client';
+
 import { useState, useEffect } from 'react';
 import { Phone, Menu, X, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Link } from 'react-router';
+import Link from 'next/link';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -72,7 +74,7 @@ export function Header() {
           <div className="flex items-center justify-between h-16 sm:h-20">
             {/* Logo */}
             <Link 
-              to="/" 
+              href="/" 
               className="flex items-center gap-3 min-h-[48px] min-w-[48px] touch-manipulation"
               onClick={() => setIsMobileMenuOpen(false)}
             >
@@ -87,7 +89,7 @@ export function Header() {
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center gap-8">
               <Link
-                to="/about"
+                href="/about"
                 className={`transition-colors hover:text-[#00d4ff] ${
                   isScrolled ? 'text-gray-700' : 'text-white'
                 }`}
@@ -122,7 +124,7 @@ export function Header() {
                         {services.map((service) => (
                           <li key={service.path}>
                             <Link
-                              to={service.path}
+                              href={service.path}
                               className="block px-6 py-3 text-gray-700 hover:bg-[#00d4ff]/10 hover:text-[#00d4ff] transition-colors"
                             >
                               {service.name}
@@ -162,7 +164,7 @@ export function Header() {
                         {commercial.map((service) => (
                           <li key={service.path}>
                             <Link
-                              to={service.path}
+                              href={service.path}
                               className="block px-6 py-3 text-gray-700 hover:bg-[#00d4ff]/10 hover:text-[#00d4ff] transition-colors"
                             >
                               {service.name}
@@ -202,7 +204,7 @@ export function Header() {
                         {ourWork.map((service) => (
                           <li key={service.path}>
                             <Link
-                              to={service.path}
+                              href={service.path}
                               className="block px-6 py-3 text-gray-700 hover:bg-[#00d4ff]/10 hover:text-[#00d4ff] transition-colors"
                             >
                               {service.name}
@@ -215,7 +217,7 @@ export function Header() {
                 </AnimatePresence>
               </div>
               <Link
-                to="/areas"
+                href="/areas"
                 className={`transition-colors hover:text-[#00d4ff] ${
                   isScrolled ? 'text-gray-700' : 'text-white'
                 }`}
@@ -259,7 +261,7 @@ export function Header() {
           >
             <nav className="px-4 py-6 space-y-1">
               <Link
-                to="/about"
+                href="/about"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="block py-3 px-3 text-gray-700 hover:text-[#00d4ff] hover:bg-gray-50 rounded-lg transition-colors min-h-[48px] flex items-center touch-manipulation"
               >
@@ -290,7 +292,7 @@ export function Header() {
                         {services.map((service) => (
                           <Link
                             key={service.path}
-                            to={service.path}
+                            href={service.path}
                             onClick={() => setIsMobileMenuOpen(false)}
                             className="block py-3 px-3 text-sm text-gray-600 hover:text-[#00d4ff] hover:bg-gray-50 rounded-lg transition-colors min-h-[44px] flex items-center touch-manipulation"
                           >
@@ -327,7 +329,7 @@ export function Header() {
                         {commercial.map((service) => (
                           <Link
                             key={service.path}
-                            to={service.path}
+                            href={service.path}
                             onClick={() => setIsMobileMenuOpen(false)}
                             className="block py-3 px-3 text-sm text-gray-600 hover:text-[#00d4ff] hover:bg-gray-50 rounded-lg transition-colors min-h-[44px] flex items-center touch-manipulation"
                           >
@@ -364,7 +366,7 @@ export function Header() {
                         {ourWork.map((service) => (
                           <Link
                             key={service.path}
-                            to={service.path}
+                            href={service.path}
                             onClick={() => setIsMobileMenuOpen(false)}
                             className="block py-3 px-3 text-sm text-gray-600 hover:text-[#00d4ff] hover:bg-gray-50 rounded-lg transition-colors min-h-[44px] flex items-center touch-manipulation"
                           >
@@ -378,7 +380,7 @@ export function Header() {
               </div>
 
               <Link
-                to="/areas"
+                href="/areas"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="block py-3 px-3 text-gray-700 hover:text-[#00d4ff] hover:bg-gray-50 rounded-lg transition-colors min-h-[48px] flex items-center touch-manipulation"
               >
