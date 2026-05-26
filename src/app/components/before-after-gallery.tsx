@@ -84,7 +84,7 @@ export function BeforeAfterGallery() {
             <div className="relative rounded-xl overflow-hidden shadow-xl">
               <div className="relative aspect-[4/3] bg-gray-200">
                 <img
-                  src={currentItem.before}
+                  src={currentItem.before.src}
                   alt={`Before professional pressure cleaning Perth - ${currentItem.service} ${currentItem.location}`}
                   className="absolute inset-0 w-full h-full object-cover"
                   loading="lazy"
@@ -100,7 +100,7 @@ export function BeforeAfterGallery() {
             <div className="relative rounded-xl overflow-hidden shadow-xl">
               <div className="relative aspect-[4/3] bg-gray-200">
                 <img
-                  src={currentItem.after}
+                  src={currentItem.after.src}
                   alt={`After professional pressure cleaning Perth - ${currentItem.service} service transformation`}
                   className="absolute inset-0 w-full h-full object-cover"
                   loading="lazy"

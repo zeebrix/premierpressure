@@ -151,7 +151,7 @@ export default function AboutContent() {
               className="relative"
             >
               <ImageWithFallback
-                src={image_3825eeae6ac41dce0ee90580b9d8c79b9558cd3f}
+                src={image_3825eeae6ac41dce0ee90580b9d8c79b9558cd3f.src}
                 alt="Pressure cleaning professional at work"
                 className="rounded-lg shadow-xl w-full h-[400px] object-cover"
               />
