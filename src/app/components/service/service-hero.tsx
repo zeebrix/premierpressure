@@ -1,3 +1,5 @@
+'use client';
+
 import { Phone, FileText } from 'lucide-react';
 import { motion } from 'motion/react';
 import { ImageWithFallback } from '../figma/ImageWithFallback';

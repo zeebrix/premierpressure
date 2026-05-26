@@ -1,3 +1,5 @@
+'use client';
+
 import { CheckCircle2, Clock, Shield, Award, Leaf, DollarSign } from 'lucide-react';
 import { motion } from 'motion/react';
 

@@ -1,3 +1,5 @@
+'use client';
+
 import { ClipboardCheck, Droplets, Sparkles, ShieldCheck, CheckCircle } from 'lucide-react';
 import { motion } from 'motion/react';
 

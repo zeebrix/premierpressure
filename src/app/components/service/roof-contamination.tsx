@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'motion/react';
 import { Leaf, Droplets, Sprout, AlertCircle } from 'lucide-react';
 

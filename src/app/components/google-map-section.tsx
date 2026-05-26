@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'motion/react';
 import { MapPin, Phone, Clock } from 'lucide-react';
 import { ServiceAreaMap } from './service-area-map';

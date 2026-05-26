@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'motion/react';
 import { Phone, Mail } from 'lucide-react';
 import heroImage from '../../../assets/1ef480a4697ca3350ef723e0ead8e0aa6892ee92.webp';

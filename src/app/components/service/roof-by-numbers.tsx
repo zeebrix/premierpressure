@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'motion/react';
 import { Home, MapPin, Calendar, Award, Shield, Wrench } from 'lucide-react';
 

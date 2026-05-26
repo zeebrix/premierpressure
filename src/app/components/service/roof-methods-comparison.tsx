@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'motion/react';
 import { Zap, Droplet, Shield, CheckCircle2, XCircle, Clock, TrendingUp } from 'lucide-react';
 

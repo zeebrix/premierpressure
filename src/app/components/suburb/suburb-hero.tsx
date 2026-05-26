@@ -1,3 +1,5 @@
+'use client';
+
 import { Phone, FileText, MapPin } from 'lucide-react';
 import { motion } from 'motion/react';
 

@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'motion/react';
 import { Phone, Mail, MessageSquare } from 'lucide-react';
 import { useState } from 'react';

@@ -1,6 +1,7 @@
+'use client';
+
 import { Phone, FileText } from 'lucide-react';
 import { motion } from 'motion/react';
-import { Helmet } from 'react-helmet-async';
 
 export function HeroSection() {
   // Using public URL instead of signed URL for better caching and faster LCP
@@ -8,11 +9,6 @@ export function HeroSection() {
 
   return (
     <section className="relative min-h-screen lg:min-h-[75vh] flex items-start justify-center overflow-hidden pt-32 sm:pt-36 lg:pt-40">
-      {/* Preload Critical Hero Image */}
-      <Helmet>
-        <link rel="preload" as="image" href={heroImageUrl} fetchPriority="high" />
-      </Helmet>
-
       {/* Background Image - Optimized for mobile */}
       <div className="absolute inset-0 z-0">
         <img

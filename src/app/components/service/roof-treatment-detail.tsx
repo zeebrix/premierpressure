@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'motion/react';
 import { Shield, Clock, Leaf, CheckCircle2, Sparkles } from 'lucide-react';
 

@@ -1,3 +1,5 @@
+'use client';
+
 import { Shield, Leaf, MapPin, Star } from 'lucide-react';
 import { motion } from 'motion/react';
 
