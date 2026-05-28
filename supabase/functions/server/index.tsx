@@ -420,7 +420,7 @@ app.post("/make-server-bb20e683/submit-quote", async (c) => {
           },
           body: JSON.stringify({
             from: 'Premier Pressure Solutions <noreply@premierpressuresolutions.com.au>',
-            to: ['info@premierpressuresolutions.com'],
+            to: ['info@premierpressuresolutions.com.au'],
             subject: emailSubject,
             html: emailHtml,
           }),

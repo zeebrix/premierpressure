@@ -11,12 +11,14 @@ interface FAQ {
 
 interface SuburbFAQProps {
   suburbName: string;
+  /** Suburb-specific FAQs (Audit #04). When provided, replaces the generic set. */
+  customFaqs?: FAQ[];
 }
 
-export function SuburbFAQ({ suburbName }: SuburbFAQProps) {
+export function SuburbFAQ({ suburbName, customFaqs }: SuburbFAQProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
-  const faqs: FAQ[] = [
+  const genericFaqs: FAQ[] = [
     {
       question: `How much does pressure cleaning cost in ${suburbName}?`,
       answer: `Pressure cleaning costs in ${suburbName} typically range from $200-$600 for residential properties, depending on the service type and size. Driveway cleaning starts from $150, house washing from $300, and roof cleaning from $400. We provide free, no-obligation quotes after assessing your specific property needs. All quotes include equipment, cleaning products, and our satisfaction guarantee.`,
@@ -46,6 +48,8 @@ export function SuburbFAQ({ suburbName }: SuburbFAQProps) {
       answer: `Yes! We offer a 100% satisfaction guarantee. If you're not completely happy with the results, we'll return to re-clean the area at no extra cost. We take pride in our work and our reputation in ${suburbName} - your satisfaction is our priority.`,
     },
   ];
+
+  const faqs: FAQ[] = customFaqs && customFaqs.length > 0 ? customFaqs : genericFaqs;
 
   return (
     <section className="py-20 bg-gray-50">

@@ -99,7 +99,7 @@ export function FinalCTA() {
               </a>
 
               <a
-                href="mailto:info@premierpressuresolutions.com"
+                href="mailto:info@premierpressuresolutions.com.au"
                 className="flex items-center gap-3 sm:gap-4 p-4 bg-white/10 rounded-lg hover:bg-white/15 transition-colors group"
               >
                 <div className="w-12 h-12 bg-[#00d4ff] rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0">
@@ -107,7 +107,7 @@ export function FinalCTA() {
                 </div>
                 <div className="min-w-0 overflow-hidden">
                   <p className="text-sm text-white/70">Email us</p>
-                  <p className="text-base sm:text-lg font-semibold text-white break-all">info@premierpressuresolutions.com</p>
+                  <p className="text-base sm:text-lg font-semibold text-white break-all">info@premierpressuresolutions.com.au</p>
                 </div>
               </a>
             </div>

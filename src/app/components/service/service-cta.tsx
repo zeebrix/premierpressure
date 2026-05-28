@@ -3,8 +3,9 @@
 import { useState } from 'react';
 import { Phone, Mail, Send, BadgePercent } from 'lucide-react';
 import { motion } from 'motion/react';
+import { ServiceAreaLinks } from '../service-area-links';
 
-// Web3Forms API key - linked to info@premierpressuresolutions.com
+// Web3Forms API key - linked to info@premierpressuresolutions.com.au
 const WEB3FORMS_KEY = '25ea480e-c6b3-44f6-a5c5-9f59ae8447d0';
 
 interface ServiceCTAProps {
@@ -85,6 +86,7 @@ export function ServiceCTA({
   };
 
   return (
+    <>
     <section id="quote" className="py-12 md:py-20 bg-gradient-to-br from-[#0a1628] to-[#0d1f3a] overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-6 lg:gap-12 items-start">
@@ -119,7 +121,7 @@ export function ServiceCTA({
               </a>
 
               <a
-                href="mailto:info@premierpressuresolutions.com"
+                href="mailto:info@premierpressuresolutions.com.au"
                 className="flex items-center gap-3 md:gap-4 p-3 md:p-4 bg-white/10 rounded-xl hover:bg-white/15 transition-colors group backdrop-blur-sm border border-white/20"
               >
                 <div className="w-12 h-12 md:w-14 md:h-14 bg-[#00d4ff] rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0">
@@ -127,7 +129,7 @@ export function ServiceCTA({
                 </div>
                 <div className="min-w-0 overflow-hidden">
                   <p className="text-sm text-white/70 mb-1">Email us</p>
-                  <p className="text-sm sm:text-base font-semibold text-white break-all">info@premierpressuresolutions.com</p>
+                  <p className="text-sm sm:text-base font-semibold text-white break-all">info@premierpressuresolutions.com.au</p>
                 </div>
               </a>
             </div>
@@ -304,5 +306,7 @@ export function ServiceCTA({
         </div>
       </div>
     </section>
+    <ServiceAreaLinks />
+    </>
   );
 }

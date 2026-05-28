@@ -177,8 +177,8 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <Mail className="w-4 h-4 text-[#00d4ff] flex-shrink-0 mt-0.5" />
-                <a href="mailto:info@premierpressuresolutions.com" className="text-white/70 hover:text-[#00d4ff] transition-colors">
-                  info@premierpressuresolutions.com
+                <a href="mailto:info@premierpressuresolutions.com.au" className="text-white/70 hover:text-[#00d4ff] transition-colors">
+                  info@premierpressuresolutions.com.au
                 </a>
               </li>
               <li className="flex items-start gap-2">

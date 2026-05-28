@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { motion } from 'motion/react';
 import { Star, ChevronLeft, ChevronRight, ThumbsUp } from 'lucide-react';
 
-const reviews = [
+const allReviews = [
   {
     name: 'Sarah Mitchell',
     date: '2 weeks ago',
@@ -61,7 +61,22 @@ const reviews = [
   },
 ];
 
-export function GoogleReviews() {
+function rotateBySeed<T>(arr: T[], seed?: string): T[] {
+  if (!seed || arr.length === 0) return arr;
+  let h = 0;
+  for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) >>> 0;
+  const offset = h % arr.length;
+  return [...arr.slice(offset), ...arr.slice(0, offset)];
+}
+
+interface GoogleReviewsProps {
+  /** When provided (e.g. a suburb name), the review order is deterministically
+   *  rotated so different pages lead with a different set of reviews (Audit #04). */
+  seed?: string;
+}
+
+export function GoogleReviews({ seed }: GoogleReviewsProps) {
+  const reviews = rotateBySeed(allReviews, seed);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextReview = () => {

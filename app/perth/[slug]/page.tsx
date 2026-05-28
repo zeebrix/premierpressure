@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { suburbs, suburbBySlug } from '@/data/suburbs';
+import { suburbContent } from '@/data/suburb-content';
 import { SuburbHero } from '@/app/components/suburb/suburb-hero';
 import { SuburbServices } from '@/app/components/suburb/suburb-services';
 import { SuburbWhyChoose } from '@/app/components/suburb/suburb-why-choose';
@@ -40,7 +41,21 @@ export default async function SuburbPage({ params }: Props) {
   const suburb = suburbBySlug.get(slug);
   if (!suburb) notFound();
 
-  const faqSchema = generateSuburbFAQSchema(suburb.name);
+  const content = suburbContent[suburb.slug];
+
+  // Use suburb-specific FAQs when available so the visible FAQs and the
+  // FAQPage schema stay in sync (Audit #04).
+  const faqSchema = content?.faqs?.length
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: content.faqs.map((f) => ({
+          '@type': 'Question',
+          name: f.question,
+          acceptedAnswer: { '@type': 'Answer', text: f.answer },
+        })),
+      }
+    : generateSuburbFAQSchema(suburb.name);
   const schema = suburb.useCombinedSchema
     ? generateSuburbSchema(suburb.name, faqSchema)
     : faqSchema;
@@ -66,6 +81,21 @@ export default async function SuburbPage({ params }: Props) {
         tagline={suburb.heroTagline}
         description={suburb.heroDescription}
       />
+      {(content?.intro || content?.localContext) && (
+        <section className="py-16 bg-white">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#0a1628] mb-4">
+              Pressure Cleaning in {suburb.name}
+            </h2>
+            {content?.intro && (
+              <p className="text-lg text-gray-700 leading-relaxed mb-4">{content.intro}</p>
+            )}
+            {content?.localContext && (
+              <p className="text-gray-600 leading-relaxed">{content.localContext}</p>
+            )}
+          </div>
+        </section>
+      )}
       <SuburbServices suburbName={suburb.name} />
       <BeforeAfterGallery />
       <SuburbWhyChoose suburbName={suburb.name} />
@@ -85,8 +115,8 @@ export default async function SuburbPage({ params }: Props) {
       </section>
 
       <SuburbProcess suburbName={suburb.name} />
-      <SuburbFAQ suburbName={suburb.name} />
-      <GoogleReviews />
+      <SuburbFAQ suburbName={suburb.name} customFaqs={content?.faqs} />
+      <GoogleReviews seed={suburb.name} />
 
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">

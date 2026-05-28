@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { ServiceAreaLinks } from '@/app/components/service-area-links';
 import {
   Home,
   Droplets,
@@ -823,6 +824,7 @@ export function PressureCleaningContent() {
           </div>
         </div>
       </section>
+      <ServiceAreaLinks />
     </>
   );
 }

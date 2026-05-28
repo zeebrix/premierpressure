@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 import { Phone, Mail, Send, CheckCircle2, ShieldCheck, Clock } from 'lucide-react';
 import { useState } from 'react';
 
-// Web3Forms API key - linked to info@premierpressuresolutions.com
+// Web3Forms API key - linked to info@premierpressuresolutions.com.au
 const WEB3FORMS_KEY = '25ea480e-c6b3-44f6-a5c5-9f59ae8447d0';
 
 interface CommercialCTAProps {
@@ -111,7 +111,7 @@ export function CommercialCTA({ serviceName, descriptionPlaceholder = 'Tell us a
               <div className="hidden sm:block w-[1px] h-full bg-white/10 mx-2" />
               <div className="min-w-0">
                 <p className="text-white/60 text-sm uppercase tracking-widest font-bold mb-2">Corporate Support</p>
-                <a href="mailto:info@premierpressuresolutions.com" className="text-lg md:text-xl font-bold text-white hover:text-[#00d4ff] transition-colors break-all leading-none">
+                <a href="mailto:info@premierpressuresolutions.com.au" className="text-lg md:text-xl font-bold text-white hover:text-[#00d4ff] transition-colors break-all leading-none">
                   info@premierpressure...
                 </a>
               </div>
