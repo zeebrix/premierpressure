@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   description:
     'Should you DIY or hire professionals? Compare real costs, risks, results and time investment. Expert analysis for Perth homeowners making the right choice.',
   alternates: { canonical: `${SITE_URL}/resources/diy-vs-professional` },
+  openGraph: { url: `${SITE_URL}/resources/diy-vs-professional` },
 };
 
 const structuredData = {

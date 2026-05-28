@@ -55,7 +55,7 @@ export function SuburbBeforeAfter({ images }: SuburbBeforeAfterProps) {
                 <div className="absolute top-4 left-4 z-10 bg-[#0a1628] text-white px-4 py-2 rounded-lg font-semibold">
                   Before
                 </div>
-                <img
+                <img loading="lazy" decoding="async"
                   src={current.before}
                   alt="Before pressure cleaning Perth - Dirty driveway, patio, or exterior surface before professional cleaning"
                   className="w-full h-96 md:h-[500px] object-cover"
@@ -67,7 +67,7 @@ export function SuburbBeforeAfter({ images }: SuburbBeforeAfterProps) {
                 <div className="absolute top-4 left-4 z-10 bg-[#00d4ff] text-[#0a1628] px-4 py-2 rounded-lg font-semibold">
                   After
                 </div>
-                <img
+                <img loading="lazy" decoding="async"
                   src={current.after}
                   alt="After pressure cleaning Perth - Clean restored driveway, patio, or exterior surface showing professional results"
                   className="w-full h-96 md:h-[500px] object-cover"

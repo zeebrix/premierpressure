@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   description:
     'Expert pressure cleaning guides for Perth homeowners. Pricing information, preparation checklists, maintenance schedules, DIY comparisons and more professional advice.',
   alternates: { canonical: `${SITE_URL}/resources` },
+  openGraph: { url: `${SITE_URL}/resources` },
 };
 
 const structuredData = {

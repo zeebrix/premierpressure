@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   description:
     'Complete preparation checklist for pressure cleaning. Essential steps to prepare your Perth property, ensure safety, save time and get the best cleaning results.',
   alternates: { canonical: `${SITE_URL}/resources/preparation-checklist` },
+  openGraph: { url: `${SITE_URL}/resources/preparation-checklist` },
 };
 
 const structuredData = {

@@ -11,6 +11,7 @@ import {
   generateLocalBusinessSchema,
   generateServiceSchema,
   combineSchemas,
+  generateBreadcrumbSchema,
 } from '@/app/utils/local-business-schema';
 
 const SITE_URL = 'https://www.premierpressuresolutions.com.au';
@@ -23,6 +24,9 @@ export const metadata: Metadata = {
     'Expert limestone cleaning services in Perth. Restore walls, pavers, and features with gentle, effective cleaning. Free quotes. Fully insured.',
   alternates: {
     canonical: `${SITE_URL}/services/limestone-cleaning`,
+  },
+  openGraph: {
+    url: `${SITE_URL}/services/limestone-cleaning`,
   },
 };
 
@@ -163,11 +167,21 @@ We employ specialised low-pressure cleaning methods combined with limestone-safe
     faqSchema
   );
 
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', path: '' },
+    { name: 'Services', path: '/services/limestone-cleaning' },
+    { name: 'Limestone Cleaning', path: '/services/limestone-cleaning' },
+  ]);
+
   return (
     <main>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(combinedSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <ServiceHero
         title={serviceData.title}

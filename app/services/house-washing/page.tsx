@@ -11,6 +11,7 @@ import {
   generateLocalBusinessSchema,
   generateServiceSchema,
   combineSchemas,
+  generateBreadcrumbSchema,
 } from '@/app/utils/local-business-schema';
 
 const SITE_URL = 'https://www.premierpressuresolutions.com.au';
@@ -23,6 +24,9 @@ export const metadata: Metadata = {
     "Expert house washing services in Perth. Remove dirt, mould, and grime from all exterior surfaces. Restore your home's beauty. Free quotes. Fully insured.",
   alternates: {
     canonical: `${SITE_URL}/services/house-washing`,
+  },
+  openGraph: {
+    url: `${SITE_URL}/services/house-washing`,
   },
 };
 
@@ -166,11 +170,21 @@ We don't just blast away surface dirt—we treat mould and mildew at the source,
     faqSchema
   );
 
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', path: '' },
+    { name: 'Services', path: '/services/house-washing' },
+    { name: 'House Washing', path: '/services/house-washing' },
+  ]);
+
   return (
     <main>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <ServiceHero
         title={serviceData.title}

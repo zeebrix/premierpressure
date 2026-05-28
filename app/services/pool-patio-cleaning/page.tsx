@@ -11,6 +11,7 @@ import {
   generateLocalBusinessSchema,
   generateServiceSchema,
   combineSchemas,
+  generateBreadcrumbSchema,
 } from '@/app/utils/local-business-schema';
 
 const SITE_URL = 'https://www.premierpressuresolutions.com.au';
@@ -24,6 +25,9 @@ export const metadata: Metadata = {
     'Professional pool area and patio cleaning services in Perth. Remove algae, grime, and stains from pool surrounds, patios, and alfresco areas. Free quotes. Fully insured.',
   alternates: {
     canonical: `${SITE_URL}/services/pool-patio-cleaning`,
+  },
+  openGraph: {
+    url: `${SITE_URL}/services/pool-patio-cleaning`,
   },
 };
 
@@ -169,11 +173,21 @@ We use controlled pressure cleaning methods combined with appropriate cleaning s
     faqSchema
   );
 
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', path: '' },
+    { name: 'Services', path: '/services/pool-patio-cleaning' },
+    { name: 'Pool Area & Patio Cleaning', path: '/services/pool-patio-cleaning' },
+  ]);
+
   return (
     <main>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(combinedSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <ServiceHero
         title={serviceData.title}

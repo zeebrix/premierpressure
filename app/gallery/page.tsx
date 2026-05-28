@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   description:
     'See the incredible transformations from our pressure cleaning services across Perth. Browse before and after photos of driveways, limestone, roofs, and more.',
   alternates: { canonical: `${SITE_URL}/gallery` },
+  openGraph: { url: `${SITE_URL}/gallery` },
 };
 
 export default function GalleryPage() {

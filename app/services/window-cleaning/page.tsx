@@ -11,6 +11,7 @@ import {
   generateLocalBusinessSchema,
   generateServiceSchema,
   combineSchemas,
+  generateBreadcrumbSchema,
 } from '@/app/utils/local-business-schema';
 
 const SITE_URL = 'https://www.premierpressuresolutions.com.au';
@@ -23,6 +24,9 @@ export const metadata: Metadata = {
     'Expert window cleaning services in Perth. Streak-free results for residential properties. Inside and out. Free quotes. Fully insured.',
   alternates: {
     canonical: `${SITE_URL}/services/window-cleaning`,
+  },
+  openGraph: {
+    url: `${SITE_URL}/services/window-cleaning`,
   },
 };
 
@@ -162,11 +166,21 @@ We use professional-grade cleaning solutions and pure water technology combined 
     faqSchema
   );
 
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', path: '' },
+    { name: 'Services', path: '/services/window-cleaning' },
+    { name: 'Window Cleaning', path: '/services/window-cleaning' },
+  ]);
+
   return (
     <main>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(combinedSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <ServiceHero
         title={serviceData.title}

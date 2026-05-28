@@ -11,6 +11,7 @@ import {
   generateLocalBusinessSchema,
   generateServiceSchema,
   combineSchemas,
+  generateBreadcrumbSchema,
 } from '@/app/utils/local-business-schema';
 
 const SITE_URL = 'https://www.premierpressuresolutions.com.au';
@@ -24,6 +25,9 @@ export const metadata: Metadata = {
     'Expert paver cleaning and sealing in Perth. Remove stains, weeds, and organic growth. Restore and protect pavers. Free quotes. Fully insured.',
   alternates: {
     canonical: `${SITE_URL}/services/paver-cleaning`,
+  },
+  openGraph: {
+    url: `${SITE_URL}/services/paver-cleaning`,
   },
 };
 
@@ -162,11 +166,21 @@ We use professional-grade equipment and proven techniques to thoroughly clean pa
     faqSchema
   );
 
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', path: '' },
+    { name: 'Services', path: '/services/paver-cleaning' },
+    { name: 'Paver Cleaning & Sealing', path: '/services/paver-cleaning' },
+  ]);
+
   return (
     <main>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <ServiceHero
         title={serviceData.title}

@@ -17,6 +17,7 @@ export const metadata: Metadata = {
   description:
     'Comprehensive pricing guide for pressure cleaning services in Perth. Understand costs, factors affecting pricing, and get accurate estimates for driveways, houses, roofs & more.',
   alternates: { canonical: `${SITE_URL}/resources/pricing-guide` },
+  openGraph: { url: `${SITE_URL}/resources/pricing-guide` },
 };
 
 const structuredData = {

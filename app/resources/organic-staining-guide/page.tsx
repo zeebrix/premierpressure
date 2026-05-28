@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   description:
     'Complete guide to organic staining problems in Perth. Learn about mould, algae, mildew, and lichen - their causes, health risks, property damage, and professional solutions.',
   alternates: { canonical: `${SITE_URL}/resources/organic-staining-guide` },
+  openGraph: { url: `${SITE_URL}/resources/organic-staining-guide` },
 };
 
 const articleSchema = {

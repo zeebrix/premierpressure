@@ -11,6 +11,7 @@ import {
   generateLocalBusinessSchema,
   generateServiceSchema,
   combineSchemas,
+  generateBreadcrumbSchema,
 } from '@/app/utils/local-business-schema';
 
 const SITE_URL = 'https://www.premierpressuresolutions.com.au';
@@ -24,6 +25,9 @@ export const metadata: Metadata = {
     'Professional pre-sale and end of lease cleaning in Perth. Complete exterior transformation. Boost property value. Secure your bond. Free quotes.',
   alternates: {
     canonical: `${SITE_URL}/services/presale-cleaning`,
+  },
+  openGraph: {
+    url: `${SITE_URL}/services/presale-cleaning`,
   },
 };
 
@@ -173,11 +177,21 @@ Unlike basic cleaning services, our pre-sale and end of lease package is thoroug
     faqSchema
   );
 
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', path: '' },
+    { name: 'Services', path: '/services/presale-cleaning' },
+    { name: 'Pre-Sale & End of Lease Cleaning', path: '/services/presale-cleaning' },
+  ]);
+
   return (
     <main>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(combinedSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <ServiceHero
         title={serviceData.title}

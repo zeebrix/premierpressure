@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { PressureCleaningContent } from './pressure-cleaning-content';
+import { generateBreadcrumbSchema } from '@/app/utils/local-business-schema';
 
 const SITE_URL = 'https://www.premierpressuresolutions.com.au';
 
@@ -12,6 +13,9 @@ export const metadata: Metadata = {
     'Professional pressure cleaning services in Perth. Expert house washing, driveway cleaning, roof cleaning & more. Licensed, insured, 10% off for new customers. Call 0488 844 911',
   alternates: {
     canonical: `${SITE_URL}/services/pressure-cleaning`,
+  },
+  openGraph: {
+    url: `${SITE_URL}/services/pressure-cleaning`,
   },
 };
 
@@ -87,6 +91,12 @@ const faqStructuredData = {
   })),
 };
 
+const breadcrumbSchema = generateBreadcrumbSchema([
+  { name: 'Home', path: '' },
+  { name: 'Services', path: '/services/pressure-cleaning' },
+  { name: 'Pressure Cleaning', path: '/services/pressure-cleaning' },
+]);
+
 export default function PressureCleaningPage() {
   return (
     <>
@@ -97,6 +107,10 @@ export default function PressureCleaningPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <PressureCleaningContent />
     </>

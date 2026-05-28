@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   description:
     "Learn about Premier Pressure Solutions WA, Perth's trusted pressure cleaning specialists. Fully insured, experienced team serving residential & commercial properties across Perth.",
   alternates: { canonical: `${SITE_URL}/about` },
+  openGraph: { url: `${SITE_URL}/about` },
 };
 
 export default function AboutPage() {

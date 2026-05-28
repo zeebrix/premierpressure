@@ -2,6 +2,7 @@
 
 import { Phone, FileText } from 'lucide-react';
 import { motion } from 'motion/react';
+import Image from 'next/image';
 
 export function HeroSection() {
   // Using public URL instead of signed URL for better caching and faster LCP
@@ -9,17 +10,15 @@ export function HeroSection() {
 
   return (
     <section className="relative min-h-screen lg:min-h-[75vh] flex items-start justify-center overflow-hidden pt-32 sm:pt-36 lg:pt-40">
-      {/* Background Image - Optimized for mobile */}
+      {/* Background Image - Optimized for mobile (LCP element: next/image with priority) */}
       <div className="absolute inset-0 z-0">
-        <img
+        <Image
           src={heroImageUrl}
           alt="Professional pressure cleaning service Perth"
-          className="w-full h-full object-cover object-center"
-          width={1920}
-          height={1080}
-          fetchpriority="high"
-          decoding="sync"
-          loading="eager"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0a1628]/80 via-[#0a1628]/60 to-[#0a1628]/40"></div>
       </div>

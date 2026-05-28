@@ -13,6 +13,7 @@ import {
   generateLocalBusinessSchema,
   generateServiceSchema,
   combineSchemas,
+  generateBreadcrumbSchema,
 } from '@/app/utils/local-business-schema';
 
 const SITE_URL = 'https://www.premierpressuresolutions.com.au';
@@ -25,6 +26,9 @@ export const metadata: Metadata = {
     'Professional roof cleaning services in Perth. Remove moss, lichen, and organic growth safely. Extend roof life. Free quotes. Fully insured.',
   alternates: {
     canonical: `${SITE_URL}/services/roof-cleaning`,
+  },
+  openGraph: {
+    url: `${SITE_URL}/services/roof-cleaning`,
   },
 };
 
@@ -164,11 +168,21 @@ We use specialized soft washing techniques combined with professional biocidal t
     faqSchema
   );
 
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', path: '' },
+    { name: 'Services', path: '/services/roof-cleaning' },
+    { name: 'Roof Cleaning', path: '/services/roof-cleaning' },
+  ]);
+
   return (
     <main>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <ServiceHero
         title={serviceData.title}

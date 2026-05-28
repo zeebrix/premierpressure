@@ -1,7 +1,14 @@
 import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 import { suburbs } from '@/data/suburbs';
-import '@/styles/fonts.css';
 import '@/styles/tailwind.css';
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-inter',
+  display: 'swap',
+});
 
 const SITE_URL = 'https://www.premierpressuresolutions.com.au';
 
@@ -80,7 +87,7 @@ import { ScrollToTop } from '@/app/components/scroll-to-top';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.variable}>
       <head>
         <script
           type="application/ld+json"

@@ -131,7 +131,7 @@ export function BeforeAfterCarousel({ category, limit = 6 }: BeforeAfterCarousel
                 <div className="absolute top-4 left-4 z-10 bg-[#0a1628] text-white px-4 py-2 rounded-lg font-semibold">
                   Before
                 </div>
-                <img
+                <img loading="lazy" decoding="async"
                   src={current.before}
                   alt={`Before ${category} pressure cleaning Perth - Professional exterior washing and restoration services`}
                   className="w-full h-96 md:h-[500px] object-cover"
@@ -143,7 +143,7 @@ export function BeforeAfterCarousel({ category, limit = 6 }: BeforeAfterCarousel
                 <div className="absolute top-4 left-4 z-10 bg-[#00d4ff] text-[#0a1628] px-4 py-2 rounded-lg font-semibold">
                   After
                 </div>
-                <img
+                <img loading="lazy" decoding="async"
                   src={current.after}
                   alt={`After ${category} pressure cleaning Perth - Stunning results from Premier Pressure Solutions WA`}
                   className="w-full h-96 md:h-[500px] object-cover"

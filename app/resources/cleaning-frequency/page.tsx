@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   description:
     "Expert guide on pressure cleaning frequency for Perth properties. Learn optimal schedules for driveways, houses, roofs based on Perth's climate. Protect your investment.",
   alternates: { canonical: `${SITE_URL}/resources/cleaning-frequency` },
+  openGraph: { url: `${SITE_URL}/resources/cleaning-frequency` },
 };
 
 const articleSchema = {

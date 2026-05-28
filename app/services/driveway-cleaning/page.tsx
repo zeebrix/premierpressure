@@ -11,6 +11,7 @@ import {
   generateLocalBusinessSchema,
   generateServiceSchema,
   combineSchemas,
+  generateBreadcrumbSchema,
 } from '@/app/utils/local-business-schema';
 
 const SITE_URL = 'https://www.premierpressuresolutions.com.au';
@@ -23,6 +24,9 @@ export const metadata: Metadata = {
     'Professional driveway cleaning services in Perth. Remove oil stains, mould, and grime with our expert pressure cleaning. Free quotes. Fully insured.',
   alternates: {
     canonical: `${SITE_URL}/services/driveway-cleaning`,
+  },
+  openGraph: {
+    url: `${SITE_URL}/services/driveway-cleaning`,
   },
 };
 
@@ -167,11 +171,21 @@ We use controlled high-pressure cleaning methods combined with eco-friendly clea
     faqSchema
   );
 
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', path: '' },
+    { name: 'Services', path: '/services/driveway-cleaning' },
+    { name: 'Driveway Cleaning', path: '/services/driveway-cleaning' },
+  ]);
+
   return (
     <main>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <ServiceHero
         title={serviceData.title}

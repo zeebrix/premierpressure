@@ -34,7 +34,7 @@ export function PoolPatioBeforeAfter() {
               <div className="grid grid-cols-2 gap-2 p-4">
                 <div>
                   <span className="text-xs font-bold text-gray-500 uppercase">Before</span>
-                  <img
+                  <img loading="lazy" decoding="async"
                     src={item.before}
                     alt={`Before ${item.title}`}
                     className="w-full h-48 object-cover rounded-lg mt-1"
@@ -42,7 +42,7 @@ export function PoolPatioBeforeAfter() {
                 </div>
                 <div>
                   <span className="text-xs font-bold text-[#00d4ff] uppercase">After</span>
-                  <img
+                  <img loading="lazy" decoding="async"
                     src={item.after}
                     alt={`After ${item.title}`}
                     className="w-full h-48 object-cover rounded-lg mt-1"
