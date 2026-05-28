@@ -1,3 +1,18 @@
+import { suburbs } from '@/data/suburbs';
+
+const SITE_URL = 'https://www.premierpressuresolutions.com.au';
+
+/**
+ * areaServed as an array of all serviced suburbs (plus Perth overall).
+ * Audit #05: list every suburb the business serves, not just "City: Perth".
+ */
+function buildAreaServed() {
+  return [
+    { "@type": "City", "name": "Perth" },
+    ...suburbs.map((s) => ({ "@type": "City", "name": s.name })),
+  ];
+}
+
 /**
  * Generates consistent LocalBusiness schema for all pages
  * This ensures NAP (Name, Address, Phone) consistency across the entire site
@@ -5,10 +20,10 @@
 export function generateLocalBusinessSchema() {
   return {
     "@type": "LocalBusiness",
-    "@id": "https://www.premierpressuresolutions.com.au/#business",
+    "@id": `${SITE_URL}/#business`,
     "name": "Premier Pressure Solutions WA",
-    "image": "https://www.premierpressuresolutions.com.au/logo.png",
-    "url": "https://www.premierpressuresolutions.com.au",
+    "image": `${SITE_URL}/logo.png`,
+    "url": SITE_URL,
     "telephone": "+61452579657",
     "email": "info@premierpressuresolutions.com.au",
     "priceRange": "$$",
@@ -29,10 +44,24 @@ export function generateLocalBusinessSchema() {
       "opens": "07:00",
       "closes": "18:00"
     },
-    "areaServed": {
-      "@type": "City",
-      "name": "Perth"
-    }
+    "areaServed": buildAreaServed()
+  };
+}
+
+/**
+ * Generates BreadcrumbList schema (Audit #05).
+ * Pass ordered crumbs from Home → … → current page.
+ */
+export function generateBreadcrumbSchema(items: { name: string; path: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": items.map((item, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "name": item.name,
+      "item": `${SITE_URL}${item.path}`
+    }))
   };
 }
 

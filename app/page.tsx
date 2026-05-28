@@ -11,10 +11,11 @@ import { TestimonialsCarousel } from '@/app/components/testimonials-carousel';
 const SITE_URL = 'https://www.premierpressuresolutions.com.au';
 
 export const metadata: Metadata = {
-  title: 'Professional Pressure Cleaning Services in Perth',
+  title: { absolute: 'Pressure Cleaning Perth | Driveway, House & Roof Washing | Premier Pressure Solutions' },
   description:
     'Premier Pressure Solutions WA offers expert pressure cleaning services across Perth. Driveways, house washing, roof cleaning, pavers & more. 10% off for new customers. Call 0452 579 657.',
   alternates: { canonical: SITE_URL },
+  openGraph: { url: SITE_URL },
 };
 
 const homeStructuredData = {

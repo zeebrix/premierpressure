@@ -12,6 +12,7 @@ import { QuoteForm } from '@/app/components/quote-form';
 import { StickyCallButton } from '@/app/components/sticky-call-button';
 import { generateSuburbFAQSchema } from '@/app/utils/suburb-faq-schema';
 import { generateSuburbSchema } from '@/app/utils/suburb-schema';
+import { generateBreadcrumbSchema } from '@/app/utils/local-business-schema';
 
 const SITE_URL = 'https://www.premierpressuresolutions.com.au';
 
@@ -25,10 +26,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const suburb = suburbBySlug.get(slug);
   if (!suburb) return {};
+  const url = `${SITE_URL}/perth/${suburb.slug}`;
   return {
     title: { absolute: suburb.title },
     description: suburb.description,
-    alternates: { canonical: `${SITE_URL}/perth/${suburb.slug}` },
+    alternates: { canonical: url },
+    openGraph: { url, title: suburb.title, description: suburb.description },
   };
 }
 
@@ -41,12 +44,21 @@ export default async function SuburbPage({ params }: Props) {
   const schema = suburb.useCombinedSchema
     ? generateSuburbSchema(suburb.name, faqSchema)
     : faqSchema;
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', path: '' },
+    { name: 'Service Areas', path: '/areas' },
+    { name: suburb.name, path: `/perth/${suburb.slug}` },
+  ]);
 
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <StickyCallButton />
       <SuburbHero

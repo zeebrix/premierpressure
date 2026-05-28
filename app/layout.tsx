@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { suburbs } from '@/data/suburbs';
 import '@/styles/fonts.css';
 import '@/styles/tailwind.css';
 
@@ -61,7 +62,10 @@ const localBusinessSchema = {
   email: 'contact@premierpressuresolutions.com.au',
   url: SITE_URL,
   priceRange: '$$',
-  areaServed: { '@type': 'City', name: 'Perth' },
+  areaServed: [
+    { '@type': 'City', name: 'Perth' },
+    ...suburbs.map((s) => ({ '@type': 'City', name: s.name })),
+  ],
   serviceArea: {
     '@type': 'GeoCircle',
     geoMidpoint: { '@type': 'GeoCoordinates', latitude: -31.9505, longitude: 115.8605 },
