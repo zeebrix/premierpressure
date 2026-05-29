@@ -23,7 +23,26 @@
       "Bash(git rm *)",
       "Bash(node scripts/extract-suburbs.mjs)",
       "Bash(git push *)",
-      "Bash(gh pr create --base main --head next-migration --title 'Migrate to Next.js 16 \\(App Router\\) + SEO fixes' --body ' *)"
+      "Bash(gh pr create --base main --head next-migration --title 'Migrate to Next.js 16 \\(App Router\\) + SEO fixes' --body ' *)",
+      "Bash(awk '{print $5, $9}')",
+      "Bash(npx --yes vercel whoami)",
+      "Bash(echo \"=== exit: $? ===\")",
+      "Bash(npx --yes vercel link --yes)",
+      "Bash(npx --yes vercel --prod --yes)",
+      "Bash(echo \"=== deploy exit: $? ===\")",
+      "Bash(curl -s --max-time 25 https://www.premierpressuresolutions.com.au/)",
+      "Bash(curl -s --max-time 25 https://www.premierpressuresolutions.com.au/perth/heathridge)",
+      "Bash(curl -s --max-time 25 https://www.premierpressuresolutions.com.au/services/driveway-cleaning)",
+      "Bash(curl -s --max-time 25 https://www.premierpressuresolutions.com.au/perth/north-fremantle)",
+      "Bash(python scripts/build_seo_report.py)",
+      "Bash(python -c \"import pdfplumber; pdf=pdfplumber.open\\(r'C:\\\\Users\\\\Laptech\\\\Downloads\\\\Premier-Pressure-SEO-Implementation-Report.pdf'\\); print\\('pages:', len\\(pdf.pages\\)\\); t1=pdf.pages[0].extract_text\\(\\); print\\('--- COVER ---'\\); print\\(t1[:200]\\); t2=pdf.pages[1].extract_text\\(\\); print\\('--- BASELINE STATS ---'\\); [print\\(repr\\(l\\)\\) for l in t2.split\\(chr\\(10\\)\\) if any\\(x in l for x in ['38','3,920','Average','Total','position']\\)][:6]\")",
+      "Bash(python -c ' *)",
+      "Bash(curl -s --max-time 20 https://www.premierpressuresolutions.com.au/)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' --max-time 20 https://www.premierpressuresolutions.com.au/og-image.jpg)",
+      "Bash(echo \"  /og-image.jpg -> $\\(curl -s -o /dev/null -w '%{http_code}' --max-time 20 https://www.premierpressuresolutions.com.au/og-image.jpg\\)\")",
+      "Bash(python -c \"import PIL; print\\('PIL', PIL.__version__\\)\")",
+      "Bash(python scripts/make_og_image.py)",
+      "Bash(echo \"exit: $?\")"
     ]
   }
 }

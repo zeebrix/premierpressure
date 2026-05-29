@@ -15,7 +15,26 @@ export const metadata: Metadata = {
   description:
     'Premier Pressure Solutions WA offers expert pressure cleaning services across Perth. Driveways, house washing, roof cleaning, pavers & more. 10% off for new customers. Call 0452 579 657.',
   alternates: { canonical: SITE_URL },
-  openGraph: { url: SITE_URL, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: {
+    url: SITE_URL,
+    title: 'Pressure Cleaning Perth | Driveway, House & Roof Washing | Premier Pressure Solutions',
+    description:
+      'Premier Pressure Solutions WA offers expert pressure cleaning services across Perth. Driveways, house washing, roof cleaning, pavers & more.',
+    type: 'website',
+    locale: 'en_AU',
+    siteName: 'Premier Pressure Solutions WA',
+    images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Pressure Cleaning Perth | Driveway, House & Roof Washing | Premier Pressure Solutions',
+    description:
+      'Premier Pressure Solutions WA offers expert pressure cleaning services across Perth. Driveways, house washing, roof cleaning, pavers & more.',
+    images: ['https://www.premierpressuresolutions.com.au/og-image.jpg'],
+  },
+  other: {
+    'twitter:url': SITE_URL,
+  },
 };
 
 const homeStructuredData = {
