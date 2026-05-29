@@ -198,6 +198,7 @@ We use professional-grade equipment and proven techniques to thoroughly clean pa
       <ServiceFAQ faqs={serviceData.faqs} serviceName="paver cleaning and sealing" />
       <ServiceCTA
         serviceName="Pavers"
+        serviceLabel="Paver Cleaning"
         descriptionPlaceholder="Tell us about your paver cleaning and sealing needs..."
       />
     </main>

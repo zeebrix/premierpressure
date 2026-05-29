@@ -210,6 +210,7 @@ Unlike basic cleaning services, our pre-sale and end of lease package is thoroug
       <ServiceFAQ faqs={serviceData.faqs} serviceName="pre-sale and end of lease cleaning" />
       <ServiceCTA
         serviceName="Property"
+        serviceLabel="Pre-Sale Cleaning"
         descriptionPlaceholder="Tell us about your pre-sale or end of lease cleaning needs..."
       />
     </main>

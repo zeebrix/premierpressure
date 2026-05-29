@@ -203,6 +203,7 @@ We don't just blast away surface dirt—we treat mould and mildew at the source,
       <ServiceFAQ faqs={serviceData.faqs} serviceName="house washing" />
       <ServiceCTA
         serviceName="House"
+        serviceLabel="House Washing"
         descriptionPlaceholder="Tell us about your house washing needs..."
       />
     </main>

@@ -56,32 +56,26 @@ export const metadata: Metadata = {
   },
 };
 
-const localBusinessSchema = {
+// Site-wide brand entity. The location-specific address/locality lives on the
+// per-page LocalBusiness schema (home, service and suburb pages), so this node
+// stays a location-agnostic Organization — otherwise a conflicting
+// "addressLocality": "Perth" would appear on every page, including suburb pages.
+const organizationSchema = {
   '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
+  '@type': 'Organization',
+  '@id': `${SITE_URL}/#organization`,
   name: 'Premier Pressure Solutions WA',
+  url: SITE_URL,
+  logo: `${SITE_URL}/logo.png`,
   image: `${SITE_URL}/logo.png`,
   description:
     'Professional pressure cleaning services in Perth, Western Australia. Specialising in house washing, driveway cleaning, roof cleaning and more.',
-  address: {
-    '@type': 'PostalAddress',
-    addressLocality: 'Perth',
-    addressRegion: 'WA',
-    addressCountry: 'AU',
-  },
   telephone: '+61452579657',
-  email: 'contact@premierpressuresolutions.com.au',
-  url: SITE_URL,
-  priceRange: '$$',
+  email: 'info@premierpressuresolutions.com.au',
   areaServed: [
     { '@type': 'City', name: 'Perth' },
     ...suburbs.map((s) => ({ '@type': 'City', name: s.name })),
   ],
-  serviceArea: {
-    '@type': 'GeoCircle',
-    geoMidpoint: { '@type': 'GeoCoordinates', latitude: -31.9505, longitude: 115.8605 },
-    geoRadius: '50000',
-  },
   sameAs: ['https://www.facebook.com/premierpressuresolutionswa'],
 };
 
@@ -95,7 +89,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
       </head>
       <body>

@@ -199,6 +199,7 @@ We use professional-grade cleaning solutions and pure water technology combined 
       <ServiceFAQ faqs={serviceData.faqs} serviceName="window cleaning" />
       <ServiceCTA
         serviceName="Windows"
+        serviceLabel="Window Cleaning"
         descriptionPlaceholder="Tell us about your window cleaning needs..."
       />
     </main>

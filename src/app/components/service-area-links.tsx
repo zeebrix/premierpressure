@@ -8,9 +8,10 @@ const POPULAR_SLUGS = [
   'scarborough', 'joondalup', 'hillarys', 'duncraig', 'mount-lawley', 'victoria-park',
   'mosman-park', 'floreat', 'churchlands', 'wembley', 'melville', 'booragoon',
   'karrinyup', 'stirling', 'bayswater', 'como', 'trigg', 'north-beach',
+  'north-fremantle', 'heathridge',
 ];
 
-export function ServiceAreaLinks() {
+export function ServiceAreaLinks({ serviceLabel = 'Pressure Cleaning' }: { serviceLabel?: string }) {
   const popular = suburbs.filter((s) => POPULAR_SLUGS.includes(s.slug));
   const list = popular.length > 0 ? popular : suburbs.slice(0, 24);
 
@@ -18,7 +19,7 @@ export function ServiceAreaLinks() {
     <section className="py-14 bg-gray-50 border-t border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-2xl md:text-3xl font-bold text-[#0a1628] mb-3">
-          Pressure Cleaning Across Perth Suburbs
+          {serviceLabel} Across Perth Suburbs
         </h2>
         <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
           We bring this service to homes and businesses right across the Perth metro area. Find your local area:
@@ -30,7 +31,7 @@ export function ServiceAreaLinks() {
               href={`/${s.slug}`}
               className="px-3 py-1.5 rounded-full bg-white border border-gray-200 text-sm text-[#0a1628] hover:border-[#00d4ff] hover:text-[#00d4ff] transition-colors"
             >
-              Pressure Cleaning {s.name}
+              {serviceLabel} in {s.name}
             </Link>
           ))}
         </div>

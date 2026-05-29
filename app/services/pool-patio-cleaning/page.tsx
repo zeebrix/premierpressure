@@ -206,6 +206,7 @@ We use controlled pressure cleaning methods combined with appropriate cleaning s
       <ServiceFAQ faqs={serviceData.faqs} serviceName="pool area and patio cleaning" />
       <ServiceCTA
         serviceName="Pool Area & Patio"
+        serviceLabel="Pool & Patio Cleaning"
         descriptionPlaceholder="Tell us about your pool area and patio cleaning needs..."
       />
     </main>

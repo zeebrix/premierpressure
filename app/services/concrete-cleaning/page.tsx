@@ -222,6 +222,7 @@ Our concrete cleaning services extend beyond residential properties to include c
       <ServiceFAQ faqs={serviceData.faqs} serviceName="concrete cleaning" />
       <ServiceCTA
         serviceName="Concrete"
+        serviceLabel="Concrete Cleaning"
         descriptionPlaceholder="Tell us about your concrete cleaning needs..."
       />
     </main>

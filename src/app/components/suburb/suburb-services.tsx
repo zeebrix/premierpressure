@@ -106,7 +106,7 @@ export function SuburbServices({ suburbName }: SuburbServicesProps) {
                   <h3 className="text-xl font-semibold text-[#0a1628] mb-2">{service.title}</h3>
                   <p className="text-gray-600 mb-4">{service.description}</p>
                   <span className="text-[#00d4ff] font-semibold group-hover:underline inline-flex items-center gap-1">
-                    Learn More →
+                    {service.title} in {suburbName} →
                   </span>
                 </motion.div>
               </Link>
@@ -167,7 +167,7 @@ export function SuburbServices({ suburbName }: SuburbServicesProps) {
                           <h3 className="text-xl font-semibold text-[#0a1628] mb-2">{service.title}</h3>
                           <p className="text-gray-600 mb-4">{service.description}</p>
                           <span className="text-[#00d4ff] font-semibold group-hover:underline inline-flex items-center gap-1">
-                            Learn More →
+                            {service.title} in {suburbName} →
                           </span>
                         </motion.div>
                       </Link>

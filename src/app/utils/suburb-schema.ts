@@ -5,14 +5,17 @@ import { generateLocalBusinessSchema, combineSchemas } from './local-business-sc
  * Includes LocalBusiness + Service + FAQ schema
  */
 export function generateSuburbSchema(suburbName: string, faqSchema: any) {
+  const baseUrl = 'https://www.premierpressuresolutions.com.au';
+  const slug = suburbName.toLowerCase().replace(/\s+/g, '-');
+  const localBusinessId = `${baseUrl}/${slug}#localbusiness`;
   const serviceSchema = {
     "@type": "Service",
-    "@id": `https://www.premierpressuresolutions.com.au/${suburbName.toLowerCase().replace(/\s+/g, '-')}#service`,
+    "@id": `${baseUrl}/${slug}#service`,
     "serviceType": `Pressure Cleaning ${suburbName}`,
     "name": `Pressure Cleaning Services in ${suburbName}`,
     "description": `Professional pressure cleaning services in ${suburbName}, Perth. House washing, driveway cleaning, roof cleaning, and more. Servicing ${suburbName} and surrounding areas.`,
     "provider": {
-      "@id": "https://www.premierpressuresolutions.com.au/#business"
+      "@id": localBusinessId
     },
     "areaServed": {
       "@type": "City",
@@ -59,7 +62,7 @@ export function generateSuburbSchema(suburbName: string, faqSchema: any) {
   };
 
   return combineSchemas(
-    generateLocalBusinessSchema(),
+    generateLocalBusinessSchema(suburbName, localBusinessId),
     serviceSchema,
     faqSchema
   );

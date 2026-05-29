@@ -10,11 +10,13 @@ const WEB3FORMS_KEY = '25ea480e-c6b3-44f6-a5c5-9f59ae8447d0';
 
 interface ServiceCTAProps {
   serviceName?: string;
+  serviceLabel?: string;
   descriptionPlaceholder?: string;
 }
 
 export function ServiceCTA({ 
   serviceName = 'Driveway', 
+  serviceLabel = 'Pressure Cleaning',
   descriptionPlaceholder = 'Tell us about your cleaning needs...'
 }: ServiceCTAProps) {
   const [formData, setFormData] = useState({
@@ -306,7 +308,7 @@ export function ServiceCTA({
         </div>
       </div>
     </section>
-    <ServiceAreaLinks />
+    <ServiceAreaLinks serviceLabel={serviceLabel} />
     </>
   );
 }

@@ -17,10 +17,10 @@ function buildAreaServed() {
  * Generates consistent LocalBusiness schema for all pages
  * This ensures NAP (Name, Address, Phone) consistency across the entire site
  */
-export function generateLocalBusinessSchema() {
+export function generateLocalBusinessSchema(locality: string = 'Perth', id: string = `${SITE_URL}/#business`) {
   return {
     "@type": "LocalBusiness",
-    "@id": `${SITE_URL}/#business`,
+    "@id": id,
     "name": "Premier Pressure Solutions WA",
     "image": `${SITE_URL}/logo.png`,
     "url": SITE_URL,
@@ -29,7 +29,7 @@ export function generateLocalBusinessSchema() {
     "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Perth",
+      "addressLocality": locality,
       "addressRegion": "WA",
       "addressCountry": "AU"
     },

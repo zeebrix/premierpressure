@@ -200,6 +200,7 @@ We employ specialised low-pressure cleaning methods combined with limestone-safe
       <ServiceFAQ faqs={serviceData.faqs} serviceName="limestone cleaning" />
       <ServiceCTA
         serviceName="Limestone"
+        serviceLabel="Limestone Cleaning"
         descriptionPlaceholder="Tell us about your limestone cleaning needs..."
       />
     </main>

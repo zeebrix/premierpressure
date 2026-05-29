@@ -204,6 +204,7 @@ We use controlled high-pressure cleaning methods combined with eco-friendly clea
       <ServiceFAQ faqs={serviceData.faqs} serviceName="driveway cleaning" />
       <ServiceCTA
         serviceName="Driveway"
+        serviceLabel="Driveway Cleaning"
         descriptionPlaceholder="Tell us about your driveway cleaning needs..."
       />
     </main>

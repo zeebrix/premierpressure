@@ -65,9 +65,9 @@ export default async function SuburbPage({ params }: Props) {
         })),
       }
     : generateSuburbFAQSchema(suburb.name);
-  const schema = suburb.useCombinedSchema
-    ? generateSuburbSchema(suburb.name, faqSchema)
-    : faqSchema;
+  // Emit the combined LocalBusiness + Service + FAQ schema on every suburb page,
+  // with the suburb itself as addressLocality (client request) — not just Perth.
+  const schema = generateSuburbSchema(suburb.name, faqSchema);
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: 'Home', path: '' },
     { name: 'Service Areas', path: '/areas' },
