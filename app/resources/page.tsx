@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     'Expert pressure cleaning guides for Perth homeowners. Pricing information, preparation checklists, maintenance schedules, DIY comparisons and more professional advice.',
   alternates: { canonical: `${SITE_URL}/resources` },
-  openGraph: { url: `${SITE_URL}/resources` },
+  openGraph: { url: `${SITE_URL}/resources`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 const structuredData = {

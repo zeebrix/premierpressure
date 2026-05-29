@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Professional shopping centre & retail complex pressure cleaning across Perth. After-hours service to clean entrances, walkways, parking & facades without disrupting trading.",
   alternates: { canonical: `${SITE_URL}/commercial/shopping-centre-cleaning` },
-  openGraph: { url: `${SITE_URL}/commercial/shopping-centre-cleaning` },
+  openGraph: { url: `${SITE_URL}/commercial/shopping-centre-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 const breadcrumbSchema = generateBreadcrumbSchema([

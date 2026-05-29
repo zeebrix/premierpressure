@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     'Premier Pressure Solutions WA services 26+ suburbs across Perth including Cottesloe, Subiaco, Nedlands, Claremont, South Perth & more. Professional pressure cleaning for your local area.',
   alternates: { canonical: `${SITE_URL}/areas` },
-  openGraph: { url: `${SITE_URL}/areas` },
+  openGraph: { url: `${SITE_URL}/areas`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function AreasPage() {

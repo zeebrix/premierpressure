@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Safe, child-friendly playground pressure cleaning for Perth schools, child care centres, councils & strata properties. Non-toxic solutions. Equipment-safe methods.",
   alternates: { canonical: `${SITE_URL}/commercial/playground-cleaning` },
-  openGraph: { url: `${SITE_URL}/commercial/playground-cleaning` },
+  openGraph: { url: `${SITE_URL}/commercial/playground-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 const breadcrumbSchema = generateBreadcrumbSchema([

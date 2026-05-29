@@ -27,9 +27,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `${SITE_URL}/services/roof-cleaning`,
   },
-  openGraph: {
-    url: `${SITE_URL}/services/roof-cleaning`,
-  },
+  openGraph: { url: `${SITE_URL}/services/roof-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function RoofCleaningPage() {

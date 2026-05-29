@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Heavy-duty industrial pressure washing for Perth manufacturing & warehouses. Factory floors, loading docks, machinery & yards cleaned to safety standards. Fully insured.",
   alternates: { canonical: `${SITE_URL}/commercial/industrial-washing` },
-  openGraph: { url: `${SITE_URL}/commercial/industrial-washing` },
+  openGraph: { url: `${SITE_URL}/commercial/industrial-washing`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 const breadcrumbSchema = generateBreadcrumbSchema([

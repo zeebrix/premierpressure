@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     'Comprehensive pricing guide for pressure cleaning services in Perth. Understand costs, factors affecting pricing, and get accurate estimates for driveways, houses, roofs & more.',
   alternates: { canonical: `${SITE_URL}/resources/pricing-guide` },
-  openGraph: { url: `${SITE_URL}/resources/pricing-guide` },
+  openGraph: { url: `${SITE_URL}/resources/pricing-guide`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 const structuredData = {

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Professional restaurant, café & hospitality exterior cleaning across Perth. Streak-free windows, outdoor dining, facades & awnings. Flexible scheduling around service hours.",
   alternates: { canonical: `${SITE_URL}/commercial/restaurant-cleaning` },
-  openGraph: { url: `${SITE_URL}/commercial/restaurant-cleaning` },
+  openGraph: { url: `${SITE_URL}/commercial/restaurant-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 const breadcrumbSchema = generateBreadcrumbSchema([

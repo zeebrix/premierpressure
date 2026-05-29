@@ -31,6 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
+    title: 'Premier Pressure Solutions WA | Professional Pressure Cleaning Perth',
+    description:
+      "Perth's trusted pressure cleaning experts. House washing, driveway cleaning, roof cleaning & more across 70+ suburbs.",
     images: [`${SITE_URL}/og-image.jpg`],
   },
   icons: {
@@ -39,6 +42,7 @@ export const metadata: Metadata = {
   },
   manifest: '/manifest.json',
   other: {
+    'twitter:url': SITE_URL,
     'theme-color': '#0a1628',
     'msapplication-TileColor': '#0a1628',
     'mobile-web-app-capable': 'yes',

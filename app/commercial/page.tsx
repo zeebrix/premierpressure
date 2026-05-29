@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Perth's trusted commercial pressure cleaning specialists. Building washing, strata, schools, shopping centres, restaurants, industrial & playground cleaning. Fully insured.",
   alternates: { canonical: `${SITE_URL}/commercial` },
-  openGraph: { url: `${SITE_URL}/commercial` },
+  openGraph: { url: `${SITE_URL}/commercial`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function CommercialPressureCleaningPage() {

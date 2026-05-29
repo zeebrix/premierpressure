@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: { absolute: suburb.title },
     description: suburb.description,
     alternates: { canonical: url },
-    openGraph: { url, title: suburb.title, description: suburb.description },
+    openGraph: { url, title: suburb.title, description: suburb.description, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
   };
 }
 

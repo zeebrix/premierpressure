@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     'Complete guide to organic staining problems in Perth. Learn about mould, algae, mildew, and lichen - their causes, health risks, property damage, and professional solutions.',
   alternates: { canonical: `${SITE_URL}/resources/organic-staining-guide` },
-  openGraph: { url: `${SITE_URL}/resources/organic-staining-guide` },
+  openGraph: { url: `${SITE_URL}/resources/organic-staining-guide`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 const articleSchema = {

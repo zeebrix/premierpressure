@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     'Premier Pressure Solutions WA service terms and conditions, including customer responsibilities, payment terms, warranties and Australian Consumer Law rights.',
   alternates: { canonical: `${SITE_URL}/terms` },
-  openGraph: { url: `${SITE_URL}/terms` },
+  openGraph: { url: `${SITE_URL}/terms`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function TermsPage() {

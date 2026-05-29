@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   description:
     "Expert guide on pressure cleaning frequency for Perth properties. Learn optimal schedules for driveways, houses, roofs based on Perth's climate. Protect your investment.",
   alternates: { canonical: `${SITE_URL}/resources/cleaning-frequency` },
-  openGraph: { url: `${SITE_URL}/resources/cleaning-frequency` },
+  openGraph: { url: `${SITE_URL}/resources/cleaning-frequency`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 const articleSchema = {

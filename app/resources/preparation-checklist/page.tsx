@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description:
     'Complete preparation checklist for pressure cleaning. Essential steps to prepare your Perth property, ensure safety, save time and get the best cleaning results.',
   alternates: { canonical: `${SITE_URL}/resources/preparation-checklist` },
-  openGraph: { url: `${SITE_URL}/resources/preparation-checklist` },
+  openGraph: { url: `${SITE_URL}/resources/preparation-checklist`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 const structuredData = {
