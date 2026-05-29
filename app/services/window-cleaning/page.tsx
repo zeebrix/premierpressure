@@ -23,9 +23,9 @@ export const metadata: Metadata = {
   description:
     'Expert window cleaning services in Perth. Streak-free results for residential properties. Inside and out. Free quotes. Fully insured.',
   alternates: {
-    canonical: `${SITE_URL}/services/window-cleaning`,
+    canonical: `${SITE_URL}/window-cleaning`,
   },
-  openGraph: { url: `${SITE_URL}/services/window-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/window-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function WindowCleaningPage() {
@@ -158,7 +158,7 @@ We use professional-grade cleaning solutions and pure water technology combined 
     generateServiceSchema(
       'Professional Window Cleaning Perth',
       serviceData.metaDescription,
-      '/residential/window-cleaning',
+      '/window-cleaning',
       ['Residential Window Cleaning', 'Commercial Window Cleaning', 'Hard Water Stain Removal']
     ),
     faqSchema
@@ -166,8 +166,8 @@ We use professional-grade cleaning solutions and pure water technology combined 
 
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: 'Home', path: '' },
-    { name: 'Services', path: '/services/window-cleaning' },
-    { name: 'Window Cleaning', path: '/services/window-cleaning' },
+    { name: 'Services', path: '/window-cleaning' },
+    { name: 'Window Cleaning', path: '/window-cleaning' },
   ]);
 
   return (

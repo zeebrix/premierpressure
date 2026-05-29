@@ -27,7 +27,7 @@ export function ServiceAreaLinks() {
           {list.map((s) => (
             <Link
               key={s.slug}
-              href={`/perth/${s.slug}`}
+              href={`/${s.slug}`}
               className="px-3 py-1.5 rounded-full bg-white border border-gray-200 text-sm text-[#0a1628] hover:border-[#00d4ff] hover:text-[#00d4ff] transition-colors"
             >
               Pressure Cleaning {s.name}

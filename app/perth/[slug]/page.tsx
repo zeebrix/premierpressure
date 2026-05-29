@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const suburb = suburbBySlug.get(slug);
   if (!suburb) return {};
-  const url = `${SITE_URL}/perth/${suburb.slug}`;
+  const url = `${SITE_URL}/${suburb.slug}`;
   return {
     title: { absolute: suburb.title },
     description: suburb.description,
@@ -71,7 +71,7 @@ export default async function SuburbPage({ params }: Props) {
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: 'Home', path: '' },
     { name: 'Service Areas', path: '/areas' },
-    { name: suburb.name, path: `/perth/${suburb.slug}` },
+    { name: suburb.name, path: `/${suburb.slug}` },
   ]);
 
   return (

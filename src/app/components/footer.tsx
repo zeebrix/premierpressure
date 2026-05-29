@@ -69,47 +69,47 @@ export function Footer() {
               </button>
               <ul className={`mt-2 ml-3 space-y-2 text-sm overflow-hidden transition-all duration-300 ${residentialOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
                 <li>
-                  <Link href="/services/driveway-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/driveway-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Driveway Cleaning
                   </Link>
                 </li>
                 <li>
-                  <Link href="/services/concrete-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/concrete-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Concrete Cleaning
                   </Link>
                 </li>
                 <li>
-                  <Link href="/services/limestone-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/limestone-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Limestone Cleaning
                   </Link>
                 </li>
                 <li>
-                  <Link href="/services/roof-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/roof-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Roof Cleaning
                   </Link>
                 </li>
                 <li>
-                  <Link href="/services/paver-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/paver-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Paver Cleaning
                   </Link>
                 </li>
                 <li>
-                  <Link href="/services/pool-patio-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/pool-patio-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Pool Area & Patio Cleaning
                   </Link>
                 </li>
                 <li>
-                  <Link href="/services/window-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/window-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Window Cleaning
                   </Link>
                 </li>
                 <li>
-                  <Link href="/services/house-washing" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/house-washing" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     House Washing
                   </Link>
                 </li>
                 <li>
-                  <Link href="/services/presale-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
+                  <Link href="/presale-cleaning" className="text-white/60 hover:text-[#00d4ff] transition-colors">
                     Pre-Sale Cleaning
                   </Link>
                 </li>

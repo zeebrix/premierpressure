@@ -24,9 +24,9 @@ export const metadata: Metadata = {
   description:
     'Professional pre-sale and end of lease cleaning in Perth. Complete exterior transformation. Boost property value. Secure your bond. Free quotes.',
   alternates: {
-    canonical: `${SITE_URL}/services/presale-cleaning`,
+    canonical: `${SITE_URL}/presale-cleaning`,
   },
-  openGraph: { url: `${SITE_URL}/services/presale-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/presale-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function PresaleCleaningPage() {
@@ -164,7 +164,7 @@ Unlike basic cleaning services, our pre-sale and end of lease package is thoroug
     generateServiceSchema(
       'Pre-Sale & End of Lease Cleaning Perth',
       serviceData.metaDescription,
-      '/residential/presale-cleaning',
+      '/presale-cleaning',
       [
         'Pre-Sale Cleaning',
         'End of Lease Cleaning',
@@ -177,8 +177,8 @@ Unlike basic cleaning services, our pre-sale and end of lease package is thoroug
 
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: 'Home', path: '' },
-    { name: 'Services', path: '/services/presale-cleaning' },
-    { name: 'Pre-Sale & End of Lease Cleaning', path: '/services/presale-cleaning' },
+    { name: 'Services', path: '/presale-cleaning' },
+    { name: 'Pre-Sale & End of Lease Cleaning', path: '/presale-cleaning' },
   ]);
 
   return (

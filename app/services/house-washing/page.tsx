@@ -23,9 +23,9 @@ export const metadata: Metadata = {
   description:
     "Expert house washing services in Perth. Remove dirt, mould, and grime from all exterior surfaces. Restore your home's beauty. Free quotes. Fully insured.",
   alternates: {
-    canonical: `${SITE_URL}/services/house-washing`,
+    canonical: `${SITE_URL}/house-washing`,
   },
-  openGraph: { url: `${SITE_URL}/services/house-washing`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/house-washing`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function HouseWashingPage() {
@@ -162,7 +162,7 @@ We don't just blast away surface dirt—we treat mould and mildew at the source,
     generateServiceSchema(
       'Professional House Washing Perth',
       serviceData.metaDescription,
-      '/residential/house-washing',
+      '/house-washing',
       ['Exterior Wall Cleaning', 'Mould Removal', 'Soft Washing', 'Gutter Cleaning']
     ),
     faqSchema
@@ -170,8 +170,8 @@ We don't just blast away surface dirt—we treat mould and mildew at the source,
 
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: 'Home', path: '' },
-    { name: 'Services', path: '/services/house-washing' },
-    { name: 'House Washing', path: '/services/house-washing' },
+    { name: 'Services', path: '/house-washing' },
+    { name: 'House Washing', path: '/house-washing' },
   ]);
 
   return (

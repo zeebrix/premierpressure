@@ -25,9 +25,9 @@ export const metadata: Metadata = {
   description:
     'Professional roof cleaning services in Perth. Remove moss, lichen, and organic growth safely. Extend roof life. Free quotes. Fully insured.',
   alternates: {
-    canonical: `${SITE_URL}/services/roof-cleaning`,
+    canonical: `${SITE_URL}/roof-cleaning`,
   },
-  openGraph: { url: `${SITE_URL}/services/roof-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/roof-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function RoofCleaningPage() {
@@ -160,7 +160,7 @@ We use specialized soft washing techniques combined with professional biocidal t
     generateServiceSchema(
       'Professional Roof Cleaning Perth',
       serviceData.metaDescription,
-      '/residential/roof-cleaning',
+      '/roof-cleaning',
       ['Tile Roof Cleaning', 'Colorbond Roof Cleaning', 'Moss Removal', 'Lichen Treatment']
     ),
     faqSchema
@@ -168,8 +168,8 @@ We use specialized soft washing techniques combined with professional biocidal t
 
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: 'Home', path: '' },
-    { name: 'Services', path: '/services/roof-cleaning' },
-    { name: 'Roof Cleaning', path: '/services/roof-cleaning' },
+    { name: 'Services', path: '/roof-cleaning' },
+    { name: 'Roof Cleaning', path: '/roof-cleaning' },
   ]);
 
   return (

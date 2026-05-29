@@ -24,9 +24,9 @@ export const metadata: Metadata = {
   description:
     'Professional pool area and patio cleaning services in Perth. Remove algae, grime, and stains from pool surrounds, patios, and alfresco areas. Free quotes. Fully insured.',
   alternates: {
-    canonical: `${SITE_URL}/services/pool-patio-cleaning`,
+    canonical: `${SITE_URL}/pool-patio-cleaning`,
   },
-  openGraph: { url: `${SITE_URL}/services/pool-patio-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/pool-patio-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function PoolPatioCleaningPage() {
@@ -160,7 +160,7 @@ We use controlled pressure cleaning methods combined with appropriate cleaning s
     generateServiceSchema(
       'Professional Pool Area & Patio Cleaning Perth',
       serviceData.metaDescription,
-      '/residential/pool-patio-cleaning',
+      '/pool-patio-cleaning',
       [
         'Pool Surround Cleaning',
         'Patio Cleaning',
@@ -173,8 +173,8 @@ We use controlled pressure cleaning methods combined with appropriate cleaning s
 
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: 'Home', path: '' },
-    { name: 'Services', path: '/services/pool-patio-cleaning' },
-    { name: 'Pool Area & Patio Cleaning', path: '/services/pool-patio-cleaning' },
+    { name: 'Services', path: '/pool-patio-cleaning' },
+    { name: 'Pool Area & Patio Cleaning', path: '/pool-patio-cleaning' },
   ]);
 
   return (

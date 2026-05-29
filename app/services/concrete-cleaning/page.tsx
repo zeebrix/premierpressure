@@ -24,9 +24,9 @@ export const metadata: Metadata = {
   description:
     'Specialist concrete cleaning in Perth. Exposed aggregate restoration, driveway cleaning, patio cleaning. Remove stains, mould & grime. Free quotes.',
   alternates: {
-    canonical: `${SITE_URL}/services/concrete-cleaning`,
+    canonical: `${SITE_URL}/concrete-cleaning`,
   },
-  openGraph: { url: `${SITE_URL}/services/concrete-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/concrete-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function ConcreteCleaningPage() {
@@ -176,7 +176,7 @@ Our concrete cleaning services extend beyond residential properties to include c
     generateServiceSchema(
       'Professional Concrete Cleaning Perth',
       serviceData.metaDescription,
-      '/residential/concrete-cleaning',
+      '/concrete-cleaning',
       [
         'Exposed Aggregate Cleaning',
         'Concrete Driveway Cleaning',
@@ -189,8 +189,8 @@ Our concrete cleaning services extend beyond residential properties to include c
 
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: 'Home', path: '' },
-    { name: 'Services', path: '/services/concrete-cleaning' },
-    { name: 'Concrete Cleaning', path: '/services/concrete-cleaning' },
+    { name: 'Services', path: '/concrete-cleaning' },
+    { name: 'Concrete Cleaning', path: '/concrete-cleaning' },
   ]);
 
   return (

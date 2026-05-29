@@ -12,9 +12,9 @@ export const metadata: Metadata = {
   description:
     'Professional pressure cleaning services in Perth. Expert house washing, driveway cleaning, roof cleaning & more. Licensed, insured, 10% off for new customers. Call 0488 844 911',
   alternates: {
-    canonical: `${SITE_URL}/services/pressure-cleaning`,
+    canonical: `${SITE_URL}/pressure-cleaning`,
   },
-  openGraph: { url: `${SITE_URL}/services/pressure-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/pressure-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 const faqs = [
@@ -91,8 +91,8 @@ const faqStructuredData = {
 
 const breadcrumbSchema = generateBreadcrumbSchema([
   { name: 'Home', path: '' },
-  { name: 'Services', path: '/services/pressure-cleaning' },
-  { name: 'Pressure Cleaning', path: '/services/pressure-cleaning' },
+  { name: 'Services', path: '/pressure-cleaning' },
+  { name: 'Pressure Cleaning', path: '/pressure-cleaning' },
 ]);
 
 export default function PressureCleaningPage() {

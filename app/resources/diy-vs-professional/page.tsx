@@ -605,7 +605,7 @@ export default function DIYvsProfessionalPage() {
                 Call 0452 579 657
               </a>
               <Link
-                href="/services/pressure-cleaning#quote"
+                href="/pressure-cleaning#quote"
                 className="inline-flex items-center justify-center gap-2 bg-white/10 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/20 transition-all border border-white/20"
               >
                 Get Free Quote

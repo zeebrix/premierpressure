@@ -33,16 +33,16 @@ export function Header() {
   };
 
   const services = [
-    { name: 'Pressure Cleaning', path: '/services/pressure-cleaning' },
-    { name: 'Driveway Cleaning', path: '/services/driveway-cleaning' },
-    { name: 'Concrete Cleaning', path: '/services/concrete-cleaning' },
-    { name: 'Limestone Cleaning', path: '/services/limestone-cleaning' },
-    { name: 'Roof Cleaning', path: '/services/roof-cleaning' },
-    { name: 'Paver Cleaning & Sealing', path: '/services/paver-cleaning' },
-    { name: 'Pool Area & Patio Cleaning', path: '/services/pool-patio-cleaning' },
-    { name: 'Window Cleaning', path: '/services/window-cleaning' },
-    { name: 'House Washing', path: '/services/house-washing' },
-    { name: 'Pre-Sale & End of Lease', path: '/services/presale-cleaning' },
+    { name: 'Pressure Cleaning', path: '/pressure-cleaning' },
+    { name: 'Driveway Cleaning', path: '/driveway-cleaning' },
+    { name: 'Concrete Cleaning', path: '/concrete-cleaning' },
+    { name: 'Limestone Cleaning', path: '/limestone-cleaning' },
+    { name: 'Roof Cleaning', path: '/roof-cleaning' },
+    { name: 'Paver Cleaning & Sealing', path: '/paver-cleaning' },
+    { name: 'Pool Area & Patio Cleaning', path: '/pool-patio-cleaning' },
+    { name: 'Window Cleaning', path: '/window-cleaning' },
+    { name: 'House Washing', path: '/house-washing' },
+    { name: 'Pre-Sale & End of Lease', path: '/presale-cleaning' },
   ];
 
   const commercial = [

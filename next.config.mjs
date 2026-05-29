@@ -18,6 +18,20 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/services/:slug',
+        destination: '/:slug',
+        permanent: true,
+      },
+      {
+        source: '/perth/:slug',
+        destination: '/:slug',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

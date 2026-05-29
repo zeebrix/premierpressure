@@ -23,9 +23,9 @@ export const metadata: Metadata = {
   description:
     'Expert limestone cleaning services in Perth. Restore walls, pavers, and features with gentle, effective cleaning. Free quotes. Fully insured.',
   alternates: {
-    canonical: `${SITE_URL}/services/limestone-cleaning`,
+    canonical: `${SITE_URL}/limestone-cleaning`,
   },
-  openGraph: { url: `${SITE_URL}/services/limestone-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/limestone-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function LimestoneCleaningPage() {
@@ -154,7 +154,7 @@ We employ specialised low-pressure cleaning methods combined with limestone-safe
     generateServiceSchema(
       'Professional Limestone Cleaning Perth',
       serviceData.metaDescription,
-      '/residential/limestone-cleaning',
+      '/limestone-cleaning',
       [
         'Limestone Wall Cleaning',
         'Limestone Paving Cleaning',
@@ -167,8 +167,8 @@ We employ specialised low-pressure cleaning methods combined with limestone-safe
 
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: 'Home', path: '' },
-    { name: 'Services', path: '/services/limestone-cleaning' },
-    { name: 'Limestone Cleaning', path: '/services/limestone-cleaning' },
+    { name: 'Services', path: '/limestone-cleaning' },
+    { name: 'Limestone Cleaning', path: '/limestone-cleaning' },
   ]);
 
   return (

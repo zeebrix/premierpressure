@@ -23,9 +23,9 @@ export const metadata: Metadata = {
   description:
     'Professional driveway cleaning services in Perth. Remove oil stains, mould, and grime with our expert pressure cleaning. Free quotes. Fully insured.',
   alternates: {
-    canonical: `${SITE_URL}/services/driveway-cleaning`,
+    canonical: `${SITE_URL}/driveway-cleaning`,
   },
-  openGraph: { url: `${SITE_URL}/services/driveway-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/driveway-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function DrivewayCleaningPage() {
@@ -158,7 +158,7 @@ We use controlled high-pressure cleaning methods combined with eco-friendly clea
     generateServiceSchema(
       'Professional Driveway Cleaning Perth',
       serviceData.metaDescription,
-      '/residential/driveway-cleaning',
+      '/driveway-cleaning',
       [
         'Concrete Driveway Cleaning',
         'Paver Driveway Cleaning',
@@ -171,8 +171,8 @@ We use controlled high-pressure cleaning methods combined with eco-friendly clea
 
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: 'Home', path: '' },
-    { name: 'Services', path: '/services/driveway-cleaning' },
-    { name: 'Driveway Cleaning', path: '/services/driveway-cleaning' },
+    { name: 'Services', path: '/driveway-cleaning' },
+    { name: 'Driveway Cleaning', path: '/driveway-cleaning' },
   ]);
 
   return (

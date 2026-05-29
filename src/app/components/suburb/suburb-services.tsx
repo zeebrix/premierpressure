@@ -10,43 +10,43 @@ const mainServices = [
     icon: Home,
     title: 'Driveway Cleaning',
     description: 'Remove oil stains, dirt, and grime from concrete and paved driveways',
-    link: '/services/driveway-cleaning',
+    link: '/driveway-cleaning',
   },
   {
     icon: Building2,
     title: 'House Washing',
     description: 'Gentle yet effective exterior house washing to restore your home\'s appearance',
-    link: '/services/house-washing',
+    link: '/house-washing',
   },
   {
     icon: Layers,
     title: 'Limestone Cleaning',
     description: 'Specialist cleaning for limestone walls, fences, and features',
-    link: '/services/limestone-cleaning',
+    link: '/limestone-cleaning',
   },
   {
     icon: Wind,
     title: 'Paver Cleaning',
     description: 'Deep clean and seal pavers to restore their original beauty',
-    link: '/services/paver-cleaning',
+    link: '/paver-cleaning',
   },
   {
     icon: Droplets,
     title: 'Pool Area & Patio',
     description: 'Professional cleaning for pool surrounds, patios, and alfresco areas',
-    link: '/services/pool-patio-cleaning',
+    link: '/pool-patio-cleaning',
   },
   {
     icon: Sparkles,
     title: 'Window Cleaning',
     description: 'Crystal clear windows inside and out for a sparkling finish',
-    link: '/services/window-cleaning',
+    link: '/window-cleaning',
   },
   {
     icon: Package,
     title: 'Pre Sale',
     description: 'Complete property clean to maximise your sale price',
-    link: '/services/presale-cleaning',
+    link: '/presale-cleaning',
   },
 ];
 
@@ -55,13 +55,13 @@ const otherServices = [
     icon: Droplets,
     title: 'Roof Cleaning',
     description: 'Safe roof cleaning to remove moss, algae, and weather stains',
-    link: '/services/roof-cleaning',
+    link: '/roof-cleaning',
   },
   {
     icon: Wrench,
     title: 'Concrete Cleaning',
     description: 'Professional concrete surface cleaning and restoration',
-    link: '/services/concrete-cleaning',
+    link: '/concrete-cleaning',
   },
 ];
 

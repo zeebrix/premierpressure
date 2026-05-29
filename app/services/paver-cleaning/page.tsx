@@ -24,9 +24,9 @@ export const metadata: Metadata = {
   description:
     'Expert paver cleaning and sealing in Perth. Remove stains, weeds, and organic growth. Restore and protect pavers. Free quotes. Fully insured.',
   alternates: {
-    canonical: `${SITE_URL}/services/paver-cleaning`,
+    canonical: `${SITE_URL}/paver-cleaning`,
   },
-  openGraph: { url: `${SITE_URL}/services/paver-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/paver-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function PaverCleaningPage() {
@@ -158,7 +158,7 @@ We use professional-grade equipment and proven techniques to thoroughly clean pa
     generateServiceSchema(
       'Professional Paver Cleaning & Sealing Perth',
       serviceData.metaDescription,
-      '/residential/paver-cleaning',
+      '/paver-cleaning',
       ['Paver Cleaning', 'Paver Sealing', 'Paver Resanding', 'Weed Removal']
     ),
     faqSchema
@@ -166,8 +166,8 @@ We use professional-grade equipment and proven techniques to thoroughly clean pa
 
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: 'Home', path: '' },
-    { name: 'Services', path: '/services/paver-cleaning' },
-    { name: 'Paver Cleaning & Sealing', path: '/services/paver-cleaning' },
+    { name: 'Services', path: '/paver-cleaning' },
+    { name: 'Paver Cleaning & Sealing', path: '/paver-cleaning' },
   ]);
 
   return (
