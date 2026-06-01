@@ -3,6 +3,26 @@
   "installCommand": "npm install",
   "buildCommand": "next build",
   "outputDirectory": ".next",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "premierpressuresolutions.com.au" }],
+      "destination": "https://www.ppsexteriorcleaning.com.au/:path*",
+      "statusCode": 301
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.premierpressuresolutions.com.au" }],
+      "destination": "https://www.ppsexteriorcleaning.com.au/:path*",
+      "statusCode": 301
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "ppsexteriorcleaning.com.au" }],
+      "destination": "https://www.ppsexteriorcleaning.com.au/:path*",
+      "statusCode": 301
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
