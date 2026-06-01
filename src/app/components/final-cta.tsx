@@ -184,7 +184,7 @@ export function FinalCTA() {
                         type="email" id="email" name="email" required
                         value={formData.email} onChange={handleChange}
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent outline-none transition-all"
-                        placeholder="john@example.com"
+                        placeholder="name@email.com"
                       />
                     </div>
                     <div>
