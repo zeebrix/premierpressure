@@ -125,7 +125,7 @@ export default function AreasContent() {
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Our Service Areas Across Perth</h1>
             <p className="text-xl text-gray-300 mb-8">
-              Premier Pressure Solutions WA proudly services premium suburbs throughout Perth&apos;s coastal, western, inner-city, and southern regions. Find your local area below for specialized pressure cleaning services.
+              PPS Exterior Cleaning proudly services premium suburbs throughout Perth&apos;s coastal, western, inner-city, and southern regions. Find your local area below for specialized pressure cleaning services.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-4">
               <a href="tel:+61452579657" className="bg-[#00d4ff] text-[#0a1628] px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#00b8e6] transition-colors inline-flex items-center gap-2">

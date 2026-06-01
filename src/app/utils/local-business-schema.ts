@@ -1,6 +1,6 @@
 import { suburbs } from '@/data/suburbs';
 
-const SITE_URL = 'https://www.premierpressuresolutions.com.au';
+const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
 /**
  * areaServed as an array of all serviced suburbs (plus Perth overall).
@@ -21,11 +21,11 @@ export function generateLocalBusinessSchema(locality: string = 'Perth', id: stri
   return {
     "@type": "LocalBusiness",
     "@id": id,
-    "name": "Premier Pressure Solutions WA",
+    "name": "PPS Exterior Cleaning",
     "image": `${SITE_URL}/logo.png`,
     "url": SITE_URL,
     "telephone": "+61452579657",
-    "email": "info@premierpressuresolutions.com.au",
+    "email": "info@ppsexteriorcleaning.com.au",
     "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
@@ -44,7 +44,12 @@ export function generateLocalBusinessSchema(locality: string = 'Perth', id: stri
       "opens": "07:00",
       "closes": "18:00"
     },
-    "areaServed": buildAreaServed()
+    "areaServed": buildAreaServed(),
+    "sameAs": [
+      "https://share.google/KLOO2pe1BBeKlOPda",
+      "https://www.facebook.com/profile.php?id=61576345864247",
+      "https://www.instagram.com/pps.exteriorcleaning/"
+    ]
   };
 }
 
@@ -71,12 +76,12 @@ export function generateBreadcrumbSchema(items: { name: string; path: string }[]
 export function generateServiceSchema(serviceName: string, description: string, canonicalUrl: string, serviceOfferings?: string[]) {
   const schema: any = {
     "@type": "Service",
-    "@id": `https://www.premierpressuresolutions.com.au${canonicalUrl}#service`,
+    "@id": `https://www.ppsexteriorcleaning.com.au${canonicalUrl}#service`,
     "serviceType": serviceName,
     "name": serviceName,
     "description": description,
     "provider": {
-      "@id": "https://www.premierpressuresolutions.com.au/#business"
+      "@id": "https://www.ppsexteriorcleaning.com.au/#business"
     },
     "areaServed": {
       "@type": "City",

@@ -36,7 +36,7 @@ const allReviews = [
     name: 'Michael Chen',
     date: '2 weeks ago',
     rating: 5,
-    text: 'Premier Pressure Solutions WA is in a different league! Cleaned our concrete driveway, pool paving, and limestone walls. No streaks, no missed spots, no damage. They even re-sanded and sealed our pavers. Top-notch work!',
+    text: 'PPS Exterior Cleaning is in a different league! Cleaned our concrete driveway, pool paving, and limestone walls. No streaks, no missed spots, no damage. They even re-sanded and sealed our pavers. Top-notch work!',
     avatar: 'MC',
     helpful: 21,
     service: 'Pool Area & Paver Sealing',
@@ -127,7 +127,7 @@ export function GoogleReviews({ seed }: GoogleReviewsProps) {
             <div className="h-16 w-px bg-gray-300"></div>
             <div className="text-left">
               <p className="font-semibold text-[#0a1628] mb-1">
-                Premier Pressure Solutions WA
+                PPS Exterior Cleaning
               </p>
               <p className="text-sm text-gray-600">Pressure Cleaning Service</p>
               <p className="text-xs text-gray-500 mt-1">Perth, Western Australia</p>
@@ -341,7 +341,7 @@ export function GoogleReviews({ seed }: GoogleReviewsProps) {
           className="text-center mt-12"
         >
           <a
-            href="https://share.google/eVdJIOu0Wqj2sLs2N"
+            href="https://share.google/KLOO2pe1BBeKlOPda"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-white text-[#0a1628] border-2 border-[#0a1628] px-8 py-4 rounded-lg font-semibold hover:bg-[#0a1628] hover:text-white transition-all shadow-md hover:shadow-lg"

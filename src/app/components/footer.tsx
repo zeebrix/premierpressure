@@ -16,8 +16,7 @@ export function Footer() {
           <div>
             <div className="mb-4">
               <span className="text-xl font-bold text-white">
-                Premier Pressure Solutions{' '}
-                <span className="text-[#00d4ff]">WA</span>
+                PPS Exterior Cleaning
               </span>
             </div>
             <p className="text-white/70 text-sm mb-4">
@@ -25,7 +24,7 @@ export function Footer() {
             </p>
             <div className="flex gap-3">
               <a
-                href="https://www.facebook.com/p/Premier-Pressure-Solutions-WA-61576345864247/"
+                href="https://www.facebook.com/profile.php?id=61576345864247"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-[#00d4ff] transition-colors"
@@ -34,7 +33,7 @@ export function Footer() {
                 <Facebook className="w-4 h-4" />
               </a>
               <a
-                href="https://www.instagram.com/premier.pressure.solutions/"
+                href="https://www.instagram.com/pps.exteriorcleaning/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-[#00d4ff] transition-colors"
@@ -43,7 +42,7 @@ export function Footer() {
                 <Instagram className="w-4 h-4" />
               </a>
               <a
-                href="https://share.google/eVdJIOu0Wqj2sLs2N"
+                href="https://share.google/KLOO2pe1BBeKlOPda"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-[#00d4ff] transition-colors"
@@ -177,8 +176,8 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <Mail className="w-4 h-4 text-[#00d4ff] flex-shrink-0 mt-0.5" />
-                <a href="mailto:info@premierpressuresolutions.com.au" className="text-white/70 hover:text-[#00d4ff] transition-colors">
-                  info@premierpressuresolutions.com.au
+                <a href="mailto:info@ppsexteriorcleaning.com.au" className="text-white/70 hover:text-[#00d4ff] transition-colors">
+                  info@ppsexteriorcleaning.com.au
                 </a>
               </li>
               <li className="flex items-start gap-2">
@@ -193,7 +192,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-white/60">
-          <p>© 2026 Premier Pressure Solutions WA. All rights reserved.</p>
+          <p>&copy; 2026 PPS Exterior Cleaning. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="/privacy" className="hover:text-[#00d4ff] transition-colors">
               Privacy Policy

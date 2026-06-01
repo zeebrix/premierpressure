@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { suburbs } from '@/data/suburbs';
 
-const SITE_URL = 'https://www.premierpressuresolutions.com.au';
+const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
 const staticPaths = [
   '/',

@@ -14,19 +14,19 @@ import {
   generateBreadcrumbSchema,
 } from '@/app/utils/local-business-schema';
 
-const SITE_URL = 'https://www.premierpressuresolutions.com.au';
+const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
 export const metadata: Metadata = {
   title: {
     absolute:
-      'Professional Pool Area & Patio Cleaning in Perth | Premier Pressure Solutions WA',
+      'Professional Pool Area & Patio Cleaning in Perth | PPS Exterior Cleaning',
   },
   description:
     'Professional pool area and patio cleaning services in Perth. Remove algae, grime, and stains from pool surrounds, patios, and alfresco areas. Free quotes. Fully insured.',
   alternates: {
     canonical: `${SITE_URL}/pool-patio-cleaning`,
   },
-  openGraph: { url: `${SITE_URL}/pool-patio-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/pool-patio-cleaning`, type: 'website', locale: 'en_AU', siteName: 'PPS Exterior Cleaning', images: [{ url: 'https://www.ppsexteriorcleaning.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function PoolPatioCleaningPage() {
@@ -50,7 +50,7 @@ export default function PoolPatioCleaningPage() {
         name: 'Jennifer Woods',
         date: '2 weeks ago',
         rating: 5,
-        text: "Premier Pressure Solutions transformed our entire outdoor entertainment area. The pool surrounds, alfresco, and patio all look incredible. They removed years of buildup and staining. Perfect preparation before our daughter's wedding at home. Couldn't be happier!",
+        text: "PPS Exterior Cleaning transformed our entire outdoor entertainment area. The pool surrounds, alfresco, and patio all look incredible. They removed years of buildup and staining. Perfect preparation before our daughter's wedding at home. Couldn't be happier!",
         avatar: 'JW',
       },
       {
@@ -63,7 +63,7 @@ export default function PoolPatioCleaningPage() {
     ],
 
     benefits: {
-      intro: `Your pool area and patio are the heart of outdoor entertaining in Perth's beautiful climate. Over time, these high-traffic areas accumulate algae, mould, dirt, leaf stains, sunscreen residue, and general grime that not only look unsightly but can create dangerous slip hazards. At Premier Pressure Solutions WA, we specialise in professional pool area and patio cleaning services across Perth, using specialised techniques and equipment to restore your outdoor spaces safely and effectively.
+      intro: `Your pool area and patio are the heart of outdoor entertaining in Perth's beautiful climate. Over time, these high-traffic areas accumulate algae, mould, dirt, leaf stains, sunscreen residue, and general grime that not only look unsightly but can create dangerous slip hazards. At PPS Exterior Cleaning, we specialise in professional pool area and patio cleaning services across Perth, using specialised techniques and equipment to restore your outdoor spaces safely and effectively.
 
 Pool surrounds and patios require expert care—too much pressure can damage surfaces, while incorrect cleaning methods can harm your pool's chemistry or surrounding landscaping. Our experienced team understands the unique requirements of Perth's diverse outdoor surfaces, from limestone and travertine pool coping to timber decking, concrete patios, and decorative pavers.
 

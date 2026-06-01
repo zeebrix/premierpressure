@@ -71,7 +71,7 @@ export function StrataCleaningContent() {
                 Strata properties require professional cleaning services that understand the unique needs of multi-unit developments. Perth&apos;s climate can be harsh on building exteriors, common areas, and shared facilities, leading to dirt buildup, mould growth, and deteriorating appearances that affect property values and resident satisfaction.
               </p>
               <p>
-                Premier Pressure Solutions WA specializes in strata and body corporate cleaning across Perth&apos;s metropolitan area. We work with strata managers, property managers, and body corporate committees to deliver comprehensive cleaning services that maintain property appeal, protect asset values, and create environments residents are proud to call home.
+                PPS Exterior Cleaning specializes in strata and body corporate cleaning across Perth&apos;s metropolitan area. We work with strata managers, property managers, and body corporate committees to deliver comprehensive cleaning services that maintain property appeal, protect asset values, and create environments residents are proud to call home.
               </p>
               <p>
                 Our team understands strata operations, approval processes, and budget considerations. We provide detailed quotes suitable for committee approval, maintain clear communication with property managers, and deliver reliable service that keeps your property looking its best year-round.

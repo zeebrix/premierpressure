@@ -69,7 +69,7 @@ export function ShoppingCentreCleaningContent() {
                 Shopping centres face unique cleaning challenges from constant foot traffic, food court spillages, weather exposure, and the need to maintain premium appearances that attract customers and support retail tenants. Perth&apos;s shopping centres require professional cleaning services that understand retail environments and can work efficiently without disrupting business operations.
               </p>
               <p>
-                Premier Pressure Solutions WA provides specialized pressure cleaning services for shopping centres, retail complexes, and commercial precincts across Perth. We understand that first impressions matter in retail environments, and clean, well-maintained centres directly impact customer experience, tenant satisfaction, and property values.
+                PPS Exterior Cleaning provides specialized pressure cleaning services for shopping centres, retail complexes, and commercial precincts across Perth. We understand that first impressions matter in retail environments, and clean, well-maintained centres directly impact customer experience, tenant satisfaction, and property values.
               </p>
               <p>
                 Our team has extensive experience with large-scale commercial properties and works seamlessly with centre management teams. We schedule our services to minimize disruption, communicate clearly with all stakeholders, and deliver results that maintain your centre&apos;s premium appearance and reputation.

@@ -308,7 +308,7 @@ app.post("/make-server-bb20e683/submit-quote", async (c) => {
             <div class="container">
               <div class="header">
                 <h1>🎯 New Quote Request</h1>
-                <p style="margin: 10px 0 0 0; opacity: 0.9;">Premier Pressure Solutions WA</p>
+                <p style="margin: 10px 0 0 0; opacity: 0.9;">PPS Exterior Cleaning</p>
               </div>
               <div class="content">
                 <div class="field">
@@ -374,7 +374,7 @@ app.post("/make-server-bb20e683/submit-quote", async (c) => {
             <div class="container">
               <div class="header">
                 <h1>📋 New Service Inquiry</h1>
-                <p style="margin: 10px 0 0 0; opacity: 0.9;">Premier Pressure Solutions WA</p>
+                <p style="margin: 10px 0 0 0; opacity: 0.9;">PPS Exterior Cleaning</p>
               </div>
               <div class="content">
                 <div class="field">
@@ -419,8 +419,8 @@ app.post("/make-server-bb20e683/submit-quote", async (c) => {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            from: 'Premier Pressure Solutions <noreply@premierpressuresolutions.com.au>',
-            to: ['info@premierpressuresolutions.com.au'],
+            from: 'PPS Exterior Cleaning <noreply@ppsexteriorcleaning.com.au>',
+            to: ['info@ppsexteriorcleaning.com.au'],
             subject: emailSubject,
             html: emailHtml,
           }),

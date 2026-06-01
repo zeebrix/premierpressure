@@ -16,7 +16,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "alexander-heights",
     name: "Alexander Heights",
-    title: "Pressure Cleaning Alexander Heights WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Alexander Heights WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Alexander Heights. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Alexander Heights homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Alexander Heights - Local Experts",
     heroDescription: "Expert pressure cleaning for Alexander Heights' residential properties. Professional services for this established northern suburbs community.",
@@ -25,7 +25,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "alkimos",
     name: "Alkimos",
-    title: "Pressure Cleaning Alkimos WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Alkimos WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Alkimos. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Alkimos new homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Alkimos - New Home Specialists",
     heroDescription: "Expert pressure cleaning for Alkimos' modern homes and coastal properties. Professional services for Perth's fastest-growing beachside suburb.",
@@ -34,7 +34,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "applecross",
     name: "Applecross",
-    title: "Pressure Cleaning Applecross WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Applecross WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Applecross. Premium house washing, driveway cleaning, roof cleaning & more. Servicing Applecross properties. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Applecross - Premium Property Solutions",
     heroDescription: "Expert pressure cleaning for Applecross's prestigious riverside properties. Professional house washing, driveway restoration, and complete exterior cleaning services.",
@@ -43,7 +43,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "balcatta",
     name: "Balcatta",
-    title: "Pressure Cleaning Balcatta WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Balcatta WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Balcatta. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Balcatta homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Balcatta - Established Community Care",
     heroDescription: "Professional pressure cleaning for Balcatta's established homes and properties. Expert services for this convenient northern suburbs location.",
@@ -52,7 +52,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "bayswater",
     name: "Bayswater",
-    title: "Pressure Cleaning Bayswater WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Bayswater WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Bayswater. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Bayswater - Reliable Service",
     heroDescription: "Quality pressure cleaning for Bayswater homes. Professional exterior cleaning services for Bayswater properties.",
@@ -61,7 +61,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "beldon",
     name: "Beldon",
-    title: "Pressure Cleaning Beldon WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Beldon WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Beldon. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Beldon homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Beldon - Family Home Care",
     heroDescription: "Professional pressure cleaning for Beldon's family homes. Expert services to keep your property looking pristine year-round.",
@@ -70,7 +70,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "booragoon",
     name: "Booragoon",
-    title: "Pressure Cleaning Booragoon WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Booragoon WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Booragoon. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Booragoon - Reliable Property Care",
     heroDescription: "Professional pressure cleaning for Booragoon homes and properties. From family homes to townhouses, we deliver quality results across Booragoon.",
@@ -79,7 +79,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "brabham",
     name: "Brabham",
-    title: "Pressure Cleaning Brabham WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Brabham WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Brabham. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Brabham new homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Brabham - Modern Estate Care",
     heroDescription: "Professional pressure cleaning for Brabham's contemporary family homes. Expert services for this thriving new development.",
@@ -88,7 +88,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "burns-beach",
     name: "Burns Beach",
-    title: "Pressure Cleaning Burns Beach WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Burns Beach WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Burns Beach. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Burns Beach - Premium Beachside Care",
     heroDescription: "Expert pressure cleaning for Burns Beach's premium coastal properties. Professional services for this exclusive beachside community.",
@@ -97,7 +97,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "burswood",
     name: "Burswood",
-    title: "Pressure Cleaning Burswood WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Burswood WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Burswood. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Burswood properties. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Burswood - Riverside Property Care",
     heroDescription: "Professional pressure cleaning for Burswood homes and apartments. From riverside properties to modern developments, we deliver exceptional results across Burswood.",
@@ -106,7 +106,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "butler",
     name: "Butler",
-    title: "Pressure Cleaning Butler WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Butler WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Butler. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Butler family homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Butler - Modern Home Care",
     heroDescription: "Professional pressure cleaning for Butler's growing community. Expert services for modern family homes in this popular northern corridor.",
@@ -115,7 +115,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "byford",
     name: "Byford",
-    title: "Pressure Cleaning Byford WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Byford WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Byford. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Byford properties. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Byford - Growing Community Experts",
     heroDescription: "Professional pressure cleaning for Byford's expanding residential areas. Expert services for modern family homes in Perth's southern corridor.",
@@ -124,7 +124,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "carine",
     name: "Carine",
-    title: "Pressure Cleaning Carine WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Carine WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Carine. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Carine homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Carine - Established Community Care",
     heroDescription: "Professional pressure cleaning for Carine's quality homes and properties. Expert services for this desirable northern suburbs location.",
@@ -133,7 +133,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "churchlands",
     name: "Churchlands",
-    title: "Pressure Cleaning Churchlands WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Churchlands WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Churchlands. Premium property care for house washing, driveway cleaning & more. Serving Churchlands. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Churchlands - Premium Home Care",
     heroDescription: "Expert pressure cleaning for Churchlands' prestigious homes and properties. Professional services for Perth's exclusive western suburb.",
@@ -142,7 +142,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "city-beach",
     name: "City Beach",
-    title: "Pressure Cleaning City Beach WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning City Beach WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in City Beach. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning City Beach - Coastal Property Experts",
     heroDescription: "Specialist pressure cleaning for City Beach's premium coastal properties. Expert salt spray removal, limestone restoration, and complete exterior cleaning services.",
@@ -151,7 +151,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "claremont",
     name: "Claremont",
-    title: "Pressure Cleaning Claremont WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Claremont WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Claremont. Premium property care for house washing, driveway cleaning & more. Serving Claremont. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Claremont - Trusted Local Experts",
     heroDescription: "Professional pressure cleaning for Claremont's established homes and modern properties. From heritage facades to contemporary driveways, we deliver exceptional results. Servicing Claremont and Swanbourne.",
@@ -160,7 +160,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "clarkson",
     name: "Clarkson",
-    title: "Pressure Cleaning Clarkson WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Clarkson WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Clarkson. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Clarkson homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Clarkson - Coastal Community Care",
     heroDescription: "Expert pressure cleaning for Clarkson's coastal properties and family homes. Professional services for this thriving northern beachside suburb.",
@@ -169,7 +169,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "como",
     name: "Como",
-    title: "Pressure Cleaning Como WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Como WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Como. House washing, driveway & roof cleaning specialists for riverside homes. Expert service. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Como - Riverside Property Experts",
     heroDescription: "Professional pressure cleaning for Como's beautiful riverside homes. Expert house washing, driveway restoration, and complete exterior cleaning services.",
@@ -178,7 +178,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "connolly",
     name: "Connolly",
-    title: "Pressure Cleaning Connolly WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Connolly WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Connolly. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Connolly homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Connolly - Coastal Property Experts",
     heroDescription: "Expert pressure cleaning for Connolly's coastal homes and established properties. Professional services for Perth's seaside community.",
@@ -187,7 +187,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "cottesloe",
     name: "Cottesloe",
-    title: "Pressure Cleaning Cottesloe WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Cottesloe WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Cottesloe. Premium coastal property care for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Cottesloe - Beachside Property Specialists",
     heroDescription: "Expert pressure cleaning for Cottesloe's premium beachside properties. From salt spray removal to limestone restoration, we keep your coastal home looking pristine.",
@@ -196,7 +196,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "craigie",
     name: "Craigie",
-    title: "Pressure Cleaning Craigie WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Craigie WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Craigie. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Craigie homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Craigie - Local Property Care",
     heroDescription: "Expert pressure cleaning for Craigie's residential properties. Professional services for driveways, house washing, and outdoor areas.",
@@ -205,7 +205,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "currambine",
     name: "Currambine",
-    title: "Pressure Cleaning Currambine WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Currambine WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Currambine. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Currambine homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Currambine - Family Home Specialists",
     heroDescription: "Expert pressure cleaning for Currambine's modern family homes. Keep your property looking pristine with professional cleaning services tailored to northern suburbs living.",
@@ -214,7 +214,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "dayton",
     name: "Dayton",
-    title: "Pressure Cleaning Dayton WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Dayton WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Dayton. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Dayton properties. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Dayton - Growing Community Experts",
     heroDescription: "Expert pressure cleaning for Dayton's modern family homes. Professional services for this developing eastern corridor suburb.",
@@ -223,7 +223,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "doubleview",
     name: "Doubleview",
-    title: "Pressure Cleaning Doubleview WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Doubleview WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Doubleview. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Doubleview - Local Experts",
     heroDescription: "Quality pressure cleaning for Doubleview homes. Professional house washing, driveway cleaning, and exterior care services.",
@@ -232,7 +232,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "duncraig",
     name: "Duncraig",
-    title: "Pressure Cleaning Duncraig WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Duncraig WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Duncraig. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Duncraig - Local Experts",
     heroDescription: "Expert pressure cleaning for Duncraig's residential properties. Professional services for established homes in this popular northern suburb.",
@@ -241,7 +241,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "edgewater",
     name: "Edgewater",
-    title: "Pressure Cleaning Edgewater WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Edgewater WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Edgewater. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Edgewater - Lakeside Living Care",
     heroDescription: "Professional pressure cleaning for Edgewater's lakeside properties and family homes. Expert services for this popular northern suburbs location.",
@@ -250,7 +250,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "eglinton",
     name: "Eglinton",
-    title: "Pressure Cleaning Eglinton WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Eglinton WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Eglinton. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Eglinton new homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Eglinton - New Estate Specialists",
     heroDescription: "Expert pressure cleaning for Eglinton's modern new homes. Professional services for this rapidly developing northern suburb.",
@@ -259,7 +259,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "floreat",
     name: "Floreat",
-    title: "Pressure Cleaning Floreat WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Floreat WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Floreat. Premium property care for house washing, driveway cleaning & more. Serving Floreat. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Floreat - Premium Property Care",
     heroDescription: "Expert pressure cleaning for Floreat's prestigious homes and properties. From limestone restoration to house washing, we deliver exceptional results for Floreat residents.",
@@ -268,7 +268,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "greenwood",
     name: "Greenwood",
-    title: "Pressure Cleaning Greenwood WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Greenwood WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Greenwood. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Greenwood - Family Home Experts",
     heroDescription: "Professional pressure cleaning for Greenwood's residential properties. Expert services for this thriving northern suburbs community.",
@@ -277,7 +277,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "gwelup",
     name: "Gwelup",
-    title: "Pressure Cleaning Gwelup WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Gwelup WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Gwelup. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Gwelup - Family Home Experts",
     heroDescription: "Expert pressure cleaning for Gwelup's family homes and established properties. Professional services for Perth's residential community.",
@@ -286,7 +286,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "hamersley",
     name: "Hamersley",
-    title: "Pressure Cleaning Hamersley WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Hamersley WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Hamersley. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Hamersley - Established Home Care",
     heroDescription: "Expert pressure cleaning for Hamersley's established homes and properties. Professional services for Perth's mature residential suburb.",
@@ -295,7 +295,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "harrisdale",
     name: "Harrisdale",
-    title: "Pressure Cleaning Harrisdale WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Harrisdale WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Harrisdale. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Harrisdale homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Harrisdale - Family Community Care",
     heroDescription: "Professional pressure cleaning for Harrisdale's modern family homes. Expert services for this thriving southern suburbs community.",
@@ -304,7 +304,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "heathridge",
     name: "Heathridge",
-    title: "Pressure Cleaning Heathridge WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Heathridge WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Heathridge. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Heathridge - Local Experts",
     heroDescription: "Professional pressure cleaning for Heathridge homes and properties. Keep your family home looking its best with our expert cleaning services.",
@@ -313,7 +313,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "henley-brook",
     name: "Henley Brook",
-    title: "Pressure Cleaning Henley Brook WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Henley Brook WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Henley Brook. House washing, driveway & roof cleaning specialists. Expert service. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Henley Brook - Premium Property Care",
     heroDescription: "Professional pressure cleaning for Henley Brook's quality homes and estates. Expert services for this sought-after eastern corridor suburb.",
@@ -322,7 +322,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "hillarys",
     name: "Hillarys",
-    title: "Pressure Cleaning Hillarys WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Hillarys WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Hillarys. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Hillarys - Coastal Property Specialists",
     heroDescription: "Expert pressure cleaning for Hillarys coastal properties. Professional salt spray removal, house washing, and driveway cleaning for beachside homes.",
@@ -331,7 +331,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "hocking",
     name: "Hocking",
-    title: "Pressure Cleaning Hocking WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Hocking WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Hocking. House washing, driveway & roof cleaning specialists. Expert service for local properties. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Hocking - Residential Excellence",
     heroDescription: "Expert pressure cleaning for Hocking's family homes and properties. Professional services for this northern suburbs community.",
@@ -340,7 +340,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "iluka",
     name: "Iluka",
-    title: "Pressure Cleaning Iluka WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Iluka WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Iluka. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Iluka - Coastal Living Excellence",
     heroDescription: "Expert pressure cleaning for Iluka's waterfront properties. Protect your coastal investment with professional services designed for Perth's northern beaches.",
@@ -349,7 +349,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "innaloo",
     name: "Innaloo",
-    title: "Pressure Cleaning Innaloo WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Innaloo WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Innaloo. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Innaloo - Central Location Experts",
     heroDescription: "Expert pressure cleaning for Innaloo's homes and commercial properties. Professional services for Perth's central shopping and residential hub.",
@@ -358,7 +358,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "jindalee",
     name: "Jindalee",
-    title: "Pressure Cleaning Jindalee WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Jindalee WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Jindalee. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Jindalee - Coastal Property Care",
     heroDescription: "Expert pressure cleaning for Jindalee's beachside properties. Professional services designed for coastal living and salt spray protection.",
@@ -367,7 +367,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "joondalup",
     name: "Joondalup",
-    title: "Pressure Cleaning Joondalup WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Joondalup WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Joondalup. House washing, driveway & roof cleaning specialists serving Joondalup CBD. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Joondalup - Northern Suburbs Hub",
     heroDescription: "Expert pressure cleaning for Joondalup's residential and commercial properties. Professional services for Perth's thriving northern suburbs center.",
@@ -376,7 +376,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "kallaroo",
     name: "Kallaroo",
-    title: "Pressure Cleaning Kallaroo WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Kallaroo WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Kallaroo. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Kallaroo - Coastal Property Experts",
     heroDescription: "Professional pressure cleaning for Kallaroo's coastal homes. Expert services that protect your property from salt spray and coastal elements.",
@@ -385,7 +385,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "karrinyup",
     name: "Karrinyup",
-    title: "Pressure Cleaning Karrinyup WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Karrinyup WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Karrinyup. Premium property care for house washing, driveway cleaning & more. Serving Karrinyup. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Karrinyup - Quality Property Care",
     heroDescription: "Professional pressure cleaning for Karrinyup homes. Expert house washing, driveway cleaning, and complete exterior care services.",
@@ -394,7 +394,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "kingsley",
     name: "Kingsley",
-    title: "Pressure Cleaning Kingsley WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Kingsley WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Kingsley. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Kingsley - Residential Specialists",
     heroDescription: "Professional pressure cleaning for Kingsley's family homes. Expert services for established properties in this desirable northern suburb.",
@@ -403,7 +403,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "leederville",
     name: "Leederville",
-    title: "Pressure Cleaning Leederville WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Leederville WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Leederville. Inner-city property care for house washing, driveway cleaning & more. Serving Leederville. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Leederville - Inner City Specialists",
     heroDescription: "Professional pressure cleaning for Leederville homes and businesses. Expert house washing, commercial cleaning, and complete exterior care.",
@@ -412,7 +412,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "madeley",
     name: "Madeley",
-    title: "Pressure Cleaning Madeley WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Madeley WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Madeley. House washing, driveway & roof cleaning specialists. Expert service for local properties. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Madeley - Family Home Specialists",
     heroDescription: "Professional pressure cleaning for Madeley's modern family homes. Expert services for this growing northern suburbs community.",
@@ -421,7 +421,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "marmion",
     name: "Marmion",
-    title: "Pressure Cleaning Marmion WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Marmion WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Marmion. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Marmion - Premium Beachside Care",
     heroDescription: "Expert pressure cleaning for Marmion's prestigious beachside properties. Professional services for Perth's premium coastal suburb.",
@@ -430,7 +430,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "melville",
     name: "Melville",
-    title: "Pressure Cleaning Melville WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Melville WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Melville. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Melville - Trusted Local Service",
     heroDescription: "Quality pressure cleaning for Melville homes and businesses. Professional exterior cleaning services for Melville's diverse properties.",
@@ -439,7 +439,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "merriwa",
     name: "Merriwa",
-    title: "Pressure Cleaning Merriwa WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Merriwa WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Merriwa. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Merriwa - Family Home Specialists",
     heroDescription: "Expert pressure cleaning for Merriwa's family homes and growing community. Professional services for Perth's northern coastal suburb.",
@@ -448,7 +448,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "mindarie",
     name: "Mindarie",
-    title: "Pressure Cleaning Mindarie WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Mindarie WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Mindarie. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Mindarie - Marina & Coastal Experts",
     heroDescription: "Expert pressure cleaning for Mindarie's premium marina and coastal properties. Professional services for waterfront living.",
@@ -457,7 +457,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "mosman-park",
     name: "Mosman Park",
-    title: "Pressure Cleaning Mosman Park WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Mosman Park WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Mosman Park. Premium riverside property care for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Mosman Park - Heritage & Modern Property Care",
     heroDescription: "Professional pressure cleaning for Mosman Park's beautiful homes. Expert care for heritage properties, modern residences, and everything in between.",
@@ -466,7 +466,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "mount-lawley",
     name: "Mount Lawley",
-    title: "Pressure Cleaning Mount Lawley WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Mount Lawley WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Mount Lawley. Heritage home specialists for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Mount Lawley - Character Home Experts",
     heroDescription: "Specialist pressure cleaning for Mount Lawley's beautiful heritage homes and modern properties. Gentle care for period features, powerful results for driveways and exteriors. Servicing Mt Lawley, Inglewood, and Menora.",
@@ -475,7 +475,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "mullaloo",
     name: "Mullaloo",
-    title: "Pressure Cleaning Mullaloo WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Mullaloo WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Mullaloo. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Mullaloo - Beachside Excellence",
     heroDescription: "Expert pressure cleaning for Mullaloo's coastal properties. Protect your beachside investment with professional cleaning services that combat salt spray and coastal wear.",
@@ -484,7 +484,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "nedlands",
     name: "Nedlands",
-    title: "Pressure Cleaning Nedlands WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Nedlands WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Nedlands. Premium riverside property care for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Nedlands - Premium Riverside Property Care",
     heroDescription: "Professional pressure cleaning for Nedlands' prestigious riverside homes. Expert care for luxury properties, from limestone driveways to waterfront patios. Servicing Nedlands, Dalkeith, and Hollywood.",
@@ -493,7 +493,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "north-beach",
     name: "North Beach",
-    title: "Pressure Cleaning North Beach WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning North Beach WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in North Beach. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning North Beach - Coastal Specialists",
     heroDescription: "Expert pressure cleaning for North Beach's seaside homes and properties. Professional services for Perth's vibrant coastal community.",
@@ -502,7 +502,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "north-fremantle",
     name: "North Fremantle",
-    title: "Pressure Cleaning North Fremantle WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning North Fremantle WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in North Fremantle. Coastal & heritage property care for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning North Fremantle - Historic & Riverside Care",
     heroDescription: "Expert pressure cleaning for North Fremantle's historic homes and riverside properties. Professional services for Fremantle's charming northern suburb.",
@@ -511,7 +511,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "ocean-reef",
     name: "Ocean Reef",
-    title: "Pressure Cleaning Ocean Reef WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Ocean Reef WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Ocean Reef. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Ocean Reef - Coastal Property Specialists",
     heroDescription: "Expert pressure cleaning for Ocean Reef's coastal properties. From salt spray removal to limestone restoration, we keep your beachside home looking pristine.",
@@ -520,7 +520,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "padbury",
     name: "Padbury",
-    title: "Pressure Cleaning Padbury WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Padbury WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Padbury. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Padbury - Residential Excellence",
     heroDescription: "Expert pressure cleaning for Padbury's family homes and properties. Professional services tailored to northern suburbs living.",
@@ -529,7 +529,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "peppermint-grove",
     name: "Peppermint Grove",
-    title: "Pressure Cleaning Peppermint Grove WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Peppermint Grove WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Peppermint Grove. Premium property care for luxury homes, driveways & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Peppermint Grove - Luxury Estate Care",
     heroDescription: "Expert pressure cleaning for Peppermint Grove's luxury estates and prestigious properties. Professional services for Perth's most exclusive suburb.",
@@ -538,7 +538,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "piara-waters",
     name: "Piara Waters",
-    title: "Pressure Cleaning Piara Waters WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Piara Waters WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Piara Waters. House washing, driveway & roof cleaning specialists. Expert service for homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Piara Waters - Lakeside Living",
     heroDescription: "Expert pressure cleaning for Piara Waters' lakeside properties and modern homes. Professional services for this popular southern suburbs community.",
@@ -547,7 +547,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "quinns-rocks",
     name: "Quinns Rocks",
-    title: "Pressure Cleaning Quinns Rocks WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Quinns Rocks WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Quinns Rocks. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Quinns Rocks - Coastal Specialists",
     heroDescription: "Expert pressure cleaning for Quinns Rocks' beachside properties. Professional services designed for coastal living and salt spray protection.",
@@ -556,7 +556,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "ridgewood",
     name: "Ridgewood",
-    title: "Pressure Cleaning Ridgewood WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Ridgewood WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Ridgewood. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Ridgewood - Quality Home Care",
     heroDescription: "Expert pressure cleaning for Ridgewood's established homes and properties. Professional services for Perth's northern suburbs community.",
@@ -565,7 +565,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "scarborough",
     name: "Scarborough",
-    title: "Pressure Cleaning Scarborough WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Scarborough WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Scarborough. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Scarborough - Beachside Property Specialists",
     heroDescription: "Expert pressure cleaning for Scarborough's coastal properties. Specialist salt spray removal, house washing, and driveway cleaning for beachside homes.",
@@ -574,7 +574,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "sorrento",
     name: "Sorrento",
-    title: "Pressure Cleaning Sorrento WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Sorrento WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Sorrento. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Sorrento coastal homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Sorrento - Premium Coastal Care",
     heroDescription: "Expert pressure cleaning for Sorrento's prestigious beachside properties. Professional services for this exclusive coastal suburb.",
@@ -583,7 +583,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "south-perth",
     name: "South Perth",
-    title: "Pressure Cleaning South Perth WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning South Perth WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in South Perth. Premium riverside property care for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning South Perth - Professional Property Care",
     heroDescription: "Quality pressure cleaning for South Perth homes and apartments. From riverside properties to suburban homes, we deliver outstanding results across South Perth.",
@@ -592,7 +592,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "stirling",
     name: "Stirling",
-    title: "Pressure Cleaning Stirling WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Stirling WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Stirling. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Stirling - Central Northern Suburbs",
     heroDescription: "Expert pressure cleaning for Stirling's residential properties. Professional services for this well-connected northern suburbs hub.",
@@ -601,7 +601,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "subiaco",
     name: "Subiaco",
-    title: "Pressure Cleaning Subiaco WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Subiaco WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Subiaco. Heritage home specialists, driveway cleaning, roof washing & more. Serving Subiaco & Daglish. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Subiaco - Heritage Home Specialists",
     heroDescription: "Expert pressure cleaning for Subiaco's character homes and modern properties. Gentle care for heritage surfaces, powerful cleaning for driveways and patios. Trusted by Subiaco residents and property managers.",
@@ -610,7 +610,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "success",
     name: "Success",
-    title: "Pressure Cleaning Success WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Success WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Success. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Success - Modern Family Homes",
     heroDescription: "Expert pressure cleaning for Success' contemporary homes. Professional services for this thriving southern suburbs community.",
@@ -619,7 +619,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "swanbourne",
     name: "Swanbourne",
-    title: "Pressure Cleaning Swanbourne WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Swanbourne WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Swanbourne. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Swanbourne - Premium Beachside Care",
     heroDescription: "Expert pressure cleaning for Swanbourne's prestigious beachside homes. Professional services for Perth's exclusive coastal suburb.",
@@ -628,7 +628,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "tamala-park",
     name: "Tamala Park",
-    title: "Pressure Cleaning Tamala Park WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Tamala Park WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Tamala Park. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Tamala Park - New Community Experts",
     heroDescription: "Expert pressure cleaning for Tamala Park's brand-new homes and developing community. Professional services for Perth's newest coastal suburb.",
@@ -637,7 +637,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "tapping",
     name: "Tapping",
-    title: "Pressure Cleaning Tapping WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Tapping WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Tapping. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Tapping - Modern Family Home Care",
     heroDescription: "Professional pressure cleaning for Tapping's contemporary family homes. Expert services for this thriving northern suburbs community.",
@@ -646,7 +646,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "trigg",
     name: "Trigg",
-    title: "Pressure Cleaning Trigg WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Trigg WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Trigg. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Trigg - Beachside Specialists",
     heroDescription: "Expert pressure cleaning for Trigg's premium beachside properties. Professional services designed for coastal living excellence.",
@@ -655,7 +655,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "two-rocks",
     name: "Two Rocks",
-    title: "Pressure Cleaning Two Rocks WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Two Rocks WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Two Rocks. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Two Rocks - Coastal Community Care",
     heroDescription: "Professional pressure cleaning for Two Rocks' beachside properties. Expert services for this expanding northern coastal community.",
@@ -664,7 +664,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "victoria-park",
     name: "Victoria Park",
-    title: "Pressure Cleaning Victoria Park WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Victoria Park WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Victoria Park. Inner-city property care for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Victoria Park - Local Experts",
     heroDescription: "Professional pressure cleaning for Victoria Park homes and businesses. From heritage cottages to modern townhouses, we deliver quality results across Victoria Park.",
@@ -673,7 +673,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "wanneroo",
     name: "Wanneroo",
-    title: "Pressure Cleaning Wanneroo WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Wanneroo WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Wanneroo. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Wanneroo properties. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Wanneroo - Regional Growth Hub",
     heroDescription: "Professional pressure cleaning for Wanneroo's expanding residential areas. Expert services for homes and properties across this growing region.",
@@ -682,7 +682,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "warwick",
     name: "Warwick",
-    title: "Pressure Cleaning Warwick WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Warwick WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Warwick. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Warwick - Local Property Care",
     heroDescription: "Expert pressure cleaning for Warwick's residential properties. Professional services for this vibrant northern suburbs community.",
@@ -691,7 +691,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "watermans-bay",
     name: "Watermans Bay",
-    title: "Pressure Cleaning Watermans Bay WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Watermans Bay WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Watermans Bay. Coastal property specialists for house washing, driveway cleaning & more. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Watermans Bay - Premium Coastal Care",
     heroDescription: "Expert pressure cleaning for Watermans Bay's exclusive beachside properties. Professional services for Perth's sought-after coastal suburb.",
@@ -700,7 +700,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "wembley",
     name: "Wembley",
-    title: "Pressure Cleaning Wembley WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Wembley WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Wembley. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Wembley - Professional Property Care",
     heroDescription: "Quality pressure cleaning for Wembley's established homes and properties. Trusted by Wembley residents for house washing, driveway cleaning, and complete exterior care.",
@@ -709,7 +709,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "wembley-downs",
     name: "Wembley Downs",
-    title: "Pressure Cleaning Wembley Downs WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Wembley Downs WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Wembley Downs. House washing, driveway & roof cleaning specialists. Expert service. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Wembley Downs - Quality Home Care",
     heroDescription: "Professional pressure cleaning for Wembley Downs' quality homes and properties. Expert services for this desirable western suburbs location.",
@@ -718,7 +718,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "woodlands",
     name: "Woodlands",
-    title: "Pressure Cleaning Woodlands WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Woodlands WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Woodlands. Specialising in house washing, driveway cleaning, roof cleaning & more. Serving Woodlands homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Woodlands - Quality Residential Care",
     heroDescription: "Expert pressure cleaning for Woodlands' family homes and established properties. Professional services for Perth's leafy residential suburb.",
@@ -727,7 +727,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "woodvale",
     name: "Woodvale",
-    title: "Pressure Cleaning Woodvale WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Woodvale WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning in Woodvale. House washing, driveway & roof cleaning specialists. Expert service for local homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Woodvale - Family Home Specialists",
     heroDescription: "Professional pressure cleaning for Woodvale's family homes and properties. Expert services for this established northern suburb.",
@@ -736,7 +736,7 @@ export const suburbs: SuburbData[] = [
   {
     slug: "yanchep",
     name: "Yanchep",
-    title: "Pressure Cleaning Yanchep WA | House & Driveway Washing | Premier Pressure Solutions WA",
+    title: "Pressure Cleaning Yanchep WA | House & Driveway Washing | PPS Exterior Cleaning",
     description: "Professional pressure cleaning services in Yanchep. Coastal property specialists for house washing, driveway cleaning & more. Serving Yanchep homes. Call 0452 579 657!",
     heroTagline: "Pressure Cleaning Yanchep - Coastal Growth Area",
     heroDescription: "Expert pressure cleaning for Yanchep's expanding coastal community. Professional services for this fast-growing northern beachside suburb.",

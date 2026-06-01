@@ -14,7 +14,7 @@ import {
   combineSchemas,
 } from '@/app/utils/local-business-schema';
 
-const SITE_URL = 'https://www.premierpressuresolutions.com.au';
+const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
 export const metadata: Metadata = {
   title: {
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   description:
     "Expert guide on pressure cleaning frequency for Perth properties. Learn optimal schedules for driveways, houses, roofs based on Perth's climate. Protect your investment.",
   alternates: { canonical: `${SITE_URL}/resources/cleaning-frequency` },
-  openGraph: { url: `${SITE_URL}/resources/cleaning-frequency`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/resources/cleaning-frequency`, type: 'website', locale: 'en_AU', siteName: 'PPS Exterior Cleaning', images: [{ url: 'https://www.ppsexteriorcleaning.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 const articleSchema = {
@@ -35,14 +35,14 @@ const articleSchema = {
   dateModified: '2026-03-12',
   author: {
     '@type': 'Organization',
-    name: 'Premier Pressure Solutions WA',
+    name: 'PPS Exterior Cleaning',
   },
   publisher: {
     '@type': 'Organization',
-    name: 'Premier Pressure Solutions WA',
+    name: 'PPS Exterior Cleaning',
     logo: {
       '@type': 'ImageObject',
-      url: 'https://www.premierpressuresolutions.com.au/logo.png',
+      url: 'https://www.ppsexteriorcleaning.com.au/logo.png',
     },
   },
 };
@@ -510,7 +510,7 @@ export default function CleaningFrequencyPage() {
               Ready to Start Your Maintenance Schedule?
             </h2>
             <p className="text-lg text-gray-300 mb-6">
-              Contact Premier Pressure Solutions WA to create a customized cleaning schedule for your Perth property.
+              Contact PPS Exterior Cleaning to create a customized cleaning schedule for your Perth property.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

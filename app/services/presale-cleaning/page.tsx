@@ -14,19 +14,19 @@ import {
   generateBreadcrumbSchema,
 } from '@/app/utils/local-business-schema';
 
-const SITE_URL = 'https://www.premierpressuresolutions.com.au';
+const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
 export const metadata: Metadata = {
   title: {
     absolute:
-      'Pre-Sale & End of Lease Cleaning in Perth | Premier Pressure Solutions WA',
+      'Pre-Sale & End of Lease Cleaning in Perth | PPS Exterior Cleaning',
   },
   description:
     'Professional pre-sale and end of lease cleaning in Perth. Complete exterior transformation. Boost property value. Secure your bond. Free quotes.',
   alternates: {
     canonical: `${SITE_URL}/presale-cleaning`,
   },
-  openGraph: { url: `${SITE_URL}/presale-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/presale-cleaning`, type: 'website', locale: 'en_AU', siteName: 'PPS Exterior Cleaning', images: [{ url: 'https://www.ppsexteriorcleaning.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function PresaleCleaningPage() {
@@ -42,7 +42,7 @@ export default function PresaleCleaningPage() {
         name: 'Christine Baker',
         date: '2 weeks ago',
         rating: 5,
-        text: 'Used Premier Pressure Solutions WA before listing our house for sale. The transformation was amazing! Our agent said it made a huge difference to buyer interest. Sold for more than expected. Worth every cent!',
+        text: 'Used PPS Exterior Cleaning before listing our house for sale. The transformation was amazing! Our agent said it made a huge difference to buyer interest. Sold for more than expected. Worth every cent!',
         avatar: 'CB',
       },
       {
@@ -62,7 +62,7 @@ export default function PresaleCleaningPage() {
     ],
 
     benefits: {
-      intro: `First impressions are everything in real estate. Whether you're selling your home or vacating a rental property, the exterior condition dramatically impacts buyer interest, sale price, and your ability to secure your full bond refund. Properties with clean, well-maintained exteriors sell faster and for higher prices, while tenants with spotless properties are far more likely to receive their full bond back without deductions. At Premier Pressure Solutions WA, we specialise in comprehensive pre-sale and end of lease exterior cleaning services across Perth, delivering transformative results that help you achieve your property goals.
+      intro: `First impressions are everything in real estate. Whether you're selling your home or vacating a rental property, the exterior condition dramatically impacts buyer interest, sale price, and your ability to secure your full bond refund. Properties with clean, well-maintained exteriors sell faster and for higher prices, while tenants with spotless properties are far more likely to receive their full bond back without deductions. At PPS Exterior Cleaning, we specialise in comprehensive pre-sale and end of lease exterior cleaning services across Perth, delivering transformative results that help you achieve your property goals.
 
 Our complete exterior cleaning package is specifically designed for property transitions. We understand what real estate agents look for, what impresses buyers at inspections, and what property managers scrutinize during final inspections. We clean every visible exterior surface—house walls, driveways, pathways, patios, decking, roof, gutters, windows, fences, and more—creating that crucial "wow factor" that makes properties stand out in a competitive market.
 
@@ -79,7 +79,7 @@ Unlike basic cleaning services, our pre-sale and end of lease package is thoroug
         'Fast turnaround to meet settlement or moving dates',
       ],
 
-      closingCopy: `Don't leave money on the table or risk bond deductions due to a neglected exterior. Our pre-sale and end of lease cleaning service is an investment that pays for itself many times over through higher sale prices, faster sales, and full bond returns. We work to your timeline, delivering outstanding results when you need them. Trust Premier Pressure Solutions WA to present your property at its absolute best.`,
+      closingCopy: `Don't leave money on the table or risk bond deductions due to a neglected exterior. Our pre-sale and end of lease cleaning service is an investment that pays for itself many times over through higher sale prices, faster sales, and full bond returns. We work to your timeline, delivering outstanding results when you need them. Trust PPS Exterior Cleaning to present your property at its absolute best.`,
     },
 
     process: [

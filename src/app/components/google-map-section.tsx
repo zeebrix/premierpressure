@@ -91,14 +91,14 @@ export function GoogleMapSection() {
           >
             <div className="w-full h-full min-h-[400px] rounded-lg overflow-hidden shadow-md border border-gray-200">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d433082.15314154816!2d115.54954834531247!3d-32.002804927054164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x630a0ba2d38509af%3A0x486bd1fdab99e5ba!2sPremier%20Pressure%20Solutions%20WA!5e0!3m2!1sen!2sau!4v1771988994275!5m2!1sen!2sau" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d433082.15314154816!2d115.54954834531247!3d-32.002804927054164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x630a0ba2d38509af%3A0x486bd1fdab99e5ba!2sPPS%20Exterior%20Cleaning!5e0!3m2!1sen!2sau!4v1771988994275!5m2!1sen!2sau" 
                 width="100%" 
                 height="450" 
                 style={{ border: 0 }}
                 allowFullScreen={true}
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Premier Pressure Solutions WA Service Area Map"
+                title="PPS Exterior Cleaning Service Area Map"
               />
             </div>
           </motion.div>
@@ -113,7 +113,7 @@ export function GoogleMapSection() {
           className="mt-8 text-center"
         >
           <a
-            href="https://maps.app.goo.gl/RAWTDzBcmmZoU7R26"
+            href="https://share.google/KLOO2pe1BBeKlOPda"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#4285F4] text-white px-6 py-3 rounded-lg hover:bg-[#3367D6] transition-colors shadow-md hover:shadow-lg"

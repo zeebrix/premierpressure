@@ -22,7 +22,7 @@ export function StickyCallButton() {
     <a
       href="tel:+61452579657"
       className="fixed bottom-6 right-4 z-50 lg:hidden bg-[#00d4ff] text-[#0a1628] px-5 py-4 rounded-full shadow-2xl hover:bg-[#00c4ef] transition-all flex items-center gap-2 font-bold min-h-[56px] min-w-[56px] touch-manipulation will-change-transform"
-      aria-label="Call Premier Pressure Solutions WA"
+      aria-label="Call PPS Exterior Cleaning"
       style={{ 
         transform: 'translateZ(0)', // Force GPU acceleration
         backfaceVisibility: 'hidden'

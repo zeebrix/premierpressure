@@ -10,28 +10,28 @@ const inter = Inter({
   display: 'swap',
 });
 
-const SITE_URL = 'https://www.premierpressuresolutions.com.au';
+const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Premier Pressure Solutions WA | Professional Pressure Cleaning Perth',
-    template: '%s | Premier Pressure Solutions WA',
+    default: 'PPS Exterior Cleaning | Professional Pressure Cleaning Perth',
+    template: '%s | PPS Exterior Cleaning',
   },
   description:
-    "Perth's trusted pressure cleaning experts. House washing, driveway cleaning, roof cleaning & more. Servicing 70+ Perth suburbs. Get your free quote today! ☎ 0452 579 657",
-  authors: [{ name: 'Premier Pressure Solutions WA' }],
+    "Perth's trusted pressure cleaning experts. House washing, driveway cleaning, roof cleaning & more. Servicing 70+ Perth suburbs. Get your free quote today! Call 0452 579 657",
+  authors: [{ name: 'PPS Exterior Cleaning' }],
   robots: { index: true, follow: true },
   openGraph: {
     type: 'website',
     locale: 'en_AU',
-    siteName: 'Premier Pressure Solutions WA',
+    siteName: 'PPS Exterior Cleaning',
     url: SITE_URL,
     images: [{ url: `${SITE_URL}/og-image.jpg` }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Premier Pressure Solutions WA | Professional Pressure Cleaning Perth',
+    title: 'PPS Exterior Cleaning | Professional Pressure Cleaning Perth',
     description:
       "Perth's trusted pressure cleaning experts. House washing, driveway cleaning, roof cleaning & more across 70+ suburbs.",
     images: [`${SITE_URL}/og-image.jpg`],
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     'mobile-web-app-capable': 'yes',
     'apple-mobile-web-app-capable': 'yes',
     'apple-mobile-web-app-status-bar-style': 'black-translucent',
-    'apple-mobile-web-app-title': 'Premier Pressure WA',
+    'apple-mobile-web-app-title': 'PPS Exterior Cleaning',
     'geo.region': 'AU-WA',
     'geo.placename': 'Perth',
     'geo.position': '-31.9505;115.8605',
@@ -58,25 +58,29 @@ export const metadata: Metadata = {
 
 // Site-wide brand entity. The location-specific address/locality lives on the
 // per-page LocalBusiness schema (home, service and suburb pages), so this node
-// stays a location-agnostic Organization — otherwise a conflicting
+// stays a location-agnostic Organization , otherwise a conflicting
 // "addressLocality": "Perth" would appear on every page, including suburb pages.
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   '@id': `${SITE_URL}/#organization`,
-  name: 'Premier Pressure Solutions WA',
+  name: 'PPS Exterior Cleaning',
   url: SITE_URL,
   logo: `${SITE_URL}/logo.png`,
   image: `${SITE_URL}/logo.png`,
   description:
     'Professional pressure cleaning services in Perth, Western Australia. Specialising in house washing, driveway cleaning, roof cleaning and more.',
   telephone: '+61452579657',
-  email: 'info@premierpressuresolutions.com.au',
+  email: 'info@ppsexteriorcleaning.com.au',
   areaServed: [
     { '@type': 'City', name: 'Perth' },
     ...suburbs.map((s) => ({ '@type': 'City', name: s.name })),
   ],
-  sameAs: ['https://www.facebook.com/premierpressuresolutionswa'],
+  sameAs: [
+    'https://share.google/KLOO2pe1BBeKlOPda',
+    'https://www.facebook.com/profile.php?id=61576345864247',
+    'https://www.instagram.com/pps.exteriorcleaning/',
+  ],
 };
 
 import { Header } from '@/app/components/header';

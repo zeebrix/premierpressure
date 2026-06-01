@@ -14,18 +14,18 @@ import {
   generateBreadcrumbSchema,
 } from '@/app/utils/local-business-schema';
 
-const SITE_URL = 'https://www.premierpressuresolutions.com.au';
+const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'Professional Limestone Cleaning in Perth | Premier Pressure Solutions WA',
+    absolute: 'Professional Limestone Cleaning in Perth | PPS Exterior Cleaning',
   },
   description:
     'Expert limestone cleaning services in Perth. Restore walls, pavers, and features with gentle, effective cleaning. Free quotes. Fully insured.',
   alternates: {
     canonical: `${SITE_URL}/limestone-cleaning`,
   },
-  openGraph: { url: `${SITE_URL}/limestone-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/limestone-cleaning`, type: 'website', locale: 'en_AU', siteName: 'PPS Exterior Cleaning', images: [{ url: 'https://www.ppsexteriorcleaning.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function LimestoneCleaningPage() {
@@ -42,7 +42,7 @@ export default function LimestoneCleaningPage() {
         name: 'Michael Chen',
         date: '3 weeks ago',
         rating: 5,
-        text: 'Our limestone retaining wall was covered in black algae and looked terrible. Premier Pressure Solutions WA did an amazing job - it looks brand new! They were very careful with the delicate stone and the results exceeded our expectations.',
+        text: 'Our limestone retaining wall was covered in black algae and looked terrible. PPS Exterior Cleaning did an amazing job - it looks brand new! They were very careful with the delicate stone and the results exceeded our expectations.',
         avatar: 'MC',
       },
       {
@@ -62,7 +62,7 @@ export default function LimestoneCleaningPage() {
     ],
 
     benefits: {
-      intro: `Limestone is one of Perth's most popular building materials, prized for its natural beauty and durability. However, limestone is also porous and susceptible to staining, organic growth, and weathering. Without proper care, limestone surfaces can become discoloured, develop unsightly black or green staining, and lose their original lustre. At Premier Pressure Solutions WA, we specialise in professional limestone cleaning services across Perth, using gentle yet effective techniques specifically designed for this delicate natural stone.
+      intro: `Limestone is one of Perth's most popular building materials, prized for its natural beauty and durability. However, limestone is also porous and susceptible to staining, organic growth, and weathering. Without proper care, limestone surfaces can become discoloured, develop unsightly black or green staining, and lose their original lustre. At PPS Exterior Cleaning, we specialise in professional limestone cleaning services across Perth, using gentle yet effective techniques specifically designed for this delicate natural stone.
 
 Our Perth-based team has extensive experience working with all types of limestone surfaces—from retaining walls and house facades to paving and feature walls. We understand that limestone requires a different approach than standard concrete or brick cleaning. Using incorrect pressure settings or harsh chemicals can permanently damage limestone, causing pitting, surface erosion, or colour changes.
 

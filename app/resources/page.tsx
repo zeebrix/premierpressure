@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowRight, Clock, DollarSign, CheckSquare, Calendar, TrendingDown, AlertTriangle } from 'lucide-react';
 
-const SITE_URL = 'https://www.premierpressuresolutions.com.au';
+const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
 export const metadata: Metadata = {
   title: {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     'Expert pressure cleaning guides for Perth homeowners. Pricing information, preparation checklists, maintenance schedules, DIY comparisons and more professional advice.',
   alternates: { canonical: `${SITE_URL}/resources` },
-  openGraph: { url: `${SITE_URL}/resources`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/resources`, type: 'website', locale: 'en_AU', siteName: 'PPS Exterior Cleaning', images: [{ url: 'https://www.ppsexteriorcleaning.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 const structuredData = {
@@ -22,7 +22,7 @@ const structuredData = {
     'Expert guides, pricing information, and helpful resources for pressure cleaning in Perth. Learn from the professionals.',
   publisher: {
     '@type': 'Organization',
-    name: 'Premier Pressure Solutions WA',
+    name: 'PPS Exterior Cleaning',
   },
 };
 

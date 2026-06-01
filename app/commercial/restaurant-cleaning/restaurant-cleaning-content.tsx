@@ -71,7 +71,7 @@ export function RestaurantCleaningContent() {
                 In Perth&apos;s competitive hospitality industry, first impressions are everything. Before customers taste your food or experience your service, they judge your venue by its exterior appearance. Clean facades, sparkling windows, pristine outdoor dining areas, and well-maintained entry ways signal quality, professionalism, and attention to detail - qualities that attract customers and encourage positive dining experiences.
               </p>
               <p>
-                Premier Pressure Solutions WA specializes in exterior cleaning for restaurants, cafés, bars, and hospitality venues across Perth. We understand the unique challenges hospitality businesses face - from food and beverage spillages to high foot traffic, outdoor dining maintenance, and the need to maintain immaculate appearances that complement your culinary offerings.
+                PPS Exterior Cleaning specializes in exterior cleaning for restaurants, cafés, bars, and hospitality venues across Perth. We understand the unique challenges hospitality businesses face - from food and beverage spillages to high foot traffic, outdoor dining maintenance, and the need to maintain immaculate appearances that complement your culinary offerings.
               </p>
               <p>
                 Our team works seamlessly with hospitality operations, scheduling cleaning around your service periods to ensure zero disruption to customers and staff. We deliver professional results that enhance your venue&apos;s street appeal and create the welcoming environments that drive customer visits and positive reviews.

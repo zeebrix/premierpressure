@@ -474,7 +474,7 @@ export function PressureCleaningContent() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-[#0a1628] mb-4">
-              Why Choose Premier Pressure Solutions WA?
+              Why Choose PPS Exterior Cleaning?
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Perth&apos;s most trusted pressure cleaning company

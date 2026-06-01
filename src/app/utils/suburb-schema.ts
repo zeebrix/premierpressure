@@ -5,7 +5,7 @@ import { generateLocalBusinessSchema, combineSchemas } from './local-business-sc
  * Includes LocalBusiness + Service + FAQ schema
  */
 export function generateSuburbSchema(suburbName: string, faqSchema: any) {
-  const baseUrl = 'https://www.premierpressuresolutions.com.au';
+  const baseUrl = 'https://www.ppsexteriorcleaning.com.au';
   const slug = suburbName.toLowerCase().replace(/\s+/g, '-');
   const localBusinessId = `${baseUrl}/${slug}#localbusiness`;
   const serviceSchema = {

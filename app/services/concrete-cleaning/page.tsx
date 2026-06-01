@@ -14,19 +14,19 @@ import {
   generateBreadcrumbSchema,
 } from '@/app/utils/local-business-schema';
 
-const SITE_URL = 'https://www.premierpressuresolutions.com.au';
+const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
 export const metadata: Metadata = {
   title: {
     absolute:
-      'Professional Concrete Cleaning Services in Perth | Premier Pressure Solutions WA',
+      'Professional Concrete Cleaning Services in Perth | PPS Exterior Cleaning',
   },
   description:
     'Specialist concrete cleaning in Perth. Exposed aggregate restoration, driveway cleaning, patio cleaning. Remove stains, mould & grime. Free quotes.',
   alternates: {
     canonical: `${SITE_URL}/concrete-cleaning`,
   },
-  openGraph: { url: `${SITE_URL}/concrete-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/concrete-cleaning`, type: 'website', locale: 'en_AU', siteName: 'PPS Exterior Cleaning', images: [{ url: 'https://www.ppsexteriorcleaning.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function ConcreteCleaningPage() {
@@ -43,7 +43,7 @@ export default function ConcreteCleaningPage() {
         name: 'Michael Anderson',
         date: '2 weeks ago',
         rating: 5,
-        text: 'Had our exposed aggregate driveway and paths professionally cleaned by Premier Pressure Solutions WA. The results are phenomenal - the stones are bright and vibrant again! They were extremely careful not to dislodge any aggregate and the finish is perfect. Best concrete cleaning service in Perth, hands down.',
+        text: 'Had our exposed aggregate driveway and paths professionally cleaned by PPS Exterior Cleaning. The results are phenomenal - the stones are bright and vibrant again! They were extremely careful not to dislodge any aggregate and the finish is perfect. Best concrete cleaning service in Perth, hands down.',
         avatar: 'MA',
       },
       {
@@ -65,7 +65,7 @@ export default function ConcreteCleaningPage() {
     benefits: {
       intro: `Concrete surfaces are the workhorses of Perth properties—from exposed aggregate driveways to plain concrete patios, pathways, pool surrounds, and commercial floors. While incredibly durable, concrete is porous and absorbs stains, oils, and contaminants over time. Without proper maintenance, even high-quality concrete can look dull, stained, and prematurely aged.
 
-Premier Pressure Solutions WA specialises in professional concrete cleaning services throughout Perth, with particular expertise in exposed aggregate restoration. Our team understands the unique characteristics of different concrete finishes and uses tailored cleaning methods to achieve outstanding results without causing surface damage.
+PPS Exterior Cleaning specialises in professional concrete cleaning services throughout Perth, with particular expertise in exposed aggregate restoration. Our team understands the unique characteristics of different concrete finishes and uses tailored cleaning methods to achieve outstanding results without causing surface damage.
 
 Exposed aggregate concrete requires special care—aggressive cleaning can dislodge stones and damage the surface, while insufficient pressure leaves stains behind. We use precisely calibrated equipment and proven techniques developed specifically for Perth's concrete surfaces. Whether it's removing stubborn oil stains from workshop floors, restoring the vibrant appearance of decorative exposed aggregate, cleaning plain concrete driveways, or rejuvenating stained pool surrounds, we deliver transformative results every time.
 

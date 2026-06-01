@@ -5,7 +5,7 @@ import { Phone, Mail, Send, BadgePercent } from 'lucide-react';
 import { motion } from 'motion/react';
 import { ServiceAreaLinks } from '../service-area-links';
 
-// Web3Forms API key - linked to info@premierpressuresolutions.com.au
+// Web3Forms API key - linked to info@ppsexteriorcleaning.com.au
 const WEB3FORMS_KEY = '25ea480e-c6b3-44f6-a5c5-9f59ae8447d0';
 
 interface ServiceCTAProps {
@@ -44,7 +44,7 @@ export function ServiceCTA({
         body: JSON.stringify({
           access_key: WEB3FORMS_KEY,
           subject: `New ${serviceName} Service Inquiry from ${formData.name}`,
-          from_name: 'Premier Pressure Solutions WA Website',
+          from_name: 'PPS Exterior Cleaning Website',
           name: formData.name,
           phone: formData.phone,
           suburb: formData.suburb || 'Not provided',
@@ -123,7 +123,7 @@ export function ServiceCTA({
               </a>
 
               <a
-                href="mailto:info@premierpressuresolutions.com.au"
+                href="mailto:info@ppsexteriorcleaning.com.au"
                 className="flex items-center gap-3 md:gap-4 p-3 md:p-4 bg-white/10 rounded-xl hover:bg-white/15 transition-colors group backdrop-blur-sm border border-white/20"
               >
                 <div className="w-12 h-12 md:w-14 md:h-14 bg-[#00d4ff] rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0">
@@ -131,7 +131,7 @@ export function ServiceCTA({
                 </div>
                 <div className="min-w-0 overflow-hidden">
                   <p className="text-sm text-white/70 mb-1">Email us</p>
-                  <p className="text-sm sm:text-base font-semibold text-white break-all">info@premierpressuresolutions.com.au</p>
+                  <p className="text-sm sm:text-base font-semibold text-white break-all">info@ppsexteriorcleaning.com.au</p>
                 </div>
               </a>
             </div>
@@ -299,7 +299,7 @@ export function ServiceCTA({
                   </button>
 
                   <p className="text-xs sm:text-sm text-gray-500 text-center leading-relaxed">
-                    By submitting this form, you agree to be contacted by Premier Pressure Solutions WA
+                    By submitting this form, you agree to be contacted by PPS Exterior Cleaning
                   </p>
                 </form>
               </>

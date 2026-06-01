@@ -2,19 +2,19 @@ import type { Metadata } from 'next';
 import { PressureCleaningContent } from './pressure-cleaning-content';
 import { generateBreadcrumbSchema } from '@/app/utils/local-business-schema';
 
-const SITE_URL = 'https://www.premierpressuresolutions.com.au';
+const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
 export const metadata: Metadata = {
   title: {
     absolute:
-      'Pressure Cleaning Perth | Expert Pressure Washing Services WA | Premier Pressure Solutions WA',
+      'Pressure Cleaning Perth | Expert Pressure Washing Services WA | PPS Exterior Cleaning',
   },
   description:
     'Professional pressure cleaning services in Perth. Expert house washing, driveway cleaning, roof cleaning & more. Licensed, insured, 10% off for new customers. Call 0488 844 911',
   alternates: {
     canonical: `${SITE_URL}/pressure-cleaning`,
   },
-  openGraph: { url: `${SITE_URL}/pressure-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/pressure-cleaning`, type: 'website', locale: 'en_AU', siteName: 'PPS Exterior Cleaning', images: [{ url: 'https://www.ppsexteriorcleaning.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 const faqs = [
@@ -48,8 +48,8 @@ const structuredData = {
     'Professional pressure cleaning services in Perth. Expert house washing, driveway cleaning, roof cleaning, and more. Licensed, insured, 10% off for new customers.',
   provider: {
     '@type': 'LocalBusiness',
-    name: 'Premier Pressure Solutions WA',
-    image: 'https://www.premierpressuresolutions.com.au/logo.png',
+    name: 'PPS Exterior Cleaning',
+    image: 'https://www.ppsexteriorcleaning.com.au/logo.png',
     telephone: '0488 844 911',
     areaServed: {
       '@type': 'City',

@@ -16,18 +16,18 @@ import {
   generateBreadcrumbSchema,
 } from '@/app/utils/local-business-schema';
 
-const SITE_URL = 'https://www.premierpressuresolutions.com.au';
+const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'Professional Roof Cleaning in Perth | Premier Pressure Solutions WA',
+    absolute: 'Professional Roof Cleaning in Perth | PPS Exterior Cleaning',
   },
   description:
     'Professional roof cleaning services in Perth. Remove moss, lichen, and organic growth safely. Extend roof life. Free quotes. Fully insured.',
   alternates: {
     canonical: `${SITE_URL}/roof-cleaning`,
   },
-  openGraph: { url: `${SITE_URL}/roof-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/roof-cleaning`, type: 'website', locale: 'en_AU', siteName: 'PPS Exterior Cleaning', images: [{ url: 'https://www.ppsexteriorcleaning.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function RoofCleaningPage() {
@@ -44,7 +44,7 @@ export default function RoofCleaningPage() {
         name: 'Robert Taylor',
         date: '4 weeks ago',
         rating: 5,
-        text: 'Our roof was covered in moss and looked awful. Premier Pressure Solutions WA transformed it completely! They were professional, worked safely at heights, and the roof looks 20 years younger. Highly recommend their roof cleaning service.',
+        text: 'Our roof was covered in moss and looked awful. PPS Exterior Cleaning transformed it completely! They were professional, worked safely at heights, and the roof looks 20 years younger. Highly recommend their roof cleaning service.',
         avatar: 'RT',
       },
       {
@@ -64,7 +64,7 @@ export default function RoofCleaningPage() {
     ],
 
     benefits: {
-      intro: `Your roof is one of your home's most important assets, protecting your family and possessions from the elements. However, Perth's climate creates ideal conditions for moss, lichen, algae, and other organic growth that can gradually damage roof tiles and shorten their lifespan. A dirty, moss-covered roof doesn't just look unsightly—it can lead to costly repairs and premature roof replacement. At Premier Pressure Solutions WA, we specialise in professional roof cleaning services across Perth, using safe, effective methods to remove organic growth and restore your roof's appearance and functionality.
+      intro: `Your roof is one of your home's most important assets, protecting your family and possessions from the elements. However, Perth's climate creates ideal conditions for moss, lichen, algae, and other organic growth that can gradually damage roof tiles and shorten their lifespan. A dirty, moss-covered roof doesn't just look unsightly—it can lead to costly repairs and premature roof replacement. At PPS Exterior Cleaning, we specialise in professional roof cleaning services across Perth, using safe, effective methods to remove organic growth and restore your roof's appearance and functionality.
 
 Our experienced Perth-based team works with all roof types including terracotta tiles, concrete tiles, Colorbond metal roofing, and more. We understand that roofs require careful handling and the right cleaning approach. Walking on roofs and using incorrect cleaning methods can cause tile breakage, dislodge flashing, or void manufacturer warranties.
 

@@ -102,7 +102,7 @@ export function ServiceReviews({ reviews }: ServiceReviewsProps) {
           className="text-center mt-10"
         >
           <a
-            href="https://share.google/eVdJIOu0Wqj2sLs2N"
+            href="https://share.google/KLOO2pe1BBeKlOPda"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-white text-[#0a1628] border-2 border-[#0a1628] px-8 py-3 rounded-lg font-semibold hover:bg-[#0a1628] hover:text-white transition-all"

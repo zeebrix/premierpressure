@@ -14,18 +14,18 @@ import {
   generateBreadcrumbSchema,
 } from '@/app/utils/local-business-schema';
 
-const SITE_URL = 'https://www.premierpressuresolutions.com.au';
+const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'Professional Driveway Cleaning in Perth | Premier Pressure Solutions WA',
+    absolute: 'Professional Driveway Cleaning in Perth | PPS Exterior Cleaning',
   },
   description:
     'Professional driveway cleaning services in Perth. Remove oil stains, mould, and grime with our expert pressure cleaning. Free quotes. Fully insured.',
   alternates: {
     canonical: `${SITE_URL}/driveway-cleaning`,
   },
-  openGraph: { url: `${SITE_URL}/driveway-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/driveway-cleaning`, type: 'website', locale: 'en_AU', siteName: 'PPS Exterior Cleaning', images: [{ url: 'https://www.ppsexteriorcleaning.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function DrivewayCleaningPage() {
@@ -49,7 +49,7 @@ export default function DrivewayCleaningPage() {
         name: 'James Robertson',
         date: '1 month ago',
         rating: 5,
-        text: 'Our concrete driveway looked brand new after Premier Pressure Solutions WA finished. They removed stubborn tyre marks and stains I thought were permanent. Great communication and fair pricing. Will definitely use again.',
+        text: 'Our concrete driveway looked brand new after PPS Exterior Cleaning finished. They removed stubborn tyre marks and stains I thought were permanent. Great communication and fair pricing. Will definitely use again.',
         avatar: 'JR',
       },
       {
@@ -62,7 +62,7 @@ export default function DrivewayCleaningPage() {
     ],
 
     benefits: {
-      intro: `Your driveway is one of the first things visitors notice about your property. Over time, driveways accumulate oil stains, tyre marks, mould, algae, and general grime that diminish your home's curb appeal and can even create safety hazards. At Premier Pressure Solutions WA, we specialise in professional driveway cleaning services across Perth, using commercial-grade equipment and proven techniques to restore your driveway to like-new condition.
+      intro: `Your driveway is one of the first things visitors notice about your property. Over time, driveways accumulate oil stains, tyre marks, mould, algae, and general grime that diminish your home's curb appeal and can even create safety hazards. At PPS Exterior Cleaning, we specialise in professional driveway cleaning services across Perth, using commercial-grade equipment and proven techniques to restore your driveway to like-new condition.
 
 Our Perth-based team understands the unique challenges facing local driveways—from red dirt staining to coastal salt buildup. Whether you have a concrete driveway, paved surface, or exposed aggregate, we have the expertise and equipment to deliver outstanding results without causing damage to your surface.
 

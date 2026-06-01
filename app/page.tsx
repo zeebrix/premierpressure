@@ -8,29 +8,29 @@ import { FinalCTA } from '@/app/components/final-cta';
 import { BeforeAfterGallery } from '@/app/components/before-after-gallery';
 import { TestimonialsCarousel } from '@/app/components/testimonials-carousel';
 
-const SITE_URL = 'https://www.premierpressuresolutions.com.au';
+const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
 export const metadata: Metadata = {
-  title: { absolute: 'Pressure Cleaning Perth | Driveway, House & Roof Washing | Premier Pressure Solutions' },
+  title: { absolute: 'Pressure Cleaning Perth | Driveway, House & Roof Washing | PPS Exterior Cleaning' },
   description:
-    'Premier Pressure Solutions WA offers expert pressure cleaning services across Perth. Driveways, house washing, roof cleaning, pavers & more. 10% off for new customers. Call 0452 579 657.',
+    'PPS Exterior Cleaning offers expert pressure cleaning services across Perth. Driveways, house washing, roof cleaning, pavers & more. 10% off for new customers. Call 0452 579 657.',
   alternates: { canonical: SITE_URL },
   openGraph: {
     url: SITE_URL,
-    title: 'Pressure Cleaning Perth | Driveway, House & Roof Washing | Premier Pressure Solutions',
+    title: 'Pressure Cleaning Perth | Driveway, House & Roof Washing | PPS Exterior Cleaning',
     description:
-      'Premier Pressure Solutions WA offers expert pressure cleaning services across Perth. Driveways, house washing, roof cleaning, pavers & more.',
+      'PPS Exterior Cleaning offers expert pressure cleaning services across Perth. Driveways, house washing, roof cleaning, pavers & more.',
     type: 'website',
     locale: 'en_AU',
-    siteName: 'Premier Pressure Solutions WA',
-    images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }],
+    siteName: 'PPS Exterior Cleaning',
+    images: [{ url: 'https://www.ppsexteriorcleaning.com.au/og-image.jpg', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pressure Cleaning Perth | Driveway, House & Roof Washing | Premier Pressure Solutions',
+    title: 'Pressure Cleaning Perth | Driveway, House & Roof Washing | PPS Exterior Cleaning',
     description:
-      'Premier Pressure Solutions WA offers expert pressure cleaning services across Perth. Driveways, house washing, roof cleaning, pavers & more.',
-    images: ['https://www.premierpressuresolutions.com.au/og-image.jpg'],
+      'PPS Exterior Cleaning offers expert pressure cleaning services across Perth. Driveways, house washing, roof cleaning, pavers & more.',
+    images: ['https://www.ppsexteriorcleaning.com.au/og-image.jpg'],
   },
   other: {
     'twitter:url': SITE_URL,
@@ -41,11 +41,11 @@ const homeStructuredData = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   '@id': SITE_URL,
-  name: 'Premier Pressure Solutions WA',
+  name: 'PPS Exterior Cleaning',
   image: `${SITE_URL}/og-image.png`,
   url: SITE_URL,
   telephone: '+61452579657',
-  email: 'info@premierpressuresolutions.com.au',
+  email: 'info@ppsexteriorcleaning.com.au',
   priceRange: '$$',
   address: {
     '@type': 'PostalAddress',
@@ -67,6 +67,11 @@ const homeStructuredData = {
   areaServed: [
     { '@type': 'City', name: 'Perth', '@id': 'https://www.wikidata.org/wiki/Q3183' },
     { '@type': 'State', name: 'Western Australia' },
+  ],
+  sameAs: [
+    'https://share.google/KLOO2pe1BBeKlOPda',
+    'https://www.facebook.com/profile.php?id=61576345864247',
+    'https://www.instagram.com/pps.exteriorcleaning/',
   ],
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
@@ -138,14 +143,14 @@ export default function HomePage() {
           <div className="mb-6 sm:mb-8">
             <div className="w-full max-w-4xl mx-auto rounded-lg overflow-hidden shadow-lg border border-gray-200">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d433082.15314154816!2d115.54954834531247!3d-32.002804927054164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x630a0ba2d38509af%3A0x486bd1fdab99e5ba!2sPremier%20Pressure%20Solutions%20WA!5e0!3m2!1sen!2sau!4v1771988994275!5m2!1sen!2sau"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d433082.15314154816!2d115.54954834531247!3d-32.002804927054164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x630a0ba2d38509af%3A0x486bd1fdab99e5ba!2sPPS%20Exterior%20Cleaning!5e0!3m2!1sen!2sau!4v1771988994275!5m2!1sen!2sau"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Premier Pressure Solutions WA Service Area Map"
+                title="PPS Exterior Cleaning Service Area Map"
               />
             </div>
           </div>

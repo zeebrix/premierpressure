@@ -84,7 +84,7 @@ export function WindowBeforeAfter({ serviceName }: WindowBeforeAfterProps) {
                 </div>
                 <ImageWithFallback
                   src={current.image}
-                  alt={`${current.label} ${serviceName} cleaning ${current.location} Perth - Premier Pressure Solutions WA`}
+                  alt={`${current.label} ${serviceName} cleaning ${current.location} Perth - PPS Exterior Cleaning`}
                   className="w-full h-full object-cover"
                 />
               </div>

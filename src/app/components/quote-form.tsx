@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { Phone, MessageSquare } from 'lucide-react';
 
-// Web3Forms API key - linked to info@premierpressuresolutions.com.au
+// Web3Forms API key - linked to info@ppsexteriorcleaning.com.au
 const WEB3FORMS_KEY = '25ea480e-c6b3-44f6-a5c5-9f59ae8447d0';
 
 export function QuoteForm() {
@@ -34,7 +34,7 @@ export function QuoteForm() {
         body: JSON.stringify({
           access_key: WEB3FORMS_KEY,
           subject: `New Quote Request from ${formData.name}`,
-          from_name: 'Premier Pressure Solutions WA Website',
+          from_name: 'PPS Exterior Cleaning Website',
           name: formData.name,
           email: formData.email || 'Not provided',
           phone: formData.phone,

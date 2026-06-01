@@ -16,7 +16,7 @@ const testimonials = [
   {
     name: 'David Chen',
     rating: 5,
-    text: 'Premier Pressure Solutions WA transformed our outdoor entertaining area. The liquid limestone looks incredible. Highly recommend their services!',
+    text: 'PPS Exterior Cleaning transformed our outdoor entertaining area. The liquid limestone looks incredible. Highly recommend their services!',
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop',
     date: '1 month ago',
     initials: 'DC',
@@ -72,7 +72,7 @@ export function TestimonialsCarousel() {
             
             <div className="flex-1">
               <h2 className="text-xl font-normal text-[#202124] mb-1">
-                Premier Pressure Solutions WA
+                PPS Exterior Cleaning
               </h2>
               
               {/* Rating Summary */}
@@ -143,7 +143,7 @@ export function TestimonialsCarousel() {
           {/* Footer Link */}
           <div className="text-center mt-6 pt-6 border-t border-[#e0e0e0]">
             <a
-              href="https://www.google.com/search?q=premier+pressure+solutions+wa"
+              href="https://www.google.com/search?q=pps+exterior+cleaning"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-[#1a73e8] text-sm font-medium hover:underline"

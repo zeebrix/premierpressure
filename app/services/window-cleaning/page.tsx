@@ -14,18 +14,18 @@ import {
   generateBreadcrumbSchema,
 } from '@/app/utils/local-business-schema';
 
-const SITE_URL = 'https://www.premierpressuresolutions.com.au';
+const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'Professional Window Cleaning in Perth | Premier Pressure Solutions WA',
+    absolute: 'Professional Window Cleaning in Perth | PPS Exterior Cleaning',
   },
   description:
     'Expert window cleaning services in Perth. Streak-free results for residential properties. Inside and out. Free quotes. Fully insured.',
   alternates: {
     canonical: `${SITE_URL}/window-cleaning`,
   },
-  openGraph: { url: `${SITE_URL}/window-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/window-cleaning`, type: 'website', locale: 'en_AU', siteName: 'PPS Exterior Cleaning', images: [{ url: 'https://www.ppsexteriorcleaning.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function WindowCleaningPage() {
@@ -61,7 +61,7 @@ export default function WindowCleaningPage() {
     ],
 
     benefits: {
-      intro: `Clean windows make a remarkable difference to your home or business, flooding interiors with natural light and creating an impressive first impression. However, Perth's conditions—from coastal salt spray to red dirt and hard water deposits—can quickly leave windows looking dull and streaked. Regular DIY cleaning often leaves streaks, watermarks, and missed spots that detract from your property's appearance. At Premier Pressure Solutions WA, we specialise in professional window cleaning services across Perth, delivering flawless, streak-free results that showcase your property at its best.
+      intro: `Clean windows make a remarkable difference to your home or business, flooding interiors with natural light and creating an impressive first impression. However, Perth's conditions—from coastal salt spray to red dirt and hard water deposits—can quickly leave windows looking dull and streaked. Regular DIY cleaning often leaves streaks, watermarks, and missed spots that detract from your property's appearance. At PPS Exterior Cleaning, we specialise in professional window cleaning services across Perth, delivering flawless, streak-free results that showcase your property at its best.
 
 Our experienced Perth-based team services both residential and commercial properties, from single-storey homes to multi-storey office buildings. We have the equipment, expertise, and insurance necessary to safely clean windows at any height. We don't just wipe down glass—we provide comprehensive window cleaning that includes frames, sills, tracks, and screens, ensuring every aspect of your windows looks immaculate.
 
@@ -78,7 +78,7 @@ We use professional-grade cleaning solutions and pure water technology combined 
         'Fully insured with public liability coverage',
       ],
 
-      closingCopy: `Experience the difference that professionally cleaned windows make to your property. Our meticulous attention to detail and commitment to streak-free results ensure you'll love looking through your sparkling clean windows. Whether it's your home or business, we deliver the same exceptional standard every time. Trust Premier Pressure Solutions WA for all your window cleaning needs in Perth.`,
+      closingCopy: `Experience the difference that professionally cleaned windows make to your property. Our meticulous attention to detail and commitment to streak-free results ensure you'll love looking through your sparkling clean windows. Whether it's your home or business, we deliver the same exceptional standard every time. Trust PPS Exterior Cleaning for all your window cleaning needs in Perth.`,
     },
 
     process: [

@@ -145,7 +145,7 @@ export function BeforeAfterCarousel({ category, limit = 6 }: BeforeAfterCarousel
                 </div>
                 <img loading="lazy" decoding="async"
                   src={current.after}
-                  alt={`After ${category} pressure cleaning Perth - Stunning results from Premier Pressure Solutions WA`}
+                  alt={`After ${category} pressure cleaning Perth - Stunning results from PPS Exterior Cleaning`}
                   className="w-full h-96 md:h-[500px] object-cover"
                 />
               </div>

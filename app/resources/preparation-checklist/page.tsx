@@ -10,7 +10,7 @@ import {
   Car,
 } from 'lucide-react';
 
-const SITE_URL = 'https://www.premierpressuresolutions.com.au';
+const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
 export const metadata: Metadata = {
   title: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description:
     'Complete preparation checklist for pressure cleaning. Essential steps to prepare your Perth property, ensure safety, save time and get the best cleaning results.',
   alternates: { canonical: `${SITE_URL}/resources/preparation-checklist` },
-  openGraph: { url: `${SITE_URL}/resources/preparation-checklist`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/resources/preparation-checklist`, type: 'website', locale: 'en_AU', siteName: 'PPS Exterior Cleaning', images: [{ url: 'https://www.ppsexteriorcleaning.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 const structuredData = {
@@ -32,14 +32,14 @@ const structuredData = {
   dateModified: '2026-03-12',
   author: {
     '@type': 'Organization',
-    name: 'Premier Pressure Solutions WA',
+    name: 'PPS Exterior Cleaning',
   },
   publisher: {
     '@type': 'Organization',
-    name: 'Premier Pressure Solutions WA',
+    name: 'PPS Exterior Cleaning',
     logo: {
       '@type': 'ImageObject',
-      url: 'https://www.premierpressuresolutions.com.au/logo.png',
+      url: 'https://www.ppsexteriorcleaning.com.au/logo.png',
     },
   },
 };

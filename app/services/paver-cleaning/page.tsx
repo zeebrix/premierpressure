@@ -14,19 +14,19 @@ import {
   generateBreadcrumbSchema,
 } from '@/app/utils/local-business-schema';
 
-const SITE_URL = 'https://www.premierpressuresolutions.com.au';
+const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
 export const metadata: Metadata = {
   title: {
     absolute:
-      'Professional Paver Cleaning & Sealing in Perth | Premier Pressure Solutions WA',
+      'Professional Paver Cleaning & Sealing in Perth | PPS Exterior Cleaning',
   },
   description:
     'Expert paver cleaning and sealing in Perth. Remove stains, weeds, and organic growth. Restore and protect pavers. Free quotes. Fully insured.',
   alternates: {
     canonical: `${SITE_URL}/paver-cleaning`,
   },
-  openGraph: { url: `${SITE_URL}/paver-cleaning`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/paver-cleaning`, type: 'website', locale: 'en_AU', siteName: 'PPS Exterior Cleaning', images: [{ url: 'https://www.ppsexteriorcleaning.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function PaverCleaningPage() {
@@ -42,7 +42,7 @@ export default function PaverCleaningPage() {
         name: 'Amanda Brooks',
         date: '3 weeks ago',
         rating: 5,
-        text: 'Our patio pavers were stained and had weeds everywhere. Premier Pressure Solutions WA cleaned and sealed them perfectly! The colour has come back and they look like new. The sealing makes such a difference. Excellent work!',
+        text: 'Our patio pavers were stained and had weeds everywhere. PPS Exterior Cleaning cleaned and sealed them perfectly! The colour has come back and they look like new. The sealing makes such a difference. Excellent work!',
         avatar: 'AB',
       },
       {
@@ -62,7 +62,7 @@ export default function PaverCleaningPage() {
     ],
 
     benefits: {
-      intro: `Paved areas—from driveways and pathways to alfresco entertaining spaces—are a significant investment in your property. However, pavers are subjected to constant exposure to dirt, organic growth, weed invasion, and staining that can make them look aged and neglected. Worse, organic growth between pavers can create slip hazards and cause structural issues as it displaces sand joints. At Premier Pressure Solutions WA, we specialise in professional paver cleaning and sealing services across Perth, delivering transformative results that restore your pavers' original beauty and provide long-lasting protection.
+      intro: `Paved areas—from driveways and pathways to alfresco entertaining spaces—are a significant investment in your property. However, pavers are subjected to constant exposure to dirt, organic growth, weed invasion, and staining that can make them look aged and neglected. Worse, organic growth between pavers can create slip hazards and cause structural issues as it displaces sand joints. At PPS Exterior Cleaning, we specialise in professional paver cleaning and sealing services across Perth, delivering transformative results that restore your pavers' original beauty and provide long-lasting protection.
 
 Our Perth-based team has extensive experience working with all types of paving—from traditional clay pavers and concrete pavers to modern limestone and granite paving. We understand that different paver types require different cleaning approaches. Using incorrect methods or pressure settings can damage paver surfaces, displace joint sand, or cause color loss.
 

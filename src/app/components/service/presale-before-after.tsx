@@ -73,7 +73,7 @@ export function PresaleBeforeAfter({ serviceName }: PresaleBeforeAfterProps) {
                   </div>
                   <ImageWithFallback
                     src={current.before}
-                    alt={`Before ${serviceName} pressure cleaning ${current.location} Perth - ${current.description} - Premier Pressure Solutions WA`}
+                    alt={`Before ${serviceName} pressure cleaning ${current.location} Perth - ${current.description} - PPS Exterior Cleaning`}
                     className="w-full h-96 md:h-[600px] object-contain"
                   />
                 </div>
@@ -85,7 +85,7 @@ export function PresaleBeforeAfter({ serviceName }: PresaleBeforeAfterProps) {
                   </div>
                   <ImageWithFallback
                     src={current.after}
-                    alt={`After ${serviceName} pressure cleaning ${current.location} Perth - ${current.description} restored by Premier Pressure Solutions WA`}
+                    alt={`After ${serviceName} pressure cleaning ${current.location} Perth - ${current.description} restored by PPS Exterior Cleaning`}
                     className="w-full h-96 md:h-[600px] object-contain"
                     loading="lazy"
                   />

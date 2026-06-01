@@ -673,7 +673,7 @@ export function OrganicStainingGuideContent() {
           <div className="bg-gradient-to-r from-[#0a1628] to-[#0a1628]/90 text-white p-8 rounded-xl">
             <h3 className="text-2xl font-bold mb-4">Ready to Protect Your Perth Property?</h3>
             <p className="text-white/90 mb-6">
-              Premier Pressure Solutions WA specializes in safe, effective removal of mould, algae, mildew, and lichen using eco-friendly solutions and professional equipment. We serve all Perth metro areas with fully insured, experienced technicians.
+              PPS Exterior Cleaning specializes in safe, effective removal of mould, algae, mildew, and lichen using eco-friendly solutions and professional equipment. We serve all Perth metro areas with fully insured, experienced technicians.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a

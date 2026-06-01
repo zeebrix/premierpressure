@@ -14,18 +14,18 @@ import {
   generateBreadcrumbSchema,
 } from '@/app/utils/local-business-schema';
 
-const SITE_URL = 'https://www.premierpressuresolutions.com.au';
+const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'Professional House Washing in Perth | Premier Pressure Solutions WA',
+    absolute: 'Professional House Washing in Perth | PPS Exterior Cleaning',
   },
   description:
     "Expert house washing services in Perth. Remove dirt, mould, and grime from all exterior surfaces. Restore your home's beauty. Free quotes. Fully insured.",
   alternates: {
     canonical: `${SITE_URL}/house-washing`,
   },
-  openGraph: { url: `${SITE_URL}/house-washing`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/house-washing`, type: 'website', locale: 'en_AU', siteName: 'PPS Exterior Cleaning', images: [{ url: 'https://www.ppsexteriorcleaning.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 export default function HouseWashingPage() {
@@ -41,7 +41,7 @@ export default function HouseWashingPage() {
         name: 'Michelle Taylor',
         date: '2 weeks ago',
         rating: 5,
-        text: 'Our house looked 20 years old due to dirt and mould. After Premier Pressure Solutions WA washed it, it looks brand new! They cleaned the walls, eaves, fascias - everything. Absolutely thrilled with the transformation.',
+        text: 'Our house looked 20 years old due to dirt and mould. After PPS Exterior Cleaning washed it, it looks brand new! They cleaned the walls, eaves, fascias - everything. Absolutely thrilled with the transformation.',
         avatar: 'MT',
       },
       {
@@ -61,7 +61,7 @@ export default function HouseWashingPage() {
     ],
 
     benefits: {
-      intro: `Your home's exterior is constantly exposed to Perth's harsh conditions—from red dust and dirt to mould, mildew, and pollution buildup. Over time, these elements make even well-maintained homes look tired and neglected, diminishing curb appeal and potentially affecting your property's value. Regular house washing is essential maintenance that protects your investment and keeps your home looking its best. At Premier Pressure Solutions WA, we specialise in professional house washing services across Perth, using safe, effective techniques that restore your home's appearance without causing damage.
+      intro: `Your home's exterior is constantly exposed to Perth's harsh conditions—from red dust and dirt to mould, mildew, and pollution buildup. Over time, these elements make even well-maintained homes look tired and neglected, diminishing curb appeal and potentially affecting your property's value. Regular house washing is essential maintenance that protects your investment and keeps your home looking its best. At PPS Exterior Cleaning, we specialise in professional house washing services across Perth, using safe, effective techniques that restore your home's appearance without causing damage.
 
 Our experienced team understands that different surfaces require different approaches. We use soft washing for delicate areas like painted weatherboards, render, and eaves, while applying controlled pressure cleaning for more durable surfaces like brick and concrete. This tailored approach ensures exceptional cleaning results while protecting your home's exterior from damage that can occur with inexperienced or overly aggressive cleaning methods.
 
@@ -78,7 +78,7 @@ We don't just blast away surface dirt—we treat mould and mildew at the source,
         'Fully insured with public liability coverage',
       ],
 
-      closingCopy: `Experience the dramatic transformation that professional house washing brings to your Perth home. Our meticulous approach and proven techniques deliver results that make your house look years younger. We take pride in every job, treating your home with the same care and attention we'd give our own. Trust Premier Pressure Solutions WA to restore your home's beauty and protect your investment.`,
+      closingCopy: `Experience the dramatic transformation that professional house washing brings to your Perth home. Our meticulous approach and proven techniques deliver results that make your house look years younger. We take pride in every job, treating your home with the same care and attention we'd give our own. Trust PPS Exterior Cleaning to restore your home's beauty and protect your investment.`,
     },
 
     process: [

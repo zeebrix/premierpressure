@@ -8,7 +8,7 @@ import {
   AlertCircle,
 } from 'lucide-react';
 
-const SITE_URL = 'https://www.premierpressuresolutions.com.au';
+const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
 export const metadata: Metadata = {
   title: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     'Comprehensive pricing guide for pressure cleaning services in Perth. Understand costs, factors affecting pricing, and get accurate estimates for driveways, houses, roofs & more.',
   alternates: { canonical: `${SITE_URL}/resources/pricing-guide` },
-  openGraph: { url: `${SITE_URL}/resources/pricing-guide`, type: 'website', locale: 'en_AU', siteName: 'Premier Pressure Solutions WA', images: [{ url: 'https://www.premierpressuresolutions.com.au/og-image.jpg', width: 1200, height: 630 }] },
+  openGraph: { url: `${SITE_URL}/resources/pricing-guide`, type: 'website', locale: 'en_AU', siteName: 'PPS Exterior Cleaning', images: [{ url: 'https://www.ppsexteriorcleaning.com.au/og-image.jpg', width: 1200, height: 630 }] },
 };
 
 const structuredData = {
@@ -30,14 +30,14 @@ const structuredData = {
   dateModified: '2026-03-12',
   author: {
     '@type': 'Organization',
-    name: 'Premier Pressure Solutions WA',
+    name: 'PPS Exterior Cleaning',
   },
   publisher: {
     '@type': 'Organization',
-    name: 'Premier Pressure Solutions WA',
+    name: 'PPS Exterior Cleaning',
     logo: {
       '@type': 'ImageObject',
-      url: 'https://www.premierpressuresolutions.com.au/logo.png',
+      url: 'https://www.ppsexteriorcleaning.com.au/logo.png',
     },
   },
 };
@@ -406,7 +406,7 @@ export default function PricingGuidePage() {
               Ready to Get Your Free Quote?
             </h2>
             <p className="text-lg text-gray-300 mb-6 max-w-2xl mx-auto">
-              Contact Premier Pressure Solutions WA for transparent, competitive pricing on all pressure cleaning services across Perth. New customers receive 10% off!
+              Contact PPS Exterior Cleaning for transparent, competitive pricing on all pressure cleaning services across Perth. New customers receive 10% off!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

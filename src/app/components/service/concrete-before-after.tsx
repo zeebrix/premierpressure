@@ -85,7 +85,7 @@ export function ConcreteBeforeAfter({ serviceName }: ConcreteBeforeAfterProps) {
                   </div>
                   <ImageWithFallback
                     src={current.after}
-                    alt={`After ${serviceName} pressure cleaning Perth - Professional results by Premier Pressure Solutions WA`}
+                    alt={`After ${serviceName} pressure cleaning Perth - Professional results by PPS Exterior Cleaning`}
                     className="w-full h-96 md:h-[600px] object-contain"
                   />
                 </div>

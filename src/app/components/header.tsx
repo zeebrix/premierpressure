@@ -81,8 +81,7 @@ export function Header() {
               <span className={`text-lg sm:text-xl font-bold transition-colors ${
                 isScrolled ? 'text-[#0a1628]' : 'text-white'
               }`}>
-                Premier Pressure Solutions{' '}
-                <span className="text-[#00d4ff]">WA</span>
+                PPS Exterior Cleaning
               </span>
             </Link>
 

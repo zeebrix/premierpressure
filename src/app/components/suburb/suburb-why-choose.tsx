@@ -49,7 +49,7 @@ export function SuburbWhyChoose({ suburbName }: SuburbWhyChooseProps) {
             Why {suburbName} Residents Choose Us
           </h2>
           <p className="text-lg text-white/80 max-w-3xl mx-auto">
-            Premier Pressure Solutions WA is your trusted local pressure cleaning expert
+            PPS Exterior Cleaning is your trusted local pressure cleaning expert
           </p>
         </div>
 

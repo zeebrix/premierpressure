@@ -31,7 +31,7 @@ export function FinalCTA() {
         body: JSON.stringify({
           access_key: WEB3FORMS_KEY,
           subject: `New Quote Request from ${formData.name}`,
-          from_name: 'Premier Pressure Solutions WA Website',
+          from_name: 'PPS Exterior Cleaning Website',
           name: formData.name,
           email: formData.email,
           phone: formData.phone,
@@ -99,7 +99,7 @@ export function FinalCTA() {
               </a>
 
               <a
-                href="mailto:info@premierpressuresolutions.com.au"
+                href="mailto:info@ppsexteriorcleaning.com.au"
                 className="flex items-center gap-3 sm:gap-4 p-4 bg-white/10 rounded-lg hover:bg-white/15 transition-colors group"
               >
                 <div className="w-12 h-12 bg-[#00d4ff] rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0">
@@ -107,7 +107,7 @@ export function FinalCTA() {
                 </div>
                 <div className="min-w-0 overflow-hidden">
                   <p className="text-sm text-white/70">Email us</p>
-                  <p className="text-base sm:text-lg font-semibold text-white break-all">info@premierpressuresolutions.com.au</p>
+                  <p className="text-base sm:text-lg font-semibold text-white break-all">info@ppsexteriorcleaning.com.au</p>
                 </div>
               </a>
             </div>

@@ -33,7 +33,7 @@ import WindowCleaningPage, {
   metadata as windowCleaningMetadata,
 } from '../services/window-cleaning/page';
 
-const SITE_URL = 'https://www.premierpressuresolutions.com.au';
+const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 const OG_IMAGE = `${SITE_URL}/og-image.jpg`;
 
 type Props = { params: Promise<{ slug: string }> };
@@ -85,7 +85,7 @@ function withRootUrl(metadata: Metadata, slug: string): Metadata {
       description: metadata.description ?? undefined,
       type: 'website',
       locale: 'en_AU',
-      siteName: 'Premier Pressure Solutions WA',
+      siteName: 'PPS Exterior Cleaning',
       images: [{ url: OG_IMAGE, width: 1200, height: 630 }],
     },
     twitter: {
@@ -124,7 +124,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         description: suburb.description,
         type: 'website',
         locale: 'en_AU',
-        siteName: 'Premier Pressure Solutions WA',
+        siteName: 'PPS Exterior Cleaning',
         images: [{ url: OG_IMAGE, width: 1200, height: 630 }],
       },
       twitter: {

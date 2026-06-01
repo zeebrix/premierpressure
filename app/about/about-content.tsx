@@ -62,7 +62,7 @@ export default function AboutContent() {
             className="max-w-3xl"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              About Premier Pressure Solutions WA
+              About PPS Exterior Cleaning
             </h1>
             <p className="text-xl md:text-2xl text-white/90 leading-relaxed">
               Perth&apos;s trusted pressure cleaning specialists, dedicated to transforming properties across Western Australia with professional care and exceptional results.
@@ -87,7 +87,7 @@ export default function AboutContent() {
               </h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  Premier Pressure Solutions WA was built on a simple belief — Perth properties deserve to look their best.
+                  PPS Exterior Cleaning was built on a simple belief — Perth properties deserve to look their best.
                 </p>
                 <p>
                   What started as a small, locally owned operation quickly grew through word of mouth, repeat customers, and one clear difference: we treat every property like it&apos;s our own.
@@ -135,7 +135,7 @@ export default function AboutContent() {
                   We&apos;re fully insured, professional, and committed to showing up when we say we will. Our goal isn&apos;t just to clean your surfaces — it&apos;s to build long-term relationships with homeowners and businesses across Perth.
                 </p>
                 <p>
-                  At Premier Pressure Solutions WA, we believe a clean exterior doesn&apos;t just improve appearance — it adds value, protects your investment, and restores pride in your property.
+                  At PPS Exterior Cleaning, we believe a clean exterior doesn&apos;t just improve appearance — it adds value, protects your investment, and restores pride in your property.
                 </p>
                 <p className="font-semibold text-[#0a1628] italic">
                   And we&apos;re just getting started.
@@ -320,7 +320,7 @@ export default function AboutContent() {
               Ready to Transform Your Property?
             </h2>
             <p className="text-xl text-white/90 mb-8">
-              Experience the Premier Pressure Solutions WA difference. Get your free quote today.
+              Experience the PPS Exterior Cleaning difference. Get your free quote today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -331,7 +331,7 @@ export default function AboutContent() {
                 <span>Call 0452 579 657</span>
               </a>
               <a
-                href="mailto:info@premierpressuresolutions.com.au"
+                href="mailto:info@ppsexteriorcleaning.com.au"
                 className="inline-flex items-center justify-center gap-2 bg-white text-[#0a1628] px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl"
               >
                 Email Us for a Quote

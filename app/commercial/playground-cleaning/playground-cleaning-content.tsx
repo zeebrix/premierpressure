@@ -71,7 +71,7 @@ export function PlaygroundCleaningContent() {
                 Playgrounds are where Perth&apos;s children learn, play, and grow. These important community spaces face constant use and exposure to weather, resulting in accumulation of dirt, bacteria, mould, bird droppings, and other contaminants that can affect children&apos;s health and safety. Regular professional cleaning helps maintain hygienic play environments that parents trust and supports the longevity of playground equipment.
               </p>
               <p>
-                Premier Pressure Solutions WA specializes in playground cleaning for schools, child care centers, councils, parks, and residential complexes across Perth. We understand the unique requirements of cleaning in environments designed for children and use specialized child-safe methods that deliver exceptional hygiene results without compromising equipment safety or integrity.
+                PPS Exterior Cleaning specializes in playground cleaning for schools, child care centers, councils, parks, and residential complexes across Perth. We understand the unique requirements of cleaning in environments designed for children and use specialized child-safe methods that deliver exceptional hygiene results without compromising equipment safety or integrity.
               </p>
               <p>
                 Our team takes special care when cleaning playground equipment, using appropriate pressure settings and non-toxic solutions that remove contaminants effectively while protecting the surfaces children touch and play on. We follow strict safety protocols to ensure playgrounds are not only clean but also safe for children to enjoy immediately after our service.

@@ -71,7 +71,7 @@ export function IndustrialWashingContent() {
                 Industrial facilities face unique cleaning challenges that standard pressure cleaning services aren&apos;t equipped to handle. Manufacturing plants, warehouses, processing facilities, and industrial complexes deal with heavy oils, chemical residues, production waste, and stubborn industrial contaminants that require specialized equipment and expertise.
               </p>
               <p>
-                Premier Pressure Solutions WA provides professional industrial pressure washing services designed specifically for Perth&apos;s manufacturing and industrial sectors. We understand the demands of industrial environments and deliver powerful cleaning solutions that maintain workplace standards, support operational efficiency, and meet safety compliance requirements.
+                PPS Exterior Cleaning provides professional industrial pressure washing services designed specifically for Perth&apos;s manufacturing and industrial sectors. We understand the demands of industrial environments and deliver powerful cleaning solutions that maintain workplace standards, support operational efficiency, and meet safety compliance requirements.
               </p>
               <p>
                 Our team has extensive experience working in industrial settings and understands the importance of safety, minimal downtime, and effective results. We use industrial-grade equipment capable of tackling the toughest cleaning jobs while working efficiently to minimize impact on your operations.

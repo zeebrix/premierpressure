@@ -103,7 +103,7 @@ export function SchoolCleaningContent() {
               </div>
 
               <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
-                Why Schools Choose Premier Pressure Solutions WA
+                Why Schools Choose PPS Exterior Cleaning
               </h3>
               <p>
                 Educational facilities require cleaning providers who understand safety protocols, compliance requirements, and the importance of maintaining a professional appearance. We&apos;ve developed specialized processes for school environments that prioritize student safety while delivering outstanding cleaning results.
