@@ -21,6 +21,24 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'premierpressuresolutions.com.au' }],
+        destination: 'https://www.ppsexteriorcleaning.com.au/:path*',
+        statusCode: 301,
+      },
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.premierpressuresolutions.com.au' }],
+        destination: 'https://www.ppsexteriorcleaning.com.au/:path*',
+        statusCode: 301,
+      },
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'ppsexteriorcleaning.com.au' }],
+        destination: 'https://www.ppsexteriorcleaning.com.au/:path*',
+        statusCode: 301,
+      },
+      {
         source: '/services/:slug',
         destination: '/:slug',
         permanent: true,

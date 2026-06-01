@@ -6,6 +6,7 @@ const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 const staticPaths = [
   '/',
   '/about',
+  '/contact',
   '/areas',
   '/gallery',
   '/terms',
