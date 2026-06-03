@@ -9,7 +9,7 @@
 body {
   font-family: system-ui, -apple-system, sans-serif;
   background: #ffffff;
-  color: #0a1628;
+  color: #020B1C;
 }
 
 .min-h-screen {
@@ -95,7 +95,7 @@ body {
 }
 
 .bg-navy {
-  background-color: #0a1628;
+  background-color: #020B1C;
 }
 
 .text-white {
@@ -103,7 +103,7 @@ body {
 }
 
 .hover-navy:hover {
-  background-color: #1a2638;
+  background-color: #06152E;
 }
 
 .transition-colors {

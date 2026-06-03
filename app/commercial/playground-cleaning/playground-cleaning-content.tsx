@@ -63,7 +63,7 @@ export function PlaygroundCleaningContent() {
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-6">
               Professional Playground Cleaning in Perth
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
@@ -77,7 +77,7 @@ export function PlaygroundCleaningContent() {
                 Our team takes special care when cleaning playground equipment, using appropriate pressure settings and non-toxic solutions that remove contaminants effectively while protecting the surfaces children touch and play on. We follow strict safety protocols to ensure playgrounds are not only clean but also safe for children to enjoy immediately after our service.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Playground Areas We Clean
               </h3>
               <div className="grid sm:grid-cols-2 gap-3 my-6">
@@ -96,13 +96,13 @@ export function PlaygroundCleaningContent() {
                   'Surrounding walkways and paths',
                 ].map((item) => (
                   <div key={item} className="flex items-start gap-2">
-                    <CheckCircle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                     <span>{item}</span>
                   </div>
                 ))}
               </div>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Why Perth Playgrounds Choose Our Service
               </h3>
               <p>
@@ -115,7 +115,7 @@ export function PlaygroundCleaningContent() {
                 We also use appropriate pressure settings that effectively clean surfaces without damaging protective coatings, safety surfacing, or equipment integrity. Different playground materials require different approaches - we adjust our methods for metal, plastic, timber, and composite materials to achieve optimal cleaning without causing harm.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Health Benefits of Clean Playgrounds
               </h3>
               <p>
@@ -125,7 +125,7 @@ export function PlaygroundCleaningContent() {
                 Clean playgrounds also encourage more frequent use. Parents are more likely to bring children to well-maintained playgrounds that look and feel clean. For schools and childcare centers, clean play equipment demonstrates commitment to child wellbeing and creates positive impressions with parents.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Council and Community Playgrounds
               </h3>
               <p>
@@ -135,7 +135,7 @@ export function PlaygroundCleaningContent() {
                 We can establish regular cleaning schedules that keep council playgrounds consistently clean throughout the year, or provide one-off cleaning before community events, festivals, or school holidays when playground usage peaks.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 School and Child Care Playgrounds
               </h3>
               <p>
@@ -145,7 +145,7 @@ export function PlaygroundCleaningContent() {
                 We can schedule cleaning during school holidays, weekends, or when playgrounds are not in use to ensure minimal disruption to children&apos;s outdoor learning and play time. Our team holds appropriate insurance for educational facilities and can provide all necessary documentation for your records.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Residential Complex Playgrounds
               </h3>
               <p>

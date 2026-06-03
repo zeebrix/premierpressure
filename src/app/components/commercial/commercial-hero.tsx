@@ -12,7 +12,7 @@ interface CommercialHeroProps {
 
 export function CommercialHero({ title, subtitle, description }: CommercialHeroProps) {
   return (
-    <section className="relative min-h-[70vh] flex items-center overflow-hidden bg-[#0a1628]">
+    <section className="relative min-h-[70vh] flex items-center overflow-hidden bg-[#020B1C]">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -20,7 +20,7 @@ export function CommercialHero({ title, subtitle, description }: CommercialHeroP
           alt="Commercial building background" 
           className="w-full h-full object-cover opacity-30"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0a1628] via-[#0a1628]/80 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#020B1C] via-[#020B1C]/80 to-transparent" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
@@ -30,9 +30,9 @@ export function CommercialHero({ title, subtitle, description }: CommercialHeroP
           transition={{ duration: 0.8 }}
           className="max-w-3xl"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#00d4ff]/10 border border-[#00d4ff]/30 rounded-full mb-8">
-            <div className="w-2 h-2 rounded-full bg-[#00d4ff] animate-pulse" />
-            <span className="text-[#00d4ff] font-bold uppercase tracking-widest text-xs">{subtitle}</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#0057FF]/10 border border-[#0057FF]/30 rounded-full mb-8">
+            <div className="w-2 h-2 rounded-full bg-[#0057FF] animate-pulse" />
+            <span className="text-[#0057FF] font-bold uppercase tracking-widest text-xs">{subtitle}</span>
           </div>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 text-white leading-tight">
             {title}
@@ -43,7 +43,7 @@ export function CommercialHero({ title, subtitle, description }: CommercialHeroP
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="tel:+61452579657"
-              className="inline-flex items-center justify-center gap-3 bg-[#00d4ff] text-[#0a1628] px-10 py-5 rounded-xl font-bold text-lg hover:bg-[#00c4ef] transition-all shadow-2xl hover:scale-105"
+              className="inline-flex items-center justify-center gap-3 bg-[#0057FF] text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-[#0049d8] transition-all shadow-2xl hover:scale-105"
             >
               <Phone className="w-6 h-6" />
               <span>Get Instant Quote</span>
@@ -68,12 +68,12 @@ export function CommercialHero({ title, subtitle, description }: CommercialHeroP
           className="bg-white/5 backdrop-blur-xl border border-white/10 p-8 rounded-3xl space-y-6"
         >
           <div className="flex items-center gap-4">
-            <div className="text-4xl font-bold text-[#00d4ff]">24/7</div>
+            <div className="text-4xl font-bold text-[#0057FF]">24/7</div>
             <div className="text-white/60 text-sm leading-tight uppercase tracking-wider font-semibold">Service<br/>Availability</div>
           </div>
           <div className="w-full h-[1px] bg-white/10" />
           <div className="flex items-center gap-4">
-            <div className="text-4xl font-bold text-[#00d4ff]">100%</div>
+            <div className="text-4xl font-bold text-[#0057FF]">100%</div>
             <div className="text-white/60 text-sm leading-tight uppercase tracking-wider font-semibold">Quality<br/>Assurance</div>
           </div>
         </motion.div>

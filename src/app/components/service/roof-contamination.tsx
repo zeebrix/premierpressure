@@ -49,14 +49,14 @@ export function RoofContamination() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#0a1628] mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#020B1C] mb-4">
             Understanding Roof Contamination
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-6">
             Multiple organisms and biological materials grow and establish themselves on roof surfaces, especially in damp and shaded areas. Identifying these organisms is essential for determining the most effective cleaning method for your roof.
           </p>
-          <div className="bg-[#00d4ff]/10 border-l-4 border-[#00d4ff] p-6 max-w-3xl mx-auto text-left rounded-r-lg">
-            <h3 className="font-semibold text-[#0a1628] mb-2">Why Roof Growth Occurs:</h3>
+          <div className="bg-[#0057FF]/10 border-l-4 border-[#0057FF] p-6 max-w-3xl mx-auto text-left rounded-r-lg">
+            <h3 className="font-semibold text-[#020B1C] mb-2">Why Roof Growth Occurs:</h3>
             <p className="text-gray-700">
               Roof growth occurs due to <strong>moisture from rain, dew, or poor drainage</strong>, combined with <strong>shade from trees or north-facing slopes</strong>. Organic debris like leaves and twigs traps moisture and provides nutrients. Perth's warm, humid climate accelerates growth, while older roofs with worn coatings are particularly vulnerable.
             </p>

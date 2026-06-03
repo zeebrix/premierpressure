@@ -21,7 +21,7 @@ export function ServiceBenefits({ intro, points, closing, serviceName }: Service
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-6">
               Why Choose Professional {serviceName}?
             </h2>
 
@@ -34,7 +34,7 @@ export function ServiceBenefits({ intro, points, closing, serviceName }: Service
             </div>
 
             <div className="bg-gray-50 rounded-2xl p-8 mb-8">
-              <h3 className="text-2xl font-bold text-[#0a1628] mb-6">
+              <h3 className="text-2xl font-bold text-[#020B1C] mb-6">
                 Benefits of Our Service
               </h3>
               <ul className="space-y-4">
@@ -47,7 +47,7 @@ export function ServiceBenefits({ intro, points, closing, serviceName }: Service
                     viewport={{ once: true }}
                     className="flex items-start gap-3"
                   >
-                    <CheckCircle className="w-6 h-6 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-6 h-6 text-[#0057FF] flex-shrink-0 mt-0.5" />
                     <span className="text-gray-700 text-lg">{point}</span>
                   </motion.li>
                 ))}

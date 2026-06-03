@@ -3,42 +3,42 @@
 :root {
   --font-size: 16px;
   --background: #ffffff;
-  --foreground: #0a1628;
+  --foreground: #020B1C;
   --card: #ffffff;
-  --card-foreground: #0a1628;
+  --card-foreground: #020B1C;
   --popover: #ffffff;
-  --popover-foreground: #0a1628;
-  --primary: #0a1628;
+  --popover-foreground: #020B1C;
+  --primary: #020B1C;
   --primary-foreground: #ffffff;
-  --secondary: #f0f9ff;
-  --secondary-foreground: #0a1628;
-  --muted: #f3f4f6;
-  --muted-foreground: #6b7280;
-  --accent: #00d4ff;
-  --accent-foreground: #0a1628;
+  --secondary: #06152E;
+  --secondary-foreground: #ffffff;
+  --muted: #D6DCE5;
+  --muted-foreground: #2A3D5E;
+  --accent: #0057FF;
+  --accent-foreground: #ffffff;
   --destructive: #ef4444;
   --destructive-foreground: #ffffff;
-  --border: rgba(10, 22, 40, 0.1);
+  --border: #2A3D5E;
   --input: transparent;
-  --input-background: #f9fafb;
+  --input-background: #ffffff;
   --switch-background: #e5e7eb;
   --font-weight-medium: 600;
   --font-weight-normal: 400;
-  --ring: #00d4ff;
-  --chart-1: #00d4ff;
-  --chart-2: #0a1628;
-  --chart-3: #60a5fa;
-  --chart-4: #34d399;
-  --chart-5: #a78bfa;
+  --ring: #0057FF;
+  --chart-1: #0057FF;
+  --chart-2: #020B1C;
+  --chart-3: #06152E;
+  --chart-4: #D6DCE5;
+  --chart-5: #2A3D5E;
   --radius: 0.75rem;
   --sidebar: #ffffff;
-  --sidebar-foreground: #0a1628;
-  --sidebar-primary: #0a1628;
+  --sidebar-foreground: #020B1C;
+  --sidebar-primary: #020B1C;
   --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #f0f9ff;
-  --sidebar-accent-foreground: #0a1628;
-  --sidebar-border: rgba(10, 22, 40, 0.1);
-  --sidebar-ring: #00d4ff;
+  --sidebar-accent: #06152E;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #2A3D5E;
+  --sidebar-ring: #0057FF;
 }
 
 .dark {
@@ -127,7 +127,7 @@
   body {
     @apply bg-background text-foreground;
     /* Optimize for mobile performance */
-    -webkit-tap-highlight-color: rgba(0, 212, 255, 0.2);
+    -webkit-tap-highlight-color: rgba(0, 87, 255, 0.2);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -203,7 +203,7 @@
 /* Touch-optimized elements */
 .touch-manipulation {
   touch-action: manipulation;
-  -webkit-tap-highlight-color: rgba(0, 212, 255, 0.2);
+  -webkit-tap-highlight-color: rgba(0, 87, 255, 0.2);
 }
 
 /* GPU acceleration for smooth animations */

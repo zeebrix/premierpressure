@@ -19,6 +19,13 @@ const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
 type Props = { params: Promise<{ slug: string }> };
 
+function buildSuburbIntro(suburbName: string, heroDescription: string) {
+  return {
+    intro: `PPS Exterior Cleaning provides pressure cleaning in ${suburbName} for homes, investment properties, strata sites, and local businesses that need reliable exterior cleaning without surface damage. ${heroDescription} We regularly clean driveways, concrete, pavers, liquid limestone, rendered walls, roof tiles, patios, pool surrounds, and full house exteriors across ${suburbName}.`,
+    localContext: `Properties in ${suburbName} can pick up a mix of red dust, tyre marks, algae, lichen, bore staining, coastal salt, and winter grime depending on their location, shade, and surface type. Our team chooses the right method for each material, using controlled pressure for hard concrete and safer soft washing for render, limestone, painted surfaces, and roof areas. If you are preparing a home for sale, freshening up outdoor entertaining areas, or dealing with slippery paths after wet weather, we can inspect the job, explain the best approach, and provide a free quote. PPS Exterior Cleaning is fully insured, locally operated, and set up for residential and commercial exterior cleaning throughout ${suburbName} and nearby Perth suburbs.`,
+  };
+}
+
 export function generateStaticParams() {
   return suburbs.map((s) => ({ slug: s.slug }));
 }
@@ -50,7 +57,11 @@ export default async function SuburbPage({ params }: Props) {
   const suburb = suburbBySlug.get(slug);
   if (!suburb) notFound();
 
-  const content = suburbContent[suburb.slug];
+  const generatedContent = buildSuburbIntro(suburb.name, suburb.heroDescription);
+  const content = {
+    ...generatedContent,
+    ...suburbContent[suburb.slug],
+  };
 
   // Use suburb-specific FAQs when available so the visible FAQs and the
   // FAQPage schema stay in sync (Audit #04).
@@ -90,29 +101,22 @@ export default async function SuburbPage({ params }: Props) {
         tagline={suburb.heroTagline}
         description={suburb.heroDescription}
       />
-      {(content?.intro || content?.localContext) && (
-        <section className="py-16 bg-white">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#0a1628] mb-4">
-              Pressure Cleaning in {suburb.name}
-            </h2>
-            {content?.intro && (
-              <p className="text-lg text-gray-700 leading-relaxed mb-4">{content.intro}</p>
-            )}
-            {content?.localContext && (
-              <p className="text-gray-600 leading-relaxed">{content.localContext}</p>
-            )}
-          </div>
-        </section>
-      )}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#020B1C] mb-4">
+            Pressure Cleaning in {suburb.name}
+          </h2>
+          <p className="text-lg text-gray-700 leading-relaxed mb-4">{content.intro}</p>
+          <p className="text-gray-600 leading-relaxed">{content.localContext}</p>
+        </div>
+      </section>
       <SuburbServices suburbName={suburb.name} />
-      <BeforeAfterGallery />
       <SuburbWhyChoose suburbName={suburb.name} />
 
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-4">
               Our Work in {suburb.name}
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -130,8 +134,8 @@ export default async function SuburbPage({ params }: Props) {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-8 text-center">
-              Get Your Free Quote Today
+            <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-8 text-center">
+              Get a Free Quote in {suburb.name}
             </h2>
             <QuoteForm />
           </div>

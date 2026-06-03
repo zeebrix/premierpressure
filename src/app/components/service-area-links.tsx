@@ -18,7 +18,7 @@ export function ServiceAreaLinks({ serviceLabel = 'Pressure Cleaning' }: { servi
   return (
     <section className="py-14 bg-gray-50 border-t border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-2xl md:text-3xl font-bold text-[#0a1628] mb-3">
+        <h2 className="text-2xl md:text-3xl font-bold text-[#020B1C] mb-3">
           {serviceLabel} Across Perth Suburbs
         </h2>
         <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
@@ -29,7 +29,7 @@ export function ServiceAreaLinks({ serviceLabel = 'Pressure Cleaning' }: { servi
             <Link
               key={s.slug}
               href={`/${s.slug}`}
-              className="px-3 py-1.5 rounded-full bg-white border border-gray-200 text-sm text-[#0a1628] hover:border-[#00d4ff] hover:text-[#00d4ff] transition-colors"
+              className="px-3 py-1.5 rounded-full bg-white border border-gray-200 text-sm text-[#020B1C] hover:border-[#0057FF] hover:text-[#0057FF] transition-colors"
             >
               {serviceLabel} in {s.name}
             </Link>
@@ -37,7 +37,7 @@ export function ServiceAreaLinks({ serviceLabel = 'Pressure Cleaning' }: { servi
         </div>
         <Link
           href="/areas"
-          className="inline-block mt-8 text-[#00d4ff] font-semibold hover:underline"
+          className="inline-block mt-8 text-[#0057FF] font-semibold hover:underline"
         >
           View all service areas →
         </Link>

@@ -116,19 +116,19 @@ export default function AreasContent() {
 
   return (
     <>
-      <section className="relative bg-gradient-to-br from-[#0a1628] to-[#1a2638] text-white py-20">
+      <section className="relative bg-gradient-to-br from-[#020B1C] to-[#06152E] text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 bg-[#00d4ff]/10 border border-[#00d4ff]/30 rounded-full px-4 py-2 mb-6">
-              <MapPin className="w-5 h-5 text-[#00d4ff]" />
-              <span className="text-[#00d4ff] font-semibold">Servicing All Perth Suburbs</span>
+            <div className="inline-flex items-center gap-2 bg-[#0057FF]/10 border border-[#0057FF]/30 rounded-full px-4 py-2 mb-6">
+              <MapPin className="w-5 h-5 text-[#0057FF]" />
+              <span className="text-[#0057FF] font-semibold">Servicing All Perth Suburbs</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Our Service Areas Across Perth</h1>
             <p className="text-xl text-gray-300 mb-8">
               PPS Exterior Cleaning proudly services premium suburbs throughout Perth&apos;s coastal, western, inner-city, and southern regions. Find your local area below for specialized pressure cleaning services.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-4">
-              <a href="tel:+61452579657" className="bg-[#00d4ff] text-[#0a1628] px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#00b8e6] transition-colors inline-flex items-center gap-2">
+              <a href="tel:+61452579657" className="bg-[#0057FF] text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#0049d8] transition-colors inline-flex items-center gap-2">
                 Call 0452 579 657
               </a>
               <div className="bg-green-500 text-white px-6 py-4 rounded-lg font-bold text-lg">10% OFF New Customers</div>
@@ -140,7 +140,7 @@ export default function AreasContent() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-4">Find Your Local Area</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-4">Find Your Local Area</h2>
             <p className="text-lg text-gray-600 mb-8">Search for your suburb to see our specialized services</p>
             <div className="relative max-w-2xl mx-auto">
               <input
@@ -148,7 +148,7 @@ export default function AreasContent() {
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 placeholder="Search for your suburb (e.g., Cottesloe, Subiaco, Nedlands)..."
-                className="w-full px-6 py-4 pl-12 text-lg border-2 border-gray-300 rounded-lg focus:outline-none focus:border-[#00d4ff] transition-colors shadow-sm"
+                className="w-full px-6 py-4 pl-12 text-lg border-2 border-gray-300 rounded-lg focus:outline-none focus:border-[#0057FF] transition-colors shadow-sm"
               />
               <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 w-6 h-6 text-gray-400" />
             </div>
@@ -157,16 +157,16 @@ export default function AreasContent() {
           {Object.entries(filteredSuburbs).length > 0 ? (
             Object.entries(filteredSuburbs).map(([region, suburbs]) => (
               <div key={region} className="mb-16 last:mb-0">
-                <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-8 pb-4 border-b-2 border-[#00d4ff]">{region}</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-8 pb-4 border-b-2 border-[#0057FF]">{region}</h2>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {suburbs.map((suburb) => (
-                    <Link key={suburb.path} href={suburb.path} className="group bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-[#00d4ff] hover:shadow-lg transition-all duration-300">
+                    <Link key={suburb.path} href={suburb.path} className="group bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-[#0057FF] hover:shadow-lg transition-all duration-300">
                       <div className="flex items-start justify-between mb-3">
-                        <h3 className="text-2xl font-bold text-[#0a1628] group-hover:text-[#00d4ff] transition-colors">{suburb.name}</h3>
-                        <ArrowRight className="w-6 h-6 text-[#00d4ff] opacity-0 group-hover:opacity-100 transform translate-x-0 group-hover:translate-x-1 transition-all" />
+                        <h3 className="text-2xl font-bold text-[#020B1C] group-hover:text-[#0057FF] transition-colors">{suburb.name}</h3>
+                        <ArrowRight className="w-6 h-6 text-[#0057FF] opacity-0 group-hover:opacity-100 transform translate-x-0 group-hover:translate-x-1 transition-all" />
                       </div>
                       <p className="text-gray-600 mb-4">{suburb.description}</p>
-                      <div className="flex items-center gap-2 text-[#00d4ff] font-semibold">
+                      <div className="flex items-center gap-2 text-[#0057FF] font-semibold">
                         <MapPin className="w-4 h-4" />
                         <span className="text-sm">View Services in {suburb.name}</span>
                       </div>
@@ -180,9 +180,9 @@ export default function AreasContent() {
               <div className="w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Search className="w-12 h-12 text-gray-400" />
               </div>
-              <h3 className="text-2xl font-bold text-[#0a1628] mb-2">No suburbs found</h3>
+              <h3 className="text-2xl font-bold text-[#020B1C] mb-2">No suburbs found</h3>
               <p className="text-gray-600 mb-6">We couldn&apos;t find any suburbs matching &ldquo;{searchTerm}&rdquo;</p>
-              <button onClick={() => setSearchTerm('')} className="bg-[#00d4ff] text-[#0a1628] px-6 py-3 rounded-lg font-semibold hover:bg-[#00b8e6] transition-colors">Clear Search</button>
+              <button onClick={() => setSearchTerm('')} className="bg-[#0057FF] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#0049d8] transition-colors">Clear Search</button>
             </div>
           )}
         </div>
@@ -191,27 +191,27 @@ export default function AreasContent() {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-4">Complete Pressure Cleaning Services</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-4">Complete Pressure Cleaning Services</h2>
             <p className="text-lg text-gray-600">Available in all service areas across Perth</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
             {['Driveway Cleaning', 'House Washing', 'Roof Cleaning', 'Limestone Cleaning', 'Paver Cleaning & Sealing', 'Window Cleaning', 'Pre-Sale Cleaning', 'Concrete Cleaning'].map((service) => (
-              <div key={service} className="bg-white rounded-lg p-6 text-center border-2 border-gray-200 hover:border-[#00d4ff] transition-colors">
-                <div className="w-12 h-12 bg-[#00d4ff]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <div className="w-6 h-6 bg-[#00d4ff] rounded-full"></div>
+              <div key={service} className="bg-white rounded-lg p-6 text-center border-2 border-gray-200 hover:border-[#0057FF] transition-colors">
+                <div className="w-12 h-12 bg-[#0057FF]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-6 h-6 bg-[#0057FF] rounded-full"></div>
                 </div>
-                <h3 className="font-bold text-[#0a1628]">{service}</h3>
+                <h3 className="font-bold text-[#020B1C]">{service}</h3>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-[#0a1628] to-[#1a2638] text-white">
+      <section className="py-20 bg-gradient-to-br from-[#020B1C] to-[#06152E] text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Get Started?</h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">Click on your suburb above to see our specialized services, or call us now for a free quote</p>
-          <a href="tel:+61452579657" className="bg-[#00d4ff] text-[#0a1628] px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#00b8e6] transition-colors inline-flex items-center gap-2">
+          <a href="tel:+61452579657" className="bg-[#0057FF] text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#0049d8] transition-colors inline-flex items-center gap-2">
             Call 0452 579 657 for Free Quote
           </a>
         </div>

@@ -20,15 +20,15 @@ export function RoofTreatmentDetail() {
               Our Premium Treatment Method
             </div>
             
-            <h2 className="text-3xl sm:text-4xl font-bold text-[#0a1628] mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-[#020B1C] mb-4">
               Gentle, Long-Lasting Clean
             </h2>
             <p className="text-lg text-gray-600 mb-6">
               When most people think about roof cleaning, they imagine high-pressure washing – but that approach can actually cause more problems than it solves! We use gentle softwashing techniques and specialized roof treatments designed to get your roof sparkling clean while keeping it completely safe from damage.
             </p>
 
-            <div className="bg-[#00d4ff]/10 border-l-4 border-[#00d4ff] p-6 rounded-r-lg mb-8">
-              <h3 className="font-bold text-[#0a1628] mb-2">How Our Roof Treatment Works:</h3>
+            <div className="bg-[#0057FF]/10 border-l-4 border-[#0057FF] p-6 rounded-r-lg mb-8">
+              <h3 className="font-bold text-[#020B1C] mb-2">How Our Roof Treatment Works:</h3>
               <p className="text-gray-700 mb-3">
                 We apply a specific chemical solution (<strong>Benzalkonium Chloride</strong>) that kills and breaks down algae, lichen, and fungus <strong>at their roots</strong>. Over 9–18 months, the organic growth breaks down and rinses away naturally with Perth's weather patterns.
               </p>
@@ -43,7 +43,7 @@ export function RoofTreatmentDetail() {
                   <Shield className="w-5 h-5 text-green-600" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-[#0a1628] mb-1">No Roof Walking</h4>
+                  <h4 className="font-semibold text-[#020B1C] mb-1">No Roof Walking</h4>
                   <p className="text-sm text-gray-600">Applied safely from ground level in most cases</p>
                 </div>
               </div>
@@ -53,7 +53,7 @@ export function RoofTreatmentDetail() {
                   <Clock className="w-5 h-5 text-blue-600" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-[#0a1628] mb-1">7-10+ Years</h4>
+                  <h4 className="font-semibold text-[#020B1C] mb-1">7-10+ Years</h4>
                   <p className="text-sm text-gray-600">vs 4-5 years for pressure washing</p>
                 </div>
               </div>
@@ -63,7 +63,7 @@ export function RoofTreatmentDetail() {
                   <Leaf className="w-5 h-5 text-purple-600" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-[#0a1628] mb-1">Kills at Roots</h4>
+                  <h4 className="font-semibold text-[#020B1C] mb-1">Kills at Roots</h4>
                   <p className="text-sm text-gray-600">Eliminates growth from the source</p>
                 </div>
               </div>
@@ -73,14 +73,14 @@ export function RoofTreatmentDetail() {
                   <Sparkles className="w-5 h-5 text-cyan-600" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-[#0a1628] mb-1">Safest Method</h4>
+                  <h4 className="font-semibold text-[#020B1C] mb-1">Safest Method</h4>
                   <p className="text-sm text-gray-600">Protects tile integrity and warranties</p>
                 </div>
               </div>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-md">
-              <h4 className="font-bold text-[#0a1628] mb-4 flex items-center gap-2">
+              <h4 className="font-bold text-[#020B1C] mb-4 flex items-center gap-2">
                 <CheckCircle2 className="w-5 h-5 text-green-600" />
                 Treatment Benefits Include:
               </h4>
@@ -114,7 +114,7 @@ export function RoofTreatmentDetail() {
             className="lg:pl-8"
           >
             <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
-              <h3 className="text-2xl font-bold text-[#0a1628] mb-6 text-center">
+              <h3 className="text-2xl font-bold text-[#020B1C] mb-6 text-center">
                 Treatment Timeline
               </h3>
               
@@ -122,13 +122,13 @@ export function RoofTreatmentDetail() {
                 {/* Day 1 */}
                 <div className="flex gap-4">
                   <div className="flex flex-col items-center">
-                    <div className="w-12 h-12 rounded-full bg-[#00d4ff] text-[#0a1628] flex items-center justify-center font-bold flex-shrink-0">
+                    <div className="w-12 h-12 rounded-full bg-[#0057FF] text-white flex items-center justify-center font-bold flex-shrink-0">
                       1
                     </div>
                     <div className="w-0.5 h-full bg-gray-300 mt-2"></div>
                   </div>
                   <div className="pb-6">
-                    <h4 className="font-bold text-[#0a1628] mb-1">Day 1: Treatment Applied</h4>
+                    <h4 className="font-bold text-[#020B1C] mb-1">Day 1: Treatment Applied</h4>
                     <p className="text-sm text-gray-600">Benzalkonium Chloride solution applied to kill organic growth at the roots. Safe, low-pressure application.</p>
                   </div>
                 </div>
@@ -142,7 +142,7 @@ export function RoofTreatmentDetail() {
                     <div className="w-0.5 h-full bg-gray-300 mt-2"></div>
                   </div>
                   <div className="pb-6">
-                    <h4 className="font-bold text-[#0a1628] mb-1">3 Months: Growth Dying</h4>
+                    <h4 className="font-bold text-[#020B1C] mb-1">3 Months: Growth Dying</h4>
                     <p className="text-sm text-gray-600">Organic materials begin breaking down. You'll notice moss and lichen starting to loosen and fade.</p>
                   </div>
                 </div>
@@ -156,7 +156,7 @@ export function RoofTreatmentDetail() {
                     <div className="w-0.5 h-full bg-gray-300 mt-2"></div>
                   </div>
                   <div className="pb-6">
-                    <h4 className="font-bold text-[#0a1628] mb-1">9-18 Months: Natural Rinse</h4>
+                    <h4 className="font-bold text-[#020B1C] mb-1">9-18 Months: Natural Rinse</h4>
                     <p className="text-sm text-gray-600">Perth's rain naturally rinses away dead organic matter. Your roof gradually returns to its clean state.</p>
                   </div>
                 </div>
@@ -169,7 +169,7 @@ export function RoofTreatmentDetail() {
                     </div>
                   </div>
                   <div>
-                    <h4 className="font-bold text-[#0a1628] mb-1">7-10+ Years: Long-Term Protection</h4>
+                    <h4 className="font-bold text-[#020B1C] mb-1">7-10+ Years: Long-Term Protection</h4>
                     <p className="text-sm text-gray-600">Your roof stays cleaner for 2-3 times longer than pressure washing alone. Maximum value for your investment.</p>
                   </div>
                 </div>

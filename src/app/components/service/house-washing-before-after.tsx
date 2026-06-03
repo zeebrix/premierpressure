@@ -47,7 +47,7 @@ export function HouseWashingBeforeAfter({ serviceName }: HouseWashingBeforeAfter
     <section className="py-12 md:py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-4">
             Before & After Results
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -68,7 +68,7 @@ export function HouseWashingBeforeAfter({ serviceName }: HouseWashingBeforeAfter
               <div className="grid md:grid-cols-2 gap-0">
                 {/* Before */}
                 <div className="relative bg-gray-100">
-                  <div className="absolute top-4 left-4 z-10 bg-[#0a1628] text-white px-4 py-2 rounded-lg font-semibold">
+                  <div className="absolute top-4 left-4 z-10 bg-[#020B1C] text-white px-4 py-2 rounded-lg font-semibold">
                     Before
                   </div>
                   <ImageWithFallback
@@ -80,7 +80,7 @@ export function HouseWashingBeforeAfter({ serviceName }: HouseWashingBeforeAfter
 
                 {/* After */}
                 <div className="relative bg-gray-100">
-                  <div className="absolute top-4 left-4 z-10 bg-[#00d4ff] text-[#0a1628] px-4 py-2 rounded-lg font-semibold">
+                  <div className="absolute top-4 left-4 z-10 bg-[#0057FF] text-white px-4 py-2 rounded-lg font-semibold">
                     After
                   </div>
                   <ImageWithFallback
@@ -96,7 +96,7 @@ export function HouseWashingBeforeAfter({ serviceName }: HouseWashingBeforeAfter
               <div className="p-6 bg-white border-t border-gray-100">
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="font-semibold text-[#0a1628] text-lg mb-1">
+                    <p className="font-semibold text-[#020B1C] text-lg mb-1">
                       {current.description}
                     </p>
                     <div className="flex items-center gap-2 text-gray-600">
@@ -113,7 +113,7 @@ export function HouseWashingBeforeAfter({ serviceName }: HouseWashingBeforeAfter
                         onClick={() => setCurrentIndex(index)}
                         className={`w-2.5 h-2.5 rounded-full transition-all ${
                           index === currentIndex
-                            ? 'bg-[#00d4ff] w-8'
+                            ? 'bg-[#0057FF] w-8'
                             : 'bg-gray-300 hover:bg-gray-400'
                         }`}
                         aria-label={`Go to slide ${index + 1}`}
@@ -131,7 +131,7 @@ export function HouseWashingBeforeAfter({ serviceName }: HouseWashingBeforeAfter
             className="absolute left-4 top-1/2 -translate-y-1/2 -translate-x-full hidden md:flex items-center justify-center w-12 h-12 bg-white rounded-full shadow-lg hover:bg-gray-50 transition-colors"
             aria-label="Previous image"
           >
-            <ChevronLeft className="w-6 h-6 text-[#0a1628]" />
+            <ChevronLeft className="w-6 h-6 text-[#020B1C]" />
           </button>
 
           <button
@@ -139,7 +139,7 @@ export function HouseWashingBeforeAfter({ serviceName }: HouseWashingBeforeAfter
             className="absolute right-4 top-1/2 -translate-y-1/2 translate-x-full hidden md:flex items-center justify-center w-12 h-12 bg-white rounded-full shadow-lg hover:bg-gray-50 transition-colors"
             aria-label="Next image"
           >
-            <ChevronRight className="w-6 h-6 text-[#0a1628]" />
+            <ChevronRight className="w-6 h-6 text-[#020B1C]" />
           </button>
 
           {/* Mobile Navigation */}
@@ -149,14 +149,14 @@ export function HouseWashingBeforeAfter({ serviceName }: HouseWashingBeforeAfter
               className="flex items-center justify-center w-12 h-12 bg-white rounded-full shadow-lg hover:bg-gray-50 transition-colors"
               aria-label="Previous image"
             >
-              <ChevronLeft className="w-6 h-6 text-[#0a1628]" />
+              <ChevronLeft className="w-6 h-6 text-[#020B1C]" />
             </button>
             <button
               onClick={next}
               className="flex items-center justify-center w-12 h-12 bg-white rounded-full shadow-lg hover:bg-gray-50 transition-colors"
               aria-label="Next image"
             >
-              <ChevronRight className="w-6 h-6 text-[#0a1628]" />
+              <ChevronRight className="w-6 h-6 text-[#020B1C]" />
             </button>
           </div>
         </div>

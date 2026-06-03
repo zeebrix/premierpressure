@@ -23,7 +23,7 @@ export function CommercialProcess({ title = 'Our Process', steps }: CommercialPr
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-4">
             {title}
           </h2>
         </motion.div>
@@ -39,10 +39,10 @@ export function CommercialProcess({ title = 'Our Process', steps }: CommercialPr
               className="relative"
             >
               <div className="flex flex-col items-center text-center">
-                <div className="w-16 h-16 bg-gradient-to-br from-[#00d4ff] to-[#0a1628] rounded-full flex items-center justify-center mb-4">
+                <div className="w-16 h-16 bg-gradient-to-br from-[#0057FF] to-[#020B1C] rounded-full flex items-center justify-center mb-4">
                   <span className="text-2xl font-bold text-white">{index + 1}</span>
                 </div>
-                <h3 className="text-xl font-bold text-[#0a1628] mb-3">
+                <h3 className="text-xl font-bold text-[#020B1C] mb-3">
                   {step.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -50,7 +50,7 @@ export function CommercialProcess({ title = 'Our Process', steps }: CommercialPr
                 </p>
               </div>
               {index < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-8 left-[60%] w-[80%] h-0.5 bg-gradient-to-r from-[#00d4ff] to-transparent"></div>
+                <div className="hidden lg:block absolute top-8 left-[60%] w-[80%] h-0.5 bg-gradient-to-r from-[#0057FF] to-transparent"></div>
               )}
             </motion.div>
           ))}

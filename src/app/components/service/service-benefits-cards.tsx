@@ -24,7 +24,7 @@ export function ServiceBenefitsCards({ benefits }: ServiceBenefitsCardsProps) {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-4">
             Why Choose Our Service
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -42,10 +42,10 @@ export function ServiceBenefitsCards({ benefits }: ServiceBenefitsCardsProps) {
               viewport={{ once: true }}
               className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow"
             >
-              <div className="w-12 h-12 bg-gradient-to-br from-[#00d4ff] to-[#0a1628] rounded-lg flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-gradient-to-br from-[#0057FF] to-[#020B1C] rounded-lg flex items-center justify-center mb-4">
                 <benefit.icon className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-[#0a1628] mb-3">
+              <h3 className="text-xl font-bold text-[#020B1C] mb-3">
                 {benefit.title}
               </h3>
               <p className="text-gray-600 leading-relaxed">

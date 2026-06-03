@@ -82,20 +82,20 @@ export default function GalleryContent() {
 
   return (
     <>
-      <section className="relative bg-gradient-to-br from-[#0a1628] to-[#0f2744] text-white pt-32 pb-20">
+      <section className="relative bg-gradient-to-br from-[#020B1C] to-[#06152E] text-white pt-32 pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="text-center max-w-3xl mx-auto">
-            <div className="inline-block bg-[#00d4ff]/10 border border-[#00d4ff]/30 text-[#00d4ff] px-4 py-2 rounded-full text-sm font-semibold mb-6">
+            <div className="inline-block bg-[#0057FF]/10 border border-[#0057FF]/30 text-[#0057FF] px-4 py-2 rounded-full text-sm font-semibold mb-6">
               BEFORE &amp; AFTER GALLERY
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              See The <span className="text-[#00d4ff]">Transformation</span>
+              See The <span className="text-[#0057FF]">Transformation</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8">
               Real results from real Perth properties. Our professional pressure cleaning services deliver exceptional transformations across residential and commercial projects.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+61452579657" className="inline-flex items-center justify-center gap-2 bg-[#00d4ff] text-[#0a1628] px-8 py-4 rounded-lg font-semibold hover:bg-[#00b8e6] transition-colors shadow-lg hover:shadow-xl">
+              <a href="tel:+61452579657" className="inline-flex items-center justify-center gap-2 bg-[#0057FF] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#0049d8] transition-colors shadow-lg hover:shadow-xl">
                 <Phone className="w-5 h-5" />
                 Call 0452 579 657
               </a>
@@ -112,22 +112,22 @@ export default function GalleryContent() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-[#00d4ff] mb-2">500+</div>
+              <div className="text-3xl md:text-4xl font-bold text-[#0057FF] mb-2">500+</div>
               <div className="text-gray-600 font-medium">Happy Customers</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-[#00d4ff] mb-2">10,000+</div>
+              <div className="text-3xl md:text-4xl font-bold text-[#0057FF] mb-2">10,000+</div>
               <div className="text-gray-600 font-medium">Sqm Cleaned</div>
             </div>
             <div className="text-center">
               <div className="flex items-center justify-center gap-1 mb-2">
-                <Star className="w-8 h-8 fill-[#00d4ff] text-[#00d4ff]" />
-                <span className="text-3xl md:text-4xl font-bold text-[#00d4ff]">5.0</span>
+                <Star className="w-8 h-8 fill-[#0057FF] text-[#0057FF]" />
+                <span className="text-3xl md:text-4xl font-bold text-[#0057FF]">5.0</span>
               </div>
               <div className="text-gray-600 font-medium">Google Rating</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-[#00d4ff] mb-2">10%</div>
+              <div className="text-3xl md:text-4xl font-bold text-[#0057FF] mb-2">10%</div>
               <div className="text-gray-600 font-medium">New Customer Discount</div>
             </div>
           </div>
@@ -137,12 +137,12 @@ export default function GalleryContent() {
       <section className="bg-gray-50 py-8 sticky top-16 z-30 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
-            <Filter className="w-5 h-5 text-[#0a1628]" />
-            <h2 className="text-lg font-semibold text-[#0a1628]">Filter By Service</h2>
+            <Filter className="w-5 h-5 text-[#020B1C]" />
+            <h2 className="text-lg font-semibold text-[#020B1C]">Filter By Service</h2>
           </div>
           <div className="flex flex-wrap gap-2">
             {CATEGORIES.map((category) => (
-              <button key={category.value} onClick={() => setSelectedCategory(category.value)} className={`px-4 py-2 rounded-lg font-medium transition-all ${selectedCategory === category.value ? 'bg-[#00d4ff] text-[#0a1628] shadow-md' : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-300'}`}>
+              <button key={category.value} onClick={() => setSelectedCategory(category.value)} className={`px-4 py-2 rounded-lg font-medium transition-all ${selectedCategory === category.value ? 'bg-[#0057FF] text-white shadow-md' : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-300'}`}>
                 {category.label}
               </button>
             ))}
@@ -154,7 +154,7 @@ export default function GalleryContent() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {loading ? (
             <div className="flex items-center justify-center py-20">
-              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#00d4ff]"></div>
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#0057FF]"></div>
             </div>
           ) : imagePairs.length === 0 ? (
             <div className="text-center py-20">
@@ -166,7 +166,7 @@ export default function GalleryContent() {
                 <p className="text-gray-600">
                   {selectedCategory === 'all' ? 'No gallery images available yet.' : `No images found for ${CATEGORIES.find((c) => c.value === selectedCategory)?.label || selectedCategory}.`}
                 </p>
-                <button onClick={() => setSelectedCategory('all')} className="mt-6 inline-flex items-center gap-2 text-[#00d4ff] hover:text-[#00b8e6] font-semibold">
+                <button onClick={() => setSelectedCategory('all')} className="mt-6 inline-flex items-center gap-2 text-[#0057FF] hover:text-[#0049d8] font-semibold">
                   View All Projects
                   <ArrowRight className="w-4 h-4" />
                 </button>
@@ -176,9 +176,9 @@ export default function GalleryContent() {
             <>
               <div className="text-center mb-8">
                 <p className="text-gray-600">
-                  Showing <span className="font-semibold text-[#0a1628]">{imagePairs.length}</span> {imagePairs.length === 1 ? 'project' : 'projects'}
+                  Showing <span className="font-semibold text-[#020B1C]">{imagePairs.length}</span> {imagePairs.length === 1 ? 'project' : 'projects'}
                   {selectedCategory !== 'all' && (
-                    <> in <span className="font-semibold text-[#0a1628]">{CATEGORIES.find((c) => c.value === selectedCategory)?.label}</span></>
+                    <> in <span className="font-semibold text-[#020B1C]">{CATEGORIES.find((c) => c.value === selectedCategory)?.label}</span></>
                   )}
                 </p>
               </div>
@@ -188,17 +188,17 @@ export default function GalleryContent() {
                     <div className="grid grid-cols-2 gap-0">
                       <div className="relative aspect-[3/4] bg-gray-200">
                         <img src={pair.before} alt={`Before pressure cleaning - ${pair.description}`} className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
-                        <div className="absolute top-3 left-3 bg-[#0a1628]/80 text-white px-3 py-1.5 rounded-md text-xs font-semibold">Before</div>
+                        <div className="absolute top-3 left-3 bg-[#020B1C]/80 text-white px-3 py-1.5 rounded-md text-xs font-semibold">Before</div>
                       </div>
                       <div className="relative aspect-[3/4] bg-gray-200">
                         <img src={pair.after} alt={`After pressure cleaning - ${pair.description}`} className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
-                        <div className="absolute top-3 right-3 bg-[#00d4ff]/90 text-[#0a1628] px-3 py-1.5 rounded-md text-xs font-semibold">After</div>
+                        <div className="absolute top-3 right-3 bg-[#0057FF]/90 text-[#020B1C] px-3 py-1.5 rounded-md text-xs font-semibold">After</div>
                       </div>
                     </div>
                     <div className="p-6">
                       <div className="flex items-start justify-between gap-4">
                         <div>
-                          <h3 className="text-lg font-semibold text-[#0a1628] mb-1">{pair.description}</h3>
+                          <h3 className="text-lg font-semibold text-[#020B1C] mb-1">{pair.description}</h3>
                           <p className="text-sm text-gray-500 capitalize">{pair.category.replace(/-/g, ' ')}</p>
                         </div>
                       </div>
@@ -214,7 +214,7 @@ export default function GalleryContent() {
       <section className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-4">Why Perth Trusts Us</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-4">Why Perth Trusts Us</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">Professional pressure cleaning services with guaranteed results</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -224,10 +224,10 @@ export default function GalleryContent() {
               { title: 'Satisfaction Guaranteed', description: '100% satisfaction guarantee on all our cleaning services' },
             ].map((item, index) => (
               <div key={index} className="bg-gray-50 rounded-xl p-8 text-center hover:shadow-lg transition-shadow">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-[#00d4ff]/10 rounded-full mb-6">
-                  <CheckCircle2 className="w-8 h-8 text-[#00d4ff]" />
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-[#0057FF]/10 rounded-full mb-6">
+                  <CheckCircle2 className="w-8 h-8 text-[#0057FF]" />
                 </div>
-                <h3 className="text-xl font-bold text-[#0a1628] mb-3">{item.title}</h3>
+                <h3 className="text-xl font-bold text-[#020B1C] mb-3">{item.title}</h3>
                 <p className="text-gray-600">{item.description}</p>
               </div>
             ))}
@@ -235,25 +235,25 @@ export default function GalleryContent() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-br from-[#0a1628] to-[#0f2744] text-white py-20">
+      <section className="bg-gradient-to-br from-[#020B1C] to-[#06152E] text-white py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-            Ready To Transform <span className="text-[#00d4ff]">Your Property?</span>
+            Ready To Transform <span className="text-[#0057FF]">Your Property?</span>
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
             Get the same incredible results you see in our gallery. Contact us today for a free, no-obligation quote.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:+61452579657" className="inline-flex items-center justify-center gap-2 bg-[#00d4ff] text-[#0a1628] px-8 py-4 rounded-lg font-semibold hover:bg-[#00b8e6] transition-colors shadow-lg hover:shadow-xl text-lg">
+            <a href="tel:+61452579657" className="inline-flex items-center justify-center gap-2 bg-[#0057FF] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#0049d8] transition-colors shadow-lg hover:shadow-xl text-lg">
               <Phone className="w-5 h-5" />
               Call 0452 579 657
             </a>
-            <Link href="/#quote" className="inline-flex items-center justify-center gap-2 bg-white text-[#0a1628] px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg hover:shadow-xl text-lg">
+            <Link href="/#quote" className="inline-flex items-center justify-center gap-2 bg-white text-[#020B1C] px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg hover:shadow-xl text-lg">
               Get Free Quote
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>
-          <div className="mt-8 inline-flex items-center gap-2 text-[#00d4ff] bg-[#00d4ff]/10 px-6 py-3 rounded-full border border-[#00d4ff]/30">
+          <div className="mt-8 inline-flex items-center gap-2 text-[#0057FF] bg-[#0057FF]/10 px-6 py-3 rounded-full border border-[#0057FF]/30">
             <CheckCircle2 className="w-5 h-5" />
             <span className="font-semibold">10% Off For New Customers</span>
           </div>

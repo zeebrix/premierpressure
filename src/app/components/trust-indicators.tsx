@@ -7,7 +7,7 @@ const indicators = [
   {
     icon: Shield,
     title: 'Fully Insured',
-    description: 'Complete insurance coverage for your peace of mind',
+    description: '$20 million public liability insurance for your peace of mind',
   },
   {
     icon: Leaf,
@@ -40,11 +40,11 @@ export function TrustIndicators() {
               viewport={{ once: true }}
               className="flex items-start gap-4"
             >
-              <div className="flex-shrink-0 w-12 h-12 bg-[#00d4ff]/10 rounded-lg flex items-center justify-center">
-                <indicator.icon className="w-6 h-6 text-[#00d4ff]" />
+              <div className="flex-shrink-0 w-12 h-12 bg-[#0057FF]/10 rounded-lg flex items-center justify-center">
+                <indicator.icon className="w-6 h-6 text-[#0057FF]" />
               </div>
               <div>
-                <div className="text-lg font-semibold text-[#0a1628] mb-1">
+                <div className="text-lg font-semibold text-[#020B1C] mb-1">
                   {indicator.title}
                 </div>
                 <p className="text-gray-600 text-sm">

@@ -17,7 +17,7 @@ export function ServiceHero({ title, subtitle, imageQuery, backgroundImage }: Se
   
   return (
     <section 
-      className="relative min-h-[500px] flex items-center justify-center overflow-hidden bg-[#0a1628]"
+      className="relative min-h-[500px] flex items-center justify-center overflow-hidden bg-[#020B1C]"
       aria-label={`${title} - Professional pressure cleaning service in Perth`}
     >
       {/* Background Image with Overlay */}
@@ -27,7 +27,7 @@ export function ServiceHero({ title, subtitle, imageQuery, backgroundImage }: Se
         aria-label={`Background image showing ${imageQuery || 'pressure cleaning service'} in Perth`}
       >
         <div 
-          className="absolute inset-0 bg-gradient-to-r from-[#0a1628] via-[#0a1628] to-[#0a1628]/98 w-full h-full"
+          className="absolute inset-0 bg-gradient-to-r from-[#020B1C] via-[#020B1C] to-[#020B1C]/98 w-full h-full"
           style={{
             backgroundImage: `url(${backgroundImage || defaultImage})`,
             backgroundSize: 'cover',
@@ -65,7 +65,7 @@ export function ServiceHero({ title, subtitle, imageQuery, backgroundImage }: Se
           >
             <a
               href="tel:+61452579657"
-              className="inline-flex items-center justify-center gap-2 bg-[#00d4ff] text-[#0a1628] px-8 py-4 rounded-lg transition-all hover:bg-[#00c4ef] shadow-lg hover:shadow-xl font-semibold text-lg"
+              className="inline-flex items-center justify-center gap-2 bg-[#0057FF] text-white px-8 py-4 rounded-lg transition-all hover:bg-[#0049d8] shadow-lg hover:shadow-xl font-semibold text-lg"
             >
               <Phone className="w-5 h-5" />
               <span>Call Now</span>
@@ -73,7 +73,7 @@ export function ServiceHero({ title, subtitle, imageQuery, backgroundImage }: Se
 
             <a
               href="#quote"
-              className="inline-flex items-center justify-center gap-2 bg-white text-[#0a1628] px-8 py-4 rounded-lg transition-all hover:bg-white/90 shadow-lg hover:shadow-xl font-semibold text-lg"
+              className="inline-flex items-center justify-center gap-2 bg-white text-[#020B1C] px-8 py-4 rounded-lg transition-all hover:bg-white/90 shadow-lg hover:shadow-xl font-semibold text-lg"
             >
               <FileText className="w-5 h-5" />
               <span>Get a Free Quote</span>

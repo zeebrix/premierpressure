@@ -61,22 +61,22 @@ export function CommercialPressureCleaningContent() {
       />
 
       {/* Trust Bar */}
-      <div className="bg-[#0a1628] py-8 border-t border-white/5">
+      <div className="bg-[#020B1C] py-8 border-t border-white/5">
         <div className="max-w-7xl mx-auto px-4 flex flex-wrap justify-center gap-8 md:gap-16 text-white/60">
           <div className="flex items-center gap-2">
-            <Award className="w-5 h-5 text-[#00d4ff]" />
+            <Award className="w-5 h-5 text-[#0057FF]" />
             <span className="font-semibold uppercase tracking-wider text-xs">Fully Insured</span>
           </div>
           <div className="flex items-center gap-2">
-            <Star className="w-5 h-5 text-[#00d4ff]" />
+            <Star className="w-5 h-5 text-[#0057FF]" />
             <span className="font-semibold uppercase tracking-wider text-xs">5-Star Rated</span>
           </div>
           <div className="flex items-center gap-2">
-            <Shield className="w-5 h-5 text-[#00d4ff]" />
+            <Shield className="w-5 h-5 text-[#0057FF]" />
             <span className="font-semibold uppercase tracking-wider text-xs">WA Local Expert</span>
           </div>
           <div className="flex items-center gap-2">
-            <Building2 className="w-5 h-5 text-[#00d4ff]" />
+            <Building2 className="w-5 h-5 text-[#0057FF]" />
             <span className="font-semibold uppercase tracking-wider text-xs">Commercial Grade</span>
           </div>
         </div>
@@ -94,8 +94,8 @@ export function CommercialPressureCleaningContent() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-3xl md:text-5xl font-bold text-[#0a1628] mb-8 leading-tight">
-                Command Attention with a <span className="text-[#00d4ff]">Pristine Business</span> Exterior
+              <h2 className="text-3xl md:text-5xl font-bold text-[#020B1C] mb-8 leading-tight">
+                Command Attention with a <span className="text-[#0057FF]">Pristine Business</span> Exterior
               </h2>
               <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                 <p>
@@ -111,8 +111,8 @@ export function CommercialPressureCleaningContent() {
                     'Hospitality Venues'
                   ].map((item) => (
                     <div key={item} className="flex items-center gap-3">
-                      <div className="w-2 h-2 rounded-full bg-[#00d4ff]" />
-                      <span className="font-semibold text-[#0a1628]">{item}</span>
+                      <div className="w-2 h-2 rounded-full bg-[#0057FF]" />
+                      <span className="font-semibold text-[#020B1C]">{item}</span>
                     </div>
                   ))}
                 </div>
@@ -126,14 +126,14 @@ export function CommercialPressureCleaningContent() {
               viewport={{ once: true }}
               className="relative"
             >
-              <div className="absolute -inset-4 bg-[#00d4ff]/10 rounded-2xl -rotate-2" />
+              <div className="absolute -inset-4 bg-[#0057FF]/10 rounded-2xl -rotate-2" />
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-100">
                 <img
                   src={showcaseImage.src}
                   alt="Commercial pressure cleaning showcase"
                   className="w-full h-full object-cover aspect-[4/3]"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628]/60 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#020B1C]/60 to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6">
                   <p className="text-white font-bold text-xl uppercase tracking-widest">Premium Results Guaranteed</p>
                 </div>
@@ -144,7 +144,7 @@ export function CommercialPressureCleaningContent() {
       </section>
 
       {/* Split Comparison Section */}
-      <section className="py-20 bg-[#0a1628] text-white overflow-hidden">
+      <section className="py-20 bg-[#020B1C] text-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-6">The Power of Clean</h2>
@@ -155,15 +155,15 @@ export function CommercialPressureCleaningContent() {
             <div className="grid md:grid-cols-2 gap-1">
               <div className="relative aspect-video md:aspect-auto h-[400px]">
                 <img src={heroImage.src} alt="Before cleaning" className="w-full h-full object-cover" />
-                <div className="absolute top-6 left-6 bg-[#0a1628] text-white px-6 py-2 rounded-full font-bold text-sm tracking-widest uppercase">Before</div>
+                <div className="absolute top-6 left-6 bg-[#020B1C] text-white px-6 py-2 rounded-full font-bold text-sm tracking-widest uppercase">Before</div>
               </div>
               <div className="relative aspect-video md:aspect-auto h-[400px]">
                 <img src={showcaseImage.src} alt="After cleaning" className="w-full h-full object-cover" />
-                <div className="absolute top-6 right-6 bg-[#00d4ff] text-[#0a1628] px-6 py-2 rounded-full font-bold text-sm tracking-widest uppercase">After Restoration</div>
+                <div className="absolute top-6 right-6 bg-[#0057FF] text-white px-6 py-2 rounded-full font-bold text-sm tracking-widest uppercase">After Restoration</div>
               </div>
             </div>
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-2xl border-4 border-[#00d4ff] z-10 hidden md:flex">
-              <Star className="w-8 h-8 text-[#00d4ff] animate-pulse" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-2xl border-4 border-[#0057FF] z-10 hidden md:flex">
+              <Star className="w-8 h-8 text-[#0057FF] animate-pulse" />
             </div>
           </div>
         </div>

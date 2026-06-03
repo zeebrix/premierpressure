@@ -54,18 +54,18 @@ export default function PreparationChecklistPage() {
 
       <article className="bg-white">
         {/* Article Header */}
-        <header className="bg-gradient-to-br from-[#0a1628] to-[#1a2640] text-white py-16">
+        <header className="bg-gradient-to-br from-[#020B1C] to-[#06152E] text-white py-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <Link
               href="/resources"
-              className="inline-flex items-center gap-2 text-[#00d4ff] hover:text-white mb-6 transition-colors"
+              className="inline-flex items-center gap-2 text-[#0057FF] hover:text-white mb-6 transition-colors"
             >
               <ArrowLeft className="w-4 h-4" />
               Back to Resources
             </Link>
 
             <div className="flex items-center gap-3 mb-4">
-              <span className="px-3 py-1 bg-[#00d4ff] text-[#0a1628] rounded-full text-sm font-bold">
+              <span className="px-3 py-1 bg-[#0057FF] text-white rounded-full text-sm font-bold">
                 Guide
               </span>
               <div className="flex items-center gap-2 text-gray-300 text-sm">
@@ -99,30 +99,30 @@ export default function PreparationChecklistPage() {
 
           {/* Quick Prep Summary */}
           <section className="mb-12">
-            <div className="bg-[#00d4ff]/10 rounded-xl p-6 border-2 border-[#00d4ff]">
-              <h2 className="text-2xl font-bold text-[#0a1628] mb-4 flex items-center gap-2">
-                <CheckSquare className="w-6 h-6 text-[#00d4ff]" />
+            <div className="bg-[#0057FF]/10 rounded-xl p-6 border-2 border-[#0057FF]">
+              <h2 className="text-2xl font-bold text-[#020B1C] mb-4 flex items-center gap-2">
+                <CheckSquare className="w-6 h-6 text-[#0057FF]" />
                 Quick Prep Summary (5 Minutes)
               </h2>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&#10003;</span>
+                  <span className="text-[#0057FF] mt-1">&#10003;</span>
                   <span>Move vehicles from driveways and clear access paths</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&#10003;</span>
+                  <span className="text-[#0057FF] mt-1">&#10003;</span>
                   <span>Close all windows and doors</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&#10003;</span>
+                  <span className="text-[#0057FF] mt-1">&#10003;</span>
                   <span>Remove or cover outdoor furniture and decorations</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&#10003;</span>
+                  <span className="text-[#0057FF] mt-1">&#10003;</span>
                   <span>Secure or remove pet bowls, toys, and outdoor items</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&#10003;</span>
+                  <span className="text-[#0057FF] mt-1">&#10003;</span>
                   <span>Ensure water tap access is clear and functional</span>
                 </li>
               </ul>
@@ -131,40 +131,40 @@ export default function PreparationChecklistPage() {
 
           {/* 24 Hours Before */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               24 Hours Before Cleaning
             </h2>
 
             <div className="space-y-6">
               <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
-                <h3 className="text-xl font-bold text-[#0a1628] mb-4 flex items-center gap-2">
-                  <Home className="w-5 h-5 text-[#00d4ff]" />
+                <h3 className="text-xl font-bold text-[#020B1C] mb-4 flex items-center gap-2">
+                  <Home className="w-5 h-5 text-[#0057FF]" />
                   Interior Preparation
                 </h3>
                 <div className="space-y-3">
                   <div className="flex items-start gap-3">
-                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#00d4ff] rounded" />
+                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#0057FF] rounded" />
                     <div>
                       <p className="font-semibold text-gray-900">Check and close all windows</p>
                       <p className="text-sm text-gray-600">Ensure all windows are fully closed and latched to prevent water entry</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#00d4ff] rounded" />
+                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#0057FF] rounded" />
                     <div>
                       <p className="font-semibold text-gray-900">Secure all exterior doors</p>
                       <p className="text-sm text-gray-600">Close exterior doors, including garage doors and pet doors</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#00d4ff] rounded" />
+                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#0057FF] rounded" />
                     <div>
                       <p className="font-semibold text-gray-900">Remove valuables from exterior walls</p>
                       <p className="text-sm text-gray-600">Take down artwork, decorations, or fragile items near cleaning areas</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#00d4ff] rounded" />
+                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#0057FF] rounded" />
                     <div>
                       <p className="font-semibold text-gray-900">Inform household members</p>
                       <p className="text-sm text-gray-600">Let everyone know about the scheduled cleaning and to keep windows/doors closed</p>
@@ -174,34 +174,34 @@ export default function PreparationChecklistPage() {
               </div>
 
               <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
-                <h3 className="text-xl font-bold text-[#0a1628] mb-4 flex items-center gap-2">
-                  <Car className="w-5 h-5 text-[#00d4ff]" />
+                <h3 className="text-xl font-bold text-[#020B1C] mb-4 flex items-center gap-2">
+                  <Car className="w-5 h-5 text-[#0057FF]" />
                   Outdoor &amp; Vehicle Preparation
                 </h3>
                 <div className="space-y-3">
                   <div className="flex items-start gap-3">
-                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#00d4ff] rounded" />
+                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#0057FF] rounded" />
                     <div>
                       <p className="font-semibold text-gray-900">Move all vehicles</p>
                       <p className="text-sm text-gray-600">Clear driveways and garages completely - park vehicles on street if possible</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#00d4ff] rounded" />
+                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#0057FF] rounded" />
                     <div>
                       <p className="font-semibold text-gray-900">Remove outdoor furniture</p>
                       <p className="text-sm text-gray-600">Move patio furniture, BBQs, planters, and outdoor décor away from cleaning areas</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#00d4ff] rounded" />
+                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#0057FF] rounded" />
                     <div>
                       <p className="font-semibold text-gray-900">Secure loose items</p>
                       <p className="text-sm text-gray-600">Put away children&apos;s toys, garden tools, doormats, and other loose objects</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#00d4ff] rounded" />
+                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#0057FF] rounded" />
                     <div>
                       <p className="font-semibold text-gray-900">Trim overhanging plants</p>
                       <p className="text-sm text-gray-600">Cut back bushes or plants blocking access to walls, gutters, or eaves</p>
@@ -211,34 +211,34 @@ export default function PreparationChecklistPage() {
               </div>
 
               <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
-                <h3 className="text-xl font-bold text-[#0a1628] mb-4 flex items-center gap-2">
-                  <Droplets className="w-5 h-5 text-[#00d4ff]" />
+                <h3 className="text-xl font-bold text-[#020B1C] mb-4 flex items-center gap-2">
+                  <Droplets className="w-5 h-5 text-[#0057FF]" />
                   Water &amp; Access Preparation
                 </h3>
                 <div className="space-y-3">
                   <div className="flex items-start gap-3">
-                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#00d4ff] rounded" />
+                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#0057FF] rounded" />
                     <div>
                       <p className="font-semibold text-gray-900">Identify water tap location</p>
                       <p className="text-sm text-gray-600">Ensure you know where the outdoor tap is and that it&apos;s accessible</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#00d4ff] rounded" />
+                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#0057FF] rounded" />
                     <div>
                       <p className="font-semibold text-gray-900">Test water tap</p>
                       <p className="text-sm text-gray-600">Check that your tap is working and has good water pressure</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#00d4ff] rounded" />
+                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#0057FF] rounded" />
                     <div>
                       <p className="font-semibold text-gray-900">Clear access paths</p>
                       <p className="text-sm text-gray-600">Ensure technicians can easily access all areas to be cleaned with equipment</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#00d4ff] rounded" />
+                    <input type="checkbox" className="mt-1 w-5 h-5 text-[#0057FF] rounded" />
                     <div>
                       <p className="font-semibold text-gray-900">Unlock gates and side access</p>
                       <p className="text-sm text-gray-600">Open gates or side passages needed to reach all cleaning areas</p>
@@ -251,11 +251,11 @@ export default function PreparationChecklistPage() {
 
           {/* Day of Cleaning */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               Day of Cleaning
             </h2>
 
-            <div className="bg-gradient-to-br from-[#0a1628] to-[#1a2640] rounded-xl p-8 text-white mb-6">
+            <div className="bg-gradient-to-br from-[#020B1C] to-[#06152E] rounded-xl p-8 text-white mb-6">
               <h3 className="text-2xl font-bold mb-4">Morning Of (Before Arrival)</h3>
               <div className="space-y-3">
                 {[
@@ -266,7 +266,7 @@ export default function PreparationChecklistPage() {
                   'Ensure someone 18+ will be home or contactable during service',
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <span className="text-[#00d4ff] font-bold mt-0.5">{index + 1}.</span>
+                    <span className="text-[#0057FF] font-bold mt-0.5">{index + 1}.</span>
                     <span className="text-gray-200">{item}</span>
                   </div>
                 ))}
@@ -328,7 +328,7 @@ export default function PreparationChecklistPage() {
 
           {/* Special Situations */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               Special Situations &amp; Considerations
             </h2>
 
@@ -372,11 +372,11 @@ export default function PreparationChecklistPage() {
                 },
               ].map((situation, index) => (
                 <div key={index} className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
-                  <h3 className="text-xl font-bold text-[#0a1628] mb-3">{situation.title}</h3>
+                  <h3 className="text-xl font-bold text-[#020B1C] mb-3">{situation.title}</h3>
                   <ul className="space-y-2">
                     {situation.items.map((item, i) => (
                       <li key={i} className="flex items-start gap-2 text-gray-700">
-                        <span className="text-[#00d4ff] mt-1">&rarr;</span>
+                        <span className="text-[#0057FF] mt-1">&rarr;</span>
                         <span>{item}</span>
                       </li>
                     ))}
@@ -388,46 +388,46 @@ export default function PreparationChecklistPage() {
 
           {/* What We Bring */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               What We Bring (You Don&apos;t Need To Provide)
             </h2>
 
             <div className="bg-gradient-to-br from-[#f8f9fa] to-[#e9ecef] rounded-xl p-8">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h3 className="font-bold text-[#0a1628] mb-3">Equipment &amp; Supplies:</h3>
+                  <h3 className="font-bold text-[#020B1C] mb-3">Equipment &amp; Supplies:</h3>
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-center gap-2">
-                      <CheckSquare className="w-4 h-4 text-[#00d4ff]" />
+                      <CheckSquare className="w-4 h-4 text-[#0057FF]" />
                       Commercial pressure washing equipment
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckSquare className="w-4 h-4 text-[#00d4ff]" />
+                      <CheckSquare className="w-4 h-4 text-[#0057FF]" />
                       Professional cleaning solutions
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckSquare className="w-4 h-4 text-[#00d4ff]" />
+                      <CheckSquare className="w-4 h-4 text-[#0057FF]" />
                       Extension hoses and accessories
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckSquare className="w-4 h-4 text-[#00d4ff]" />
+                      <CheckSquare className="w-4 h-4 text-[#0057FF]" />
                       Safety equipment
                     </li>
                   </ul>
                 </div>
                 <div>
-                  <h3 className="font-bold text-[#0a1628] mb-3">You Only Need To Provide:</h3>
+                  <h3 className="font-bold text-[#020B1C] mb-3">You Only Need To Provide:</h3>
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-center gap-2">
-                      <Droplets className="w-4 h-4 text-[#00d4ff]" />
+                      <Droplets className="w-4 h-4 text-[#0057FF]" />
                       Access to outdoor water tap
                     </li>
                     <li className="flex items-center gap-2">
-                      <Droplets className="w-4 h-4 text-[#00d4ff]" />
+                      <Droplets className="w-4 h-4 text-[#0057FF]" />
                       Electrical outlet (if available - we have generators)
                     </li>
                     <li className="flex items-center gap-2">
-                      <Droplets className="w-4 h-4 text-[#00d4ff]" />
+                      <Droplets className="w-4 h-4 text-[#0057FF]" />
                       Clear access to work areas
                     </li>
                   </ul>
@@ -438,7 +438,7 @@ export default function PreparationChecklistPage() {
 
           {/* Common Mistakes */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               Common Preparation Mistakes to Avoid
             </h2>
 
@@ -484,14 +484,14 @@ export default function PreparationChecklistPage() {
 
           {/* Printable Checklist */}
           <section className="mb-12">
-            <div className="bg-[#00d4ff] rounded-xl p-8 text-white">
+            <div className="bg-[#0057FF] rounded-xl p-8 text-white">
               <h2 className="text-3xl font-bold mb-4 text-center">
                 Quick Reference: Printable Checklist
               </h2>
               <div className="bg-white text-gray-900 rounded-lg p-6">
                 <div className="grid md:grid-cols-2 gap-4 text-sm">
                   <div>
-                    <h3 className="font-bold mb-2 text-[#0a1628]">24 Hours Before:</h3>
+                    <h3 className="font-bold mb-2 text-[#020B1C]">24 Hours Before:</h3>
                     <ul className="space-y-1">
                       <li>&#9744; Close all windows and doors</li>
                       <li>&#9744; Remove outdoor furniture</li>
@@ -501,7 +501,7 @@ export default function PreparationChecklistPage() {
                     </ul>
                   </div>
                   <div>
-                    <h3 className="font-bold mb-2 text-[#0a1628]">Morning Of:</h3>
+                    <h3 className="font-bold mb-2 text-[#020B1C]">Morning Of:</h3>
                     <ul className="space-y-1">
                       <li>&#9744; Move all vehicles</li>
                       <li>&#9744; Bring pets indoors</li>
@@ -516,7 +516,7 @@ export default function PreparationChecklistPage() {
           </section>
 
           {/* CTA */}
-          <section className="bg-gradient-to-br from-[#0a1628] to-[#1a2640] rounded-2xl p-8 text-white text-center">
+          <section className="bg-gradient-to-br from-[#020B1C] to-[#06152E] rounded-2xl p-8 text-white text-center">
             <h2 className="text-3xl font-bold mb-4">
               Ready to Book Your Pressure Cleaning?
             </h2>
@@ -526,7 +526,7 @@ export default function PreparationChecklistPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:0452579657"
-                className="inline-flex items-center justify-center gap-2 bg-[#00d4ff] text-[#0a1628] px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#00bfe6] transition-all"
+                className="inline-flex items-center justify-center gap-2 bg-[#0057FF] text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#0049d8] transition-all"
               >
                 Call 0452 579 657
               </a>

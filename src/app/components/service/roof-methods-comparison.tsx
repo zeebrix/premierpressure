@@ -83,7 +83,7 @@ export function RoofMethodsComparison() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#0a1628] mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#020B1C] mb-4">
             Which Cleaning Method is Best?
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -100,11 +100,11 @@ export function RoofMethodsComparison() {
               transition={{ delay: index * 0.1, duration: 0.5 }}
               viewport={{ once: true }}
               className={`bg-white rounded-xl shadow-lg border-2 overflow-hidden ${
-                method.recommended ? 'border-[#00d4ff] relative' : 'border-gray-200'
+                method.recommended ? 'border-[#0057FF] relative' : 'border-gray-200'
               }`}
             >
               {method.recommended && (
-                <div className="absolute top-4 right-4 bg-[#00d4ff] text-[#0a1628] px-3 py-1 rounded-full text-xs font-bold">
+                <div className="absolute top-4 right-4 bg-[#0057FF] text-white px-3 py-1 rounded-full text-xs font-bold">
                   RECOMMENDED
                 </div>
               )}
@@ -126,7 +126,7 @@ export function RoofMethodsComparison() {
 
                 {/* Pros */}
                 <div className="mb-6">
-                  <h4 className="font-semibold text-[#0a1628] mb-3 flex items-center gap-2">
+                  <h4 className="font-semibold text-[#020B1C] mb-3 flex items-center gap-2">
                     <CheckCircle2 className="w-5 h-5 text-green-600" />
                     Benefits
                   </h4>
@@ -142,7 +142,7 @@ export function RoofMethodsComparison() {
 
                 {/* Cons */}
                 <div className="mb-6">
-                  <h4 className="font-semibold text-[#0a1628] mb-3 flex items-center gap-2">
+                  <h4 className="font-semibold text-[#020B1C] mb-3 flex items-center gap-2">
                     <XCircle className="w-5 h-5 text-red-600" />
                     Considerations
                   </h4>
@@ -163,20 +163,20 @@ export function RoofMethodsComparison() {
                       <Clock className="w-4 h-4" />
                       Results
                     </span>
-                    <span className="text-sm font-semibold text-[#0a1628]">{method.results}</span>
+                    <span className="text-sm font-semibold text-[#020B1C]">{method.results}</span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-gray-600 flex items-center gap-2">
                       <TrendingUp className="w-4 h-4" />
                       Longevity
                     </span>
-                    <span className="text-sm font-semibold text-[#0a1628]">{method.longevity}</span>
+                    <span className="text-sm font-semibold text-[#020B1C]">{method.longevity}</span>
                   </div>
                 </div>
 
                 {/* Best For */}
-                <div className="mt-4 bg-[#00d4ff]/10 border-l-4 border-[#00d4ff] p-3 rounded-r">
-                  <p className="text-xs font-semibold text-[#0a1628] mb-1">BEST FOR:</p>
+                <div className="mt-4 bg-[#0057FF]/10 border-l-4 border-[#0057FF] p-3 rounded-r">
+                  <p className="text-xs font-semibold text-[#020B1C] mb-1">BEST FOR:</p>
                   <p className="text-sm text-gray-700">{method.bestFor}</p>
                 </div>
               </div>
@@ -190,7 +190,7 @@ export function RoofMethodsComparison() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.6 }}
           viewport={{ once: true }}
-          className="mt-12 text-center bg-[#0a1628] text-white rounded-xl p-8"
+          className="mt-12 text-center bg-[#020B1C] text-white rounded-xl p-8"
         >
           <h3 className="text-2xl font-bold mb-3">Not Sure Which Method is Right for You?</h3>
           <p className="text-white/80 mb-6 max-w-2xl mx-auto">
@@ -198,7 +198,7 @@ export function RoofMethodsComparison() {
           </p>
           <a
             href="tel:+61452579657"
-            className="inline-block bg-[#00d4ff] text-[#0a1628] px-8 py-4 rounded-lg font-bold hover:bg-[#00c4ef] transition-colors"
+            className="inline-block bg-[#0057FF] text-white px-8 py-4 rounded-lg font-bold hover:bg-[#0049d8] transition-colors"
           >
             Call 0452 579 657 for Expert Advice
           </a>

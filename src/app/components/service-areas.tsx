@@ -21,10 +21,10 @@ export function ServiceAreas() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-[#00d4ff]/10 rounded-full mb-6">
-            <MapPin className="w-8 h-8 text-[#00d4ff]" />
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-[#0057FF]/10 rounded-full mb-6">
+            <MapPin className="w-8 h-8 text-[#0057FF]" />
           </div>
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#0a1628] mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#020B1C] mb-4">
             Servicing Perth & Surrounds
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
@@ -47,9 +47,9 @@ export function ServiceAreas() {
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ delay: index * 0.02, duration: 0.3 }}
               viewport={{ once: true }}
-              className="flex items-center gap-2 p-3 bg-gray-50 rounded-lg hover:bg-[#00d4ff]/10 transition-colors"
+              className="flex items-center gap-2 p-3 bg-gray-50 rounded-lg hover:bg-[#0057FF]/10 transition-colors"
             >
-              <CheckCircle2 className="w-4 h-4 text-[#00d4ff] flex-shrink-0" />
+              <CheckCircle2 className="w-4 h-4 text-[#0057FF] flex-shrink-0" />
               <span className="text-sm text-gray-700">{suburb}</span>
             </motion.div>
           ))}
@@ -61,7 +61,7 @@ export function ServiceAreas() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center bg-gradient-to-r from-[#0a1628] to-[#0a1628]/90 rounded-2xl p-8 md:p-12"
+          className="text-center bg-gradient-to-r from-[#020B1C] to-[#020B1C]/90 rounded-2xl p-8 md:p-12"
         >
           <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
             Don't See Your Suburb Listed?
@@ -71,7 +71,7 @@ export function ServiceAreas() {
           </p>
           <a
             href="tel:+61452579657"
-            className="inline-flex items-center justify-center gap-2 bg-[#00d4ff] text-[#0a1628] px-8 py-4 rounded-lg transition-all hover:bg-[#00c4ef] shadow-lg hover:shadow-xl font-semibold"
+            className="inline-flex items-center justify-center gap-2 bg-[#0057FF] text-white px-8 py-4 rounded-lg transition-all hover:bg-[#0049d8] shadow-lg hover:shadow-xl font-semibold"
           >
             <MapPin className="w-5 h-5" />
             <span>Contact Us Today</span>

@@ -63,7 +63,7 @@ export function RestaurantCleaningContent() {
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-6">
               Specialized Cleaning for Perth Restaurants &amp; Cafés
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
@@ -77,7 +77,7 @@ export function RestaurantCleaningContent() {
                 Our team works seamlessly with hospitality operations, scheduling cleaning around your service periods to ensure zero disruption to customers and staff. We deliver professional results that enhance your venue&apos;s street appeal and create the welcoming environments that drive customer visits and positive reviews.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Restaurant Exterior Areas We Clean
               </h3>
               <div className="grid sm:grid-cols-2 gap-3 my-6">
@@ -96,13 +96,13 @@ export function RestaurantCleaningContent() {
                   'Drive-through lanes (if applicable)',
                 ].map((item) => (
                   <div key={item} className="flex items-start gap-2">
-                    <CheckCircle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                     <span>{item}</span>
                   </div>
                 ))}
               </div>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Why Perth Hospitality Venues Choose Us
               </h3>
               <p>
@@ -123,7 +123,7 @@ export function RestaurantCleaningContent() {
       <section className="py-16 md:py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-6">
               Professional Window Cleaning for Restaurants
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
@@ -131,13 +131,13 @@ export function RestaurantCleaningContent() {
                 Windows are critical to your restaurant&apos;s appeal and customer experience. Clean, streak-free windows allow natural light to create inviting dining atmospheres, let passersby see into your beautiful venue, and demonstrate the same attention to detail you apply to your food and service.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Window Cleaning Benefits for Your Restaurant
               </h3>
 
               <div className="bg-white rounded-xl p-6 md:p-8 shadow-md my-6">
-                <h4 className="text-xl font-bold text-[#0a1628] mb-4 flex items-center gap-2">
-                  <Shield className="w-6 h-6 text-[#00d4ff]" />
+                <h4 className="text-xl font-bold text-[#020B1C] mb-4 flex items-center gap-2">
+                  <Shield className="w-6 h-6 text-[#0057FF]" />
                   Enhanced Street Appeal &amp; Visibility
                 </h4>
                 <p>
@@ -149,8 +149,8 @@ export function RestaurantCleaningContent() {
               </div>
 
               <div className="bg-white rounded-xl p-6 md:p-8 shadow-md my-6">
-                <h4 className="text-xl font-bold text-[#0a1628] mb-4 flex items-center gap-2">
-                  <Sparkles className="w-6 h-6 text-[#00d4ff]" />
+                <h4 className="text-xl font-bold text-[#020B1C] mb-4 flex items-center gap-2">
+                  <Sparkles className="w-6 h-6 text-[#0057FF]" />
                   Improved Interior Ambiance &amp; Natural Light
                 </h4>
                 <p>
@@ -162,8 +162,8 @@ export function RestaurantCleaningContent() {
               </div>
 
               <div className="bg-white rounded-xl p-6 md:p-8 shadow-md my-6">
-                <h4 className="text-xl font-bold text-[#0a1628] mb-4 flex items-center gap-2">
-                  <Clock className="w-6 h-6 text-[#00d4ff]" />
+                <h4 className="text-xl font-bold text-[#020B1C] mb-4 flex items-center gap-2">
+                  <Clock className="w-6 h-6 text-[#0057FF]" />
                   Professional Image &amp; Quality Perception
                 </h4>
                 <p>
@@ -175,8 +175,8 @@ export function RestaurantCleaningContent() {
               </div>
 
               <div className="bg-white rounded-xl p-6 md:p-8 shadow-md my-6">
-                <h4 className="text-xl font-bold text-[#0a1628] mb-4 flex items-center gap-2">
-                  <CheckCircle className="w-6 h-6 text-[#00d4ff]" />
+                <h4 className="text-xl font-bold text-[#020B1C] mb-4 flex items-center gap-2">
+                  <CheckCircle className="w-6 h-6 text-[#0057FF]" />
                   Health &amp; Safety Compliance
                 </h4>
                 <p>
@@ -187,7 +187,7 @@ export function RestaurantCleaningContent() {
                 </p>
               </div>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Our Restaurant Window Cleaning Process
               </h3>
               <p>
@@ -209,7 +209,7 @@ export function RestaurantCleaningContent() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Outdoor Dining Area Cleaning
               </h3>
               <p>
@@ -219,7 +219,7 @@ export function RestaurantCleaningContent() {
                 We clean all outdoor dining surfaces including patio floors, decking, outdoor furniture, umbrella bases, barriers, and surrounding areas. Our cleaning removes food and beverage stains, dirt accumulation, and environmental contaminants, keeping your outdoor spaces as appealing as your interior dining areas.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Regular Maintenance Programs
               </h3>
               <p>
@@ -229,7 +229,7 @@ export function RestaurantCleaningContent() {
                 Regular maintenance prevents dirt and stain buildup, ensures your venue always looks its best for customers, and is more cost-effective than infrequent deep cleaning. We work with you to develop cleaning schedules that align with your operational patterns and budget considerations.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Special Event Cleaning
               </h3>
               <p>

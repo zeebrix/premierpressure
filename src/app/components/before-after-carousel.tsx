@@ -73,7 +73,7 @@ export function BeforeAfterCarousel({ category, limit = 6 }: BeforeAfterCarousel
     return (
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="flex items-center justify-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#00d4ff]"></div>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#0057FF]"></div>
         </div>
       </div>
     );
@@ -128,7 +128,7 @@ export function BeforeAfterCarousel({ category, limit = 6 }: BeforeAfterCarousel
             <div className="grid md:grid-cols-2 gap-0">
               {/* Before */}
               <div className="relative bg-gray-100">
-                <div className="absolute top-4 left-4 z-10 bg-[#0a1628] text-white px-4 py-2 rounded-lg font-semibold">
+                <div className="absolute top-4 left-4 z-10 bg-[#020B1C] text-white px-4 py-2 rounded-lg font-semibold">
                   Before
                 </div>
                 <img loading="lazy" decoding="async"
@@ -140,7 +140,7 @@ export function BeforeAfterCarousel({ category, limit = 6 }: BeforeAfterCarousel
 
               {/* After */}
               <div className="relative bg-gray-100">
-                <div className="absolute top-4 left-4 z-10 bg-[#00d4ff] text-[#0a1628] px-4 py-2 rounded-lg font-semibold">
+                <div className="absolute top-4 left-4 z-10 bg-[#0057FF] text-white px-4 py-2 rounded-lg font-semibold">
                   After
                 </div>
                 <img loading="lazy" decoding="async"
@@ -154,7 +154,7 @@ export function BeforeAfterCarousel({ category, limit = 6 }: BeforeAfterCarousel
             {/* Description */}
             <div className="p-6 bg-white border-t border-gray-200">
               <div className="flex items-center justify-center gap-2 text-gray-700">
-                <MapPin className="w-5 h-5 text-[#00d4ff]" />
+                <MapPin className="w-5 h-5 text-[#0057FF]" />
                 <span className="font-medium capitalize">{current.description}</span>
               </div>
             </div>
@@ -166,14 +166,14 @@ export function BeforeAfterCarousel({ category, limit = 6 }: BeforeAfterCarousel
           <>
             <button
               onClick={prev}
-              className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 bg-white hover:bg-gray-50 text-[#0a1628] rounded-full p-3 shadow-lg transition-all hover:scale-110"
+              className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 bg-white hover:bg-gray-50 text-[#020B1C] rounded-full p-3 shadow-lg transition-all hover:scale-110"
               aria-label="Previous image"
             >
               <ChevronLeft className="w-6 h-6" />
             </button>
             <button
               onClick={next}
-              className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 bg-white hover:bg-gray-50 text-[#0a1628] rounded-full p-3 shadow-lg transition-all hover:scale-110"
+              className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 bg-white hover:bg-gray-50 text-[#020B1C] rounded-full p-3 shadow-lg transition-all hover:scale-110"
               aria-label="Next image"
             >
               <ChevronRight className="w-6 h-6" />
@@ -197,7 +197,7 @@ export function BeforeAfterCarousel({ category, limit = 6 }: BeforeAfterCarousel
               >
                 <span className={`block w-2 h-2 rounded-full transition-all ${
                   index === currentIndex
-                    ? 'bg-[#00d4ff] w-8'
+                    ? 'bg-[#0057FF] w-8'
                     : 'bg-gray-300'
                 }`} />
               </button>

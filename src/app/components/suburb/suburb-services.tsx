@@ -76,7 +76,7 @@ export function SuburbServices({ suburbName }: SuburbServicesProps) {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-4">
             Our Pressure Cleaning Services in {suburbName}
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -98,14 +98,14 @@ export function SuburbServices({ suburbName }: SuburbServicesProps) {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-xl border border-gray-200 hover:border-[#00d4ff] transition-all hover:shadow-lg group h-full cursor-pointer"
+                  className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-xl border border-gray-200 hover:border-[#0057FF] transition-all hover:shadow-lg group h-full cursor-pointer"
                 >
-                  <div className="w-12 h-12 bg-[#00d4ff]/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#00d4ff]/20 transition-colors">
-                    <Icon className="w-6 h-6 text-[#00d4ff]" />
+                  <div className="w-12 h-12 bg-[#0057FF]/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#0057FF]/20 transition-colors">
+                    <Icon className="w-6 h-6 text-[#0057FF]" />
                   </div>
-                  <h3 className="text-xl font-semibold text-[#0a1628] mb-2">{service.title}</h3>
+                  <h3 className="text-xl font-semibold text-[#020B1C] mb-2">{service.title}</h3>
                   <p className="text-gray-600 mb-4">{service.description}</p>
-                  <span className="text-[#00d4ff] font-semibold group-hover:underline inline-flex items-center gap-1">
+                  <span className="text-[#0057FF] font-semibold group-hover:underline inline-flex items-center gap-1">
                     {service.title} in {suburbName} →
                   </span>
                 </motion.div>
@@ -118,11 +118,11 @@ export function SuburbServices({ suburbName }: SuburbServicesProps) {
         <div className="mt-20 max-w-4xl mx-auto">
           <button
             onClick={() => setShowOtherServices(!showOtherServices)}
-            className="w-full bg-gradient-to-br from-gray-50 to-white p-6 rounded-xl border border-gray-200 hover:border-[#00d4ff] transition-all hover:shadow-lg group cursor-pointer"
+            className="w-full bg-gradient-to-br from-gray-50 to-white p-6 rounded-xl border border-gray-200 hover:border-[#0057FF] transition-all hover:shadow-lg group cursor-pointer"
           >
             <div className="flex items-center justify-between">
               <div className="text-left">
-                <h3 className="text-2xl md:text-3xl font-bold text-[#0a1628] mb-2">
+                <h3 className="text-2xl md:text-3xl font-bold text-[#020B1C] mb-2">
                   Other Services Available
                 </h3>
                 <p className="text-gray-600">
@@ -130,7 +130,7 @@ export function SuburbServices({ suburbName }: SuburbServicesProps) {
                 </p>
               </div>
               <ChevronDown 
-                className={`w-8 h-8 text-[#00d4ff] transition-transform duration-300 flex-shrink-0 ml-4 ${
+                className={`w-8 h-8 text-[#0057FF] transition-transform duration-300 flex-shrink-0 ml-4 ${
                   showOtherServices ? 'rotate-180' : ''
                 }`}
               />
@@ -159,14 +159,14 @@ export function SuburbServices({ suburbName }: SuburbServicesProps) {
                           initial={{ opacity: 0, y: 20 }}
                           animate={{ opacity: 1, y: 0 }}
                           transition={{ duration: 0.3, delay: index * 0.1 }}
-                          className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-xl border border-gray-200 hover:border-[#00d4ff] transition-all hover:shadow-lg group h-full cursor-pointer"
+                          className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-xl border border-gray-200 hover:border-[#0057FF] transition-all hover:shadow-lg group h-full cursor-pointer"
                         >
-                          <div className="w-12 h-12 bg-[#00d4ff]/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#00d4ff]/20 transition-colors">
-                            <Icon className="w-6 h-6 text-[#00d4ff]" />
+                          <div className="w-12 h-12 bg-[#0057FF]/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#0057FF]/20 transition-colors">
+                            <Icon className="w-6 h-6 text-[#0057FF]" />
                           </div>
-                          <h3 className="text-xl font-semibold text-[#0a1628] mb-2">{service.title}</h3>
+                          <h3 className="text-xl font-semibold text-[#020B1C] mb-2">{service.title}</h3>
                           <p className="text-gray-600 mb-4">{service.description}</p>
-                          <span className="text-[#00d4ff] font-semibold group-hover:underline inline-flex items-center gap-1">
+                          <span className="text-[#0057FF] font-semibold group-hover:underline inline-flex items-center gap-1">
                             {service.title} in {suburbName} →
                           </span>
                         </motion.div>
@@ -182,7 +182,7 @@ export function SuburbServices({ suburbName }: SuburbServicesProps) {
         <div className="text-center mt-12">
           <a
             href="#quote"
-            className="inline-flex items-center gap-2 bg-[#00d4ff] text-[#0a1628] px-8 py-4 rounded-lg font-semibold hover:bg-[#00c4ef] transition-all shadow-lg hover:shadow-xl"
+            className="inline-flex items-center gap-2 bg-[#0057FF] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#0049d8] transition-all shadow-lg hover:shadow-xl"
           >
             Get Your Free Quote Today
           </a>

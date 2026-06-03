@@ -63,7 +63,7 @@ export function SchoolCleaningContent() {
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-6">
               Specialized Pressure Cleaning for Perth Schools
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
@@ -77,7 +77,7 @@ export function SchoolCleaningContent() {
                 From removing slippery algae buildup on walkways to cleaning sports courts and playground equipment, we help schools create clean, safe environments that parents trust and students enjoy. Our flexible scheduling ensures minimal disruption to your educational programs.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 School Areas We Clean
               </h3>
               <div className="grid sm:grid-cols-2 gap-3 my-6">
@@ -96,13 +96,13 @@ export function SchoolCleaningContent() {
                   'Assembly areas',
                 ].map((item) => (
                   <div key={item} className="flex items-start gap-2">
-                    <CheckCircle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                     <span>{item}</span>
                   </div>
                 ))}
               </div>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Why Schools Choose PPS Exterior Cleaning
               </h3>
               <p>

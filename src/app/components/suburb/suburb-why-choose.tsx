@@ -42,7 +42,7 @@ const benefits = [
 
 export function SuburbWhyChoose({ suburbName }: SuburbWhyChooseProps) {
   return (
-    <section className="py-20 bg-gradient-to-br from-[#0a1628] to-[#0f1f3a]">
+    <section className="py-20 bg-gradient-to-br from-[#020B1C] to-[#06152E]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
@@ -63,10 +63,10 @@ export function SuburbWhyChoose({ suburbName }: SuburbWhyChooseProps) {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-[#00d4ff]/50 transition-all hover:bg-white/10 group"
+                className="bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-[#0057FF]/50 transition-all hover:bg-white/10 group"
               >
-                <div className="w-12 h-12 bg-[#00d4ff]/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#00d4ff]/30 transition-colors">
-                  <Icon className="w-6 h-6 text-[#00d4ff]" />
+                <div className="w-12 h-12 bg-[#0057FF]/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#0057FF]/30 transition-colors">
+                  <Icon className="w-6 h-6 text-[#0057FF]" />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-2">{benefit.title}</h3>
                 <p className="text-white/70">{benefit.description}</p>

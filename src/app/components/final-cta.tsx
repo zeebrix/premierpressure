@@ -65,7 +65,7 @@ export function FinalCTA() {
   };
 
   return (
-    <section id="quote" className="py-20 bg-gradient-to-br from-[#0a1628] via-[#0a1628] to-[#0d1f35] overflow-hidden">
+    <section id="quote" className="py-20 bg-gradient-to-br from-[#020B1C] via-[#020B1C] to-[#06152E] overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
           {/* Left Content */}
@@ -87,10 +87,10 @@ export function FinalCTA() {
             <div className="space-y-4 mb-8">
               <a
                 href="tel:+61452579657"
-                className="flex items-center gap-3 sm:gap-4 p-4 bg-white/10 rounded-lg hover:bg-white/15 transition-colors group"
+                className="flex items-center gap-3 sm:gap-4 p-4 bg-white/10 rounded-xl border border-white/10 hover:bg-white/15 hover:border-[#0057FF]/40 transition-colors group"
               >
-                <div className="w-12 h-12 bg-[#00d4ff] rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0">
-                  <Phone className="w-6 h-6 text-[#0a1628]" />
+                <div className="w-14 h-14 bg-gradient-to-br from-[#0057FF] to-[#0049d8] rounded-2xl flex items-center justify-center group-hover:scale-105 transition-transform flex-shrink-0 shadow-[0_10px_24px_rgba(0,87,255,0.28)] ring-1 ring-white/20">
+                  <Phone className="w-6 h-6 text-white" strokeWidth={2.4} />
                 </div>
                 <div className="min-w-0">
                   <p className="text-sm text-white/70">Call us now</p>
@@ -100,10 +100,10 @@ export function FinalCTA() {
 
               <a
                 href="mailto:info@ppsexteriorcleaning.com.au"
-                className="flex items-center gap-3 sm:gap-4 p-4 bg-white/10 rounded-lg hover:bg-white/15 transition-colors group"
+                className="flex items-center gap-3 sm:gap-4 p-4 bg-white/10 rounded-xl border border-white/10 hover:bg-white/15 hover:border-[#0057FF]/40 transition-colors group"
               >
-                <div className="w-12 h-12 bg-[#00d4ff] rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0">
-                  <Mail className="w-6 h-6 text-[#0a1628]" />
+                <div className="w-14 h-14 bg-gradient-to-br from-[#0057FF] to-[#0049d8] rounded-2xl flex items-center justify-center group-hover:scale-105 transition-transform flex-shrink-0 shadow-[0_10px_24px_rgba(0,87,255,0.28)] ring-1 ring-white/20">
+                  <Mail className="w-6 h-6 text-white" strokeWidth={2.4} />
                 </div>
                 <div className="min-w-0 overflow-hidden">
                   <p className="text-sm text-white/70">Email us</p>
@@ -136,9 +136,9 @@ export function FinalCTA() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-[#0a1628] mb-2">Thank You!</h3>
+                <h3 className="text-2xl font-bold text-[#020B1C] mb-2">Thank You!</h3>
                 <p className="text-gray-600 mb-6">We've received your quote request and will contact you within 24 hours.</p>
-                <a href="tel:+61452579657" className="inline-flex items-center gap-2 bg-[#00d4ff] text-[#0a1628] px-6 py-3 rounded-lg font-semibold hover:bg-[#00c4ef] transition-all">
+                <a href="tel:+61452579657" className="inline-flex items-center gap-2 bg-[#0057FF] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#0049d8] transition-all">
                   <Phone className="w-5 h-5" />
                   Call Now: 0452 579 657
                 </a>
@@ -150,9 +150,9 @@ export function FinalCTA() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-[#0a1628] mb-2">Something went wrong</h3>
+                <h3 className="text-2xl font-bold text-[#020B1C] mb-2">Something went wrong</h3>
                 <p className="text-gray-600 mb-6">Please call us directly or try again.</p>
-                <a href="tel:+61452579657" className="inline-flex items-center gap-2 bg-[#00d4ff] text-[#0a1628] px-6 py-3 rounded-lg font-semibold hover:bg-[#00c4ef] transition-all">
+                <a href="tel:+61452579657" className="inline-flex items-center gap-2 bg-[#0057FF] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#0049d8] transition-all">
                   <Phone className="w-5 h-5" />
                   Call Now: 0452 579 657
                 </a>
@@ -160,10 +160,10 @@ export function FinalCTA() {
             ) : (
               <>
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="w-10 h-10 bg-[#00d4ff]/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <MessageSquare className="w-5 h-5 text-[#00d4ff]" />
+                  <div className="w-11 h-11 bg-[#0057FF]/10 rounded-2xl flex items-center justify-center flex-shrink-0 ring-1 ring-[#0057FF]/20">
+                    <MessageSquare className="w-5 h-5 text-[#0057FF]" strokeWidth={2.4} />
                   </div>
-                  <h3 className="text-xl sm:text-2xl font-bold text-[#0a1628]">Get Your Free Quote</h3>
+                  <h3 className="text-xl sm:text-2xl font-bold text-[#020B1C]">Get Your Free Quote</h3>
                 </div>
 
                 <form onSubmit={handleSubmit} className="space-y-4">
@@ -172,7 +172,7 @@ export function FinalCTA() {
                     <input
                       type="text" id="name" name="name" required
                       value={formData.name} onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent outline-none transition-all"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0057FF] focus:border-transparent outline-none transition-all"
                       placeholder="John Smith"
                     />
                   </div>
@@ -183,7 +183,7 @@ export function FinalCTA() {
                       <input
                         type="email" id="email" name="email" required
                         value={formData.email} onChange={handleChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent outline-none transition-all"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0057FF] focus:border-transparent outline-none transition-all"
                         placeholder="name@email.com"
                       />
                     </div>
@@ -192,7 +192,7 @@ export function FinalCTA() {
                       <input
                         type="tel" id="phone" name="phone" required
                         value={formData.phone} onChange={handleChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent outline-none transition-all"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0057FF] focus:border-transparent outline-none transition-all"
                         placeholder="0400 000 000"
                       />
                     </div>
@@ -203,7 +203,7 @@ export function FinalCTA() {
                     <select
                       id="service" name="service" required
                       value={formData.service} onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent outline-none transition-all"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0057FF] focus:border-transparent outline-none transition-all"
                     >
                       <option value="">Select a service</option>
                       <option value="concrete">Concrete Cleaning</option>
@@ -223,7 +223,7 @@ export function FinalCTA() {
                     <textarea
                       id="message" name="message" rows={4}
                       value={formData.message} onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent outline-none transition-all resize-none"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0057FF] focus:border-transparent outline-none transition-all resize-none"
                       placeholder="Tell us about your project..."
                     />
                   </div>
@@ -233,7 +233,7 @@ export function FinalCTA() {
                     disabled={isSubmitting}
                     whileHover={{ scale: isSubmitting ? 1 : 1.02 }}
                     whileTap={{ scale: isSubmitting ? 1 : 0.98 }}
-                    className="w-full bg-[#0a1628] text-white py-4 rounded-lg font-semibold hover:bg-[#0a1628]/90 transition-colors shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                    className="w-full bg-[#020B1C] text-white py-4 rounded-lg font-semibold hover:bg-[#020B1C]/90 transition-colors shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                   >
                     {isSubmitting ? (
                       <>

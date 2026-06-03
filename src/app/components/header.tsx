@@ -4,16 +4,15 @@ import { useState, useEffect } from 'react';
 import { Phone, Menu, X, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
   const [isCommercialDropdownOpen, setIsCommercialDropdownOpen] = useState(false);
-  const [isOurWorkDropdownOpen, setIsOurWorkDropdownOpen] = useState(false);
   const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
   const [isMobileCommercialOpen, setIsMobileCommercialOpen] = useState(false);
-  const [isMobileOurWorkOpen, setIsMobileOurWorkOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -56,44 +55,34 @@ export function Header() {
     { name: 'Restaurant Exterior Cleaning', path: '/commercial/restaurant-cleaning' },
   ];
 
-  const ourWork = [
-    { name: 'Gallery', path: '/gallery' },
-    { name: 'Resources', path: '/resources' },
-  ];
-
   return (
     <>
-      <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          isScrolled
-            ? 'bg-white shadow-lg'
-            : 'bg-transparent'
-        }`}
-      >
+      <header className="fixed top-0 left-0 right-0 z-50 bg-[#020B1C]/95 border-b border-[#2A3D5E]/70 shadow-[0_10px_30px_rgba(0,0,0,0.25)] backdrop-blur transition-all duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16 sm:h-20">
+          <div className="flex items-center justify-between h-20 sm:h-24">
             {/* Logo */}
             <Link 
               href="/" 
-              className="flex items-center gap-3 min-h-[48px] min-w-[48px] touch-manipulation"
+              className="flex items-center gap-3 min-h-[56px] min-w-[150px] touch-manipulation"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              <span className={`text-lg sm:text-xl font-bold transition-colors ${
-                isScrolled ? 'text-[#0a1628]' : 'text-white'
-              }`}>
-                PPS Exterior Cleaning
-              </span>
+              <Image
+                src="/logo.png"
+                alt="PPS Exterior Cleaning"
+                width={190}
+                height={88}
+                priority
+                className="h-14 sm:h-16 w-auto"
+              />
             </Link>
 
             {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center gap-8">
+            <nav className="hidden lg:flex items-center gap-7 text-sm font-semibold uppercase tracking-wide">
               <Link
-                href="/about"
-                className={`transition-colors hover:text-[#00d4ff] ${
-                  isScrolled ? 'text-gray-700' : 'text-white'
-                }`}
+                href="/"
+                className="text-[#0057FF] transition-colors hover:text-white"
               >
-                About
+                Home
               </Link>
               <div 
                 className="relative"
@@ -101,13 +90,11 @@ export function Header() {
                 onMouseLeave={() => setIsServicesDropdownOpen(false)}
               >
                 <button
-                  className={`flex items-center gap-1 transition-colors hover:text-[#00d4ff] ${
-                    isScrolled ? 'text-gray-700' : 'text-white'
-                  }`}
+                  className="flex items-center gap-1 text-white transition-colors hover:text-[#0057FF]"
                   aria-label="Residential services menu"
                   aria-expanded={isServicesDropdownOpen}
                 >
-                  Residential
+                  Services
                   <ChevronDown className="w-4 h-4" />
                 </button>
                 <AnimatePresence>
@@ -124,7 +111,7 @@ export function Header() {
                           <li key={service.path}>
                             <Link
                               href={service.path}
-                              className="block px-6 py-3 text-gray-700 hover:bg-[#00d4ff]/10 hover:text-[#00d4ff] transition-colors"
+                              className="block px-6 py-3 text-gray-700 hover:bg-[#0057FF]/10 hover:text-[#0057FF] transition-colors"
                             >
                               {service.name}
                             </Link>
@@ -135,15 +122,19 @@ export function Header() {
                   )}
                 </AnimatePresence>
               </div>
+              <Link
+                href="/areas"
+                className="text-white transition-colors hover:text-[#0057FF]"
+              >
+                Areas We Service
+              </Link>
               <div 
                 className="relative"
                 onMouseEnter={() => setIsCommercialDropdownOpen(true)}
                 onMouseLeave={() => setIsCommercialDropdownOpen(false)}
               >
                 <button
-                  className={`flex items-center gap-1 transition-colors hover:text-[#00d4ff] ${
-                    isScrolled ? 'text-gray-700' : 'text-white'
-                  }`}
+                  className="flex items-center gap-1 text-white transition-colors hover:text-[#0057FF]"
                   aria-label="Commercial services menu"
                   aria-expanded={isCommercialDropdownOpen}
                 >
@@ -164,47 +155,7 @@ export function Header() {
                           <li key={service.path}>
                             <Link
                               href={service.path}
-                              className="block px-6 py-3 text-gray-700 hover:bg-[#00d4ff]/10 hover:text-[#00d4ff] transition-colors"
-                            >
-                              {service.name}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </div>
-              <div 
-                className="relative"
-                onMouseEnter={() => setIsOurWorkDropdownOpen(true)}
-                onMouseLeave={() => setIsOurWorkDropdownOpen(false)}
-              >
-                <button
-                  className={`flex items-center gap-1 transition-colors hover:text-[#00d4ff] ${
-                    isScrolled ? 'text-gray-700' : 'text-white'
-                  }`}
-                  aria-label="Our work menu"
-                  aria-expanded={isOurWorkDropdownOpen}
-                >
-                  Our Work
-                  <ChevronDown className="w-4 h-4" />
-                </button>
-                <AnimatePresence>
-                  {isOurWorkDropdownOpen && (
-                    <motion.div
-                      initial={{ opacity: 0, y: -10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: -10 }}
-                      transition={{ duration: 0.2 }}
-                      className="absolute left-0 top-full mt-2 bg-white shadow-xl rounded-lg overflow-hidden z-50 w-64"
-                    >
-                      <ul className="py-2">
-                        {ourWork.map((service) => (
-                          <li key={service.path}>
-                            <Link
-                              href={service.path}
-                              className="block px-6 py-3 text-gray-700 hover:bg-[#00d4ff]/10 hover:text-[#00d4ff] transition-colors"
+                              className="block px-6 py-3 text-gray-700 hover:bg-[#0057FF]/10 hover:text-[#0057FF] transition-colors"
                             >
                               {service.name}
                             </Link>
@@ -216,16 +167,26 @@ export function Header() {
                 </AnimatePresence>
               </div>
               <Link
-                href="/areas"
-                className={`transition-colors hover:text-[#00d4ff] ${
-                  isScrolled ? 'text-gray-700' : 'text-white'
-                }`}
+                href="/about"
+                className="text-white transition-colors hover:text-[#0057FF]"
               >
-                Areas
+                About Us
+              </Link>
+              <Link
+                href="/gallery"
+                className="text-white transition-colors hover:text-[#0057FF]"
+              >
+                Gallery
+              </Link>
+              <Link
+                href="/contact"
+                className="text-white transition-colors hover:text-[#0057FF]"
+              >
+                Contact
               </Link>
               <a
                 href="tel:+61452579657"
-                className="flex items-center gap-2 px-4 py-2 rounded-lg font-medium transition-all bg-[#00d4ff] text-[#0a1628] hover:bg-[#00c4ef]"
+                className="flex items-center gap-2 px-4 py-2 rounded-lg font-semibold transition-all bg-transparent text-[#0057FF] border border-[#0057FF] hover:bg-[#0057FF] hover:text-white"
               >
                 <Phone className="w-4 h-4" />
                 <span>0452 579 657</span>
@@ -237,7 +198,7 @@ export function Header() {
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                 className={`p-3 rounded-lg transition-colors min-h-[48px] min-w-[48px] touch-manipulation ${
-                  isScrolled ? 'text-[#0a1628] hover:bg-gray-100' : 'text-white hover:bg-white/10'
+                  isScrolled ? 'text-white hover:bg-white/10' : 'text-white hover:bg-white/10'
                 }`}
                 aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
                 aria-expanded={isMobileMenuOpen}
@@ -262,7 +223,7 @@ export function Header() {
               <Link
                 href="/about"
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="block py-3 px-3 text-gray-700 hover:text-[#00d4ff] hover:bg-gray-50 rounded-lg transition-colors min-h-[48px] flex items-center touch-manipulation"
+                className="block py-3 px-3 text-gray-700 hover:text-[#0057FF] hover:bg-gray-50 rounded-lg transition-colors min-h-[48px] flex items-center touch-manipulation"
               >
                 About
               </Link>
@@ -271,7 +232,7 @@ export function Header() {
               <div>
                 <button
                   onClick={() => setIsMobileServicesOpen(!isMobileServicesOpen)}
-                  className="flex items-center justify-between w-full py-3 px-3 text-gray-700 hover:text-[#00d4ff] hover:bg-gray-50 rounded-lg transition-colors min-h-[48px] touch-manipulation"
+                  className="flex items-center justify-between w-full py-3 px-3 text-gray-700 hover:text-[#0057FF] hover:bg-gray-50 rounded-lg transition-colors min-h-[48px] touch-manipulation"
                   aria-label="Toggle residential services menu"
                   aria-expanded={isMobileServicesOpen}
                 >
@@ -293,7 +254,7 @@ export function Header() {
                             key={service.path}
                             href={service.path}
                             onClick={() => setIsMobileMenuOpen(false)}
-                            className="block py-3 px-3 text-sm text-gray-600 hover:text-[#00d4ff] hover:bg-gray-50 rounded-lg transition-colors min-h-[44px] flex items-center touch-manipulation"
+                            className="block py-3 px-3 text-sm text-gray-600 hover:text-[#0057FF] hover:bg-gray-50 rounded-lg transition-colors min-h-[44px] flex items-center touch-manipulation"
                           >
                             {service.name}
                           </Link>
@@ -308,7 +269,7 @@ export function Header() {
               <div>
                 <button
                   onClick={() => setIsMobileCommercialOpen(!isMobileCommercialOpen)}
-                  className="flex items-center justify-between w-full py-3 px-3 text-gray-700 hover:text-[#00d4ff] hover:bg-gray-50 rounded-lg transition-colors min-h-[48px] touch-manipulation"
+                  className="flex items-center justify-between w-full py-3 px-3 text-gray-700 hover:text-[#0057FF] hover:bg-gray-50 rounded-lg transition-colors min-h-[48px] touch-manipulation"
                   aria-label="Toggle commercial services menu"
                   aria-expanded={isMobileCommercialOpen}
                 >
@@ -330,44 +291,7 @@ export function Header() {
                             key={service.path}
                             href={service.path}
                             onClick={() => setIsMobileMenuOpen(false)}
-                            className="block py-3 px-3 text-sm text-gray-600 hover:text-[#00d4ff] hover:bg-gray-50 rounded-lg transition-colors min-h-[44px] flex items-center touch-manipulation"
-                          >
-                            {service.name}
-                          </Link>
-                        ))}
-                      </div>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </div>
-
-              {/* Our Work Expandable Section */}
-              <div>
-                <button
-                  onClick={() => setIsMobileOurWorkOpen(!isMobileOurWorkOpen)}
-                  className="flex items-center justify-between w-full py-3 px-3 text-gray-700 hover:text-[#00d4ff] hover:bg-gray-50 rounded-lg transition-colors min-h-[48px] touch-manipulation"
-                  aria-label="Toggle our work menu"
-                  aria-expanded={isMobileOurWorkOpen}
-                >
-                  <span className="font-medium">Our Work</span>
-                  <ChevronDown className={`w-5 h-5 transition-transform ${isMobileOurWorkOpen ? 'rotate-180' : ''}`} />
-                </button>
-                <AnimatePresence>
-                  {isMobileOurWorkOpen && (
-                    <motion.div
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: 'auto', opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.2 }}
-                      className="overflow-hidden"
-                    >
-                      <div className="pl-4 space-y-1 mt-1">
-                        {ourWork.map((service) => (
-                          <Link
-                            key={service.path}
-                            href={service.path}
-                            onClick={() => setIsMobileMenuOpen(false)}
-                            className="block py-3 px-3 text-sm text-gray-600 hover:text-[#00d4ff] hover:bg-gray-50 rounded-lg transition-colors min-h-[44px] flex items-center touch-manipulation"
+                            className="block py-3 px-3 text-sm text-gray-600 hover:text-[#0057FF] hover:bg-gray-50 rounded-lg transition-colors min-h-[44px] flex items-center touch-manipulation"
                           >
                             {service.name}
                           </Link>
@@ -379,9 +303,25 @@ export function Header() {
               </div>
 
               <Link
+                href="/gallery"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="block py-3 px-3 text-gray-700 hover:text-[#0057FF] hover:bg-gray-50 rounded-lg transition-colors min-h-[48px] flex items-center touch-manipulation"
+              >
+                Gallery
+              </Link>
+
+              <Link
+                href="/resources"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="block py-3 px-3 text-gray-700 hover:text-[#0057FF] hover:bg-gray-50 rounded-lg transition-colors min-h-[48px] flex items-center touch-manipulation"
+              >
+                Resources
+              </Link>
+
+              <Link
                 href="/areas"
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="block py-3 px-3 text-gray-700 hover:text-[#00d4ff] hover:bg-gray-50 rounded-lg transition-colors min-h-[48px] flex items-center touch-manipulation"
+                className="block py-3 px-3 text-gray-700 hover:text-[#0057FF] hover:bg-gray-50 rounded-lg transition-colors min-h-[48px] flex items-center touch-manipulation"
               >
                 Areas
               </Link>
@@ -392,7 +332,7 @@ export function Header() {
                   e.preventDefault();
                   scrollToSection('quote');
                 }}
-                className="block py-3 px-3 text-gray-700 hover:text-[#00d4ff] hover:bg-gray-50 rounded-lg transition-colors min-h-[48px] flex items-center touch-manipulation"
+                className="block py-3 px-3 text-gray-700 hover:text-[#0057FF] hover:bg-gray-50 rounded-lg transition-colors min-h-[48px] flex items-center touch-manipulation"
               >
                 Get Quote
               </a>              
@@ -400,7 +340,7 @@ export function Header() {
               {/* Prominent Call Button at Bottom */}
               <a
                 href="tel:+61452579657"
-                className="flex items-center justify-center gap-3 bg-[#00d4ff] text-[#0a1628] px-6 py-4 rounded-lg font-bold mt-4 shadow-lg hover:bg-[#00c4ef] min-h-[56px] touch-manipulation"
+                className="flex items-center justify-center gap-3 bg-[#0057FF] text-white px-6 py-4 rounded-lg font-bold mt-4 shadow-lg hover:bg-[#0049d8] min-h-[56px] touch-manipulation"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 <Phone className="w-5 h-5" />

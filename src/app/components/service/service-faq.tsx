@@ -25,7 +25,7 @@ export function ServiceFAQ({ faqs, serviceName }: ServiceFAQProps) {
     <section className="py-12 md:py-20 bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-4">
             Frequently Asked Questions
           </h2>
           <p className="text-xl text-gray-600">
@@ -47,11 +47,11 @@ export function ServiceFAQ({ faqs, serviceName }: ServiceFAQProps) {
                 onClick={() => toggleFAQ(index)}
                 className="w-full px-6 py-5 flex items-center justify-between text-left hover:bg-gray-50 transition-colors"
               >
-                <h3 className="font-semibold text-[#0a1628] text-lg pr-4">
+                <h3 className="font-semibold text-[#020B1C] text-lg pr-4">
                   {faq.question}
                 </h3>
                 <ChevronDown
-                  className={`w-5 h-5 text-[#00d4ff] flex-shrink-0 transition-transform duration-300 ${
+                  className={`w-5 h-5 text-[#0057FF] flex-shrink-0 transition-transform duration-300 ${
                     openIndex === index ? 'rotate-180' : ''
                   }`}
                 />
@@ -78,13 +78,13 @@ export function ServiceFAQ({ faqs, serviceName }: ServiceFAQProps) {
           ))}
         </div>
 
-        <div className="mt-12 bg-[#00d4ff]/10 border border-[#00d4ff]/20 rounded-xl p-6 text-center">
+        <div className="mt-12 bg-[#0057FF]/10 border border-[#0057FF]/20 rounded-xl p-6 text-center">
           <p className="text-gray-700 mb-4">
             Still have questions? We're here to help!
           </p>
           <a
             href="tel:+61452579657"
-            className="inline-flex items-center gap-2 bg-[#00d4ff] text-[#0a1628] px-6 py-3 rounded-lg font-semibold hover:bg-[#00c4ef] transition-colors"
+            className="inline-flex items-center gap-2 bg-[#0057FF] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#0049d8] transition-colors"
           >
             Call Us: 0452 579 657
           </a>

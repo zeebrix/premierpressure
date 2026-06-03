@@ -63,7 +63,7 @@ export function BuildingWashingContent() {
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-6">
               Expert Commercial Building Cleaning in Perth
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
@@ -77,7 +77,7 @@ export function BuildingWashingContent() {
                 From single-story office buildings to multi-story commercial complexes, we have the expertise, equipment, and experience to clean buildings of all sizes safely and effectively. Our team works seamlessly with property managers, building owners, and facilities teams to deliver results that enhance property appeal and protect long-term value.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Commercial Building Areas We Clean
               </h3>
               <div className="grid sm:grid-cols-2 gap-3 my-6">
@@ -96,13 +96,13 @@ export function BuildingWashingContent() {
                   'Ground level concrete surrounds',
                 ].map((item) => (
                   <div key={item} className="flex items-start gap-2">
-                    <CheckCircle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                     <span>{item}</span>
                   </div>
                 ))}
               </div>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Why Perth Commercial Properties Choose Us
               </h3>
               <p>
@@ -115,7 +115,7 @@ export function BuildingWashingContent() {
                 We use commercial-grade equipment and proven cleaning methods appropriate for different building materials. Whether your building features rendered walls, glass facades, concrete panels, or mixed materials, we apply the right techniques to achieve outstanding results without causing damage.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Soft Washing vs. Pressure Washing
               </h3>
               <p>
@@ -125,7 +125,7 @@ export function BuildingWashingContent() {
                 Our team assesses each building surface and applies the appropriate cleaning method. Robust surfaces like concrete and brick can withstand higher pressure, while delicate finishes benefit from our soft washing approach. This expertise ensures we deliver exceptional cleaning results while protecting your building materials.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Regular Maintenance Programs
               </h3>
               <p>

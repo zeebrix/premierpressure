@@ -1,0 +1,55 @@
+Notes: Changes to be made -
+On the home page, under services when clicking solar panel cleaning - it takes the user to pressure cleaning perth - i dont think there is solar panel cleaning page - maybe change it to roof cleaning
+Section H2 "Stunning Transformations" - . Change to: "Pressure Cleaning Results in Perth — Before & After."
+Section H2  Change "Our Professional Services" to "Pressure Cleaning Services in Perth"
+Our process section — Add a button immediately after: "Start Now — Get Your Free Quote within 2 hours “ - then link it to the quote section down the bottom
+Step 1 says "We respond quickly" Change to a specific commitment: "We respond within 2 hours during business hours."
+Can I embed the reviews from my google page onto the website? As current ones are fake - or should I just write them in where the existing ones are?
+Can I add suburb line to the quote section on homepage? Just helps to qualify the lead better before contacting them
+Can I update the photos of the services on the homepage? I have put them in a google drive folder here →
+Suburb pages:
+There seems to be a duplication of the photos on the page? Maybe its my mistake but they are the same in two sections - “stunning transformations”
+Is it possible to put 150-200 words in about each suburb on all the pages as when i run the website through claude - it is still saying google wont index half the pages as they are very similar and thin in content?
+H1: Pressure Cleaning [Suburb] | PPS Exterior Cleaning
+Intro paragraph — suburb character, common surfaces, why locals need cleaning (coastal salt, red dirt, limestone, heritage homes etc.)
+Our Services in [Suburb] — linked service cards
+Why [Suburb] Residents Choose PPS — 3 trust points
+Before/After from [Suburb
+What our [Suburb] customers say — 1–2 real reviews Common questions about cleaning in [Suburb] —
+FAQs Suburbs we also service nearby — links to adjacent suburbs
+Get a free quote in [Suburb] — quote form
+Here is an example of the intro paragraph and things to mention:
+Suburb name used naturally 2-3 times
+Suburb's postcode (e.g. 'in Cottesloe 6011')
+Local council area (e.g. 'within the Town of Cottesloe')
+Reference to the suburb's character: coastal, inner-city, new estate, heritage, riverside etc.
+Reference to the common surfaces/cleaning challenges in that suburb (see suburb-specific notes below)
+Natural mention of your key services relevant to that suburb
+Word count: 200-300 words for Tier 1.
+Here is an example: PPS Exterior Cleaning services homes and businesses throughout Cottesloe (6011) and the Town of Cottesloe area. Living this close to the coast comes with a trade-off — salt air, humidity, and sea spray accelerate the build-up of grime, algae, and lichen on driveways, paved areas, and rendered walls faster than most people realise.
+Cottesloe has a lot of limestone — both natural and liquid — and that's a surface that needs careful handling. High-pressure washing can damage it. We use soft washing techniques that clean thoroughly without stripping the surface or forcing water into cracks.
+We handle everything on the outside of your property — driveways, limestone paths, rendered walls, roof tiles, pavers, pool surrounds, and house exteriors. One call and it's sorted, rather than chasing different contractors for different jobs.
+If you've got a driveway that needs doing before a sale, a limestone path that's gone green over winter, or a rendered exterior that's picked up years of coastal grime — we're available 7 days and can usually get out within the week. Fully insured, and we use eco-friendly products throughout.
+Here is the updated logo:
+i
+Can you change the header/ hero section to look similar to this?
+Can you use these exact words for the website in the hero section and see how it looks? Dont worry about the image in the above keep the same one:
+H1 Professional Pressure Cleaning & Exterior Cleaning in Perth
+H2 Transform your property in as little as one day. Driveways, patios, limestone, house washing, roof cleaning and commercial exterior cleaning by PPS Exterior Cleaning.
+In the fully insured section:add $20 million public liability
+Here is the colour scheme in the attached images:
+Element
+Colour
+Primary Blue
+#0057FF
+Navy Background
+#020B1C
+Secondary Navy
+#06152E
+White Text
+#FFFFFF
+Body Text
+#D6DCE5
+Borders
+#2A3D5E
+Here is the favicon

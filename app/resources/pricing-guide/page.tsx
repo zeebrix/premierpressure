@@ -52,18 +52,18 @@ export default function PricingGuidePage() {
 
       <article className="bg-white">
         {/* Article Header */}
-        <header className="bg-gradient-to-br from-[#0a1628] to-[#1a2640] text-white py-16">
+        <header className="bg-gradient-to-br from-[#020B1C] to-[#06152E] text-white py-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <Link
               href="/resources"
-              className="inline-flex items-center gap-2 text-[#00d4ff] hover:text-white mb-6 transition-colors"
+              className="inline-flex items-center gap-2 text-[#0057FF] hover:text-white mb-6 transition-colors"
             >
               <ArrowLeft className="w-4 h-4" />
               Back to Resources
             </Link>
 
             <div className="flex items-center gap-3 mb-4">
-              <span className="px-3 py-1 bg-[#00d4ff] text-[#0a1628] rounded-full text-sm font-bold">
+              <span className="px-3 py-1 bg-[#0057FF] text-white rounded-full text-sm font-bold">
                 Pricing
               </span>
               <div className="flex items-center gap-2 text-gray-300 text-sm">
@@ -97,11 +97,11 @@ export default function PricingGuidePage() {
 
           {/* Average Pricing Table */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               Average Pressure Cleaning Costs in Perth
             </h2>
 
-            <div className="bg-gradient-to-br from-[#0a1628] to-[#1a2640] rounded-xl p-8 text-white mb-6">
+            <div className="bg-gradient-to-br from-[#020B1C] to-[#06152E] rounded-xl p-8 text-white mb-6">
               <div className="grid md:grid-cols-3 gap-6">
                 {[
                   { label: 'Small Jobs', range: '$150-$300', examples: 'Small driveways, patios' },
@@ -109,7 +109,7 @@ export default function PricingGuidePage() {
                   { label: 'Large Jobs', range: '$600-$1,500+', examples: 'Roof cleaning, commercial properties' },
                 ].map((tier, index) => (
                   <div key={index} className="text-center">
-                    <div className="text-sm text-[#00d4ff] mb-2">{tier.label}</div>
+                    <div className="text-sm text-[#0057FF] mb-2">{tier.label}</div>
                     <div className="text-2xl font-bold mb-2">{tier.range}</div>
                     <div className="text-sm text-gray-400">{tier.examples}</div>
                   </div>
@@ -118,7 +118,7 @@ export default function PricingGuidePage() {
             </div>
 
             <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
-              <h3 className="text-xl font-bold text-[#0a1628] mb-4">Service-Specific Pricing</h3>
+              <h3 className="text-xl font-bold text-[#020B1C] mb-4">Service-Specific Pricing</h3>
 
               <div className="space-y-4">
                 {[
@@ -136,11 +136,11 @@ export default function PricingGuidePage() {
                     key={index}
                     className="flex items-start gap-3 pb-4 border-b border-gray-200 last:border-0"
                   >
-                    <DollarSign className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-1" />
+                    <DollarSign className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-1" />
                     <div className="flex-1">
                       <div className="flex justify-between items-start mb-1">
-                        <h4 className="font-bold text-[#0a1628]">{item.service}</h4>
-                        <span className="text-[#00d4ff] font-bold ml-4">{item.price}</span>
+                        <h4 className="font-bold text-[#020B1C]">{item.service}</h4>
+                        <span className="text-[#0057FF] font-bold ml-4">{item.price}</span>
                       </div>
                       <p className="text-sm text-gray-600">{item.details}</p>
                     </div>
@@ -152,7 +152,7 @@ export default function PricingGuidePage() {
 
           {/* Factors Affecting Price */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               7 Key Factors That Affect Pricing
             </h2>
 
@@ -195,7 +195,7 @@ export default function PricingGuidePage() {
                 },
               ].map((factor, index) => (
                 <div key={index} className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
-                  <h3 className="text-xl font-bold text-[#0a1628] mb-3">{factor.title}</h3>
+                  <h3 className="text-xl font-bold text-[#020B1C] mb-3">{factor.title}</h3>
                   <p className="text-gray-700 leading-relaxed">{factor.description}</p>
                 </div>
               ))}
@@ -204,7 +204,7 @@ export default function PricingGuidePage() {
 
           {/* How to Get Accurate Quote */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               How to Get an Accurate Quote
             </h2>
 
@@ -218,11 +218,11 @@ export default function PricingGuidePage() {
                   { step: '5', title: 'Request On-Site Inspection', text: 'For complex or large jobs, an on-site quote ensures the most accurate pricing' },
                 ].map((step, index) => (
                   <div key={index} className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#00d4ff] text-white rounded-full flex items-center justify-center font-bold">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#0057FF] text-white rounded-full flex items-center justify-center font-bold">
                       {step.step}
                     </div>
                     <div>
-                      <h3 className="font-bold text-[#0a1628] mb-1">{step.title}</h3>
+                      <h3 className="font-bold text-[#020B1C] mb-1">{step.title}</h3>
                       <p className="text-gray-700">{step.text}</p>
                     </div>
                   </div>
@@ -233,7 +233,7 @@ export default function PricingGuidePage() {
 
           {/* Pricing Red Flags */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               Pricing Red Flags to Watch For
             </h2>
 
@@ -294,7 +294,7 @@ export default function PricingGuidePage() {
 
           {/* Value vs. Cost */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               Understanding Value vs. Cost
             </h2>
 
@@ -339,9 +339,9 @@ export default function PricingGuidePage() {
                   const Icon = item.icon;
                   return (
                     <div key={index} className="flex items-start gap-3">
-                      <Icon className="w-6 h-6 text-[#00d4ff] flex-shrink-0 mt-1" />
+                      <Icon className="w-6 h-6 text-[#0057FF] flex-shrink-0 mt-1" />
                       <div>
-                        <h3 className="font-bold text-[#0a1628] mb-1">{item.title}</h3>
+                        <h3 className="font-bold text-[#020B1C] mb-1">{item.title}</h3>
                         <p className="text-gray-600 text-sm">{item.description}</p>
                       </div>
                     </div>
@@ -353,7 +353,7 @@ export default function PricingGuidePage() {
 
           {/* Money-Saving Tips */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               5 Ways to Save Money on Pressure Cleaning
             </h2>
 
@@ -388,7 +388,7 @@ export default function PricingGuidePage() {
                 <div key={index} className="bg-green-50 rounded-xl p-6 border border-green-200">
                   <div className="flex items-start justify-between gap-4">
                     <div className="flex-1">
-                      <h3 className="text-lg font-bold text-[#0a1628] mb-2">{tip.title}</h3>
+                      <h3 className="text-lg font-bold text-[#020B1C] mb-2">{tip.title}</h3>
                       <p className="text-gray-700">{tip.description}</p>
                     </div>
                     <div className="flex-shrink-0 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold">
@@ -401,7 +401,7 @@ export default function PricingGuidePage() {
           </section>
 
           {/* CTA Section */}
-          <section className="bg-gradient-to-br from-[#0a1628] to-[#1a2640] rounded-2xl p-8 text-white text-center">
+          <section className="bg-gradient-to-br from-[#020B1C] to-[#06152E] rounded-2xl p-8 text-white text-center">
             <h2 className="text-3xl font-bold mb-4">
               Ready to Get Your Free Quote?
             </h2>
@@ -411,7 +411,7 @@ export default function PricingGuidePage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:0452579657"
-                className="inline-flex items-center justify-center gap-2 bg-[#00d4ff] text-[#0a1628] px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#00bfe6] transition-all"
+                className="inline-flex items-center justify-center gap-2 bg-[#0057FF] text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#0049d8] transition-all"
               >
                 Call 0452 579 657
               </a>

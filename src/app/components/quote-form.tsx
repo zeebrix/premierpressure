@@ -12,6 +12,7 @@ export function QuoteForm() {
     email: '',
     phone: '',
     address: '',
+    suburb: '',
     service: '',
     message: '',
   });
@@ -39,6 +40,7 @@ export function QuoteForm() {
           email: formData.email || 'Not provided',
           phone: formData.phone,
           address: formData.address || 'Not provided',
+          suburb: formData.suburb || 'Not provided',
           service: formData.service || 'Not specified',
           message: formData.message || 'No additional details',
           botcheck: '',
@@ -58,6 +60,7 @@ export function QuoteForm() {
         email: '',
         phone: '',
         address: '',
+        suburb: '',
         service: '',
         message: '',
       });
@@ -94,11 +97,11 @@ export function QuoteForm() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
             </svg>
           </div>
-          <h3 className="text-2xl font-bold text-[#0a1628] mb-2">Thank You!</h3>
+          <h3 className="text-2xl font-bold text-[#020B1C] mb-2">Thank You!</h3>
           <p className="text-gray-600 mb-6">We've received your quote request and will contact you shortly.</p>
           <a
             href="tel:+61452579657"
-            className="inline-flex items-center gap-2 bg-[#00d4ff] text-[#0a1628] px-6 py-3 rounded-lg font-semibold hover:bg-[#00c4ef] transition-all"
+            className="inline-flex items-center gap-2 bg-[#0057FF] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#0049d8] transition-all"
           >
             <Phone className="w-5 h-5" />
             Call Us Now: 0452 579 657
@@ -111,11 +114,11 @@ export function QuoteForm() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
             </svg>
           </div>
-          <h3 className="text-2xl font-bold text-[#0a1628] mb-2">Oops!</h3>
+          <h3 className="text-2xl font-bold text-[#020B1C] mb-2">Oops!</h3>
           <p className="text-gray-600 mb-6">{errorMessage}</p>
           <a
             href="tel:+61452579657"
-            className="inline-flex items-center gap-2 bg-[#00d4ff] text-[#0a1628] px-6 py-3 rounded-lg font-semibold hover:bg-[#00c4ef] transition-all"
+            className="inline-flex items-center gap-2 bg-[#0057FF] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#0049d8] transition-all"
           >
             <Phone className="w-5 h-5" />
             Call Us Now: 0452 579 657
@@ -135,7 +138,7 @@ export function QuoteForm() {
                 required
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent transition-all"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0057FF] focus:border-transparent transition-all"
                 placeholder="John Smith"
               />
             </div>
@@ -151,7 +154,7 @@ export function QuoteForm() {
                 required
                 value={formData.phone}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent transition-all"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0057FF] focus:border-transparent transition-all"
                 placeholder="0412 345 678"
               />
             </div>
@@ -168,7 +171,7 @@ export function QuoteForm() {
               required
               value={formData.email}
               onChange={handleChange}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent transition-all"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0057FF] focus:border-transparent transition-all"
               placeholder="name@email.com"
             />
           </div>
@@ -184,8 +187,24 @@ export function QuoteForm() {
               required
               value={formData.address}
               onChange={handleChange}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent transition-all"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0057FF] focus:border-transparent transition-all"
               placeholder="123 Main Street, Suburb"
+            />
+          </div>
+
+          <div>
+            <label htmlFor="suburb" className="block text-sm font-semibold text-gray-700 mb-2">
+              Suburb *
+            </label>
+            <input
+              type="text"
+              id="suburb"
+              name="suburb"
+              required
+              value={formData.suburb}
+              onChange={handleChange}
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0057FF] focus:border-transparent transition-all"
+              placeholder="Cottesloe"
             />
           </div>
 
@@ -199,7 +218,7 @@ export function QuoteForm() {
               required
               value={formData.service}
               onChange={handleChange}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent transition-all"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0057FF] focus:border-transparent transition-all"
             >
               <option value="">Select a service...</option>
               <option value="driveway">Driveway Cleaning</option>
@@ -225,26 +244,25 @@ export function QuoteForm() {
               rows={4}
               value={formData.message}
               onChange={handleChange}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent transition-all resize-none"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0057FF] focus:border-transparent transition-all resize-none"
               placeholder="Tell us more about your cleaning requirements..."
             />
           </div>
 
-          <div className="bg-[#00d4ff]/10 border-l-4 border-[#00d4ff] p-4 rounded">
+          <div className="bg-[#0057FF]/10 border-l-4 border-[#0057FF] p-4 rounded">
             <p className="text-sm text-gray-700">
-              <strong className="text-[#0a1628]">New Customer Offer:</strong> Get 10% off your first service! 
-              We'll contact you within 24 hours with a free, no-obligation quote.
+              <strong className="text-[#020B1C]">Fast Quote Response:</strong> We'll contact you within 2 hours during business hours with a free, no-obligation quote.
             </p>
           </div>
 
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full bg-[#00d4ff] text-[#0a1628] px-8 py-4 rounded-lg font-semibold hover:bg-[#00c4ef] transition-all shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+            className="w-full bg-[#0057FF] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#0049d8] transition-all shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
           >
             {isSubmitting ? (
               <>
-                <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-[#0a1628]"></div>
+                <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
                 Submitting...
               </>
             ) : (
@@ -259,7 +277,7 @@ export function QuoteForm() {
             <p className="text-sm text-gray-600 mb-3">Or call us directly for an instant quote</p>
             <a
               href="tel:+61452579657"
-              className="inline-flex items-center gap-2 text-[#00d4ff] font-semibold hover:text-[#00c4ef] transition-colors"
+              className="inline-flex items-center gap-2 text-[#0057FF] font-semibold hover:text-[#0049d8] transition-colors"
             >
               <Phone className="w-5 h-5" />
               0452 579 657

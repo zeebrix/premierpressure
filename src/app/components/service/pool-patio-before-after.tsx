@@ -20,7 +20,7 @@ export function PoolPatioBeforeAfter() {
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-[#0a1628] mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#020B1C] mb-4">
             Pool & Patio Transformations
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -41,7 +41,7 @@ export function PoolPatioBeforeAfter() {
                   />
                 </div>
                 <div>
-                  <span className="text-xs font-bold text-[#00d4ff] uppercase">After</span>
+                  <span className="text-xs font-bold text-[#0057FF] uppercase">After</span>
                   <img loading="lazy" decoding="async"
                     src={item.after}
                     alt={`After ${item.title}`}
@@ -50,7 +50,7 @@ export function PoolPatioBeforeAfter() {
                 </div>
               </div>
               <div className="p-4 border-t">
-                <h3 className="font-bold text-[#0a1628] mb-1">{item.title}</h3>
+                <h3 className="font-bold text-[#020B1C] mb-1">{item.title}</h3>
                 <p className="text-sm text-gray-600">{item.description}</p>
               </div>
             </div>

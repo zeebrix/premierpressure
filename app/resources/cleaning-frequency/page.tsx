@@ -59,18 +59,18 @@ export default function CleaningFrequencyPage() {
 
       <article className="bg-white">
         {/* Article Header */}
-        <header className="bg-gradient-to-br from-[#0a1628] to-[#1a2640] text-white py-16">
+        <header className="bg-gradient-to-br from-[#020B1C] to-[#06152E] text-white py-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <Link
               href="/resources"
-              className="inline-flex items-center gap-2 text-[#00d4ff] hover:text-white mb-6 transition-colors"
+              className="inline-flex items-center gap-2 text-[#0057FF] hover:text-white mb-6 transition-colors"
             >
               <ArrowLeft className="w-4 h-4" />
               Back to Resources
             </Link>
 
             <div className="flex items-center gap-3 mb-4">
-              <span className="px-3 py-1 bg-[#00d4ff] text-[#0a1628] rounded-full text-sm font-bold">
+              <span className="px-3 py-1 bg-[#0057FF] text-white rounded-full text-sm font-bold">
                 Maintenance
               </span>
               <div className="flex items-center gap-2 text-gray-300 text-sm">
@@ -107,11 +107,11 @@ export default function CleaningFrequencyPage() {
 
           {/* Quick Reference */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               Quick Reference: Recommended Frequencies
             </h2>
 
-            <div className="bg-gradient-to-br from-[#0a1628] to-[#1a2640] rounded-xl p-8 text-white">
+            <div className="bg-gradient-to-br from-[#020B1C] to-[#06152E] rounded-xl p-8 text-white">
               <div className="grid md:grid-cols-2 gap-6">
                 {[
                   { surface: 'Driveways & Pathways', frequency: 'Every 12 months', icon: Home },
@@ -124,10 +124,10 @@ export default function CleaningFrequencyPage() {
                   const Icon = item.icon;
                   return (
                     <div key={index} className="flex items-start gap-3 bg-white/10 rounded-lg p-4">
-                      <Icon className="w-6 h-6 text-[#00d4ff] flex-shrink-0 mt-1" />
+                      <Icon className="w-6 h-6 text-[#0057FF] flex-shrink-0 mt-1" />
                       <div>
                         <h3 className="font-bold mb-1">{item.surface}</h3>
-                        <p className="text-[#00d4ff] text-sm">{item.frequency}</p>
+                        <p className="text-[#0057FF] text-sm">{item.frequency}</p>
                       </div>
                     </div>
                   );
@@ -138,7 +138,7 @@ export default function CleaningFrequencyPage() {
 
           {/* Perth's Climate Impact */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               Why Perth&apos;s Climate Matters
             </h2>
 
@@ -148,21 +148,21 @@ export default function CleaningFrequencyPage() {
                   <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-3">
                     <Cloud className="w-8 h-8 text-orange-600" />
                   </div>
-                  <h3 className="font-bold text-[#0a1628] mb-2">Hot, Dry Summers</h3>
+                  <h3 className="font-bold text-[#020B1C] mb-2">Hot, Dry Summers</h3>
                   <p className="text-sm text-gray-700">Dust and dirt accumulate rapidly on surfaces during Perth&apos;s long, dry summer months</p>
                 </div>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
                     <Droplets className="w-8 h-8 text-blue-600" />
                   </div>
-                  <h3 className="font-bold text-[#0a1628] mb-2">Wet Winters</h3>
+                  <h3 className="font-bold text-[#020B1C] mb-2">Wet Winters</h3>
                   <p className="text-sm text-gray-700">Winter rainfall creates ideal conditions for mould, mildew, and algae growth</p>
                 </div>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-cyan-100 rounded-full flex items-center justify-center mx-auto mb-3">
                     <Wind className="w-8 h-8 text-cyan-600" />
                   </div>
-                  <h3 className="font-bold text-[#0a1628] mb-2">Coastal Influence</h3>
+                  <h3 className="font-bold text-[#020B1C] mb-2">Coastal Influence</h3>
                   <p className="text-sm text-gray-700">Salt spray accelerates deterioration, especially within 5km of the ocean</p>
                 </div>
               </div>
@@ -175,7 +175,7 @@ export default function CleaningFrequencyPage() {
 
           {/* Surface-by-Surface Guide */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               Detailed Frequency Guide by Surface Type
             </h2>
 
@@ -262,10 +262,10 @@ export default function CleaningFrequencyPage() {
               ].map((surface, index) => (
                 <div key={index} className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
                   <div className="mb-4">
-                    <h3 className="text-2xl font-bold text-[#0a1628] mb-2">{surface.title}</h3>
+                    <h3 className="text-2xl font-bold text-[#020B1C] mb-2">{surface.title}</h3>
                     <div className="flex items-center gap-2">
-                      <Calendar className="w-5 h-5 text-[#00d4ff]" />
-                      <span className="text-lg font-bold text-[#00d4ff]">{surface.frequency}</span>
+                      <Calendar className="w-5 h-5 text-[#0057FF]" />
+                      <span className="text-lg font-bold text-[#0057FF]">{surface.frequency}</span>
                     </div>
                   </div>
 
@@ -279,7 +279,7 @@ export default function CleaningFrequencyPage() {
                     <ul className="grid md:grid-cols-2 gap-2">
                       {surface.signs.map((sign, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
-                          <span className="text-[#00d4ff] mt-0.5">&#10003;</span>
+                          <span className="text-[#0057FF] mt-0.5">&#10003;</span>
                           <span>{sign}</span>
                         </li>
                       ))}
@@ -297,7 +297,7 @@ export default function CleaningFrequencyPage() {
 
           {/* Factors That Increase Frequency */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               When to Clean More Frequently
             </h2>
 
@@ -339,8 +339,8 @@ export default function CleaningFrequencyPage() {
                   className="bg-gradient-to-br from-[#f8f9fa] to-[#e9ecef] rounded-xl p-6 border border-gray-200"
                 >
                   <div className="flex items-start justify-between mb-3">
-                    <h3 className="font-bold text-[#0a1628] flex-1">{item.factor}</h3>
-                    <span className="bg-[#00d4ff] text-white px-3 py-1 rounded-full text-xs font-bold ml-2">
+                    <h3 className="font-bold text-[#020B1C] flex-1">{item.factor}</h3>
+                    <span className="bg-[#0057FF] text-white px-3 py-1 rounded-full text-xs font-bold ml-2">
                       {item.adjustment}
                     </span>
                   </div>
@@ -352,7 +352,7 @@ export default function CleaningFrequencyPage() {
 
           {/* Seasonal Considerations */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               Best Times to Pressure Clean in Perth
             </h2>
 
@@ -405,7 +405,7 @@ export default function CleaningFrequencyPage() {
               ].map((period, index) => (
                 <div key={index} className="bg-white rounded-xl p-6 border-2 border-gray-200">
                   <div className="flex items-center justify-between mb-4">
-                    <h3 className="text-xl font-bold text-[#0a1628]">{period.season}</h3>
+                    <h3 className="text-xl font-bold text-[#020B1C]">{period.season}</h3>
                     <span
                       className={`px-4 py-1 rounded-full text-sm font-bold ${
                         period.color === 'green'
@@ -423,7 +423,7 @@ export default function CleaningFrequencyPage() {
                   <ul className="space-y-2">
                     {period.reasons.map((reason, i) => (
                       <li key={i} className="flex items-start gap-2 text-gray-700">
-                        <span className="text-[#00d4ff] mt-1">&bull;</span>
+                        <span className="text-[#0057FF] mt-1">&bull;</span>
                         <span>{reason}</span>
                       </li>
                     ))}
@@ -435,7 +435,7 @@ export default function CleaningFrequencyPage() {
 
           {/* Cost of Neglect */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               The Cost of Delaying Pressure Cleaning
             </h2>
 
@@ -468,11 +468,11 @@ export default function CleaningFrequencyPage() {
 
           {/* Creating a Schedule */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               Creating Your Maintenance Schedule
             </h2>
 
-            <div className="bg-gradient-to-br from-[#0a1628] to-[#1a2640] rounded-xl p-8 text-white">
+            <div className="bg-gradient-to-br from-[#020B1C] to-[#06152E] rounded-xl p-8 text-white">
               <h3 className="text-2xl font-bold mb-6">Sample Annual Maintenance Plan</h3>
 
               <div className="space-y-4">
@@ -483,11 +483,11 @@ export default function CleaningFrequencyPage() {
                   { month: 'Every 2-3 Years', tasks: ['Roof cleaning and gutter maintenance', 'Comprehensive full-property clean'] },
                 ].map((period, index) => (
                   <div key={index} className="bg-white/10 rounded-lg p-4">
-                    <h4 className="font-bold text-[#00d4ff] mb-2">{period.month}</h4>
+                    <h4 className="font-bold text-[#0057FF] mb-2">{period.month}</h4>
                     <ul className="space-y-1">
                       {period.tasks.map((task, i) => (
                         <li key={i} className="text-sm text-gray-200 flex items-center gap-2">
-                          <span className="text-[#00d4ff]">&rarr;</span>
+                          <span className="text-[#0057FF]">&rarr;</span>
                           {task}
                         </li>
                       ))}
@@ -496,7 +496,7 @@ export default function CleaningFrequencyPage() {
                 ))}
               </div>
 
-              <div className="mt-6 bg-[#00d4ff] text-[#0a1628] rounded-lg p-4">
+              <div className="mt-6 bg-[#0057FF] text-white rounded-lg p-4">
                 <p className="font-bold text-center">
                   Pro Tip: Book your annual cleaning at the same time each year to establish a routine and never miss maintenance.
                 </p>
@@ -505,7 +505,7 @@ export default function CleaningFrequencyPage() {
           </section>
 
           {/* CTA */}
-          <section className="bg-gradient-to-br from-[#0a1628] to-[#1a2640] rounded-2xl p-8 text-white text-center">
+          <section className="bg-gradient-to-br from-[#020B1C] to-[#06152E] rounded-2xl p-8 text-white text-center">
             <h2 className="text-3xl font-bold mb-4">
               Ready to Start Your Maintenance Schedule?
             </h2>
@@ -515,7 +515,7 @@ export default function CleaningFrequencyPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:0452579657"
-                className="inline-flex items-center justify-center gap-2 bg-[#00d4ff] text-[#0a1628] px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#00bfe6] transition-all"
+                className="inline-flex items-center justify-center gap-2 bg-[#0057FF] text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#0049d8] transition-all"
               >
                 Call 0452 579 657
               </a>

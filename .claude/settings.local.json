@@ -42,7 +42,16 @@
       "Bash(echo \"  /og-image.jpg -> $\\(curl -s -o /dev/null -w '%{http_code}' --max-time 20 https://www.premierpressuresolutions.com.au/og-image.jpg\\)\")",
       "Bash(python -c \"import PIL; print\\('PIL', PIL.__version__\\)\")",
       "Bash(python scripts/make_og_image.py)",
-      "Bash(echo \"exit: $?\")"
+      "Bash(echo \"exit: $?\")",
+      "Bash(grep -oE '<a[^>]*href=\"/driveway-cleaning\"[^>]*>.{0,120}' .next/server/app/heathridge.html)",
+      "Bash(grep -oE '<a class=\"block\" href=\"/driveway-cleaning\">.{0,600}' .next/server/app/heathridge.html)",
+      "Bash(grep -oE '<a class=\"block\" href=\"/driveway-cleaning\">.{0,1000}' .next/server/app/heathridge.html)",
+      "Bash(grep -oE '<span[^>]*>.{0,140}')",
+      "Bash(git log *)",
+      "Bash(nslookup -type=CNAME www.premierpressuresolutions.com.au)",
+      "Bash(nslookup -type=A www.premierpressuresolutions.com.au)",
+      "Bash(nslookup -type=A premierpressuresolutions.com.au)",
+      "Bash(iconv -f UTF-16 -t UTF-8 app/layout.tsx)"
     ]
   }
 }

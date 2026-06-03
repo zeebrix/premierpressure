@@ -30,9 +30,9 @@ function FAQItem({
         onClick={onClick}
         className="w-full flex items-center justify-between p-6 text-left hover:bg-gray-50 transition-colors"
       >
-        <h3 className="text-lg font-bold text-[#0a1628] pr-4">{question}</h3>
+        <h3 className="text-lg font-bold text-[#020B1C] pr-4">{question}</h3>
         <ChevronDown
-          className={`w-5 h-5 text-[#00d4ff] flex-shrink-0 transition-transform duration-200 ${
+          className={`w-5 h-5 text-[#0057FF] flex-shrink-0 transition-transform duration-200 ${
             isOpen ? 'rotate-180' : ''
           }`}
         />
@@ -87,8 +87,8 @@ export function OrganicStainingGuideContent() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-[#0a1628] text-white py-16 sm:py-20">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0a1628] via-[#0a1628] to-[#00d4ff]/10"></div>
+      <section className="relative bg-[#020B1C] text-white py-16 sm:py-20">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#020B1C] via-[#020B1C] to-[#0057FF]/10"></div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
             The Complete Guide to Organic Staining
@@ -116,69 +116,69 @@ export function OrganicStainingGuideContent() {
 
         {/* What is Organic Staining */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#0a1628] mb-6">What is Organic Staining?</h2>
+          <h2 className="text-3xl font-bold text-[#020B1C] mb-6">What is Organic Staining?</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
             Organic staining refers to discoloration caused by living organisms that colonize exterior and interior surfaces. Unlike dirt or pollution stains, organic stains are actually alive and will continue to grow and spread if left untreated.
           </p>
 
           <div className="grid sm:grid-cols-2 gap-6 my-8">
-            <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-[#00d4ff]">
-              <h3 className="font-bold text-[#0a1628] mb-3 flex items-center gap-2">
-                <Droplet className="w-5 h-5 text-[#00d4ff]" />
+            <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-[#0057FF]">
+              <h3 className="font-bold text-[#020B1C] mb-3 flex items-center gap-2">
+                <Droplet className="w-5 h-5 text-[#0057FF]" />
                 Common Types
               </h3>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span><strong>Mould:</strong> Fuzzy growth, typically black, green, or white</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span><strong>Mildew:</strong> Powdery surface growth, usually grey or white</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span><strong>Algae:</strong> Green, slimy stains, often on damp surfaces</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span><strong>Lichen:</strong> Crusty, colorful patches that combine algae and fungi</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span><strong>Moss:</strong> Thick, soft, green plant growth</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-[#00d4ff]">
-              <h3 className="font-bold text-[#0a1628] mb-3 flex items-center gap-2">
-                <Home className="w-5 h-5 text-[#00d4ff]" />
+            <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-[#0057FF]">
+              <h3 className="font-bold text-[#020B1C] mb-3 flex items-center gap-2">
+                <Home className="w-5 h-5 text-[#0057FF]" />
                 Affected Surfaces
               </h3>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Roofs (tiles, metal, colorbond)</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Exterior walls and render</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Driveways and pathways</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Pavers and decking</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Fences and retaining walls</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Pool surrounds and patios</span>
                 </li>
               </ul>
@@ -188,36 +188,36 @@ export function OrganicStainingGuideContent() {
 
         {/* Why Perth Properties Are Vulnerable */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+          <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
             Why Perth Properties Are Particularly Vulnerable
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
             Perth&apos;s unique climate creates the perfect conditions for organic growth:
           </p>
 
-          <div className="bg-blue-50 border-l-4 border-[#00d4ff] p-6 my-6">
-            <h3 className="font-bold text-[#0a1628] mb-4">Perth&apos;s Climate Factors</h3>
+          <div className="bg-blue-50 border-l-4 border-[#0057FF] p-6 my-6">
+            <h3 className="font-bold text-[#020B1C] mb-4">Perth&apos;s Climate Factors</h3>
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start gap-3">
-                <Wind className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                <Wind className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                 <div>
                   <strong>Coastal Humidity:</strong> High moisture levels, especially in coastal suburbs, provide ideal conditions for mould and algae growth
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <Droplet className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                <Droplet className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                 <div>
                   <strong>Winter Rainfall:</strong> Extended wet periods from May to September create persistent damp conditions
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <Home className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                <Home className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                 <div>
                   <strong>Mild Temperatures:</strong> Year-round moderate temperatures allow continuous organic growth
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <Wind className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                <Wind className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                 <div>
                   <strong>Sea Breeze:</strong> The famous &quot;Fremantle Doctor&quot; brings salt spray that can damage protective coatings, making surfaces more vulnerable
                 </div>
@@ -232,7 +232,7 @@ export function OrganicStainingGuideContent() {
 
         {/* Health Risks */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#0a1628] mb-6">Health Risks of Organic Staining</h2>
+          <h2 className="text-3xl font-bold text-[#020B1C] mb-6">Health Risks of Organic Staining</h2>
 
           <div className="bg-red-50 border-l-4 border-red-500 p-6 mb-6">
             <div className="flex items-start gap-3 mb-4">
@@ -246,7 +246,7 @@ export function OrganicStainingGuideContent() {
 
           <div className="space-y-6">
             <div>
-              <h3 className="text-xl font-bold text-[#0a1628] mb-3">Respiratory Issues</h3>
+              <h3 className="text-xl font-bold text-[#020B1C] mb-3">Respiratory Issues</h3>
               <p className="text-gray-700 leading-relaxed mb-3">
                 Mould spores become airborne and can be inhaled, causing:
               </p>
@@ -271,7 +271,7 @@ export function OrganicStainingGuideContent() {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold text-[#0a1628] mb-3">Allergic Reactions</h3>
+              <h3 className="text-xl font-bold text-[#020B1C] mb-3">Allergic Reactions</h3>
               <p className="text-gray-700 leading-relaxed mb-3">
                 Many people are allergic to mould spores, experiencing:
               </p>
@@ -296,7 +296,7 @@ export function OrganicStainingGuideContent() {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold text-[#0a1628] mb-3">Vulnerable Groups</h3>
+              <h3 className="text-xl font-bold text-[#020B1C] mb-3">Vulnerable Groups</h3>
               <p className="text-gray-700 leading-relaxed mb-3">
                 Certain individuals are at higher risk:
               </p>
@@ -324,35 +324,35 @@ export function OrganicStainingGuideContent() {
 
         {/* Property Damage */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#0a1628] mb-6">Property Damage from Organic Growth</h2>
+          <h2 className="text-3xl font-bold text-[#020B1C] mb-6">Property Damage from Organic Growth</h2>
           <p className="text-gray-700 leading-relaxed mb-6">
             Beyond health concerns, organic staining can cause significant and costly damage to your property:
           </p>
 
           <div className="space-y-6">
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-[#0a1628] mb-3">Structural Deterioration</h3>
+              <h3 className="text-xl font-bold text-[#020B1C] mb-3">Structural Deterioration</h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start gap-3">
-                  <AlertTriangle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                  <AlertTriangle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                   <div>
                     <strong>Roof Damage:</strong> Algae and lichen retain moisture, accelerating tile deterioration and potentially causing leaks. On metal roofs, organic growth can trap moisture leading to rust and corrosion.
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <AlertTriangle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                  <AlertTriangle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                   <div>
                     <strong>Paint Degradation:</strong> Mould and mildew break down paint binders, causing peeling, bubbling, and discoloration that requires expensive repainting.
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <AlertTriangle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                  <AlertTriangle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                   <div>
                     <strong>Surface Erosion:</strong> Lichen roots penetrate porous surfaces like concrete and limestone, causing permanent pitting and discoloration.
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <AlertTriangle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                  <AlertTriangle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                   <div>
                     <strong>Wood Rot:</strong> On timber decking, fences, and fascias, persistent moisture from organic growth leads to rot and structural weakness.
                   </div>
@@ -361,22 +361,22 @@ export function OrganicStainingGuideContent() {
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-[#0a1628] mb-3">Financial Impact</h3>
+              <h3 className="text-xl font-bold text-[#020B1C] mb-3">Financial Impact</h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                   <div>
                     <strong>Reduced Property Value:</strong> Visible organic staining can reduce your home&apos;s market value by 5-10%, potentially costing tens of thousands on resale.
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                   <div>
                     <strong>Increased Maintenance Costs:</strong> Delayed cleaning leads to permanent damage requiring costly repairs or replacement.
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                   <div>
                     <strong>Insurance Issues:</strong> Some insurance policies may not cover damage from neglected maintenance, leaving you to foot the repair bill.
                   </div>
@@ -385,16 +385,16 @@ export function OrganicStainingGuideContent() {
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-[#0a1628] mb-3">Safety Hazards</h3>
+              <h3 className="text-xl font-bold text-[#020B1C] mb-3">Safety Hazards</h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start gap-3">
-                  <AlertTriangle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                  <AlertTriangle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                   <div>
                     <strong>Slip Hazards:</strong> Algae and moss on pathways, driveways, and pool surrounds create dangerously slippery surfaces, especially when wet.
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <AlertTriangle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                  <AlertTriangle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                   <div>
                     <strong>Weakened Structures:</strong> Organic growth can compromise the integrity of walkways, steps, and balustrades.
                   </div>
@@ -406,7 +406,7 @@ export function OrganicStainingGuideContent() {
 
         {/* Prevention Strategies */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#0a1628] mb-6">Prevention Strategies That Work</h2>
+          <h2 className="text-3xl font-bold text-[#020B1C] mb-6">Prevention Strategies That Work</h2>
           <p className="text-gray-700 leading-relaxed mb-6">
             While Perth&apos;s climate makes organic growth inevitable, you can significantly reduce its impact with proactive measures:
           </p>
@@ -414,24 +414,24 @@ export function OrganicStainingGuideContent() {
           <div className="grid sm:grid-cols-2 gap-6">
             <div className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-lg border border-blue-100">
               <div className="flex items-center gap-3 mb-4">
-                <Shield className="w-6 h-6 text-[#00d4ff]" />
-                <h3 className="text-xl font-bold text-[#0a1628]">Improve Drainage</h3>
+                <Shield className="w-6 h-6 text-[#0057FF]" />
+                <h3 className="text-xl font-bold text-[#020B1C]">Improve Drainage</h3>
               </div>
               <ul className="space-y-2 text-gray-700 text-sm">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Clear gutters and downpipes regularly</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Ensure proper surface water runoff</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Fix pooling water issues promptly</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Install French drains in problem areas</span>
                 </li>
               </ul>
@@ -439,24 +439,24 @@ export function OrganicStainingGuideContent() {
 
             <div className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-lg border border-blue-100">
               <div className="flex items-center gap-3 mb-4">
-                <Wind className="w-6 h-6 text-[#00d4ff]" />
-                <h3 className="text-xl font-bold text-[#0a1628]">Increase Sunlight</h3>
+                <Wind className="w-6 h-6 text-[#0057FF]" />
+                <h3 className="text-xl font-bold text-[#020B1C]">Increase Sunlight</h3>
               </div>
               <ul className="space-y-2 text-gray-700 text-sm">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Trim overhanging tree branches</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Remove dense shrubs near walls</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Thin out vegetation for air flow</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Consider sun exposure when landscaping</span>
                 </li>
               </ul>
@@ -464,24 +464,24 @@ export function OrganicStainingGuideContent() {
 
             <div className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-lg border border-blue-100">
               <div className="flex items-center gap-3 mb-4">
-                <CheckCircle2 className="w-6 h-6 text-[#00d4ff]" />
-                <h3 className="text-xl font-bold text-[#0a1628]">Regular Cleaning</h3>
+                <CheckCircle2 className="w-6 h-6 text-[#0057FF]" />
+                <h3 className="text-xl font-bold text-[#020B1C]">Regular Cleaning</h3>
               </div>
               <ul className="space-y-2 text-gray-700 text-sm">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Schedule annual pressure washing</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Clean roofs every 12-18 months</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Address stains when first noticed</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Don&apos;t wait for heavy buildup</span>
                 </li>
               </ul>
@@ -489,24 +489,24 @@ export function OrganicStainingGuideContent() {
 
             <div className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-lg border border-blue-100">
               <div className="flex items-center gap-3 mb-4">
-                <Shield className="w-6 h-6 text-[#00d4ff]" />
-                <h3 className="text-xl font-bold text-[#0a1628]">Protective Treatments</h3>
+                <Shield className="w-6 h-6 text-[#0057FF]" />
+                <h3 className="text-xl font-bold text-[#020B1C]">Protective Treatments</h3>
               </div>
               <ul className="space-y-2 text-gray-700 text-sm">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Apply quality sealants to pavers</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Use anti-fungal roof treatments</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Maintain paint in good condition</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1">&bull;</span>
+                  <span className="text-[#0057FF] mt-1">&bull;</span>
                   <span>Re-seal surfaces as recommended</span>
                 </li>
               </ul>
@@ -516,7 +516,7 @@ export function OrganicStainingGuideContent() {
 
         {/* DIY vs Professional */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#0a1628] mb-6">DIY Cleaning vs. Professional Services</h2>
+          <h2 className="text-3xl font-bold text-[#020B1C] mb-6">DIY Cleaning vs. Professional Services</h2>
 
           <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-6">
             <h3 className="font-bold text-yellow-900 mb-3">Why DIY Methods Often Fail</h3>
@@ -547,41 +547,41 @@ export function OrganicStainingGuideContent() {
             </ul>
           </div>
 
-          <div className="bg-[#00d4ff]/10 border-l-4 border-[#00d4ff] p-6">
-            <h3 className="font-bold text-[#0a1628] mb-3">Professional Pressure Cleaning Advantages</h3>
+          <div className="bg-[#0057FF]/10 border-l-4 border-[#0057FF] p-6">
+            <h3 className="font-bold text-[#020B1C] mb-3">Professional Pressure Cleaning Advantages</h3>
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                <CheckCircle2 className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                 <div>
                   <strong>Complete elimination:</strong> Professional-grade equipment and eco-friendly solutions kill organic growth at the root
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                <CheckCircle2 className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                 <div>
                   <strong>Surface-specific techniques:</strong> Different surfaces require different pressure levels and cleaning methods
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                <CheckCircle2 className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                 <div>
                   <strong>Long-lasting results:</strong> Proper treatment delays regrowth for 12-24 months vs. weeks with DIY
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                <CheckCircle2 className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                 <div>
                   <strong>Safe execution:</strong> Trained professionals with proper safety equipment and insurance
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                <CheckCircle2 className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                 <div>
                   <strong>Time savings:</strong> What takes you a weekend takes professionals a few hours
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                <CheckCircle2 className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                 <div>
                   <strong>Environmentally responsible:</strong> Eco-friendly solutions that are safe for plants, pets, and waterways
                 </div>
@@ -592,51 +592,51 @@ export function OrganicStainingGuideContent() {
 
         {/* When to Call Professionals */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#0a1628] mb-6">When to Call a Professional</h2>
+          <h2 className="text-3xl font-bold text-[#020B1C] mb-6">When to Call a Professional</h2>
           <p className="text-gray-700 leading-relaxed mb-6">
             You should contact professional pressure cleaning services if you notice:
           </p>
 
           <div className="grid sm:grid-cols-2 gap-4 mb-6">
             <div className="flex items-start gap-3 bg-white p-4 rounded-lg border border-gray-200">
-              <AlertTriangle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+              <AlertTriangle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
               <div>
-                <strong className="text-[#0a1628]">Visible Growth</strong>
+                <strong className="text-[#020B1C]">Visible Growth</strong>
                 <p className="text-sm text-gray-600 mt-1">Any visible mould, algae, or lichen on your property</p>
               </div>
             </div>
             <div className="flex items-start gap-3 bg-white p-4 rounded-lg border border-gray-200">
-              <AlertTriangle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+              <AlertTriangle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
               <div>
-                <strong className="text-[#0a1628]">Roof Discoloration</strong>
+                <strong className="text-[#020B1C]">Roof Discoloration</strong>
                 <p className="text-sm text-gray-600 mt-1">Dark streaks or green patches on your roof</p>
               </div>
             </div>
             <div className="flex items-start gap-3 bg-white p-4 rounded-lg border border-gray-200">
-              <AlertTriangle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+              <AlertTriangle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
               <div>
-                <strong className="text-[#0a1628]">Slippery Surfaces</strong>
+                <strong className="text-[#020B1C]">Slippery Surfaces</strong>
                 <p className="text-sm text-gray-600 mt-1">Pathways or driveways becoming slippery</p>
               </div>
             </div>
             <div className="flex items-start gap-3 bg-white p-4 rounded-lg border border-gray-200">
-              <AlertTriangle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+              <AlertTriangle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
               <div>
-                <strong className="text-[#0a1628]">Pre-Sale Cleaning</strong>
+                <strong className="text-[#020B1C]">Pre-Sale Cleaning</strong>
                 <p className="text-sm text-gray-600 mt-1">Preparing your property for sale</p>
               </div>
             </div>
             <div className="flex items-start gap-3 bg-white p-4 rounded-lg border border-gray-200">
-              <AlertTriangle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+              <AlertTriangle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
               <div>
-                <strong className="text-[#0a1628]">Annual Maintenance</strong>
+                <strong className="text-[#020B1C]">Annual Maintenance</strong>
                 <p className="text-sm text-gray-600 mt-1">12+ months since last professional clean</p>
               </div>
             </div>
             <div className="flex items-start gap-3 bg-white p-4 rounded-lg border border-gray-200">
-              <AlertTriangle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+              <AlertTriangle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
               <div>
-                <strong className="text-[#0a1628]">Health Concerns</strong>
+                <strong className="text-[#020B1C]">Health Concerns</strong>
                 <p className="text-sm text-gray-600 mt-1">Family members experiencing allergies or respiratory issues</p>
               </div>
             </div>
@@ -645,7 +645,7 @@ export function OrganicStainingGuideContent() {
 
         {/* FAQ Section */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#0a1628] mb-6">Frequently Asked Questions</h2>
+          <h2 className="text-3xl font-bold text-[#020B1C] mb-6">Frequently Asked Questions</h2>
 
           <div className="space-y-6">
             {faqs.map((faq, index) => (
@@ -662,7 +662,7 @@ export function OrganicStainingGuideContent() {
 
         {/* Conclusion */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#0a1628] mb-6">Conclusion: Take Action Before It&apos;s Too Late</h2>
+          <h2 className="text-3xl font-bold text-[#020B1C] mb-6">Conclusion: Take Action Before It&apos;s Too Late</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
             Organic staining isn&apos;t just a cosmetic issue - it&apos;s a progressive problem that worsens over time, affecting your health, property value, and structural integrity. The good news is that with proper understanding and timely professional intervention, it&apos;s completely manageable.
           </p>
@@ -670,7 +670,7 @@ export function OrganicStainingGuideContent() {
             Don&apos;t wait until you&apos;re facing expensive repairs or health concerns. Regular professional pressure cleaning is an investment in your property&apos;s longevity and your family&apos;s wellbeing.
           </p>
 
-          <div className="bg-gradient-to-r from-[#0a1628] to-[#0a1628]/90 text-white p-8 rounded-xl">
+          <div className="bg-gradient-to-r from-[#020B1C] to-[#020B1C]/90 text-white p-8 rounded-xl">
             <h3 className="text-2xl font-bold mb-4">Ready to Protect Your Perth Property?</h3>
             <p className="text-white/90 mb-6">
               PPS Exterior Cleaning specializes in safe, effective removal of mould, algae, mildew, and lichen using eco-friendly solutions and professional equipment. We serve all Perth metro areas with fully insured, experienced technicians.
@@ -678,7 +678,7 @@ export function OrganicStainingGuideContent() {
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="tel:+61452579657"
-                className="inline-flex items-center justify-center gap-2 bg-[#00d4ff] text-[#0a1628] px-8 py-4 rounded-lg font-bold hover:bg-[#00d4ff]/90 transition-colors"
+                className="inline-flex items-center justify-center gap-2 bg-[#0057FF] text-white px-8 py-4 rounded-lg font-bold hover:bg-[#0057FF]/90 transition-colors"
               >
                 <Phone className="w-5 h-5" />
                 Call 0452 579 657
@@ -690,7 +690,7 @@ export function OrganicStainingGuideContent() {
                 Get Free Quote
               </Link>
             </div>
-            <p className="text-[#00d4ff] font-semibold mt-4">
+            <p className="text-[#0057FF] font-semibold mt-4">
               New customers save 10% &bull; Free inspection &bull; Same-week service available
             </p>
           </div>
@@ -698,27 +698,27 @@ export function OrganicStainingGuideContent() {
 
         {/* Related Services */}
         <section>
-          <h2 className="text-2xl font-bold text-[#0a1628] mb-6">Related Services</h2>
+          <h2 className="text-2xl font-bold text-[#020B1C] mb-6">Related Services</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             <Link
               href="/roof-cleaning"
               className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors border border-gray-200"
             >
-              <h3 className="font-bold text-[#0a1628] mb-2">Roof Cleaning</h3>
+              <h3 className="font-bold text-[#020B1C] mb-2">Roof Cleaning</h3>
               <p className="text-sm text-gray-600">Remove algae, lichen, and moss from your roof safely</p>
             </Link>
             <Link
               href="/house-washing"
               className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors border border-gray-200"
             >
-              <h3 className="font-bold text-[#0a1628] mb-2">House Washing</h3>
+              <h3 className="font-bold text-[#020B1C] mb-2">House Washing</h3>
               <p className="text-sm text-gray-600">Eliminate mould and mildew from exterior walls</p>
             </Link>
             <Link
               href="/driveway-cleaning"
               className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors border border-gray-200"
             >
-              <h3 className="font-bold text-[#0a1628] mb-2">Driveway Cleaning</h3>
+              <h3 className="font-bold text-[#020B1C] mb-2">Driveway Cleaning</h3>
               <p className="text-sm text-gray-600">Remove slippery algae and stains from concrete</p>
             </Link>
           </div>

@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { MapPin } from 'lucide-react';
 import { HeroSection } from '@/app/components/hero-section';
-import { TrustIndicators } from '@/app/components/trust-indicators';
 import { ServicesShowcase } from '@/app/components/services-showcase';
 import { HowItWorks } from '@/app/components/how-it-works';
 import { FinalCTA } from '@/app/components/final-cta';
@@ -121,18 +120,17 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeStructuredData) }}
       />
       <HeroSection />
-      <TrustIndicators />
-      <BeforeAfterGallery />
       <ServicesShowcase />
+      <BeforeAfterGallery />
       <HowItWorks />
 
       <section className="py-12 sm:py-16 lg:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-12">
-            <div className="inline-flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 bg-[#00d4ff]/10 rounded-full mb-4 sm:mb-6">
-              <MapPin className="w-7 h-7 sm:w-8 sm:h-8 text-[#00d4ff]" />
+            <div className="inline-flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 bg-[#0057FF]/10 rounded-full mb-4 sm:mb-6">
+              <MapPin className="w-7 h-7 sm:w-8 sm:h-8 text-[#0057FF]" />
             </div>
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0a1628] mb-3 sm:mb-4">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#020B1C] mb-3 sm:mb-4">
               Servicing Perth &amp; Surrounds
             </h2>
             <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto mb-6 sm:mb-8">
@@ -158,7 +156,7 @@ export default function HomePage() {
           <div className="text-center">
             <a
               href="/areas"
-              className="inline-flex items-center justify-center gap-2 bg-[#00d4ff] text-[#0a1628] px-6 sm:px-8 py-3 sm:py-4 rounded-lg transition-all hover:bg-[#00c4ef] shadow-lg hover:shadow-xl font-semibold text-base sm:text-lg min-h-[56px] touch-manipulation"
+              className="inline-flex items-center justify-center gap-2 bg-[#0057FF] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg transition-all hover:bg-[#0049d8] shadow-lg hover:shadow-xl font-semibold text-base sm:text-lg min-h-[56px] touch-manipulation"
             >
               <MapPin className="w-5 h-5" />
               <span>View All Service Areas</span>

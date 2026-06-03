@@ -63,7 +63,7 @@ export function StrataCleaningContent() {
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-6">
               Expert Strata Cleaning for Perth Properties
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
@@ -77,7 +77,7 @@ export function StrataCleaningContent() {
                 Our team understands strata operations, approval processes, and budget considerations. We provide detailed quotes suitable for committee approval, maintain clear communication with property managers, and deliver reliable service that keeps your property looking its best year-round.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Strata Areas We Clean
               </h3>
               <div className="grid sm:grid-cols-2 gap-3 my-6">
@@ -96,13 +96,13 @@ export function StrataCleaningContent() {
                   'Boundary walls and fencing',
                 ].map((item) => (
                   <div key={item} className="flex items-start gap-2">
-                    <CheckCircle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                     <span>{item}</span>
                   </div>
                 ))}
               </div>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Why Strata Properties Choose Us
               </h3>
               <p>
@@ -115,7 +115,7 @@ export function StrataCleaningContent() {
                 Many Perth strata properties rely on us for regular scheduled maintenance, appreciating our consistent service quality, transparent pricing, and professional approach. We understand that maintaining common areas is essential for property values and resident satisfaction, and we deliver results that reflect positively on your strata management.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Regular Maintenance Programs
               </h3>
               <p>

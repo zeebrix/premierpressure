@@ -40,11 +40,11 @@ export function ServiceTrust() {
               viewport={{ once: true }}
               className="flex flex-col items-center text-center gap-3"
             >
-              <div className="w-16 h-16 bg-[#00d4ff]/10 rounded-full flex items-center justify-center">
-                <indicator.icon className="w-8 h-8 text-[#00d4ff]" />
+              <div className="w-16 h-16 bg-[#0057FF]/10 rounded-full flex items-center justify-center">
+                <indicator.icon className="w-8 h-8 text-[#0057FF]" />
               </div>
               <div>
-                <div className="font-semibold text-[#0a1628] mb-1 text-lg">
+                <div className="font-semibold text-[#020B1C] mb-1 text-lg">
                   {indicator.title}
                 </div>
                 <p className="text-gray-600 text-sm">

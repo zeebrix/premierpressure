@@ -53,7 +53,7 @@ export default function AboutContent() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-[#0a1628] to-[#1a2b45] text-white py-20 md:py-32">
+      <section className="relative bg-gradient-to-br from-[#020B1C] to-[#06152E] text-white py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -82,7 +82,7 @@ export default function AboutContent() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-6">
                 Our Story
               </h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
@@ -95,7 +95,7 @@ export default function AboutContent() {
                 <p>
                   Living and working here in Perth, we understand the harsh Western Australian conditions. Coastal salt air, red dust, mould growth, and stubborn stains can quickly make driveways, roofs, and exterior surfaces look tired and neglected. We saw too many homeowners frustrated with unreliable contractors, rushed jobs, and surface damage caused by improper pressure cleaning.
                 </p>
-                <p className="font-semibold text-[#0a1628]">
+                <p className="font-semibold text-[#020B1C]">
                   So we decided to raise the standard.
                 </p>
                 <p>
@@ -103,26 +103,26 @@ export default function AboutContent() {
                 </p>
 
                 <div className="pt-4">
-                  <p className="font-semibold text-[#0a1628] mb-3">We specialise in:</p>
+                  <p className="font-semibold text-[#020B1C] mb-3">We specialise in:</p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2">
-                      <CheckCircle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                       <span>Driveway and paver cleaning</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                       <span>House washing</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                       <span>Roof cleaning</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                       <span>Limestone and liquid limestone restoration</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                       <span>Commercial pressure cleaning</span>
                     </li>
                   </ul>
@@ -137,7 +137,7 @@ export default function AboutContent() {
                 <p>
                   At PPS Exterior Cleaning, we believe a clean exterior doesn&apos;t just improve appearance — it adds value, protects your investment, and restores pride in your property.
                 </p>
-                <p className="font-semibold text-[#0a1628] italic">
+                <p className="font-semibold text-[#020B1C] italic">
                   And we&apos;re just getting started.
                 </p>
               </div>
@@ -155,7 +155,7 @@ export default function AboutContent() {
                 alt="Pressure cleaning professional at work"
                 className="rounded-lg shadow-xl w-full h-[400px] object-cover"
               />
-              <div className="absolute -bottom-6 -left-6 bg-[#00d4ff] text-[#0a1628] px-8 py-6 rounded-lg shadow-lg">
+              <div className="absolute -bottom-6 -left-6 bg-[#0057FF] text-white px-8 py-6 rounded-lg shadow-lg">
                 <p className="text-4xl font-bold">500+</p>
                 <p className="text-sm font-semibold">Happy Customers</p>
               </div>
@@ -174,7 +174,7 @@ export default function AboutContent() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-4">
               What We Stand For
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -192,10 +192,10 @@ export default function AboutContent() {
                 viewport={{ once: true }}
                 className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow"
               >
-                <div className="w-12 h-12 bg-gradient-to-br from-[#00d4ff] to-[#0a1628] rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-br from-[#0057FF] to-[#020B1C] rounded-lg flex items-center justify-center mb-4">
                   <value.icon className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-[#0a1628] mb-3">
+                <h3 className="text-xl font-bold text-[#020B1C] mb-3">
                   {value.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -217,7 +217,7 @@ export default function AboutContent() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-6">
                 Our Expertise
               </h2>
               <p className="text-gray-700 leading-relaxed mb-6">
@@ -237,7 +237,7 @@ export default function AboutContent() {
                     viewport={{ once: true }}
                     className="flex items-start gap-2"
                   >
-                    <CheckCircle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                     <span className="text-gray-700">{item}</span>
                   </motion.div>
                 ))}
@@ -249,7 +249,7 @@ export default function AboutContent() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="bg-gradient-to-br from-[#0a1628] to-[#1a2b45] text-white p-8 md:p-10 rounded-lg shadow-xl"
+              className="bg-gradient-to-br from-[#020B1C] to-[#06152E] text-white p-8 md:p-10 rounded-lg shadow-xl"
             >
               <h3 className="text-2xl md:text-3xl font-bold mb-6">
                 Service Areas
@@ -260,7 +260,7 @@ export default function AboutContent() {
               <div className="grid grid-cols-2 gap-4 mb-8">
                 {serviceAreas.map((area) => (
                   <div key={area} className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-[#00d4ff] rounded-full"></div>
+                    <div className="w-2 h-2 bg-[#0057FF] rounded-full"></div>
                     <span>{area}</span>
                   </div>
                 ))}
@@ -283,24 +283,24 @@ export default function AboutContent() {
             viewport={{ once: true }}
             className="max-w-4xl mx-auto"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-6 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-6 text-center">
               Why Perth Chooses Us
             </h2>
             <div className="space-y-6 text-gray-700 leading-relaxed">
               <p>
-                <strong className="text-[#0a1628]">Local Knowledge:</strong> We understand Perth&apos;s unique climate challenges, from red dirt staining to coastal salt buildup, and we have proven solutions for all of them.
+                <strong className="text-[#020B1C]">Local Knowledge:</strong> We understand Perth&apos;s unique climate challenges, from red dirt staining to coastal salt buildup, and we have proven solutions for all of them.
               </p>
               <p>
-                <strong className="text-[#0a1628]">Professional Equipment:</strong> We invest in commercial-grade pressure cleaning equipment that delivers superior results without the risks associated with DIY or budget alternatives.
+                <strong className="text-[#020B1C]">Professional Equipment:</strong> We invest in commercial-grade pressure cleaning equipment that delivers superior results without the risks associated with DIY or budget alternatives.
               </p>
               <p>
-                <strong className="text-[#0a1628]">Surface Specialists:</strong> Different surfaces require different approaches. We&apos;re trained in proper techniques for concrete, exposed aggregate, limestone, pavers, tiles, rendered walls, and more.
+                <strong className="text-[#020B1C]">Surface Specialists:</strong> Different surfaces require different approaches. We&apos;re trained in proper techniques for concrete, exposed aggregate, limestone, pavers, tiles, rendered walls, and more.
               </p>
               <p>
-                <strong className="text-[#0a1628]">Transparent Pricing:</strong> No hidden fees or surprises. We provide detailed quotes upfront and stick to them.
+                <strong className="text-[#020B1C]">Transparent Pricing:</strong> No hidden fees or surprises. We provide detailed quotes upfront and stick to them.
               </p>
               <p>
-                <strong className="text-[#0a1628]">Satisfaction Guaranteed:</strong> We take pride in our work and stand behind our results. If you&apos;re not completely satisfied, we&apos;ll make it right.
+                <strong className="text-[#020B1C]">Satisfaction Guaranteed:</strong> We take pride in our work and stand behind our results. If you&apos;re not completely satisfied, we&apos;ll make it right.
               </p>
             </div>
           </motion.div>
@@ -308,7 +308,7 @@ export default function AboutContent() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-gradient-to-br from-[#0a1628] to-[#1a2b45] text-white">
+      <section className="py-16 md:py-24 bg-gradient-to-br from-[#020B1C] to-[#06152E] text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -325,14 +325,14 @@ export default function AboutContent() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:+61452579657"
-                className="inline-flex items-center justify-center gap-2 bg-[#00d4ff] text-[#0a1628] px-8 py-4 rounded-lg font-semibold hover:bg-[#00c4ef] transition-all shadow-lg hover:shadow-xl"
+                className="inline-flex items-center justify-center gap-2 bg-[#0057FF] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#0049d8] transition-all shadow-lg hover:shadow-xl"
               >
                 <Phone className="w-5 h-5" />
                 <span>Call 0452 579 657</span>
               </a>
               <a
                 href="mailto:info@ppsexteriorcleaning.com.au"
-                className="inline-flex items-center justify-center gap-2 bg-white text-[#0a1628] px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl"
+                className="inline-flex items-center justify-center gap-2 bg-white text-[#020B1C] px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl"
               >
                 Email Us for a Quote
               </a>

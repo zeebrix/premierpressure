@@ -61,7 +61,7 @@ export function ShoppingCentreCleaningContent() {
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-6">
               Professional Shopping Centre Cleaning in Perth
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
@@ -75,7 +75,7 @@ export function ShoppingCentreCleaningContent() {
                 Our team has extensive experience with large-scale commercial properties and works seamlessly with centre management teams. We schedule our services to minimize disruption, communicate clearly with all stakeholders, and deliver results that maintain your centre&apos;s premium appearance and reputation.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Shopping Centre Areas We Clean
               </h3>
               <div className="grid sm:grid-cols-2 gap-3 my-6">
@@ -94,13 +94,13 @@ export function ShoppingCentreCleaningContent() {
                   'Landscaping surrounds',
                 ].map((item) => (
                   <div key={item} className="flex items-start gap-2">
-                    <CheckCircle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                     <span>{item}</span>
                   </div>
                 ))}
               </div>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Why Shopping Centres Trust Our Service
               </h3>
               <p>
@@ -113,7 +113,7 @@ export function ShoppingCentreCleaningContent() {
                 We use commercial-grade equipment designed for large-scale projects, enabling us to complete work efficiently and to the high standards shopping centres demand. Our team is professional, properly uniformed, and trained to work in public-facing commercial environments where customer experience matters.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Scheduled Maintenance Programs
               </h3>
               <p>
@@ -123,7 +123,7 @@ export function ShoppingCentreCleaningContent() {
                 Regular maintenance is more cost-effective than reactive cleaning and helps prevent long-term surface deterioration. We work with centre management to develop cleaning schedules that align with your budget cycles and operational requirements, providing consistent service you can rely on throughout the year.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Special Event and Pre-Opening Cleaning
               </h3>
               <p>

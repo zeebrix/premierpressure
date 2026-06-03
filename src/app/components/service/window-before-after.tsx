@@ -56,7 +56,7 @@ export function WindowBeforeAfter({ serviceName }: WindowBeforeAfterProps) {
     <section className="py-12 md:py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-4">
             Transformation Gallery
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -77,8 +77,8 @@ export function WindowBeforeAfter({ serviceName }: WindowBeforeAfterProps) {
               <div className="relative bg-gray-100 aspect-[4/3] md:aspect-video flex items-center justify-center overflow-hidden">
                 <div className={`absolute top-6 left-6 z-10 px-6 py-2 rounded-full font-bold text-sm uppercase tracking-widest shadow-lg ${
                   current.label === 'Before' 
-                    ? 'bg-[#0a1628] text-white' 
-                    : 'bg-[#00d4ff] text-[#0a1628]'
+                    ? 'bg-[#020B1C] text-white' 
+                    : 'bg-[#0057FF] text-white'
                 }`}>
                   {current.label}
                 </div>
@@ -93,11 +93,11 @@ export function WindowBeforeAfter({ serviceName }: WindowBeforeAfterProps) {
               <div className="p-8 bg-white">
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                   <div>
-                    <p className="font-bold text-[#0a1628] text-xl mb-2">
+                    <p className="font-bold text-[#020B1C] text-xl mb-2">
                       {current.description}
                     </p>
                     <div className="flex items-center gap-2 text-gray-500 font-medium">
-                      <MapPin className="w-4 h-4 text-[#00d4ff]" />
+                      <MapPin className="w-4 h-4 text-[#0057FF]" />
                       <span>{current.location}, Perth</span>
                     </div>
                   </div>
@@ -110,7 +110,7 @@ export function WindowBeforeAfter({ serviceName }: WindowBeforeAfterProps) {
                         onClick={() => setCurrentIndex(index)}
                         className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
                           index === currentIndex
-                            ? 'bg-[#00d4ff] w-10'
+                            ? 'bg-[#0057FF] w-10'
                             : 'bg-gray-200 hover:bg-gray-300'
                         }`}
                         aria-label={`Go to slide ${index + 1}`}
@@ -128,7 +128,7 @@ export function WindowBeforeAfter({ serviceName }: WindowBeforeAfterProps) {
             className="absolute -left-4 md:-left-20 top-1/2 -translate-y-1/2 flex items-center justify-center w-14 h-14 bg-white rounded-full shadow-2xl hover:bg-gray-50 transition-all z-20 group"
             aria-label="Previous image"
           >
-            <ChevronLeft className="w-8 h-8 text-[#0a1628] group-hover:text-[#00d4ff] transition-colors" />
+            <ChevronLeft className="w-8 h-8 text-[#020B1C] group-hover:text-[#0057FF] transition-colors" />
           </button>
 
           <button
@@ -136,7 +136,7 @@ export function WindowBeforeAfter({ serviceName }: WindowBeforeAfterProps) {
             className="absolute -right-4 md:-right-20 top-1/2 -translate-y-1/2 flex items-center justify-center w-14 h-14 bg-white rounded-full shadow-2xl hover:bg-gray-50 transition-all z-20 group"
             aria-label="Next image"
           >
-            <ChevronRight className="w-8 h-8 text-[#0a1628] group-hover:text-[#00d4ff] transition-colors" />
+            <ChevronRight className="w-8 h-8 text-[#020B1C] group-hover:text-[#0057FF] transition-colors" />
           </button>
         </div>
       </div>

@@ -37,14 +37,15 @@ export const metadata: Metadata = {
     images: [`${SITE_URL}/og-image.jpg`],
   },
   icons: {
-    icon: '/favicon.ico',
+    icon: '/favicon.png',
+    shortcut: '/favicon.png',
     apple: '/apple-touch-icon.png',
   },
   manifest: '/manifest.json',
   other: {
     'twitter:url': SITE_URL,
-    'theme-color': '#0a1628',
-    'msapplication-TileColor': '#0a1628',
+    'theme-color': '#020B1C',
+    'msapplication-TileColor': '#020B1C',
     'mobile-web-app-capable': 'yes',
     'apple-mobile-web-app-capable': 'yes',
     'apple-mobile-web-app-status-bar-style': 'black-translucent',

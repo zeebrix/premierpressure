@@ -61,7 +61,7 @@ export function SuburbFAQ({ suburbName, customFaqs }: SuburbFAQProps) {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#0a1628] mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#020B1C] mb-4">
             Frequently Asked Questions - {suburbName}
           </h2>
           <p className="text-lg text-gray-600">
@@ -83,11 +83,11 @@ export function SuburbFAQ({ suburbName, customFaqs }: SuburbFAQProps) {
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
                 className="w-full px-6 py-5 flex items-center justify-between text-left hover:bg-gray-50 transition-colors"
               >
-                <h3 className="text-lg font-semibold text-[#0a1628] pr-4">
+                <h3 className="text-lg font-semibold text-[#020B1C] pr-4">
                   {faq.question}
                 </h3>
                 <ChevronDown
-                  className={`w-6 h-6 text-[#00d4ff] flex-shrink-0 transition-transform duration-300 ${
+                  className={`w-6 h-6 text-[#0057FF] flex-shrink-0 transition-transform duration-300 ${
                     openIndex === index ? 'rotate-180' : ''
                   }`}
                 />
@@ -116,7 +116,7 @@ export function SuburbFAQ({ suburbName, customFaqs }: SuburbFAQProps) {
           </p>
           <a
             href="tel:+61452579657"
-            className="inline-flex items-center gap-2 bg-[#00d4ff] text-[#0a1628] px-8 py-4 rounded-lg font-semibold hover:bg-[#00c4ef] transition-all shadow-lg hover:shadow-xl"
+            className="inline-flex items-center gap-2 bg-[#0057FF] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#0049d8] transition-all shadow-lg hover:shadow-xl"
           >
             Call Us Now - 0452 579 657
           </a>

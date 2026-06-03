@@ -58,10 +58,10 @@ export function CommercialCTA({ serviceName, descriptionPlaceholder = 'Tell us a
   };
 
   return (
-    <section id="quote" className="py-20 md:py-32 bg-[#0a1628] relative overflow-hidden">
+    <section id="quote" className="py-20 md:py-32 bg-[#020B1C] relative overflow-hidden">
       {/* Abstract Background Decoration */}
-      <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-[#00d4ff]/5 blur-[120px] rounded-full translate-x-1/2 -translate-y-1/2 animate-pulse" />
-      <div className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-[#0a1628] border-t border-r border-[#00d4ff]/10 rounded-tr-[100px]" />
+      <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-[#0057FF]/5 blur-[120px] rounded-full translate-x-1/2 -translate-y-1/2 animate-pulse" />
+      <div className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-[#020B1C] border-t border-r border-[#0057FF]/10 rounded-tr-[100px]" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -74,7 +74,7 @@ export function CommercialCTA({ serviceName, descriptionPlaceholder = 'Tell us a
             className="lg:pt-10"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-8 leading-tight">
-              Scale Your <span className="text-[#00d4ff]">Property Maintenance</span> with Local Experts
+              Scale Your <span className="text-[#0057FF]">Property Maintenance</span> with Local Experts
             </h2>
             <p className="text-xl text-white/70 mb-12 leading-relaxed">
               Experience the difference of commercial-grade restoration. Our team provides detailed reporting and flexible scheduling to fit your business operations.
@@ -82,8 +82,8 @@ export function CommercialCTA({ serviceName, descriptionPlaceholder = 'Tell us a
 
             <div className="grid sm:grid-cols-2 gap-8 mb-12">
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-lg bg-[#00d4ff]/10 flex items-center justify-center flex-shrink-0">
-                  <ShieldCheck className="w-6 h-6 text-[#00d4ff]" />
+                <div className="w-10 h-10 rounded-lg bg-[#0057FF]/10 flex items-center justify-center flex-shrink-0">
+                  <ShieldCheck className="w-6 h-6 text-[#0057FF]" />
                 </div>
                 <div>
                   <h4 className="text-white font-bold mb-1">Liability Insured</h4>
@@ -91,8 +91,8 @@ export function CommercialCTA({ serviceName, descriptionPlaceholder = 'Tell us a
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-lg bg-[#00d4ff]/10 flex items-center justify-center flex-shrink-0">
-                  <Clock className="w-6 h-6 text-[#00d4ff]" />
+                <div className="w-10 h-10 rounded-lg bg-[#0057FF]/10 flex items-center justify-center flex-shrink-0">
+                  <Clock className="w-6 h-6 text-[#0057FF]" />
                 </div>
                 <div>
                   <h4 className="text-white font-bold mb-1">Fast Turnaround</h4>
@@ -104,14 +104,14 @@ export function CommercialCTA({ serviceName, descriptionPlaceholder = 'Tell us a
             <div className="flex flex-col sm:flex-row gap-6 p-8 bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl">
               <div className="min-w-0">
                 <p className="text-white/60 text-sm uppercase tracking-widest font-bold mb-2">Direct Line</p>
-                <a href="tel:+61452579657" className="text-2xl font-bold text-white hover:text-[#00d4ff] transition-colors leading-none">
+                <a href="tel:+61452579657" className="text-2xl font-bold text-white hover:text-[#0057FF] transition-colors leading-none">
                   0452 579 657
                 </a>
               </div>
               <div className="hidden sm:block w-[1px] h-full bg-white/10 mx-2" />
               <div className="min-w-0">
                 <p className="text-white/60 text-sm uppercase tracking-widest font-bold mb-2">Corporate Support</p>
-                <a href="mailto:info@ppsexteriorcleaning.com.au" className="text-lg md:text-xl font-bold text-white hover:text-[#00d4ff] transition-colors break-all leading-none">
+                <a href="mailto:info@ppsexteriorcleaning.com.au" className="text-lg md:text-xl font-bold text-white hover:text-[#0057FF] transition-colors break-all leading-none">
                   info@ppsexteriorcleaning.com.au
                 </a>
               </div>
@@ -132,11 +132,11 @@ export function CommercialCTA({ serviceName, descriptionPlaceholder = 'Tell us a
                   <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
                     <CheckCircle2 className="w-10 h-10 text-green-600" />
                   </div>
-                  <h3 className="text-3xl font-bold text-[#0a1628] mb-4">Request Received</h3>
+                  <h3 className="text-3xl font-bold text-[#020B1C] mb-4">Request Received</h3>
                   <p className="text-gray-600 mb-8">We've received your commercial inquiry. Our specialist will review and contact you within 24 business hours.</p>
                   <button 
                     onClick={() => setSubmitStatus('idle')}
-                    className="text-[#00d4ff] font-bold hover:underline"
+                    className="text-[#0057FF] font-bold hover:underline"
                   >
                     Submit another request
                   </button>
@@ -144,31 +144,31 @@ export function CommercialCTA({ serviceName, descriptionPlaceholder = 'Tell us a
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="mb-4">
-                    <h3 className="text-2xl font-bold text-[#0a1628] mb-2">Request Business Quote</h3>
+                    <h3 className="text-2xl font-bold text-[#020B1C] mb-2">Request Business Quote</h3>
                     <p className="text-gray-500">Fill in the details below for a customized restoration plan.</p>
                   </div>
                   
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <label htmlFor="name" className="block text-sm font-bold text-[#0a1628] mb-2 uppercase tracking-wide">Contact Person *</label>
+                      <label htmlFor="name" className="block text-sm font-bold text-[#020B1C] mb-2 uppercase tracking-wide">Contact Person *</label>
                       <input
                         type="text"
                         id="name"
                         required
                         value={formData.name}
                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                        className="w-full px-4 py-4 bg-gray-50 border border-gray-100 rounded-xl focus:ring-2 focus:ring-[#00d4ff] focus:bg-white outline-none transition-all text-[#0a1628] placeholder:text-gray-300"
+                        className="w-full px-4 py-4 bg-gray-50 border border-gray-100 rounded-xl focus:ring-2 focus:ring-[#0057FF] focus:bg-white outline-none transition-all text-[#020B1C] placeholder:text-gray-300"
                         placeholder="Your Name"
                       />
                     </div>
                     <div>
-                      <label htmlFor="company" className="block text-sm font-bold text-[#0a1628] mb-2 uppercase tracking-wide">Company Name</label>
+                      <label htmlFor="company" className="block text-sm font-bold text-[#020B1C] mb-2 uppercase tracking-wide">Company Name</label>
                       <input
                         type="text"
                         id="company"
                         value={formData.company}
                         onChange={(e) => setFormData({ ...formData, company: e.target.value })}
-                        className="w-full px-4 py-4 bg-gray-50 border border-gray-100 rounded-xl focus:ring-2 focus:ring-[#00d4ff] focus:bg-white outline-none transition-all text-[#0a1628] placeholder:text-gray-300"
+                        className="w-full px-4 py-4 bg-gray-50 border border-gray-100 rounded-xl focus:ring-2 focus:ring-[#0057FF] focus:bg-white outline-none transition-all text-[#020B1C] placeholder:text-gray-300"
                         placeholder="Business Name"
                       />
                     </div>
@@ -176,40 +176,40 @@ export function CommercialCTA({ serviceName, descriptionPlaceholder = 'Tell us a
 
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <label htmlFor="email" className="block text-sm font-bold text-[#0a1628] mb-2 uppercase tracking-wide">Work Email *</label>
+                      <label htmlFor="email" className="block text-sm font-bold text-[#020B1C] mb-2 uppercase tracking-wide">Work Email *</label>
                       <input
                         type="email"
                         id="email"
                         required
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        className="w-full px-4 py-4 bg-gray-50 border border-gray-100 rounded-xl focus:ring-2 focus:ring-[#00d4ff] focus:bg-white outline-none transition-all text-[#0a1628] placeholder:text-gray-300"
+                        className="w-full px-4 py-4 bg-gray-50 border border-gray-100 rounded-xl focus:ring-2 focus:ring-[#0057FF] focus:bg-white outline-none transition-all text-[#020B1C] placeholder:text-gray-300"
                         placeholder="email@company.com"
                       />
                     </div>
                     <div>
-                      <label htmlFor="phone" className="block text-sm font-bold text-[#0a1628] mb-2 uppercase tracking-wide">Contact Number *</label>
+                      <label htmlFor="phone" className="block text-sm font-bold text-[#020B1C] mb-2 uppercase tracking-wide">Contact Number *</label>
                       <input
                         type="tel"
                         id="phone"
                         required
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                        className="w-full px-4 py-4 bg-gray-50 border border-gray-100 rounded-xl focus:ring-2 focus:ring-[#00d4ff] focus:bg-white outline-none transition-all text-[#0a1628] placeholder:text-gray-300"
+                        className="w-full px-4 py-4 bg-gray-50 border border-gray-100 rounded-xl focus:ring-2 focus:ring-[#0057FF] focus:bg-white outline-none transition-all text-[#020B1C] placeholder:text-gray-300"
                         placeholder="04xx xxx xxx"
                       />
                     </div>
                   </div>
 
                   <div>
-                    <label htmlFor="message" className="block text-sm font-bold text-[#0a1628] mb-2 uppercase tracking-wide">Scope of Work *</label>
+                    <label htmlFor="message" className="block text-sm font-bold text-[#020B1C] mb-2 uppercase tracking-wide">Scope of Work *</label>
                     <textarea
                       id="message"
                       required
                       rows={4}
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                      className="w-full px-4 py-4 bg-gray-50 border border-gray-100 rounded-xl focus:ring-2 focus:ring-[#00d4ff] focus:bg-white outline-none transition-all resize-none text-[#0a1628] placeholder:text-gray-300"
+                      className="w-full px-4 py-4 bg-gray-50 border border-gray-100 rounded-xl focus:ring-2 focus:ring-[#0057FF] focus:bg-white outline-none transition-all resize-none text-[#020B1C] placeholder:text-gray-300"
                       placeholder={descriptionPlaceholder}
                     />
                   </div>
@@ -217,13 +217,13 @@ export function CommercialCTA({ serviceName, descriptionPlaceholder = 'Tell us a
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-[#0a1628] text-white py-5 rounded-xl font-bold text-lg hover:bg-[#1a2b45] transition-all shadow-xl hover:shadow-[#00d4ff]/20 flex items-center justify-center gap-3 disabled:opacity-50"
+                    className="w-full bg-[#020B1C] text-white py-5 rounded-xl font-bold text-lg hover:bg-[#06152E] transition-all shadow-xl hover:shadow-[#0057FF]/20 flex items-center justify-center gap-3 disabled:opacity-50"
                   >
                     {isSubmitting ? (
                       <div className="w-6 h-6 border-2 border-white/30 border-t-white rounded-full animate-spin" />
                     ) : (
                       <>
-                        <Send className="w-5 h-5 text-[#00d4ff]" />
+                        <Send className="w-5 h-5 text-[#0057FF]" />
                         <span>Submit Business Quote</span>
                       </>
                     )}

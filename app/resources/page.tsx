@@ -89,7 +89,7 @@ export default function ResourcesPage() {
 
       <div className="bg-white">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-[#0a1628] to-[#1a2640] text-white py-20">
+        <section className="bg-gradient-to-br from-[#020B1C] to-[#06152E] text-white py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-3xl mx-auto">
               <h1 className="text-4xl sm:text-5xl font-bold mb-6">
@@ -120,7 +120,7 @@ export default function ResourcesPage() {
                   <Link
                     key={index}
                     href={`/resources/${resource.slug}`}
-                    className="group bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all border border-gray-200 hover:border-[#00d4ff]"
+                    className="group bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all border border-gray-200 hover:border-[#0057FF]"
                   >
                     <div className="flex items-start justify-between mb-4">
                       <div className="flex items-center gap-3">
@@ -134,10 +134,10 @@ export default function ResourcesPage() {
                           <span>{resource.readTime}</span>
                         </div>
                       </div>
-                      <Icon className="w-8 h-8 text-gray-400 group-hover:text-[#00d4ff] transition-colors" />
+                      <Icon className="w-8 h-8 text-gray-400 group-hover:text-[#0057FF] transition-colors" />
                     </div>
 
-                    <h2 className="text-2xl font-bold text-[#0a1628] mb-3 group-hover:text-[#00d4ff] transition-colors">
+                    <h2 className="text-2xl font-bold text-[#020B1C] mb-3 group-hover:text-[#0057FF] transition-colors">
                       {resource.title}
                     </h2>
 
@@ -145,7 +145,7 @@ export default function ResourcesPage() {
                       {resource.description}
                     </p>
 
-                    <div className="flex items-center gap-2 text-[#00d4ff] font-semibold group-hover:gap-3 transition-all">
+                    <div className="flex items-center gap-2 text-[#0057FF] font-semibold group-hover:gap-3 transition-all">
                       Read Article
                       <ArrowRight className="w-5 h-5" />
                     </div>
@@ -160,7 +160,7 @@ export default function ResourcesPage() {
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-[#0a1628] mb-4">
+              <h2 className="text-3xl font-bold text-[#020B1C] mb-4">
                 Why Read Our Resources?
               </h2>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -187,7 +187,7 @@ export default function ResourcesPage() {
                 },
               ].map((benefit, index) => (
                 <div key={index} className="bg-white rounded-xl p-6 shadow-md text-center">
-                  <h3 className="text-xl font-bold text-[#0a1628] mb-3">{benefit.title}</h3>
+                  <h3 className="text-xl font-bold text-[#020B1C] mb-3">{benefit.title}</h3>
                   <p className="text-gray-600">{benefit.description}</p>
                 </div>
               ))}
@@ -198,7 +198,7 @@ export default function ResourcesPage() {
         {/* CTA Section */}
         <section className="py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="bg-gradient-to-br from-[#0a1628] to-[#1a2640] rounded-2xl p-12 text-white text-center">
+            <div className="bg-gradient-to-br from-[#020B1C] to-[#06152E] rounded-2xl p-12 text-white text-center">
               <h2 className="text-3xl sm:text-4xl font-bold mb-4">
                 Ready to Get Started?
               </h2>
@@ -208,7 +208,7 @@ export default function ResourcesPage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href="tel:0452579657"
-                  className="inline-flex items-center justify-center gap-2 bg-[#00d4ff] text-[#0a1628] px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#00bfe6] transition-all"
+                  className="inline-flex items-center justify-center gap-2 bg-[#0057FF] text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#0049d8] transition-all"
                 >
                   Call 0452 579 657
                 </a>

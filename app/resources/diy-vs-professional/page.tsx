@@ -93,18 +93,18 @@ export default function DIYvsProfessionalPage() {
 
       <article className="bg-white">
         {/* Article Header */}
-        <header className="bg-gradient-to-br from-[#0a1628] to-[#1a2640] text-white py-16">
+        <header className="bg-gradient-to-br from-[#020B1C] to-[#06152E] text-white py-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <Link
               href="/resources"
-              className="inline-flex items-center gap-2 text-[#00d4ff] hover:text-white mb-6 transition-colors"
+              className="inline-flex items-center gap-2 text-[#0057FF] hover:text-white mb-6 transition-colors"
             >
               <ArrowLeft className="w-4 h-4" />
               Back to Resources
             </Link>
 
             <div className="flex items-center gap-3 mb-4">
-              <span className="px-3 py-1 bg-[#00d4ff] text-[#0a1628] rounded-full text-sm font-bold">
+              <span className="px-3 py-1 bg-[#0057FF] text-white rounded-full text-sm font-bold">
                 Comparison
               </span>
               <div className="flex items-center gap-2 text-gray-300 text-sm">
@@ -138,7 +138,7 @@ export default function DIYvsProfessionalPage() {
 
           {/* Quick Decision Tool */}
           <section className="mb-12">
-            <div className="bg-gradient-to-br from-[#0a1628] to-[#1a2640] rounded-xl p-8 text-white">
+            <div className="bg-gradient-to-br from-[#020B1C] to-[#06152E] rounded-xl p-8 text-white">
               <h2 className="text-2xl font-bold mb-6 text-center">Quick Decision Guide</h2>
 
               <div className="grid md:grid-cols-2 gap-6">
@@ -199,41 +199,41 @@ export default function DIYvsProfessionalPage() {
 
           {/* True Cost Comparison */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               The True Cost Comparison
             </h2>
 
             <div className="bg-gray-50 rounded-xl p-8 mb-8">
-              <h3 className="text-2xl font-bold text-[#0a1628] mb-6">DIY Pressure Cleaning Costs</h3>
+              <h3 className="text-2xl font-bold text-[#020B1C] mb-6">DIY Pressure Cleaning Costs</h3>
 
               <div className="space-y-4 mb-6">
                 <div className="flex justify-between items-center pb-3 border-b border-gray-300">
                   <span className="font-semibold">Pressure washer purchase</span>
-                  <span className="text-[#00d4ff] font-bold">$200 - $800</span>
+                  <span className="text-[#0057FF] font-bold">$200 - $800</span>
                 </div>
                 <div className="flex justify-between items-center pb-3 border-b border-gray-300">
                   <span className="font-semibold">OR Rental (per day)</span>
-                  <span className="text-[#00d4ff] font-bold">$60 - $120</span>
+                  <span className="text-[#0057FF] font-bold">$60 - $120</span>
                 </div>
                 <div className="flex justify-between items-center pb-3 border-b border-gray-300">
                   <span className="font-semibold">Cleaning chemicals &amp; detergents</span>
-                  <span className="text-[#00d4ff] font-bold">$30 - $100</span>
+                  <span className="text-[#0057FF] font-bold">$30 - $100</span>
                 </div>
                 <div className="flex justify-between items-center pb-3 border-b border-gray-300">
                   <span className="font-semibold">Safety gear (goggles, gloves, boots)</span>
-                  <span className="text-[#00d4ff] font-bold">$50 - $150</span>
+                  <span className="text-[#0057FF] font-bold">$50 - $150</span>
                 </div>
                 <div className="flex justify-between items-center pb-3 border-b border-gray-300">
                   <span className="font-semibold">Extension hoses &amp; accessories</span>
-                  <span className="text-[#00d4ff] font-bold">$50 - $150</span>
+                  <span className="text-[#0057FF] font-bold">$50 - $150</span>
                 </div>
                 <div className="flex justify-between items-center pb-3 border-b border-gray-300">
                   <span className="font-semibold">Your time (8-16 hours @ $30/hr)</span>
-                  <span className="text-[#00d4ff] font-bold">$240 - $480</span>
+                  <span className="text-[#0057FF] font-bold">$240 - $480</span>
                 </div>
                 <div className="flex justify-between items-center pb-3 border-b border-gray-300">
                   <span className="font-semibold">Water usage (increased bill)</span>
-                  <span className="text-[#00d4ff] font-bold">$20 - $50</span>
+                  <span className="text-[#0057FF] font-bold">$20 - $50</span>
                 </div>
                 <div className="flex justify-between items-center pb-3 border-b border-gray-300">
                   <span className="font-semibold">Potential damage repairs</span>
@@ -241,30 +241,30 @@ export default function DIYvsProfessionalPage() {
                 </div>
               </div>
 
-              <div className="bg-white rounded-lg p-6 border-2 border-[#00d4ff]">
+              <div className="bg-white rounded-lg p-6 border-2 border-[#0057FF]">
                 <div className="flex justify-between items-center">
                   <span className="text-xl font-bold">Total DIY Cost (First Time):</span>
-                  <span className="text-2xl text-[#00d4ff] font-bold">$610 - $1,850+</span>
+                  <span className="text-2xl text-[#0057FF] font-bold">$610 - $1,850+</span>
                 </div>
                 <p className="text-sm text-gray-600 mt-2">*Not including potential damage or equipment maintenance</p>
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-[#0a1628] to-[#1a2640] rounded-xl p-8 text-white">
+            <div className="bg-gradient-to-br from-[#020B1C] to-[#06152E] rounded-xl p-8 text-white">
               <h3 className="text-2xl font-bold mb-6">Professional Pressure Cleaning Costs</h3>
 
               <div className="space-y-4 mb-6">
                 <div className="flex justify-between items-center pb-3 border-b border-white/20">
                   <span className="font-semibold">Driveway cleaning</span>
-                  <span className="text-[#00d4ff] font-bold">$150 - $400</span>
+                  <span className="text-[#0057FF] font-bold">$150 - $400</span>
                 </div>
                 <div className="flex justify-between items-center pb-3 border-b border-white/20">
                   <span className="font-semibold">House washing (3-4 bed)</span>
-                  <span className="text-[#00d4ff] font-bold">$300 - $600</span>
+                  <span className="text-[#0057FF] font-bold">$300 - $600</span>
                 </div>
                 <div className="flex justify-between items-center pb-3 border-b border-white/20">
                   <span className="font-semibold">Complete property package</span>
-                  <span className="text-[#00d4ff] font-bold">$500 - $1,000</span>
+                  <span className="text-[#0057FF] font-bold">$500 - $1,000</span>
                 </div>
                 <div className="flex justify-between items-center pb-3 border-b border-white/20">
                   <span className="font-semibold">Your time investment</span>
@@ -284,7 +284,7 @@ export default function DIYvsProfessionalPage() {
                 </div>
               </div>
 
-              <div className="bg-[#00d4ff] text-[#0a1628] rounded-lg p-6">
+              <div className="bg-[#0057FF] text-white rounded-lg p-6">
                 <div className="flex justify-between items-center">
                   <span className="text-xl font-bold">Professional Service:</span>
                   <span className="text-2xl font-bold">$300 - $1,000</span>
@@ -296,7 +296,7 @@ export default function DIYvsProfessionalPage() {
 
           {/* Risk Analysis */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               Common DIY Mistakes &amp; Risks
             </h2>
 
@@ -364,14 +364,14 @@ export default function DIYvsProfessionalPage() {
 
           {/* Quality Comparison */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               Results Quality: Side-by-Side
             </h2>
 
             {/* Desktop Table View */}
             <div className="hidden md:block overflow-x-auto">
               <table className="w-full bg-white rounded-xl overflow-hidden shadow-md">
-                <thead className="bg-[#0a1628] text-white">
+                <thead className="bg-[#020B1C] text-white">
                   <tr>
                     <th className="p-4 text-left">Factor</th>
                     <th className="p-4 text-center">DIY</th>
@@ -412,7 +412,7 @@ export default function DIYvsProfessionalPage() {
             <div className="md:hidden space-y-4">
               {comparisonRows.map((item, index) => (
                 <div key={index} className="bg-white rounded-xl p-4 shadow-md border border-gray-200">
-                  <h3 className="font-bold text-[#0a1628] text-lg mb-3">{item.factor}</h3>
+                  <h3 className="font-bold text-[#020B1C] text-lg mb-3">{item.factor}</h3>
 
                   <div className="space-y-3">
                     <div className="bg-red-50 rounded-lg p-3 border border-red-200">
@@ -438,7 +438,7 @@ export default function DIYvsProfessionalPage() {
 
           {/* When DIY Makes Sense */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               When DIY Actually Makes Sense
             </h2>
 
@@ -490,7 +490,7 @@ export default function DIYvsProfessionalPage() {
 
           {/* Professional Advantages */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6">
               What You&apos;re Really Paying For
             </h2>
 
@@ -537,12 +537,12 @@ export default function DIYvsProfessionalPage() {
                 return (
                   <div key={index} className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
                     <div className="flex items-start gap-4 mb-3">
-                      <div className="w-12 h-12 bg-[#00d4ff]/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <Icon className="w-6 h-6 text-[#00d4ff]" />
+                      <div className="w-12 h-12 bg-[#0057FF]/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <Icon className="w-6 h-6 text-[#0057FF]" />
                       </div>
                       <div>
-                        <h3 className="font-bold text-[#0a1628] mb-1">{advantage.title}</h3>
-                        <p className="text-sm text-[#00d4ff] font-semibold">{advantage.value}</p>
+                        <h3 className="font-bold text-[#020B1C] mb-1">{advantage.title}</h3>
+                        <p className="text-sm text-[#0057FF] font-semibold">{advantage.value}</p>
                       </div>
                     </div>
                     <p className="text-gray-700 text-sm">{advantage.description}</p>
@@ -554,27 +554,27 @@ export default function DIYvsProfessionalPage() {
 
           {/* Final Verdict */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-[#0a1628] mb-6 text-center">
+            <h2 className="text-3xl font-bold text-[#020B1C] mb-6 text-center">
               The Final Verdict
             </h2>
 
-            <div className="bg-gradient-to-br from-[#0a1628] to-[#1a2640] rounded-2xl p-8 text-white text-center">
+            <div className="bg-gradient-to-br from-[#020B1C] to-[#06152E] rounded-2xl p-8 text-white text-center">
               <div className="max-w-2xl mx-auto">
                 <p className="text-xl mb-6 leading-relaxed">
-                  For most Perth homeowners, <strong className="text-[#00d4ff]">professional pressure cleaning offers better value</strong> than DIY when you factor in time, risk, results quality, and peace of mind.
+                  For most Perth homeowners, <strong className="text-[#0057FF]">professional pressure cleaning offers better value</strong> than DIY when you factor in time, risk, results quality, and peace of mind.
                 </p>
 
                 <div className="grid md:grid-cols-3 gap-4 mb-6">
                   <div className="bg-white/10 rounded-lg p-4">
-                    <div className="text-3xl font-bold text-[#00d4ff] mb-1">2-4 hrs</div>
+                    <div className="text-3xl font-bold text-[#0057FF] mb-1">2-4 hrs</div>
                     <div className="text-sm">vs 8-16 hours DIY</div>
                   </div>
                   <div className="bg-white/10 rounded-lg p-4">
-                    <div className="text-3xl font-bold text-[#00d4ff] mb-1">$0</div>
+                    <div className="text-3xl font-bold text-[#0057FF] mb-1">$0</div>
                     <div className="text-sm">damage risk to you</div>
                   </div>
                   <div className="bg-white/10 rounded-lg p-4">
-                    <div className="text-3xl font-bold text-[#00d4ff] mb-1">12+ mo</div>
+                    <div className="text-3xl font-bold text-[#0057FF] mb-1">12+ mo</div>
                     <div className="text-sm">lasting results</div>
                   </div>
                 </div>
@@ -587,7 +587,7 @@ export default function DIYvsProfessionalPage() {
           </section>
 
           {/* CTA */}
-          <section className="bg-gradient-to-br from-[#0a1628] to-[#1a2640] rounded-2xl p-8 text-white text-center">
+          <section className="bg-gradient-to-br from-[#020B1C] to-[#06152E] rounded-2xl p-8 text-white text-center">
             <h2 className="text-3xl font-bold mb-4">
               Get a Free, No-Obligation Quote
             </h2>
@@ -600,7 +600,7 @@ export default function DIYvsProfessionalPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:0452579657"
-                className="inline-flex items-center justify-center gap-2 bg-[#00d4ff] text-[#0a1628] px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#00bfe6] transition-all"
+                className="inline-flex items-center justify-center gap-2 bg-[#0057FF] text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#0049d8] transition-all"
               >
                 Call 0452 579 657
               </a>

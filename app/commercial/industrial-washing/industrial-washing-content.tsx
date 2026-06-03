@@ -63,7 +63,7 @@ export function IndustrialWashingContent() {
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a1628] mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#020B1C] mb-6">
               Professional Industrial Cleaning for Perth Facilities
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
@@ -77,7 +77,7 @@ export function IndustrialWashingContent() {
                 Our team has extensive experience working in industrial settings and understands the importance of safety, minimal downtime, and effective results. We use industrial-grade equipment capable of tackling the toughest cleaning jobs while working efficiently to minimize impact on your operations.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Industrial Areas We Clean
               </h3>
               <div className="grid sm:grid-cols-2 gap-3 my-6">
@@ -96,13 +96,13 @@ export function IndustrialWashingContent() {
                   'Forklift operating areas',
                 ].map((item) => (
                   <div key={item} className="flex items-start gap-2">
-                    <CheckCircle className="w-5 h-5 text-[#00d4ff] flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-[#0057FF] flex-shrink-0 mt-0.5" />
                     <span>{item}</span>
                   </div>
                 ))}
               </div>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Why Industrial Facilities Trust Our Service
               </h3>
               <p>
@@ -115,7 +115,7 @@ export function IndustrialWashingContent() {
                 We understand that downtime costs money in industrial settings. Our team works efficiently to complete cleaning projects on schedule, coordinates with production managers to minimize impact, and can work during shutdowns, maintenance periods, or shift changeovers to suit your operational needs.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Heavy-Duty Cleaning Capabilities
               </h3>
               <p>
@@ -125,7 +125,7 @@ export function IndustrialWashingContent() {
                 Our team has experience with various industrial contaminants including petroleum products, manufacturing residues, food processing waste, chemical spillages, and more. We select appropriate cleaning methods and solutions for each situation, ensuring effective results while protecting surfaces and complying with environmental regulations.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Regular Maintenance Programs
               </h3>
               <p>
@@ -135,7 +135,7 @@ export function IndustrialWashingContent() {
                 Regular cleaning helps maintain safe working conditions, prevents slip hazards from oil and grease buildup, and creates cleaner, more professional work environments. Scheduled maintenance is also more cost-effective than reactive cleaning and helps facilities maintain compliance with workplace safety standards.
               </p>
 
-              <h3 className="text-2xl font-bold text-[#0a1628] mt-8 mb-4">
+              <h3 className="text-2xl font-bold text-[#020B1C] mt-8 mb-4">
                 Environmental Compliance
               </h3>
               <p>

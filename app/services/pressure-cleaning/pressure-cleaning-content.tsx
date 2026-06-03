@@ -238,7 +238,7 @@ export function PressureCleaningContent() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-[#0a1628] to-[#1a2640] text-white py-20 lg:py-28 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-[#020B1C] to-[#06152E] text-white py-20 lg:py-28 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div
             className="absolute inset-0"
@@ -252,7 +252,7 @@ export function PressureCleaningContent() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center max-w-4xl mx-auto">
             {/* 10% Discount Badge */}
-            <div className="inline-flex items-center gap-2 bg-[#00d4ff] text-[#0a1628] px-6 py-2.5 rounded-full font-bold text-sm mb-6 shadow-lg">
+            <div className="inline-flex items-center gap-2 bg-[#0057FF] text-white px-6 py-2.5 rounded-full font-bold text-sm mb-6 shadow-lg">
               <Award className="w-5 h-5" />
               <span>NEW CUSTOMERS: 10% OFF ALL SERVICES</span>
             </div>
@@ -270,7 +270,7 @@ export function PressureCleaningContent() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
               <a
                 href="tel:0452579657"
-                className="inline-flex items-center gap-2 bg-[#00d4ff] text-[#0a1628] px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#00bfe6] transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 w-full sm:w-auto justify-center"
+                className="inline-flex items-center gap-2 bg-[#0057FF] text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#0049d8] transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 w-full sm:w-auto justify-center"
               >
                 <Phone className="w-5 h-5" />
                 Call 0452 579 657
@@ -286,19 +286,19 @@ export function PressureCleaningContent() {
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">
               <div className="bg-white/5 backdrop-blur-sm rounded-lg p-3 border border-white/10">
-                <div className="text-sm text-[#00d4ff] font-semibold mb-1">Fully Insured</div>
+                <div className="text-sm text-[#0057FF] font-semibold mb-1">Fully Insured</div>
                 <div className="text-xs text-gray-300">Complete Coverage</div>
               </div>
               <div className="bg-white/5 backdrop-blur-sm rounded-lg p-3 border border-white/10">
-                <div className="text-sm text-[#00d4ff] font-semibold mb-1">Eco-Friendly</div>
+                <div className="text-sm text-[#0057FF] font-semibold mb-1">Eco-Friendly</div>
                 <div className="text-xs text-gray-300">Safe Solutions</div>
               </div>
               <div className="bg-white/5 backdrop-blur-sm rounded-lg p-3 border border-white/10">
-                <div className="text-sm text-[#00d4ff] font-semibold mb-1">Same-Day Service</div>
+                <div className="text-sm text-[#0057FF] font-semibold mb-1">Same-Day Service</div>
                 <div className="text-xs text-gray-300">When Available</div>
               </div>
               <div className="bg-white/5 backdrop-blur-sm rounded-lg p-3 border border-white/10">
-                <div className="text-sm text-[#00d4ff] font-semibold mb-1">5-Star Rated</div>
+                <div className="text-sm text-[#0057FF] font-semibold mb-1">5-Star Rated</div>
                 <div className="text-xs text-gray-300">Google Reviews</div>
               </div>
             </div>
@@ -310,7 +310,7 @@ export function PressureCleaningContent() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-[#0a1628] mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-[#020B1C] mb-4">
               Stunning Transformations
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -335,7 +335,7 @@ export function PressureCleaningContent() {
                     loading="lazy"
                     decoding="async"
                   />
-                  <div className="absolute top-4 left-4 bg-[#0a1628]/80 text-white px-4 py-2 rounded-md text-sm font-semibold">
+                  <div className="absolute top-4 left-4 bg-[#020B1C]/80 text-white px-4 py-2 rounded-md text-sm font-semibold">
                     Before
                   </div>
                 </div>
@@ -351,7 +351,7 @@ export function PressureCleaningContent() {
                     loading="lazy"
                     decoding="async"
                   />
-                  <div className="absolute top-4 right-4 bg-[#00d4ff]/90 text-[#0a1628] px-4 py-2 rounded-md text-sm font-semibold">
+                  <div className="absolute top-4 right-4 bg-[#0057FF]/90 text-[#020B1C] px-4 py-2 rounded-md text-sm font-semibold">
                     After
                   </div>
                 </div>
@@ -360,14 +360,14 @@ export function PressureCleaningContent() {
 
             {/* Service Info */}
             <div className="text-center mb-6">
-              <h3 className="text-xl font-semibold text-[#0a1628] mb-1">{currentItem.service}</h3>
+              <h3 className="text-xl font-semibold text-[#020B1C] mb-1">{currentItem.service}</h3>
             </div>
 
             {/* Navigation */}
             <div className="flex items-center justify-center gap-4">
               <button
                 onClick={prevSlide}
-                className="w-10 h-10 rounded-full bg-[#0a1628] text-white flex items-center justify-center hover:bg-[#0a1628]/90 transition-colors"
+                className="w-10 h-10 rounded-full bg-[#020B1C] text-white flex items-center justify-center hover:bg-[#020B1C]/90 transition-colors"
                 aria-label="Previous image"
               >
                 <ChevronLeft className="w-5 h-5" />
@@ -389,7 +389,7 @@ export function PressureCleaningContent() {
                   >
                     <span
                       className={`block w-2 h-2 rounded-full transition-all ${
-                        index === currentIndex ? 'bg-[#00d4ff] w-8' : 'bg-gray-300'
+                        index === currentIndex ? 'bg-[#0057FF] w-8' : 'bg-gray-300'
                       }`}
                     />
                   </button>
@@ -398,7 +398,7 @@ export function PressureCleaningContent() {
 
               <button
                 onClick={nextSlide}
-                className="w-10 h-10 rounded-full bg-[#0a1628] text-white flex items-center justify-center hover:bg-[#0a1628]/90 transition-colors"
+                className="w-10 h-10 rounded-full bg-[#020B1C] text-white flex items-center justify-center hover:bg-[#020B1C]/90 transition-colors"
                 aria-label="Next image"
               >
                 <ChevronRight className="w-5 h-5" />
@@ -412,7 +412,7 @@ export function PressureCleaningContent() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl sm:text-4xl font-bold text-[#0a1628] mb-6 text-center">
+            <h2 className="text-3xl sm:text-4xl font-bold text-[#020B1C] mb-6 text-center">
               What is Pressure Cleaning?
             </h2>
 
@@ -437,7 +437,7 @@ export function PressureCleaningContent() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-[#0a1628] mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-[#020B1C] mb-4">
               Why Choose Professional Pressure Cleaning?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -451,14 +451,14 @@ export function PressureCleaningContent() {
               return (
                 <div
                   key={index}
-                  className="bg-white rounded-xl p-6 shadow-md border border-gray-100 hover:border-[#00d4ff] hover:shadow-xl transition-all"
+                  className="bg-white rounded-xl p-6 shadow-md border border-gray-100 hover:border-[#0057FF] hover:shadow-xl transition-all"
                 >
                   <div className="flex items-start gap-4 mb-4">
-                    <div className="flex-shrink-0 w-12 h-12 bg-[#00d4ff]/10 rounded-lg flex items-center justify-center">
-                      <Icon className="w-6 h-6 text-[#00d4ff]" />
+                    <div className="flex-shrink-0 w-12 h-12 bg-[#0057FF]/10 rounded-lg flex items-center justify-center">
+                      <Icon className="w-6 h-6 text-[#0057FF]" />
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-xl font-bold text-[#0a1628] mb-2">{benefit.title}</h3>
+                      <h3 className="text-xl font-bold text-[#020B1C] mb-2">{benefit.title}</h3>
                     </div>
                   </div>
                   <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
@@ -473,7 +473,7 @@ export function PressureCleaningContent() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-[#0a1628] mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-[#020B1C] mb-4">
               Why Choose PPS Exterior Cleaning?
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -486,10 +486,10 @@ export function PressureCleaningContent() {
               const Icon = benefit.icon;
               return (
                 <div key={index} className="text-center">
-                  <div className="inline-flex items-center justify-center w-16 h-16 bg-[#00d4ff]/10 rounded-full mb-4">
-                    <Icon className="w-8 h-8 text-[#00d4ff]" />
+                  <div className="inline-flex items-center justify-center w-16 h-16 bg-[#0057FF]/10 rounded-full mb-4">
+                    <Icon className="w-8 h-8 text-[#0057FF]" />
                   </div>
-                  <h3 className="text-xl font-bold text-[#0a1628] mb-2">{benefit.title}</h3>
+                  <h3 className="text-xl font-bold text-[#020B1C] mb-2">{benefit.title}</h3>
                   <p className="text-gray-600">{benefit.description}</p>
                 </div>
               );
@@ -502,7 +502,7 @@ export function PressureCleaningContent() {
       <section id="services" className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-[#0a1628] mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-[#020B1C] mb-4">
               Our Pressure Cleaning Services
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -517,20 +517,20 @@ export function PressureCleaningContent() {
                 <Link
                   key={index}
                   href={service.path}
-                  className="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-all border border-gray-100 hover:border-[#00d4ff] group"
+                  className="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-all border border-gray-100 hover:border-[#0057FF] group"
                 >
                   <div className="flex items-center gap-4 mb-3">
-                    <div className="flex-shrink-0 w-12 h-12 bg-[#00d4ff]/10 rounded-lg flex items-center justify-center group-hover:bg-[#00d4ff] transition-colors">
-                      <Icon className="w-6 h-6 text-[#00d4ff] group-hover:text-white transition-colors" />
+                    <div className="flex-shrink-0 w-12 h-12 bg-[#0057FF]/10 rounded-lg flex items-center justify-center group-hover:bg-[#0057FF] transition-colors">
+                      <Icon className="w-6 h-6 text-[#0057FF] group-hover:text-white transition-colors" />
                     </div>
-                    <h3 className="text-lg font-bold text-[#0a1628] group-hover:text-[#00d4ff] transition-colors">
+                    <h3 className="text-lg font-bold text-[#020B1C] group-hover:text-[#0057FF] transition-colors">
                       {service.title}
                     </h3>
                   </div>
 
                   <p className="text-gray-600 mb-4 text-sm">{service.description}</p>
 
-                  <div className="flex items-center gap-2 text-[#00d4ff] font-semibold group-hover:gap-3 transition-all text-sm">
+                  <div className="flex items-center gap-2 text-[#0057FF] font-semibold group-hover:gap-3 transition-all text-sm">
                     Learn More <ArrowRight className="w-4 h-4" />
                   </div>
                 </Link>
@@ -544,7 +544,7 @@ export function PressureCleaningContent() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-[#0a1628] mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-[#020B1C] mb-4">
               Servicing All Perth Suburbs
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -552,10 +552,10 @@ export function PressureCleaningContent() {
             </p>
           </div>
 
-          <div className="bg-gradient-to-br from-[#0a1628] to-[#1a2640] rounded-2xl p-8 md:p-12 text-white">
+          <div className="bg-gradient-to-br from-[#020B1C] to-[#06152E] rounded-2xl p-8 md:p-12 text-white">
             <div className="text-center mb-8">
               <p className="text-lg text-gray-300">
-                <span className="text-[#00d4ff] font-bold">
+                <span className="text-[#0057FF] font-bold">
                   We service all of metropolitan Perth
                 </span>{' '}
                 - from the northern coastal suburbs to the southern regions, and everywhere in
@@ -567,7 +567,7 @@ export function PressureCleaningContent() {
             <div className="text-center mt-8">
               <Link
                 href="/areas"
-                className="inline-flex items-center gap-2 bg-[#00d4ff] text-[#0a1628] px-6 py-3 rounded-lg font-bold hover:bg-[#00bfe6] transition-colors"
+                className="inline-flex items-center gap-2 bg-[#0057FF] text-white px-6 py-3 rounded-lg font-bold hover:bg-[#0049d8] transition-colors"
               >
                 View All Service Areas
                 <ArrowRight className="w-5 h-5" />
@@ -581,7 +581,7 @@ export function PressureCleaningContent() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-[#0a1628] mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-[#020B1C] mb-4">
               Frequently Asked Questions
             </h2>
             <p className="text-xl text-gray-600">
@@ -600,9 +600,9 @@ export function PressureCleaningContent() {
                   className="w-full flex items-center justify-between p-6 text-left hover:bg-gray-50 transition-colors"
                   aria-expanded={openFaqIndex === index}
                 >
-                  <h3 className="text-lg font-bold text-[#0a1628] pr-8">{faq.question}</h3>
+                  <h3 className="text-lg font-bold text-[#020B1C] pr-8">{faq.question}</h3>
                   <ChevronDown
-                    className={`w-5 h-5 text-[#00d4ff] flex-shrink-0 transition-transform duration-300 ${
+                    className={`w-5 h-5 text-[#0057FF] flex-shrink-0 transition-transform duration-300 ${
                       openFaqIndex === index ? 'rotate-180' : ''
                     }`}
                   />
@@ -628,11 +628,11 @@ export function PressureCleaningContent() {
       {/* Get a Free Quote CTA */}
       <section
         id="quote"
-        className="py-12 bg-gradient-to-br from-[#0a1628] to-[#1a2640] text-white"
+        className="py-12 bg-gradient-to-br from-[#020B1C] to-[#06152E] text-white"
       >
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
-            <div className="inline-flex items-center gap-2 bg-[#00d4ff] text-[#0a1628] px-4 py-2 rounded-full font-bold text-xs mb-4 shadow-lg">
+            <div className="inline-flex items-center gap-2 bg-[#0057FF] text-white px-4 py-2 rounded-full font-bold text-xs mb-4 shadow-lg">
               <Award className="w-4 h-4" />
               <span>10% OFF FOR NEW CUSTOMERS</span>
             </div>
@@ -651,15 +651,15 @@ export function PressureCleaningContent() {
             <div className="space-y-4">
               <div className="bg-white/5 backdrop-blur-sm rounded-xl p-5 border border-white/10">
                 <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-10 h-10 bg-[#00d4ff]/20 rounded-lg flex items-center justify-center">
-                    <Phone className="w-5 h-5 text-[#00d4ff]" />
+                  <div className="flex-shrink-0 w-10 h-10 bg-[#0057FF]/20 rounded-lg flex items-center justify-center">
+                    <Phone className="w-5 h-5 text-[#0057FF]" />
                   </div>
                   <div>
                     <h3 className="text-base font-bold mb-1">Call Us Now</h3>
                     <p className="text-gray-300 mb-2 text-sm">Speak directly with our team</p>
                     <a
                       href="tel:0452579657"
-                      className="text-[#00d4ff] font-bold text-lg hover:text-[#00bfe6] transition-colors"
+                      className="text-[#0057FF] font-bold text-lg hover:text-[#0049d8] transition-colors"
                     >
                       0452 579 657
                     </a>
@@ -669,15 +669,15 @@ export function PressureCleaningContent() {
 
               <div className="bg-white/5 backdrop-blur-sm rounded-xl p-5 border border-white/10">
                 <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-10 h-10 bg-[#00d4ff]/20 rounded-lg flex items-center justify-center">
-                    <Clock className="w-5 h-5 text-[#00d4ff]" />
+                  <div className="flex-shrink-0 w-10 h-10 bg-[#0057FF]/20 rounded-lg flex items-center justify-center">
+                    <Clock className="w-5 h-5 text-[#0057FF]" />
                   </div>
                   <div>
                     <h3 className="text-base font-bold mb-1">Available 7 Days</h3>
                     <p className="text-gray-300 mb-2 text-sm">
                       Flexible scheduling to suit your timeline
                     </p>
-                    <p className="text-[#00d4ff] font-semibold text-sm">Mon-Sun: 7AM - 6PM</p>
+                    <p className="text-[#0057FF] font-semibold text-sm">Mon-Sun: 7AM - 6PM</p>
                   </div>
                 </div>
               </div>
@@ -685,19 +685,19 @@ export function PressureCleaningContent() {
               {/* Trust Indicators */}
               <div className="grid grid-cols-2 gap-3">
                 <div className="bg-white/5 backdrop-blur-sm rounded-xl p-3 border border-white/10 text-center">
-                  <div className="text-xl font-bold text-[#00d4ff] mb-0.5">500+</div>
+                  <div className="text-xl font-bold text-[#0057FF] mb-0.5">500+</div>
                   <div className="text-xs text-gray-400">Happy Customers</div>
                 </div>
                 <div className="bg-white/5 backdrop-blur-sm rounded-xl p-3 border border-white/10 text-center">
-                  <div className="text-xl font-bold text-[#00d4ff] mb-0.5">5.0★</div>
+                  <div className="text-xl font-bold text-[#0057FF] mb-0.5">5.0★</div>
                   <div className="text-xs text-gray-400">Google Rating</div>
                 </div>
                 <div className="bg-white/5 backdrop-blur-sm rounded-xl p-3 border border-white/10 text-center">
-                  <div className="text-xl font-bold text-[#00d4ff] mb-0.5">100%</div>
+                  <div className="text-xl font-bold text-[#0057FF] mb-0.5">100%</div>
                   <div className="text-xs text-gray-400">Satisfaction Rate</div>
                 </div>
                 <div className="bg-white/5 backdrop-blur-sm rounded-xl p-3 border border-white/10 text-center">
-                  <div className="text-xl font-bold text-[#00d4ff] mb-0.5">Same Day</div>
+                  <div className="text-xl font-bold text-[#0057FF] mb-0.5">Same Day</div>
                   <div className="text-xs text-gray-400">Service Available</div>
                 </div>
               </div>
@@ -717,7 +717,7 @@ export function PressureCleaningContent() {
                     id="name"
                     name="name"
                     required
-                    className="w-full px-3 py-2.5 rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent text-sm"
+                    className="w-full px-3 py-2.5 rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#0057FF] focus:border-transparent text-sm"
                     placeholder="John Smith"
                   />
                 </div>
@@ -731,7 +731,7 @@ export function PressureCleaningContent() {
                     id="email"
                     name="email"
                     required
-                    className="w-full px-3 py-2.5 rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent text-sm"
+                    className="w-full px-3 py-2.5 rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#0057FF] focus:border-transparent text-sm"
                     placeholder="name@email.com"
                   />
                 </div>
@@ -745,7 +745,7 @@ export function PressureCleaningContent() {
                     id="phone"
                     name="phone"
                     required
-                    className="w-full px-3 py-2.5 rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent text-sm"
+                    className="w-full px-3 py-2.5 rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#0057FF] focus:border-transparent text-sm"
                     placeholder="0452 579 657"
                   />
                 </div>
@@ -758,7 +758,7 @@ export function PressureCleaningContent() {
                     id="service"
                     name="service"
                     required
-                    className="w-full px-3 py-2.5 rounded-lg bg-white/10 border border-white/20 text-white focus:outline-none focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent text-sm"
+                    className="w-full px-3 py-2.5 rounded-lg bg-white/10 border border-white/20 text-white focus:outline-none focus:ring-2 focus:ring-[#0057FF] focus:border-transparent text-sm"
                   >
                     <option value="" className="text-gray-900">
                       Select a service...
@@ -804,14 +804,14 @@ export function PressureCleaningContent() {
                     id="message"
                     name="message"
                     rows={3}
-                    className="w-full px-3 py-2.5 rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent resize-none text-sm"
+                    className="w-full px-3 py-2.5 rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#0057FF] focus:border-transparent resize-none text-sm"
                     placeholder="Tell us about your property and cleaning requirements..."
                   ></textarea>
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full bg-[#00d4ff] text-[#0a1628] px-6 py-3 rounded-lg font-bold text-base hover:bg-[#00bfe6] transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                  className="w-full bg-[#0057FF] text-white px-6 py-3 rounded-lg font-bold text-base hover:bg-[#0049d8] transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                 >
                   Get Free Quote
                 </button>

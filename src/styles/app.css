@@ -8,11 +8,11 @@
 :root {
   --font-size: 16px;
   --background: #ffffff;
-  --foreground: #0a1628;
-  --primary: #0a1628;
+  --foreground: #020B1C;
+  --primary: #020B1C;
   --primary-foreground: #ffffff;
-  --accent: #00d4ff;
-  --accent-foreground: #0a1628;
+  --accent: #0057FF;
+  --accent-foreground: #020B1C;
   --border: rgba(10, 22, 40, 0.1);
   --radius: 0.75rem;
 }

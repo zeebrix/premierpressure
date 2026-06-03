@@ -4,43 +4,43 @@ import { useState } from 'react';
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import { motion } from 'motion/react';
-import { OptimizedImage } from './optimized-image';
+import Image from 'next/image';
 
 const services = [
   {
     title: 'Concrete Cleaning',
     description: 'Restore the look of your concrete surfaces with our professional deep cleaning services.',
-    image: 'https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/make-bb20e683-images/general/1772602122153-6a0aa064-515e-4162-9c57-6ef5f621f991.webp',
+    image: '/service-images/concrete-cleaning-perth.png',
     link: '/concrete-cleaning',
   },
   {
     title: 'Liquid Limestone Cleaning',
     description: 'Specialized care for liquid limestone surfaces to maintain their beauty and longevity.',
-    image: 'https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/make-bb20e683-images/general/1772602654106-d729ed4a-83df-4c91-9d5a-df9f33e29881.webp',
+    image: '/service-images/limestone-cleaning-perth.png',
     link: '/limestone-cleaning',
   },
   {
     title: 'House Washing',
     description: 'Complete exterior house cleaning to restore your home\'s beauty and curb appeal.',
-    image: 'https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/make-bb20e683-images/general/1772602652001-f28342f7-a392-46b1-9bf5-65419885e618.webp',
+    image: '/service-images/house-washing-perth.png',
     link: '/house-washing',
   },
   {
     title: 'Pre-Sale & End of Lease',
     description: 'Maximize your property value with our comprehensive pre-sale cleaning services.',
-    image: 'https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/make-bb20e683-images/general/1772004424329-e0c398d6-f19f-49ea-982b-92f76ce01ff3.webp',
+    image: '/service-images/pre-sale-cleaning-perth.png',
     link: '/presale-cleaning',
   },
   {
     title: 'Driveway Cleaning',
     description: 'Remove oil stains, dirt, and grime from your driveway for a pristine appearance.',
-    image: 'https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/make-bb20e683-images/general/1772602119339-82ed9354-d482-49c1-9d7b-96d8beb5b6cc.webp',
+    image: '/service-images/driveway-cleaning-perth.png',
     link: '/driveway-cleaning',
   },
   {
     title: 'Paver Cleaning & Sealing',
     description: 'Restore and protect your pavers with our professional cleaning and sealing services.',
-    image: 'https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/make-bb20e683-images/general/1772602371640-aebac474-a440-4b67-b2e9-dae53ebf68eb.webp',
+    image: '/service-images/paver-cleaning-perth.png',
     link: '/paver-cleaning',
   },
 ];
@@ -53,10 +53,10 @@ const otherServices = [
     link: '/window-cleaning',
   },
   {
-    title: 'Solar Panel Cleaning',
-    description: 'Maximize your solar efficiency with regular professional panel cleaning services.',
-    image: 'https://images.unsplash.com/photo-1771479755055-6a305f50845e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzb2xhciUyMHBhbmVscyUyMHJvb2Z0b3AlMjByZXNpZGVudGlhbHxlbnwxfHx8fDE3NzIwMDMzMDd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    link: '/pressure-cleaning',
+    title: 'Roof Cleaning',
+    description: 'Safe roof cleaning to remove moss, algae, lichen, and weather staining.',
+    image: '/service-images/roof-cleaning-perth.png',
+    link: '/roof-cleaning',
   },
 ];
 
@@ -64,7 +64,7 @@ export function ServicesShowcase() {
   const [showOtherServices, setShowOtherServices] = useState(false);
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-[#020B1C] border-t border-[#2A3D5E]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -73,10 +73,14 @@ export function ServicesShowcase() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#0a1628] mb-4">
-            Our Professional Services
+          <div className="mb-3 text-sm font-bold uppercase tracking-wide text-[#0057FF]">
+            Our Services
+          </div>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+            Pressure Cleaning Services in Perth
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <div className="mx-auto mb-5 h-1 w-12 bg-[#0057FF]"></div>
+          <p className="text-lg text-[#D6DCE5] max-w-2xl mx-auto">
             We offer comprehensive pressure cleaning solutions for residential and commercial properties across Perth.
           </p>
         </motion.div>
@@ -90,28 +94,29 @@ export function ServicesShowcase() {
               transition={{ delay: index * 0.1, duration: 0.5 }}
               viewport={{ once: true }}
               whileHover={{ y: -8 }}
-              className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300"
+              className="group overflow-hidden rounded-lg border border-[#2A3D5E] bg-[#06152E] shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
             >
               <div className="relative h-48 overflow-hidden">
-                <OptimizedImage
+                <Image
                   src={service.image}
                   alt={`${service.title} Perth - Professional pressure washing services for residential and commercial properties`}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  fill
+                  sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                  className="object-cover group-hover:scale-110 transition-transform duration-500"
                   loading="lazy"
-                  decoding="async"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628]/60 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-[#020B1C]/70 to-transparent"></div>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-[#0a1628] mb-2">
+                <h3 className="text-xl font-semibold text-white mb-2">
                   {service.title}
                 </h3>
-                <p className="text-gray-600 mb-4">
+                <p className="text-[#D6DCE5] mb-4">
                   {service.description}
                 </p>
                 <Link
                   href={service.link}
-                  className="inline-flex items-center gap-2 text-[#00d4ff] hover:gap-3 transition-all"
+                  className="inline-flex items-center gap-2 text-[#0057FF] hover:gap-3 transition-all"
                 >
                   <span className="font-semibold">Learn More About {service.title}</span>
                   <ArrowRight className="w-4 h-4" />
@@ -131,28 +136,29 @@ export function ServicesShowcase() {
                 transition={{ delay: index * 0.1, duration: 0.5 }}
                 viewport={{ once: true }}
                 whileHover={{ y: -8 }}
-                className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300"
+                className="group overflow-hidden rounded-lg border border-[#2A3D5E] bg-[#06152E] shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
               >
                 <div className="relative h-48 overflow-hidden">
-                  <OptimizedImage
+                  <Image
                     src={service.image}
                     alt={`${service.title} Perth - Professional pressure washing services for residential and commercial properties`}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    fill
+                    sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                    className="object-cover group-hover:scale-110 transition-transform duration-500"
                     loading="lazy"
-                    decoding="async"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628]/60 to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#020B1C]/70 to-transparent"></div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-[#0a1628] mb-2">
+                  <h3 className="text-xl font-semibold text-white mb-2">
                     {service.title}
                   </h3>
-                  <p className="text-gray-600 mb-4">
+                  <p className="text-[#D6DCE5] mb-4">
                     {service.description}
                   </p>
                   <Link
                     href={service.link}
-                    className="inline-flex items-center gap-2 text-[#00d4ff] hover:gap-3 transition-all"
+                    className="inline-flex items-center gap-2 text-[#0057FF] hover:gap-3 transition-all"
                   >
                     <span className="font-semibold">Learn More About {service.title}</span>
                     <ArrowRight className="w-4 h-4" />
@@ -166,7 +172,7 @@ export function ServicesShowcase() {
         <div className="text-center mt-6">
           <button
             onClick={() => setShowOtherServices(!showOtherServices)}
-            className="text-[#00d4ff] font-semibold hover:underline transition-all"
+            className="text-[#0057FF] font-semibold hover:underline transition-all"
           >
             {showOtherServices ? 'Show Less' : 'Our Other Services'}
           </button>

@@ -16,7 +16,7 @@ const icons = [ClipboardCheck, Droplets, Sparkles, ShieldCheck, CheckCircle];
 
 export function ServiceProcess({ steps }: ServiceProcessProps) {
   return (
-    <section className="py-12 md:py-20 bg-[#0a1628] text-white">
+    <section className="py-12 md:py-20 bg-[#020B1C] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -40,14 +40,14 @@ export function ServiceProcess({ steps }: ServiceProcessProps) {
                 className="relative"
               >
                 {/* Step Number */}
-                <div className="absolute -top-4 -left-4 w-12 h-12 bg-[#00d4ff] rounded-full flex items-center justify-center font-bold text-[#0a1628] text-xl shadow-lg z-10">
+                <div className="absolute -top-4 -left-4 w-12 h-12 bg-[#0057FF] rounded-full flex items-center justify-center font-bold text-[#020B1C] text-xl shadow-lg z-10">
                   {index + 1}
                 </div>
 
                 {/* Card */}
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 h-full border border-white/20 hover:bg-white/15 transition-colors">
-                  <div className="w-14 h-14 bg-[#00d4ff]/20 rounded-xl flex items-center justify-center mb-4">
-                    <Icon className="w-7 h-7 text-[#00d4ff]" />
+                  <div className="w-14 h-14 bg-[#0057FF]/20 rounded-xl flex items-center justify-center mb-4">
+                    <Icon className="w-7 h-7 text-[#0057FF]" />
                   </div>
                   <h3 className="text-xl font-bold mb-3">
                     {step.title}
@@ -59,7 +59,7 @@ export function ServiceProcess({ steps }: ServiceProcessProps) {
 
                 {/* Connector Line (desktop only) */}
                 {index < steps.length - 1 && (
-                  <div className="hidden lg:block absolute top-12 left-full w-full h-0.5 bg-gradient-to-r from-[#00d4ff] to-transparent -translate-y-1/2"></div>
+                  <div className="hidden lg:block absolute top-12 left-full w-full h-0.5 bg-gradient-to-r from-[#0057FF] to-transparent -translate-y-1/2"></div>
                 )}
               </motion.div>
             );

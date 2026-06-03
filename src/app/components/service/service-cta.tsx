@@ -89,7 +89,7 @@ export function ServiceCTA({
 
   return (
     <>
-    <section id="quote" className="py-12 md:py-20 bg-gradient-to-br from-[#0a1628] to-[#0d1f3a] overflow-hidden">
+    <section id="quote" className="py-12 md:py-20 bg-gradient-to-br from-[#020B1C] to-[#06152E] overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-6 lg:gap-12 items-start">
           {/* Left Column - CTA Content */}
@@ -113,8 +113,8 @@ export function ServiceCTA({
                 href="tel:+61452579657"
                 className="flex items-center gap-3 md:gap-4 p-3 md:p-4 bg-white/10 rounded-xl hover:bg-white/15 transition-colors group backdrop-blur-sm border border-white/20"
               >
-                <div className="w-12 h-12 md:w-14 md:h-14 bg-[#00d4ff] rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0">
-                  <Phone className="w-6 h-6 md:w-7 md:h-7 text-[#0a1628]" />
+                <div className="w-12 h-12 md:w-14 md:h-14 bg-[#0057FF] rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0">
+                  <Phone className="w-6 h-6 md:w-7 md:h-7 text-[#020B1C]" />
                 </div>
                 <div className="min-w-0">
                   <p className="text-sm text-white/70 mb-1">Call us now</p>
@@ -126,8 +126,8 @@ export function ServiceCTA({
                 href="mailto:info@ppsexteriorcleaning.com.au"
                 className="flex items-center gap-3 md:gap-4 p-3 md:p-4 bg-white/10 rounded-xl hover:bg-white/15 transition-colors group backdrop-blur-sm border border-white/20"
               >
-                <div className="w-12 h-12 md:w-14 md:h-14 bg-[#00d4ff] rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0">
-                  <Mail className="w-6 h-6 md:w-7 md:h-7 text-[#0a1628]" />
+                <div className="w-12 h-12 md:w-14 md:h-14 bg-[#0057FF] rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0">
+                  <Mail className="w-6 h-6 md:w-7 md:h-7 text-[#020B1C]" />
                 </div>
                 <div className="min-w-0 overflow-hidden">
                   <p className="text-sm text-white/70 mb-1">Email us</p>
@@ -140,19 +140,19 @@ export function ServiceCTA({
               <h3 className="font-semibold text-white mb-3 text-base sm:text-lg">Why Get a Quote?</h3>
               <ul className="space-y-2 text-white/80 text-sm md:text-base">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1 flex-shrink-0">✓</span>
+                  <span className="text-[#0057FF] mt-1 flex-shrink-0">✓</span>
                   <span>Free, no-obligation assessment</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1 flex-shrink-0">✓</span>
+                  <span className="text-[#0057FF] mt-1 flex-shrink-0">✓</span>
                   <span>Transparent pricing with no hidden fees</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1 flex-shrink-0">✓</span>
+                  <span className="text-[#0057FF] mt-1 flex-shrink-0">✓</span>
                   <span>Expert advice on the best cleaning approach</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#00d4ff] mt-1 flex-shrink-0">✓</span>
+                  <span className="text-[#0057FF] mt-1 flex-shrink-0">✓</span>
                   <span>Same-day response during business hours</span>
                 </li>
               </ul>
@@ -168,7 +168,7 @@ export function ServiceCTA({
             className="bg-white rounded-2xl shadow-2xl p-5 sm:p-6 md:p-8 w-full min-w-0 relative"
           >
             {/* 10% Discount Badge */}
-            <div className="absolute -top-4 -right-4 bg-gradient-to-br from-[#00d4ff] to-[#00b4df] text-[#0a1628] px-4 py-2 rounded-full shadow-lg flex items-center gap-2 font-bold text-sm sm:text-base z-10">
+            <div className="absolute -top-4 -right-4 bg-gradient-to-br from-[#0057FF] to-[#0049d8] text-[#020B1C] px-4 py-2 rounded-full shadow-lg flex items-center gap-2 font-bold text-sm sm:text-base z-10">
               <BadgePercent className="w-5 h-5" />
               <span>10% OFF New Customers</span>
             </div>
@@ -180,11 +180,11 @@ export function ServiceCTA({
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-[#0a1628] mb-2">Thank You!</h3>
+                <h3 className="text-2xl font-bold text-[#020B1C] mb-2">Thank You!</h3>
                 <p className="text-gray-600 mb-6">We've received your inquiry and will contact you within 24 hours.</p>
                 <a
                   href="tel:+61452579657"
-                  className="inline-flex items-center gap-2 bg-[#00d4ff] text-[#0a1628] px-6 py-3 rounded-lg font-semibold hover:bg-[#00c4ef] transition-all"
+                  className="inline-flex items-center gap-2 bg-[#0057FF] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#0049d8] transition-all"
                 >
                   <Phone className="w-5 h-5" />
                   Call Now: 0452 579 657
@@ -197,11 +197,11 @@ export function ServiceCTA({
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-[#0a1628] mb-2">Something went wrong</h3>
+                <h3 className="text-2xl font-bold text-[#020B1C] mb-2">Something went wrong</h3>
                 <p className="text-gray-600 mb-6">{errorMessage}</p>
                 <a
                   href="tel:+61452579657"
-                  className="inline-flex items-center gap-2 bg-[#00d4ff] text-[#0a1628] px-6 py-3 rounded-lg font-semibold hover:bg-[#00c4ef] transition-all"
+                  className="inline-flex items-center gap-2 bg-[#0057FF] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#0049d8] transition-all"
                 >
                   <Phone className="w-5 h-5" />
                   Call Now: 0452 579 657
@@ -209,7 +209,7 @@ export function ServiceCTA({
               </div>
             ) : (
               <>
-                <h3 className="text-xl sm:text-2xl font-bold text-[#0a1628] mb-2">
+                <h3 className="text-xl sm:text-2xl font-bold text-[#020B1C] mb-2">
                   Request Your Free Quote
                 </h3>
                 <p className="text-sm sm:text-base text-gray-600 mb-6">
@@ -218,7 +218,7 @@ export function ServiceCTA({
 
                 <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-5">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-semibold text-[#0a1628] mb-2">
+                    <label htmlFor="name" className="block text-sm font-semibold text-[#020B1C] mb-2">
                       Your Name *
                     </label>
                     <input
@@ -228,13 +228,13 @@ export function ServiceCTA({
                       required
                       value={formData.name}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent transition-all"
+                      className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0057FF] focus:border-transparent transition-all"
                       placeholder="John Smith"
                     />
                   </div>
 
                   <div>
-                    <label htmlFor="phone" className="block text-sm font-semibold text-[#0a1628] mb-2">
+                    <label htmlFor="phone" className="block text-sm font-semibold text-[#020B1C] mb-2">
                       Phone Number *
                     </label>
                     <input
@@ -244,13 +244,13 @@ export function ServiceCTA({
                       required
                       value={formData.phone}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent transition-all"
+                      className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0057FF] focus:border-transparent transition-all"
                       placeholder="0400 000 000"
                     />
                   </div>
 
                   <div>
-                    <label htmlFor="suburb" className="block text-sm font-semibold text-[#0a1628] mb-2">
+                    <label htmlFor="suburb" className="block text-sm font-semibold text-[#020B1C] mb-2">
                       Suburb *
                     </label>
                     <input
@@ -260,13 +260,13 @@ export function ServiceCTA({
                       required
                       value={formData.suburb}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent transition-all"
+                      className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0057FF] focus:border-transparent transition-all"
                       placeholder="e.g. Applecross, Nedlands"
                     />
                   </div>
 
                   <div>
-                    <label htmlFor="description" className="block text-sm font-semibold text-[#0a1628] mb-2">
+                    <label htmlFor="description" className="block text-sm font-semibold text-[#020B1C] mb-2">
                       Job Description
                     </label>
                     <textarea
@@ -275,7 +275,7 @@ export function ServiceCTA({
                       rows={4}
                       value={formData.description}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00d4ff] focus:border-transparent transition-all resize-none"
+                      className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0057FF] focus:border-transparent transition-all resize-none"
                       placeholder={descriptionPlaceholder}
                     />
                   </div>
@@ -283,11 +283,11 @@ export function ServiceCTA({
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-[#00d4ff] text-[#0a1628] px-6 py-4 rounded-lg font-bold text-base sm:text-lg hover:bg-[#00c4ef] transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="w-full bg-[#0057FF] text-white px-6 py-4 rounded-lg font-bold text-base sm:text-lg hover:bg-[#0049d8] transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     {isSubmitting ? (
                       <>
-                        <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-[#0a1628]"></div>
+                        <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
                         <span>Sending...</span>
                       </>
                     ) : (

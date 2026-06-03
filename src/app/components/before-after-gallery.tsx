@@ -66,8 +66,8 @@ export function BeforeAfterGallery() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#0a1628] mb-4">
-            Stunning Transformations
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#020B1C] mb-4">
+            Pressure Cleaning Results in Perth - Before &amp; After.
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             See the incredible results our professional pressure cleaning delivers across Perth.
@@ -90,7 +90,7 @@ export function BeforeAfterGallery() {
                   loading="lazy"
                   decoding="async"
                 />
-                <div className="absolute top-4 left-4 bg-[#0a1628]/80 text-white px-4 py-2 rounded-md text-sm font-semibold">
+                <div className="absolute top-4 left-4 bg-[#020B1C]/80 text-white px-4 py-2 rounded-md text-sm font-semibold">
                   Before
                 </div>
               </div>
@@ -106,7 +106,7 @@ export function BeforeAfterGallery() {
                   loading="lazy"
                   decoding="async"
                 />
-                <div className="absolute top-4 right-4 bg-[#00d4ff]/90 text-[#0a1628] px-4 py-2 rounded-md text-sm font-semibold">
+                <div className="absolute top-4 right-4 bg-[#0057FF]/90 text-[#020B1C] px-4 py-2 rounded-md text-sm font-semibold">
                   After
                 </div>
               </div>
@@ -115,7 +115,7 @@ export function BeforeAfterGallery() {
 
           {/* Service Info */}
           <div className="text-center mb-6">
-            <h3 className="text-xl font-semibold text-[#0a1628] mb-1">
+            <h3 className="text-xl font-semibold text-[#020B1C] mb-1">
               {currentItem.service}
             </h3>
           </div>
@@ -124,7 +124,7 @@ export function BeforeAfterGallery() {
           <div className="flex items-center justify-center gap-4">
             <button
               onClick={prevSlide}
-              className="w-10 h-10 rounded-full bg-[#0a1628] text-white flex items-center justify-center hover:bg-[#0a1628]/90 transition-colors"
+              className="w-10 h-10 rounded-full bg-[#020B1C] text-white flex items-center justify-center hover:bg-[#020B1C]/90 transition-colors"
               aria-label="Previous image"
             >
               <ChevronLeft className="w-5 h-5" />
@@ -146,7 +146,7 @@ export function BeforeAfterGallery() {
                 >
                   <span className={`block w-2 h-2 rounded-full transition-all ${
                     index === currentIndex
-                      ? 'bg-[#00d4ff] w-8'
+                      ? 'bg-[#0057FF] w-8'
                       : 'bg-gray-300'
                   }`} />
                 </button>
@@ -155,7 +155,7 @@ export function BeforeAfterGallery() {
 
             <button
               onClick={nextSlide}
-              className="w-10 h-10 rounded-full bg-[#0a1628] text-white flex items-center justify-center hover:bg-[#0a1628]/90 transition-colors"
+              className="w-10 h-10 rounded-full bg-[#020B1C] text-white flex items-center justify-center hover:bg-[#020B1C]/90 transition-colors"
               aria-label="Next image"
             >
               <ChevronRight className="w-5 h-5" />

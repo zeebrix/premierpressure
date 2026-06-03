@@ -15,7 +15,7 @@ export function GoogleMapSection() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#0a1628] mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#020B1C] mb-4">
             Our Service Areas Across Perth
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -35,11 +35,11 @@ export function GoogleMapSection() {
             {/* Location Card */}
             <div className="bg-white rounded-lg p-6 shadow-md border border-gray-200">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-[#00d4ff]/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <MapPin className="w-6 h-6 text-[#00d4ff]" />
+                <div className="w-12 h-12 bg-[#0057FF]/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <MapPin className="w-6 h-6 text-[#0057FF]" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-[#0a1628] mb-2">Service Area</h3>
+                  <h3 className="font-semibold text-[#020B1C] mb-2">Service Area</h3>
                   <p className="text-gray-600 text-sm">
                     Perth & Surrounding Suburbs
                   </p>
@@ -50,14 +50,14 @@ export function GoogleMapSection() {
             {/* Phone Card */}
             <div className="bg-white rounded-lg p-6 shadow-md border border-gray-200">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-[#00d4ff]/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Phone className="w-6 h-6 text-[#00d4ff]" />
+                <div className="w-12 h-12 bg-[#0057FF]/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Phone className="w-6 h-6 text-[#0057FF]" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-[#0a1628] mb-2">Call Us</h3>
+                  <h3 className="font-semibold text-[#020B1C] mb-2">Call Us</h3>
                   <a 
                     href="tel:+61452579657" 
-                    className="text-[#00d4ff] hover:underline font-medium"
+                    className="text-[#0057FF] hover:underline font-medium"
                   >
                     0452 579 657
                   </a>
@@ -68,11 +68,11 @@ export function GoogleMapSection() {
             {/* Hours Card */}
             <div className="bg-white rounded-lg p-6 shadow-md border border-gray-200">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-[#00d4ff]/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Clock className="w-6 h-6 text-[#00d4ff]" />
+                <div className="w-12 h-12 bg-[#0057FF]/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Clock className="w-6 h-6 text-[#0057FF]" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-[#0a1628] mb-2">Hours</h3>
+                  <h3 className="font-semibold text-[#020B1C] mb-2">Hours</h3>
                   <div className="text-sm text-gray-600 space-y-1">
                     <p>Mon-Sun: 7:00 AM - 6:00 PM</p>
                   </div>
