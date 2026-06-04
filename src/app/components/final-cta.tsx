@@ -11,6 +11,7 @@ export function FinalCTA() {
     name: '',
     email: '',
     phone: '',
+    suburb: '',
     service: '',
     message: '',
   });
@@ -35,6 +36,7 @@ export function FinalCTA() {
           name: formData.name,
           email: formData.email,
           phone: formData.phone,
+          suburb: formData.suburb || 'Not provided',
           service: formData.service || 'Not specified',
           message: formData.message || 'No additional details',
           botcheck: '',
@@ -48,7 +50,7 @@ export function FinalCTA() {
       }
 
       setSubmitStatus('success');
-      setFormData({ name: '', email: '', phone: '', service: '', message: '' });
+      setFormData({ name: '', email: '', phone: '', suburb: '', service: '', message: '' });
 
       setTimeout(() => setSubmitStatus('idle'), 5000);
     } catch (error) {
@@ -199,6 +201,16 @@ export function FinalCTA() {
                   </div>
 
                   <div>
+                    <label htmlFor="suburb" className="block text-sm font-medium text-gray-700 mb-2">Suburb *</label>
+                    <input
+                      type="text" id="suburb" name="suburb" required
+                      value={formData.suburb} onChange={handleChange}
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0057FF] focus:border-transparent outline-none transition-all"
+                      placeholder="Cottesloe"
+                    />
+                  </div>
+
+                  <div>
                     <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-2">Service Required *</label>
                     <select
                       id="service" name="service" required
@@ -209,9 +221,8 @@ export function FinalCTA() {
                       <option value="concrete">Concrete Cleaning</option>
                       <option value="driveway">Driveway Cleaning</option>
                       <option value="window">Window Cleaning</option>
-                      <option value="solar">Solar Panel Cleaning</option>
-                      <option value="limestone">Liquid Limestone Cleaning</option>
                       <option value="roof">Roof Cleaning</option>
+                      <option value="limestone">Liquid Limestone Cleaning</option>
                       <option value="house">House Washing</option>
                       <option value="paver">Paver Cleaning & Sealing</option>
                       <option value="other">Other</option>

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import Link from 'next/link';
 import { suburbs, suburbBySlug } from '@/data/suburbs';
 import { suburbContent } from '@/data/suburb-content';
 import { SuburbHero } from '@/app/components/suburb/suburb-hero';
@@ -14,16 +15,27 @@ import { StickyCallButton } from '@/app/components/sticky-call-button';
 import { generateSuburbFAQSchema } from '@/app/utils/suburb-faq-schema';
 import { generateSuburbSchema } from '@/app/utils/suburb-schema';
 import { generateBreadcrumbSchema } from '@/app/utils/local-business-schema';
+import { getSuburbCopy } from '@/app/utils/suburb-intro';
 
 const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
 type Props = { params: Promise<{ slug: string }> };
 
-function buildSuburbIntro(suburbName: string, heroDescription: string) {
-  return {
-    intro: `PPS Exterior Cleaning provides pressure cleaning in ${suburbName} for homes, investment properties, strata sites, and local businesses that need reliable exterior cleaning without surface damage. ${heroDescription} We regularly clean driveways, concrete, pavers, liquid limestone, rendered walls, roof tiles, patios, pool surrounds, and full house exteriors across ${suburbName}.`,
-    localContext: `Properties in ${suburbName} can pick up a mix of red dust, tyre marks, algae, lichen, bore staining, coastal salt, and winter grime depending on their location, shade, and surface type. Our team chooses the right method for each material, using controlled pressure for hard concrete and safer soft washing for render, limestone, painted surfaces, and roof areas. If you are preparing a home for sale, freshening up outdoor entertaining areas, or dealing with slippery paths after wet weather, we can inspect the job, explain the best approach, and provide a free quote. PPS Exterior Cleaning is fully insured, locally operated, and set up for residential and commercial exterior cleaning throughout ${suburbName} and nearby Perth suburbs.`,
-  };
+function getNearbySuburbs(slug: string) {
+  const index = suburbs.findIndex((s) => s.slug === slug);
+  if (index === -1) return suburbs.slice(0, 6);
+
+  const candidates = [
+    ...suburbs.slice(Math.max(0, index - 3), index),
+    ...suburbs.slice(index + 1, index + 4),
+  ];
+
+  if (candidates.length >= 6) return candidates.slice(0, 6);
+
+  return [
+    ...candidates,
+    ...suburbs.filter((s) => s.slug !== slug && !candidates.some((c) => c.slug === s.slug)),
+  ].slice(0, 6);
 }
 
 export function generateStaticParams() {
@@ -57,11 +69,12 @@ export default async function SuburbPage({ params }: Props) {
   const suburb = suburbBySlug.get(slug);
   if (!suburb) notFound();
 
-  const generatedContent = buildSuburbIntro(suburb.name, suburb.heroDescription);
+  const generatedContent = getSuburbCopy(suburb);
   const content = {
     ...generatedContent,
     ...suburbContent[suburb.slug],
   };
+  const nearbySuburbs = getNearbySuburbs(suburb.slug);
 
   // Use suburb-specific FAQs when available so the visible FAQs and the
   // FAQPage schema stay in sync (Audit #04).
@@ -129,6 +142,29 @@ export default async function SuburbPage({ params }: Props) {
 
       <SuburbProcess suburbName={suburb.name} />
       <SuburbFAQ suburbName={suburb.name} customFaqs={content?.faqs} />
+      <section className="py-16 bg-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#020B1C] mb-3">
+              Suburbs We Also Service Nearby
+            </h2>
+            <p className="text-gray-600">
+              PPS Exterior Cleaning also services nearby Perth suburbs around {suburb.name}.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+            {nearbySuburbs.map((nearby) => (
+              <Link
+                key={nearby.slug}
+                href={`/${nearby.slug}`}
+                className="rounded-lg border border-[#2A3D5E]/15 bg-[#f7f9fc] px-4 py-3 text-center font-semibold text-[#020B1C] transition-all hover:border-[#0057FF] hover:text-[#0057FF] hover:shadow-md"
+              >
+                {nearby.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
       <GoogleReviews seed={suburb.name} />
 
       <section className="py-20 bg-gray-50">

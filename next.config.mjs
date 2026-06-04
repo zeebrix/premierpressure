@@ -39,6 +39,16 @@ const nextConfig = {
         statusCode: 301,
       },
       {
+        source: '/solar-panel-cleaning',
+        destination: '/roof-cleaning',
+        permanent: true,
+      },
+      {
+        source: '/services/solar-panel-cleaning',
+        destination: '/roof-cleaning',
+        permanent: true,
+      },
+      {
         source: '/services/:slug',
         destination: '/:slug',
         permanent: true,

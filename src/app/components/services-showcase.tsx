@@ -80,8 +80,8 @@ export function ServicesShowcase() {
             Pressure Cleaning Services in Perth
           </h2>
           <div className="mx-auto mb-5 h-1 w-12 bg-[#0057FF]"></div>
-          <p className="text-lg text-[#D6DCE5] max-w-2xl mx-auto">
-            We offer comprehensive pressure cleaning solutions for residential and commercial properties across Perth.
+          <p className="text-lg text-[#D6DCE5] max-w-4xl mx-auto leading-relaxed">
+            PPS Exterior Cleaning services homes and businesses across Perth and the greater metropolitan area. Whether it&apos;s a driveway that&apos;s built up years of grime, limestone that has gone green through winter, pavers that need cleaning before sealing, or exterior walls affected by mould, dust, salt air, and weather stains, we provide practical exterior cleaning solutions that make properties look cared for again. Our Perth pressure cleaning team handles driveways, concrete, liquid limestone, roof cleaning, house washing, patios, pool surrounds, pre-sale cleaning, and commercial exterior cleaning with surface-appropriate methods and fully insured service.
           </p>
         </motion.div>
 

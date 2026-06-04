@@ -19,6 +19,13 @@ export type SuburbContent = {
 };
 
 export const suburbContent: Record<string, SuburbContent> = {
+  cottesloe: {
+    intro:
+      'PPS Exterior Cleaning services homes and businesses throughout Cottesloe 6011 and the Town of Cottesloe area. Living this close to the coast comes with a trade-off: salt air, humidity, and sea spray accelerate the build-up of grime, algae, lichen, and black mould on driveways, paved areas, rendered walls, roof tiles, pool surrounds, and glass faster than most people realise. Cottesloe is known for premium coastal homes, older character properties, apartments near the beach, and a lot of limestone, both natural and liquid. Those surfaces need careful handling because aggressive high-pressure cleaning can scar limestone, strip weak render, or force water into cracks. We use pressure cleaning and soft washing methods matched to each surface so the clean is thorough without unnecessary damage.',
+    localContext:
+      "If you have a driveway that needs cleaning before a sale, a limestone path that has gone green over winter, a roof affected by coastal growth, or a rendered exterior carrying years of salt and grime, PPS Exterior Cleaning can help. We clean driveways, patios, pavers, limestone walls, house exteriors, roof tiles, pool surrounds, and commercial frontage areas throughout Cottesloe and nearby suburbs including Swanbourne, Claremont, Peppermint Grove, Mosman Park, and City Beach. We are fully insured, use surface-appropriate equipment, and can usually arrange a free quote quickly for Cottesloe properties.",
+  },
+
   'north-fremantle': {
     intro:
       'North Fremantle sits right on the coast where constant sea spray and salt-laden air leave a fine, gritty film on render, glass, and paving. Our pressure and soft-wash work is tuned for exactly these coastal conditions.',
@@ -69,9 +76,9 @@ export const suburbContent: Record<string, SuburbContent> = {
 
   heathridge: {
     intro:
-      'Heathridge is an established family suburb of mostly 1980s brick-veneer homes. Decades of weathering leave driveways, paths, and brickwork tired — a professional clean brings them back without the cost of replacing them.',
+            'PPS Exterior Cleaning provides pressure cleaning throughout Heathridge 6027, within the City of Joondalup, for established family homes, rental properties, and local businesses that need reliable exterior cleaning. Heathridge has a lot of brick-veneer homes, older concrete driveways, brick paving, patios, tiled roofs, and boundary walls that have been exposed to decades of Perth weather. Over time those surfaces collect tyre marks, oil stains, bore marks, red dust, algae, lichen, and winter grime, especially on shaded paths and roof sections. A professional clean can make a tired driveway, path, patio, or house exterior look well maintained again without the cost of resurfacing or repainting. We adjust our pressure and cleaning method to suit the surface, using stronger pressure on durable concrete and gentler soft washing on older brick, render, painted finishes, and roof areas.',
     localContext:
-      'Heathridge’s housing stock is largely 1980s brick veneer with concrete and brick-paved driveways. Common jobs here are removing oil stains and lichen from aging driveways, soft washing weathered brick and render, and clearing moss from north-side roofs.',
+            "Common Heathridge jobs include driveway cleaning before a rental inspection or sale campaign, removing slippery growth from paths, refreshing brick paving around outdoor entertaining areas, cleaning roof staining, and washing exterior walls that have picked up years of dust and mould. PPS Exterior Cleaning services Heathridge and nearby suburbs including Craigie, Beldon, Connolly, Edgewater, Ocean Reef, and Joondalup. We are fully insured, locally operated, and set up for residential and commercial exterior cleaning across Perth's northern suburbs.",
     faqs: [
       {
         question: 'Can you restore an old 1980s driveway in Heathridge?',
