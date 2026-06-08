@@ -16,6 +16,7 @@ import { generateSuburbFAQSchema } from '@/app/utils/suburb-faq-schema';
 import { generateSuburbSchema } from '@/app/utils/suburb-schema';
 import { generateBreadcrumbSchema } from '@/app/utils/local-business-schema';
 import { getSuburbCopy } from '@/app/utils/suburb-intro';
+import { suburbPdfContent } from '@/data/suburb-pdf-content';
 
 const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
 
@@ -47,15 +48,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const suburb = suburbBySlug.get(slug);
   if (!suburb) return {};
   const url = `${SITE_URL}/${suburb.slug}`;
+  const description =
+    suburbPdfContent[suburb.slug]?.metaDescription ?? suburb.description;
   return {
     title: { absolute: suburb.title },
-    description: suburb.description,
+    description,
     alternates: { canonical: url },
-    openGraph: { url, title: suburb.title, description: suburb.description, type: 'website', locale: 'en_AU', siteName: 'PPS Exterior Cleaning', images: [{ url: 'https://www.ppsexteriorcleaning.com.au/og-image.jpg', width: 1200, height: 630 }] },
+    openGraph: { url, title: suburb.title, description, type: 'website', locale: 'en_AU', siteName: 'PPS Exterior Cleaning', images: [{ url: 'https://www.ppsexteriorcleaning.com.au/og-image.jpg', width: 1200, height: 630 }] },
     twitter: {
       card: 'summary_large_image',
       title: suburb.title,
-      description: suburb.description,
+      description,
       images: ['https://www.ppsexteriorcleaning.com.au/og-image.jpg'],
     },
     other: {
@@ -74,6 +77,10 @@ export default async function SuburbPage({ params }: Props) {
     ...generatedContent,
     ...suburbContent[suburb.slug],
   };
+  // Client-written unique intros (Website Adjustments PDF) take precedence and
+  // replace the intro block; otherwise fall back to hand/generated copy.
+  const introParagraphs = suburbPdfContent[suburb.slug]?.paragraphs
+    ?? [content.intro, content.localContext].filter(Boolean);
   const nearbySuburbs = getNearbySuburbs(suburb.slug);
 
   // Use suburb-specific FAQs when available so the visible FAQs and the
@@ -119,8 +126,18 @@ export default async function SuburbPage({ params }: Props) {
           <h2 className="text-2xl md:text-3xl font-bold text-[#020B1C] mb-4">
             Pressure Cleaning in {suburb.name}
           </h2>
-          <p className="text-lg text-gray-700 leading-relaxed mb-4">{content.intro}</p>
-          <p className="text-gray-600 leading-relaxed">{content.localContext}</p>
+          {introParagraphs.map((para, i) => (
+            <p
+              key={i}
+              className={
+                i === 0
+                  ? 'text-lg text-gray-700 leading-relaxed mb-4'
+                  : 'text-gray-600 leading-relaxed mb-4'
+              }
+            >
+              {para}
+            </p>
+          ))}
         </div>
       </section>
       <SuburbServices suburbName={suburb.name} />

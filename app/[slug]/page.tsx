@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { suburbs, suburbBySlug } from '@/data/suburbs';
+import { suburbPdfContent } from '@/data/suburb-pdf-content';
 import SuburbPage from '../perth/[slug]/page';
 import ConcreteCleaningPage, {
   metadata as concreteCleaningMetadata,
@@ -114,14 +115,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (suburb) {
     const url = `${SITE_URL}/${suburb.slug}`;
+    const description =
+      suburbPdfContent[suburb.slug]?.metaDescription ?? suburb.description;
     return {
       title: { absolute: suburb.title },
-      description: suburb.description,
+      description,
       alternates: { canonical: url },
       openGraph: {
         url,
         title: suburb.title,
-        description: suburb.description,
+        description,
         type: 'website',
         locale: 'en_AU',
         siteName: 'PPS Exterior Cleaning',
@@ -130,7 +133,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       twitter: {
         card: 'summary_large_image',
         title: suburb.title,
-        description: suburb.description,
+        description,
         images: [OG_IMAGE],
       },
       other: {
