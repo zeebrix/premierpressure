@@ -29,3 +29,8 @@ tsconfig.tsbuildinfo
 *.sln
 *.sw?
 .vercel
+
+# Scratch / working artifacts (PDF extraction — not for the repo)
+tmp_adjustments/pdf_suburbs.json
+tmp_adjustments/pdf_text.txt
+tmp_pdf_assets/
