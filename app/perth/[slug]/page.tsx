@@ -118,7 +118,6 @@ export default async function SuburbPage({ params }: Props) {
       <StickyCallButton />
       <SuburbHero
         suburbName={suburb.name}
-        tagline={suburb.heroTagline}
         description={suburb.heroDescription}
       />
       <section className="py-16 bg-white">

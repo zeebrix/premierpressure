@@ -5,11 +5,10 @@ import { motion } from 'motion/react';
 
 interface SuburbHeroProps {
   suburbName: string;
-  tagline: string;
   description: string;
 }
 
-export function SuburbHero({ suburbName, tagline, description }: SuburbHeroProps) {
+export function SuburbHero({ suburbName, description }: SuburbHeroProps) {
   return (
     <section className="relative bg-gradient-to-br from-[#020B1C] via-[#06152E] to-[#020B1C] py-20 lg:py-32 overflow-hidden">
       {/* Background Pattern */}
@@ -38,7 +37,7 @@ export function SuburbHero({ suburbName, tagline, description }: SuburbHeroProps
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight"
           >
-            {tagline}
+            Pressure Cleaning {suburbName} | Perth, WA
           </motion.h1>
 
           <motion.p

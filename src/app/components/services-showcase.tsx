@@ -81,8 +81,19 @@ export function ServicesShowcase() {
           </h2>
           <div className="mx-auto mb-5 h-1 w-12 bg-[#0057FF]"></div>
           <p className="text-lg text-[#D6DCE5] max-w-4xl mx-auto leading-relaxed">
-            PPS Exterior Cleaning services homes and businesses across Perth and the greater metropolitan area. Whether it&apos;s a driveway that&apos;s built up years of grime, limestone that has gone green through winter, pavers that need cleaning before sealing, or exterior walls affected by mould, dust, salt air, and weather stains, we provide practical exterior cleaning solutions that make properties look cared for again. Our Perth pressure cleaning team handles driveways, concrete, liquid limestone, roof cleaning, house washing, patios, pool surrounds, pre-sale cleaning, and commercial exterior cleaning with surface-appropriate methods and fully insured service.
+            We offer comprehensive pressure cleaning solutions for residential and commercial properties across Perth.
           </p>
+          <div className="mt-6 max-w-4xl mx-auto space-y-4 text-left text-[#D6DCE5] leading-relaxed">
+            <p>
+              PPS Exterior Cleaning services homes and businesses across Perth and the greater metropolitan area. Whether it&apos;s a driveway that&apos;s built up years of grime and discolouration, a limestone path gone green after winter, a roof covered in lichen, or a rendered exterior that hasn&apos;t been washed in years — we handle it all. One company, one call, everything on the outside of your property taken care of.
+            </p>
+            <p>
+              We use a combination of high-pressure cleaning and soft washing depending on the surface — the right technique matters, and using the wrong one can cause real damage. Our team works across all common Perth surfaces: exposed aggregate, liquid limestone, concrete, clay pavers, Colorbond roofing, and rendered walls.
+            </p>
+            <p>
+              We&apos;re based in Perth, fully insured with $20M public liability cover, and available seven days a week. Most jobs can be booked within the same week. If you&apos;re not sure what your property needs, give us a call — we&apos;re happy to talk it through before you commit to anything.
+            </p>
+          </div>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
