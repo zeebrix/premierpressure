@@ -32,6 +32,70 @@ export type SuburbMeta = {
 };
 
 export const suburbMeta: Record<string, SuburbMeta> = {
+  // Gallery-coverage suburbs (added with their pages). Postcodes/councils verify before deploy.
+  'beechboro': {
+    postcode: '6063',
+    council: 'City of Swan',
+    character: 'established',
+    localProfile:
+      'Beechboro is an established northern-corridor family suburb where brick-and-tile homes, aggregate driveways and Colorbond patios pick up reticulation bore staining and lichen on shaded paths.',
+  },
+  'belmont': {
+    postcode: '6104',
+    council: 'City of Belmont',
+    character: 'established',
+    localProfile:
+      'Belmont sits on the Swan River near the airport, a mix of older brick homes and newer infill where driveways, render and patios collect traffic grime, dust and algae.',
+  },
+  'dalkeith': {
+    postcode: '6009',
+    council: 'City of Nedlands',
+    character: 'riverside',
+    localProfile:
+      'Dalkeith is one of Perth’s premier riverside suburbs, where limestone walls, liquid-limestone driveways, rendered facades and pool surrounds on large blocks need careful, damage-free cleaning.',
+  },
+  'darch': {
+    postcode: '6065',
+    council: 'City of Wanneroo',
+    character: 'new-estate',
+    localProfile:
+      'Darch is a modern northern-suburbs estate where newer rendered homes, exposed-aggregate driveways and paved alfresco areas show up dust, mould and winter algae.',
+  },
+  'fremantle': {
+    postcode: '6160',
+    council: 'City of Fremantle',
+    character: 'heritage',
+    localProfile:
+      'Fremantle is a historic port city where heritage limestone, painted render, brick paving and salt-exposed exteriors need gentle soft-washing rather than harsh high pressure.',
+  },
+  'jolimont': {
+    postcode: '6014',
+    council: 'Town of Cambridge',
+    character: 'established',
+    localProfile:
+      'Jolimont is a leafy inner-west pocket beside Lake Monger where established homes, brick paving and shaded driveways collect moss, leaf stain and organic growth.',
+  },
+  'nollamara': {
+    postcode: '6061',
+    council: 'City of Stirling',
+    character: 'established',
+    localProfile:
+      'Nollamara is an established, fast-renewing Stirling suburb where original brick homes and new infill developments alike collect driveway oil stains, render dust and path lichen.',
+  },
+  'north-perth': {
+    postcode: '6006',
+    council: 'City of Vincent',
+    character: 'inner-city',
+    localProfile:
+      'North Perth is an inner-city character suburb of heritage cottages and balconied homes where limestone, brick paving and rendered walls need gentle, surface-safe cleaning.',
+  },
+  'yokine': {
+    postcode: '6060',
+    council: 'City of Stirling',
+    character: 'established',
+    localProfile:
+      'Yokine is an established suburb beside Yokine Reserve and the golf course, where mature trees leave moss and leaf staining on driveways, paths and tiled roofs.',
+  },
   'alexander-heights': {
     postcode: '6064',
     council: 'City of Wanneroo',

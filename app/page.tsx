@@ -121,7 +121,7 @@ export default function HomePage() {
       />
       <HeroSection />
       <ServicesShowcase />
-      <BeforeAfterGallery />
+      <BeforeAfterGallery featuredOnly />
       <HowItWorks />
 
       <section className="py-12 sm:py-16 lg:py-20 bg-white">

@@ -14,6 +14,7 @@ export type GalleryPair = {
   title: string;
   description: string;
   order: number;
+  featured: boolean;
   tags: string[];
 };
 
@@ -31,6 +32,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Brick paver area near shed",
     "description": "Red-brown brick pavers outside a garden shed showing significant black mould, moss and grime buildup across the surface.",
     "order": 1,
+    "featured": true,
     "tags": [
       "pavers",
       "brick",
@@ -53,6 +55,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Terrazzo staircase",
     "description": "Heavily soiled terrazzo aggregate stairs leading down from a building entrance, covered in dirt, grime and debris.",
     "order": 3,
+    "featured": true,
     "tags": [
       "stairs",
       "terrazzo",
@@ -74,6 +77,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Concrete patio with algae growth",
     "description": "Enclosed concrete patio area beside a colorbond fence showing extensive green algae, moss and dirt staining across the slab surface.",
     "order": 5,
+    "featured": true,
     "tags": [
       "concrete",
       "patio",
@@ -95,6 +99,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Limestone pathway with moss",
     "description": "Narrow side pathway with large format paving tiles heavily covered in green moss and black mould staining between a brick house and colorbond fence.",
     "order": 7,
+    "featured": false,
     "tags": [
       "pathway",
       "limestone",
@@ -117,6 +122,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Liquid limestone pool area",
     "description": "Liquid limestone pool surround in Darch showing staining and grime across the surface before pressure cleaning.",
     "order": 9,
+    "featured": true,
     "tags": [
       "liquid limestone",
       "pool",
@@ -139,6 +145,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Sandstone courtyard tiles",
     "description": "Large sandstone-look tiles in a workshop or commercial yard heavily coated in green moss, black mould and organic staining.",
     "order": 11,
+    "featured": false,
     "tags": [
       "tiles",
       "sandstone",
@@ -161,6 +168,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Brick paver side passage",
     "description": "Narrow side passage with brick pavers in a herringbone pattern showing significant green moss and mould buildup across the full area.",
     "order": 13,
+    "featured": false,
     "tags": [
       "pavers",
       "brick",
@@ -183,6 +191,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Garden path pavers",
     "description": "Side garden path with stained paving tiles adjacent to a brick home, showing heavy grime and black mould staining throughout.",
     "order": 15,
+    "featured": false,
     "tags": [
       "pathway",
       "pavers",
@@ -205,6 +214,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Concrete block paved courtyard",
     "description": "Paved courtyard area with square concrete block pavers showing mixed staining, dark patches and grime with lichen on surrounding edging.",
     "order": 17,
+    "featured": true,
     "tags": [
       "pavers",
       "concrete",
@@ -226,6 +236,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Narrow brick side passage",
     "description": "Very narrow side passage between two white rendered walls with red brick pavers heavily covered in moss, mould and dark organic staining.",
     "order": 19,
+    "featured": false,
     "tags": [
       "brick",
       "pathway",
@@ -248,6 +259,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Large format patio tiles",
     "description": "Outdoor patio area with large format concrete tiles showing extensive dark mould, water staining and grime patches throughout.",
     "order": 21,
+    "featured": true,
     "tags": [
       "tiles",
       "patio",
@@ -269,6 +281,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Slate front entry tiles",
     "description": "Front entry paving with mixed slate-look tiles showing heavy dark staining and grime, with a visible contrast between stained and cleaner areas.",
     "order": 23,
+    "featured": true,
     "tags": [
       "slate",
       "tiles",
@@ -290,6 +303,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Natural stone courtyard",
     "description": "Natural stone-paved courtyard with mixed tones showing dirt, staining and grime buildup obscuring the stone's natural colour and pattern.",
     "order": 25,
+    "featured": false,
     "tags": [
       "stone",
       "courtyard",
@@ -311,6 +325,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Brick paver driveway",
     "description": "Large curved brick paver driveway and front garden area showing dirt, grime and staining across the brick surface.",
     "order": 27,
+    "featured": true,
     "tags": [
       "driveway",
       "brick",
@@ -332,6 +347,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Concrete side passage",
     "description": "Narrow concrete side passage alongside a house showing heavy black mould, water staining and grime across the full slab surface.",
     "order": 29,
+    "featured": false,
     "tags": [
       "concrete",
       "passage",
@@ -353,6 +369,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Exposed aggregate pathway",
     "description": "Exposed aggregate concrete pathway beside a house with dark staining visible across the aggregate surface.",
     "order": 31,
+    "featured": false,
     "tags": [
       "aggregate",
       "concrete",
@@ -374,6 +391,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Concrete front porch",
     "description": "Concrete front porch area outside a brick home showing heavy black mould, grime and dirty swirl marks across the full slab.",
     "order": 33,
+    "featured": false,
     "tags": [
       "concrete",
       "porch",
@@ -396,6 +414,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Brick paver side passage",
     "description": "Narrow brick paver side passage between a brick home and colorbond fence showing grime and dirt buildup across the pavers.",
     "order": 35,
+    "featured": false,
     "tags": [
       "brick",
       "pavers",
@@ -417,6 +436,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Concrete garden steps",
     "description": "Three-step concrete garden staircase connecting a deck to a lawn, heavily coated in black mould and organic staining across every surface.",
     "order": 37,
+    "featured": true,
     "tags": [
       "steps",
       "concrete",
@@ -438,6 +458,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Courtyard brick pavers",
     "description": "Enclosed courtyard with herringbone brick pavers showing dark mould and grime across the majority of the surface.",
     "order": 39,
+    "featured": false,
     "tags": [
       "pavers",
       "brick",
@@ -460,6 +481,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Commercial side passage pavers",
     "description": "Same narrow commercial side passage with brick pavers showing dirt and grime buildup before cleaning.",
     "order": 41,
+    "featured": false,
     "tags": [
       "pavers",
       "brick",
@@ -482,6 +504,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Long diamond paver side passage",
     "description": "Same long side passage with diamond-pattern concrete pavers showing heavy mould, grime and black staining throughout.",
     "order": 43,
+    "featured": false,
     "tags": [
       "pavers",
       "diamond",
@@ -504,6 +527,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Garden area paving tiles",
     "description": "Mixed format stone-look paving tiles in a garden area showing grime, mould and dark staining across the surface.",
     "order": 45,
+    "featured": false,
     "tags": [
       "tiles",
       "pavers",
@@ -526,6 +550,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Concrete side passage",
     "description": "Narrow concrete side passage beside a brick home showing mould, grime and dark staining across the slab.",
     "order": 47,
+    "featured": false,
     "tags": [
       "concrete",
       "passage",
@@ -547,6 +572,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Concrete side passage",
     "description": "Long concrete side passage beside a home showing heavy mould, grime and dark staining along the full length of the slab.",
     "order": 49,
+    "featured": false,
     "tags": [
       "concrete",
       "passage",
@@ -568,6 +594,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Long concrete side passage",
     "description": "Same long concrete side passage before cleaning, showing significant mould, grime and dirty patchy staining across the slab.",
     "order": 51,
+    "featured": false,
     "tags": [
       "concrete",
       "passage",
@@ -589,6 +616,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Decorative stamped concrete alley",
     "description": "Long side alley with decorative stamped concrete featuring an ornate inlaid design, showing dirt and grime buildup dulling the surface.",
     "order": 53,
+    "featured": true,
     "tags": [
       "concrete",
       "stamped",
@@ -610,6 +638,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Granite tile alley",
     "description": "Wide side alley with large format granite-look tiles showing heavy dark mould, grime and staining across the entire surface.",
     "order": 55,
+    "featured": false,
     "tags": [
       "granite",
       "tiles",
@@ -632,6 +661,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Pool area pavers",
     "description": "Granite aggregate pool surround pavers showing heavy staining, dark patches and leaf debris buildup along the pool edge.",
     "order": 57,
+    "featured": false,
     "tags": [
       "pool",
       "pavers",
@@ -653,6 +683,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Pool surround aggregate pavers",
     "description": "Granite aggregate pool surround pavers alongside a garden showing heavy staining, mould and dark patches across the surface.",
     "order": 59,
+    "featured": false,
     "tags": [
       "pool",
       "pavers",
@@ -675,6 +706,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Granite courtyard pavers",
     "description": "Large courtyard with granite aggregate pavers showing significant mould, staining and grime throughout the full area.",
     "order": 61,
+    "featured": true,
     "tags": [
       "granite",
       "pavers",
@@ -697,6 +729,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Courtyard paver area with steps",
     "description": "Courtyard paved area with concrete block pavers and rendered step edges, showing mould and green algae growth on the step faces and paver joints.",
     "order": 63,
+    "featured": false,
     "tags": [
       "pavers",
       "courtyard",
@@ -719,6 +752,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Concrete narrow passage",
     "description": "Narrow concrete passage between two brick buildings showing significant grey mould and grime staining across the slab.",
     "order": 65,
+    "featured": false,
     "tags": [
       "concrete",
       "passage",
@@ -740,6 +774,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Covered alfresco concrete",
     "description": "Large covered alfresco concrete area beside a brick home showing heavy mould, grime and dark staining across the slab surface.",
     "order": 67,
+    "featured": false,
     "tags": [
       "concrete",
       "alfresco",
@@ -762,6 +797,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Large covered paver area",
     "description": "Large covered outdoor area with concrete block pavers showing grime, staining and mould buildup across the entire paved surface.",
     "order": 69,
+    "featured": false,
     "tags": [
       "pavers",
       "covered",
@@ -784,6 +820,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Exposed aggregate front path",
     "description": "Exposed aggregate concrete front path beside a red brick home showing significant mould, dark staining and grime across the surface.",
     "order": 71,
+    "featured": true,
     "tags": [
       "aggregate",
       "concrete",
@@ -806,6 +843,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Limestone tile side alley",
     "description": "Narrow side alley between two homes with large format limestone tiles showing grime and staining with weeds growing in the joint gaps.",
     "order": 73,
+    "featured": false,
     "tags": [
       "limestone",
       "tiles",
@@ -828,6 +866,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Limestone tile side passage",
     "description": "Same limestone tile side passage showing grime, mould and dark staining across the tiles before cleaning.",
     "order": 75,
+    "featured": false,
     "tags": [
       "limestone",
       "tiles",
@@ -835,6 +874,28 @@ export const galleryPairs: GalleryPair[] = [
       "grime",
       "mould",
       "before"
+    ]
+  },
+  {
+    "id": 39,
+    "service": "Paver Cleaning",
+    "area": "Pavers",
+    "surface": "Liquid limestone",
+    "suburb": "Karrinyup",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_8459.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_8466.jpeg",
+    "beforeAlt": "Liquid limestone Limestone tile courtyard after — pressure cleaning Karrinyup Perth WA",
+    "afterAlt": "Liquid limestone Limestone tile side passage after — pressure cleaning Karrinyup Perth WA",
+    "title": "Limestone tile courtyard",
+    "description": "Open courtyard with large format limestone tiles after pressure cleaning, tiles bright and clean with a warm sandy finish still wet from the clean.",
+    "order": 77,
+    "featured": false,
+    "tags": [
+      "limestone",
+      "tiles",
+      "courtyard",
+      "clean",
+      "after"
     ]
   },
   {
@@ -850,6 +911,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Sandstone patio step edge",
     "description": "Sandstone-look tiled patio step edge beside sliding doors showing heavy mould and dark staining across the step faces and top surface.",
     "order": 79,
+    "featured": false,
     "tags": [
       "sandstone",
       "tiles",
@@ -873,6 +935,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "Brick paver side passage",
     "description": "Narrow side passage alongside a red brick home with herringbone brick pavers showing mould and grime buildup across the surface.",
     "order": 81,
+    "featured": true,
     "tags": [
       "brick",
       "pavers",
@@ -895,6 +958,7 @@ export const galleryPairs: GalleryPair[] = [
     "title": "House exterior brick wall",
     "description": "Limestone brick exterior wall of a home showing heavy black mould and green algae streaking down from the guttering and corner joints.",
     "order": 83,
+    "featured": true,
     "tags": [
       "house",
       "exterior",
