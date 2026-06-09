@@ -1,0 +1,910 @@
+// AUTO-GENERATED from the client gallery spreadsheet (gallery-final.xlsx).
+// 42 before/after pairs with direct Supabase Storage URLs. Do not edit by hand.
+
+export type GalleryPair = {
+  id: number;
+  service: string;
+  area: string;
+  surface: string;
+  suburb: string;
+  beforeUrl: string;
+  afterUrl: string;
+  beforeAlt: string;
+  afterAlt: string;
+  title: string;
+  description: string;
+  order: number;
+  tags: string[];
+};
+
+export const galleryPairs: GalleryPair[] = [
+  {
+    "id": 1,
+    "service": "Paver Cleaning",
+    "area": "Pavers",
+    "surface": "Brick pavers",
+    "suburb": "Kingsley",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_6696.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_6697.jpeg",
+    "beforeAlt": "Brick pavers Brick paver area near shed before — pressure cleaning Kingsley Perth WA",
+    "afterAlt": "Brick pavers Brick paver area near shed after — pressure cleaning Kingsley Perth WA",
+    "title": "Brick paver area near shed",
+    "description": "Red-brown brick pavers outside a garden shed showing significant black mould, moss and grime buildup across the surface.",
+    "order": 1,
+    "tags": [
+      "pavers",
+      "brick",
+      "mould",
+      "moss",
+      "before",
+      "shed"
+    ]
+  },
+  {
+    "id": 2,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Terrazzo",
+    "suburb": "Alkimos",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_5075.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_5078.jpeg",
+    "beforeAlt": "Terrazzo Terrazzo staircase before — pressure cleaning Alkimos Perth WA",
+    "afterAlt": "Terrazzo Terrazzo staircase after — pressure cleaning Alkimos Perth WA",
+    "title": "Terrazzo staircase",
+    "description": "Heavily soiled terrazzo aggregate stairs leading down from a building entrance, covered in dirt, grime and debris.",
+    "order": 3,
+    "tags": [
+      "stairs",
+      "terrazzo",
+      "concrete",
+      "grime",
+      "before"
+    ]
+  },
+  {
+    "id": 3,
+    "service": "Alfresco & Patio Cleaning",
+    "area": "Alfresco/Patio",
+    "surface": "Concrete",
+    "suburb": "Heathridge",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_5577.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_5585.jpeg",
+    "beforeAlt": "Concrete Concrete patio with algae growth before — pressure cleaning Heathridge Perth WA",
+    "afterAlt": "Concrete Concrete patio after pressure clean after — pressure cleaning Heathridge Perth WA",
+    "title": "Concrete patio with algae growth",
+    "description": "Enclosed concrete patio area beside a colorbond fence showing extensive green algae, moss and dirt staining across the slab surface.",
+    "order": 5,
+    "tags": [
+      "concrete",
+      "patio",
+      "algae",
+      "moss",
+      "before"
+    ]
+  },
+  {
+    "id": 4,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Liquid limestone",
+    "suburb": "Darch",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_5702.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_5703.jpeg",
+    "beforeAlt": "Liquid limestone Limestone pathway with moss before — pressure cleaning Darch Perth WA",
+    "afterAlt": "Liquid limestone Limestone pathway after pressure clean after — pressure cleaning Darch Perth WA",
+    "title": "Limestone pathway with moss",
+    "description": "Narrow side pathway with large format paving tiles heavily covered in green moss and black mould staining between a brick house and colorbond fence.",
+    "order": 7,
+    "tags": [
+      "pathway",
+      "limestone",
+      "tiles",
+      "moss",
+      "mould",
+      "before"
+    ]
+  },
+  {
+    "id": 5,
+    "service": "Pool Surround Cleaning",
+    "area": "Pool Area",
+    "surface": "Liquid limestone",
+    "suburb": "Darch",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_5496.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_5497.jpeg",
+    "beforeAlt": "Liquid limestone Liquid limestone pool area before — pressure cleaning Darch Perth WA",
+    "afterAlt": "Liquid limestone Liquid limestone pool area after — pressure cleaning Darch Perth WA",
+    "title": "Liquid limestone pool area",
+    "description": "Liquid limestone pool surround in Darch showing staining and grime across the surface before pressure cleaning.",
+    "order": 9,
+    "tags": [
+      "liquid limestone",
+      "pool",
+      "pool area",
+      "staining",
+      "before",
+      "Darch"
+    ]
+  },
+  {
+    "id": 6,
+    "service": "Paver Cleaning",
+    "area": "Pavers",
+    "surface": "Sandstone tiles",
+    "suburb": "Fremantle",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_6116.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_5147.jpeg",
+    "beforeAlt": "Sandstone tiles Sandstone courtyard tiles before — pressure cleaning Fremantle Perth WA",
+    "afterAlt": "Sandstone tiles Sandstone tile courtyard after — pressure cleaning Fremantle Perth WA",
+    "title": "Sandstone courtyard tiles",
+    "description": "Large sandstone-look tiles in a workshop or commercial yard heavily coated in green moss, black mould and organic staining.",
+    "order": 11,
+    "tags": [
+      "tiles",
+      "sandstone",
+      "courtyard",
+      "moss",
+      "mould",
+      "before"
+    ]
+  },
+  {
+    "id": 7,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Brick pavers",
+    "suburb": "Tapping",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_6007.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_6012.jpeg",
+    "beforeAlt": "Brick pavers Brick paver side passage before — pressure cleaning Tapping Perth WA",
+    "afterAlt": "Brick pavers Brick paver side passage after — pressure cleaning Tapping Perth WA",
+    "title": "Brick paver side passage",
+    "description": "Narrow side passage with brick pavers in a herringbone pattern showing significant green moss and mould buildup across the full area.",
+    "order": 13,
+    "tags": [
+      "pavers",
+      "brick",
+      "herringbone",
+      "moss",
+      "mould",
+      "before"
+    ]
+  },
+  {
+    "id": 8,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Limestone tiles",
+    "suburb": "Hillarys",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_6041.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_6054.jpeg",
+    "beforeAlt": "Limestone tiles Garden path pavers before — pressure cleaning Hillarys Perth WA",
+    "afterAlt": "Limestone tiles Garden path pavers after — pressure cleaning Hillarys Perth WA",
+    "title": "Garden path pavers",
+    "description": "Side garden path with stained paving tiles adjacent to a brick home, showing heavy grime and black mould staining throughout.",
+    "order": 15,
+    "tags": [
+      "pathway",
+      "pavers",
+      "tiles",
+      "grime",
+      "mould",
+      "before"
+    ]
+  },
+  {
+    "id": 9,
+    "service": "Paver Cleaning",
+    "area": "Pavers",
+    "surface": "Brick pavers",
+    "suburb": "Balcatta",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_6202.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_6207.jpeg",
+    "beforeAlt": "Brick pavers Concrete block paved courtyard before — pressure cleaning Balcatta Perth WA",
+    "afterAlt": "Brick pavers Concrete block paved courtyard after — pressure cleaning Balcatta Perth WA",
+    "title": "Concrete block paved courtyard",
+    "description": "Paved courtyard area with square concrete block pavers showing mixed staining, dark patches and grime with lichen on surrounding edging.",
+    "order": 17,
+    "tags": [
+      "pavers",
+      "concrete",
+      "courtyard",
+      "staining",
+      "before"
+    ]
+  },
+  {
+    "id": 10,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Brick pavers",
+    "suburb": "Subiaco",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_6629.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_6630.jpeg",
+    "beforeAlt": "Brick pavers Narrow brick side passage before — pressure cleaning Subiaco Perth WA",
+    "afterAlt": "Brick pavers Narrow brick side passage after — pressure cleaning Subiaco Perth WA",
+    "title": "Narrow brick side passage",
+    "description": "Very narrow side passage between two white rendered walls with red brick pavers heavily covered in moss, mould and dark organic staining.",
+    "order": 19,
+    "tags": [
+      "brick",
+      "pathway",
+      "passage",
+      "moss",
+      "mould",
+      "before"
+    ]
+  },
+  {
+    "id": 11,
+    "service": "Alfresco & Patio Cleaning",
+    "area": "Alfresco/Patio",
+    "surface": "Liquid limestone",
+    "suburb": "Gwelup",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_6813.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_6817.jpeg",
+    "beforeAlt": "Liquid limestone Large format patio tiles before — pressure cleaning Gwelup Perth WA",
+    "afterAlt": "Liquid limestone Large format patio tiles after — pressure cleaning Gwelup Perth WA",
+    "title": "Large format patio tiles",
+    "description": "Outdoor patio area with large format concrete tiles showing extensive dark mould, water staining and grime patches throughout.",
+    "order": 21,
+    "tags": [
+      "tiles",
+      "patio",
+      "mould",
+      "staining",
+      "before"
+    ]
+  },
+  {
+    "id": 12,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Sandstone pavers",
+    "suburb": "Jolimont",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_6908.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_6910.jpeg",
+    "beforeAlt": "Sandstone pavers Slate front entry tiles before — pressure cleaning Jolimont Perth WA",
+    "afterAlt": "Sandstone pavers Slate front entry tiles after — pressure cleaning Jolimont Perth WA",
+    "title": "Slate front entry tiles",
+    "description": "Front entry paving with mixed slate-look tiles showing heavy dark staining and grime, with a visible contrast between stained and cleaner areas.",
+    "order": 23,
+    "tags": [
+      "slate",
+      "tiles",
+      "entry",
+      "staining",
+      "before"
+    ]
+  },
+  {
+    "id": 13,
+    "service": "Paver Cleaning",
+    "area": "Pavers",
+    "surface": "Sandstone pavers",
+    "suburb": "Jolimont",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_6915.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_6914.jpeg",
+    "beforeAlt": "Sandstone pavers Natural stone courtyard before — pressure cleaning Jolimont Perth WA",
+    "afterAlt": "Sandstone pavers Sandstone garden courtyard after — pressure cleaning Jolimont Perth WA",
+    "title": "Natural stone courtyard",
+    "description": "Natural stone-paved courtyard with mixed tones showing dirt, staining and grime buildup obscuring the stone's natural colour and pattern.",
+    "order": 25,
+    "tags": [
+      "stone",
+      "courtyard",
+      "staining",
+      "grime",
+      "before"
+    ]
+  },
+  {
+    "id": 14,
+    "service": "Driveway Cleaning",
+    "area": "Driveway",
+    "surface": "Brick pavers",
+    "suburb": "Greenwood",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_6985.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7003.jpeg",
+    "beforeAlt": "Brick pavers Brick paver driveway before — pressure cleaning Greenwood Perth WA",
+    "afterAlt": "Brick pavers Brick paver driveway after — pressure cleaning Greenwood Perth WA",
+    "title": "Brick paver driveway",
+    "description": "Large curved brick paver driveway and front garden area showing dirt, grime and staining across the brick surface.",
+    "order": 27,
+    "tags": [
+      "driveway",
+      "brick",
+      "pavers",
+      "staining",
+      "before"
+    ]
+  },
+  {
+    "id": 15,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Liquid limestone",
+    "suburb": "Burns Beach",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7050.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7053.jpeg",
+    "beforeAlt": "Liquid limestone Concrete side passage before — pressure cleaning Burns Beach Perth WA",
+    "afterAlt": "Liquid limestone Concrete side passage after — pressure cleaning Burns Beach Perth WA",
+    "title": "Concrete side passage",
+    "description": "Narrow concrete side passage alongside a house showing heavy black mould, water staining and grime across the full slab surface.",
+    "order": 29,
+    "tags": [
+      "concrete",
+      "passage",
+      "mould",
+      "staining",
+      "before"
+    ]
+  },
+  {
+    "id": 16,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Exposed aggregate",
+    "suburb": "Yokine",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7195.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7196.jpeg",
+    "beforeAlt": "Exposed aggregate Exposed aggregate pathway before — pressure cleaning Yokine Perth WA",
+    "afterAlt": "Exposed aggregate Exposed aggregate pathway after — pressure cleaning Yokine Perth WA",
+    "title": "Exposed aggregate pathway",
+    "description": "Exposed aggregate concrete pathway beside a house with dark staining visible across the aggregate surface.",
+    "order": 31,
+    "tags": [
+      "aggregate",
+      "concrete",
+      "pathway",
+      "staining",
+      "before"
+    ]
+  },
+  {
+    "id": 17,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Liquid limestone",
+    "suburb": "North Perth",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7226.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7227.jpeg",
+    "beforeAlt": "Liquid limestone Concrete front porch before — pressure cleaning North Perth Perth WA",
+    "afterAlt": "Liquid limestone Concrete front porch after — pressure cleaning North Perth Perth WA",
+    "title": "Concrete front porch",
+    "description": "Concrete front porch area outside a brick home showing heavy black mould, grime and dirty swirl marks across the full slab.",
+    "order": 33,
+    "tags": [
+      "concrete",
+      "porch",
+      "entrance",
+      "mould",
+      "grime",
+      "before"
+    ]
+  },
+  {
+    "id": 18,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Brick pavers",
+    "suburb": "Dalkeith",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7228.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7229.jpeg",
+    "beforeAlt": "Brick pavers Brick paver side passage before — pressure cleaning Dalkeith Perth WA",
+    "afterAlt": "Brick pavers Brick paver side passage after — pressure cleaning Dalkeith Perth WA",
+    "title": "Brick paver side passage",
+    "description": "Narrow brick paver side passage between a brick home and colorbond fence showing grime and dirt buildup across the pavers.",
+    "order": 35,
+    "tags": [
+      "brick",
+      "pavers",
+      "passage",
+      "grime",
+      "before"
+    ]
+  },
+  {
+    "id": 19,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Concrete",
+    "suburb": "North Beach",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7301.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7314.jpeg",
+    "beforeAlt": "Concrete Concrete garden steps before — pressure cleaning North Beach Perth WA",
+    "afterAlt": "Concrete Concrete garden steps after — pressure cleaning North Beach Perth WA",
+    "title": "Concrete garden steps",
+    "description": "Three-step concrete garden staircase connecting a deck to a lawn, heavily coated in black mould and organic staining across every surface.",
+    "order": 37,
+    "tags": [
+      "steps",
+      "concrete",
+      "stairs",
+      "mould",
+      "before"
+    ]
+  },
+  {
+    "id": 20,
+    "service": "Paver Cleaning",
+    "area": "Pavers",
+    "surface": "Brick pavers",
+    "suburb": "Padbury",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7458.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7459.jpeg",
+    "beforeAlt": "Brick pavers Courtyard brick pavers before — pressure cleaning Padbury Perth WA",
+    "afterAlt": "Brick pavers Courtyard brick pavers after — pressure cleaning Padbury Perth WA",
+    "title": "Courtyard brick pavers",
+    "description": "Enclosed courtyard with herringbone brick pavers showing dark mould and grime across the majority of the surface.",
+    "order": 39,
+    "tags": [
+      "pavers",
+      "brick",
+      "herringbone",
+      "courtyard",
+      "mould",
+      "before"
+    ]
+  },
+  {
+    "id": 21,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Brick pavers",
+    "suburb": "Innaloo",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7465.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7464.jpeg",
+    "beforeAlt": "Brick pavers Commercial side passage pavers before — pressure cleaning Innaloo Perth WA",
+    "afterAlt": "Brick pavers Commercial side passage pavers after — pressure cleaning Innaloo Perth WA",
+    "title": "Commercial side passage pavers",
+    "description": "Same narrow commercial side passage with brick pavers showing dirt and grime buildup before cleaning.",
+    "order": 41,
+    "tags": [
+      "pavers",
+      "brick",
+      "passage",
+      "commercial",
+      "grime",
+      "before"
+    ]
+  },
+  {
+    "id": 22,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Brick pavers",
+    "suburb": "Padbury",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7467.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7466.jpeg",
+    "beforeAlt": "Brick pavers Long diamond paver side passage before — pressure cleaning Padbury Perth WA",
+    "afterAlt": "Brick pavers Long diamond paver side passage after — pressure cleaning Padbury Perth WA",
+    "title": "Long diamond paver side passage",
+    "description": "Same long side passage with diamond-pattern concrete pavers showing heavy mould, grime and black staining throughout.",
+    "order": 43,
+    "tags": [
+      "pavers",
+      "diamond",
+      "passage",
+      "mould",
+      "grime",
+      "before"
+    ]
+  },
+  {
+    "id": 23,
+    "service": "Paver Cleaning",
+    "area": "Pavers",
+    "surface": "Limestone pavers",
+    "suburb": "Gwelup",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7491.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7494.jpeg",
+    "beforeAlt": "Limestone pavers Garden area paving tiles before — pressure cleaning Gwelup Perth WA",
+    "afterAlt": "Limestone pavers Garden area paving tiles after — pressure cleaning Gwelup Perth WA",
+    "title": "Garden area paving tiles",
+    "description": "Mixed format stone-look paving tiles in a garden area showing grime, mould and dark staining across the surface.",
+    "order": 45,
+    "tags": [
+      "tiles",
+      "pavers",
+      "garden",
+      "grime",
+      "mould",
+      "before"
+    ]
+  },
+  {
+    "id": 24,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Liquid limestone",
+    "suburb": "Burns Beach",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7827.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7828.jpeg",
+    "beforeAlt": "Liquid limestone Concrete side passage before — pressure cleaning Burns Beach Perth WA",
+    "afterAlt": "Liquid limestone Concrete side passage after — pressure cleaning Burns Beach Perth WA",
+    "title": "Concrete side passage",
+    "description": "Narrow concrete side passage beside a brick home showing mould, grime and dark staining across the slab.",
+    "order": 47,
+    "tags": [
+      "concrete",
+      "passage",
+      "mould",
+      "staining",
+      "before"
+    ]
+  },
+  {
+    "id": 25,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Liquid limestone",
+    "suburb": "Butler",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7829.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7830.jpeg",
+    "beforeAlt": "Liquid limestone Concrete side passage before — pressure cleaning Butler Perth WA",
+    "afterAlt": "Liquid limestone Concrete side passage after — pressure cleaning Butler Perth WA",
+    "title": "Concrete side passage",
+    "description": "Long concrete side passage beside a home showing heavy mould, grime and dark staining along the full length of the slab.",
+    "order": 49,
+    "tags": [
+      "concrete",
+      "passage",
+      "mould",
+      "grime",
+      "before"
+    ]
+  },
+  {
+    "id": 26,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Liquid limestone",
+    "suburb": "Mindarie",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7866.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7864.jpeg",
+    "beforeAlt": "Liquid limestone Long concrete side passage before — pressure cleaning Mindarie Perth WA",
+    "afterAlt": "Liquid limestone Long concrete side passage after — pressure cleaning Mindarie Perth WA",
+    "title": "Long concrete side passage",
+    "description": "Same long concrete side passage before cleaning, showing significant mould, grime and dirty patchy staining across the slab.",
+    "order": 51,
+    "tags": [
+      "concrete",
+      "passage",
+      "mould",
+      "grime",
+      "before"
+    ]
+  },
+  {
+    "id": 27,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Liquid limestone",
+    "suburb": "Tapping",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7870.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7871.jpeg",
+    "beforeAlt": "Liquid limestone Decorative stamped concrete alley before — pressure cleaning Tapping Perth WA",
+    "afterAlt": "Liquid limestone Decorative stamped concrete alley after — pressure cleaning Tapping Perth WA",
+    "title": "Decorative stamped concrete alley",
+    "description": "Long side alley with decorative stamped concrete featuring an ornate inlaid design, showing dirt and grime buildup dulling the surface.",
+    "order": 53,
+    "tags": [
+      "concrete",
+      "stamped",
+      "decorative",
+      "pathway",
+      "before"
+    ]
+  },
+  {
+    "id": 28,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Limestone pavers",
+    "suburb": "Nollamara",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7946.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7945.jpeg",
+    "beforeAlt": "Limestone pavers Granite tile alley before — pressure cleaning Nollamara Perth WA",
+    "afterAlt": "Limestone pavers Limestone paver alley after — pressure cleaning Nollamara Perth WA",
+    "title": "Granite tile alley",
+    "description": "Wide side alley with large format granite-look tiles showing heavy dark mould, grime and staining across the entire surface.",
+    "order": 55,
+    "tags": [
+      "granite",
+      "tiles",
+      "alley",
+      "mould",
+      "grime",
+      "before"
+    ]
+  },
+  {
+    "id": 29,
+    "service": "Pool Surround Cleaning",
+    "area": "Pool Area",
+    "surface": "Exposed aggregate",
+    "suburb": "Nedlands",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7960.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7975.jpeg",
+    "beforeAlt": "Exposed aggregate Pool area pavers before — pressure cleaning Nedlands Perth WA",
+    "afterAlt": "Exposed aggregate Pool surround granite pavers after — pressure cleaning Nedlands Perth WA",
+    "title": "Pool area pavers",
+    "description": "Granite aggregate pool surround pavers showing heavy staining, dark patches and leaf debris buildup along the pool edge.",
+    "order": 57,
+    "tags": [
+      "pool",
+      "pavers",
+      "aggregate",
+      "staining",
+      "before"
+    ]
+  },
+  {
+    "id": 30,
+    "service": "Pool Surround Cleaning",
+    "area": "Pool Area",
+    "surface": "Granite pavers",
+    "suburb": "Nedlands",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7961.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7976.jpeg",
+    "beforeAlt": "Granite pavers Pool surround aggregate pavers before — pressure cleaning Nedlands Perth WA",
+    "afterAlt": "Granite pavers Pool surround pavers second view after — pressure cleaning Nedlands Perth WA",
+    "title": "Pool surround aggregate pavers",
+    "description": "Granite aggregate pool surround pavers alongside a garden showing heavy staining, mould and dark patches across the surface.",
+    "order": 59,
+    "tags": [
+      "pool",
+      "pavers",
+      "aggregate",
+      "granite",
+      "staining",
+      "before"
+    ]
+  },
+  {
+    "id": 31,
+    "service": "Paver Cleaning",
+    "area": "Pavers",
+    "surface": "Granite pavers",
+    "suburb": "Dalkeith",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7962.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_7973.jpeg",
+    "beforeAlt": "Granite pavers Granite courtyard pavers before — pressure cleaning Dalkeith Perth WA",
+    "afterAlt": "Granite pavers Granite courtyard pavers after — pressure cleaning Dalkeith Perth WA",
+    "title": "Granite courtyard pavers",
+    "description": "Large courtyard with granite aggregate pavers showing significant mould, staining and grime throughout the full area.",
+    "order": 61,
+    "tags": [
+      "granite",
+      "pavers",
+      "courtyard",
+      "mould",
+      "staining",
+      "before"
+    ]
+  },
+  {
+    "id": 32,
+    "service": "Paver Cleaning",
+    "area": "Pavers",
+    "surface": "Rendered wall",
+    "suburb": "North Perth",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_8022.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_8023.jpeg",
+    "beforeAlt": "Rendered wall Courtyard paver area with steps before — pressure cleaning North Perth Perth WA",
+    "afterAlt": "Rendered wall Courtyard paver area with steps after — pressure cleaning North Perth Perth WA",
+    "title": "Courtyard paver area with steps",
+    "description": "Courtyard paved area with concrete block pavers and rendered step edges, showing mould and green algae growth on the step faces and paver joints.",
+    "order": 63,
+    "tags": [
+      "pavers",
+      "courtyard",
+      "steps",
+      "mould",
+      "algae",
+      "before"
+    ]
+  },
+  {
+    "id": 33,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Liquid limestone",
+    "suburb": "Joondalup",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_8128.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_8129.jpeg",
+    "beforeAlt": "Liquid limestone Concrete narrow passage before — pressure cleaning Joondalup Perth WA",
+    "afterAlt": "Liquid limestone Concrete narrow passage after — pressure cleaning Joondalup Perth WA",
+    "title": "Concrete narrow passage",
+    "description": "Narrow concrete passage between two brick buildings showing significant grey mould and grime staining across the slab.",
+    "order": 65,
+    "tags": [
+      "concrete",
+      "passage",
+      "mould",
+      "grime",
+      "before"
+    ]
+  },
+  {
+    "id": 34,
+    "service": "Alfresco & Patio Cleaning",
+    "area": "Alfresco/Patio",
+    "surface": "Liquid limestone",
+    "suburb": "Joondalup",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_8130.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_8131.jpeg",
+    "beforeAlt": "Liquid limestone Covered alfresco concrete before — pressure cleaning Joondalup Perth WA",
+    "afterAlt": "Liquid limestone Covered alfresco concrete after — pressure cleaning Joondalup Perth WA",
+    "title": "Covered alfresco concrete",
+    "description": "Large covered alfresco concrete area beside a brick home showing heavy mould, grime and dark staining across the slab surface.",
+    "order": 67,
+    "tags": [
+      "concrete",
+      "alfresco",
+      "covered",
+      "mould",
+      "grime",
+      "before"
+    ]
+  },
+  {
+    "id": 35,
+    "service": "Alfresco & Patio Cleaning",
+    "area": "Alfresco/Patio",
+    "surface": "Brick pavers",
+    "suburb": "Beechboro",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_8175.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_8176.jpeg",
+    "beforeAlt": "Brick pavers Large covered paver area before — pressure cleaning Beechboro Perth WA",
+    "afterAlt": "Brick pavers Large covered paver area after — pressure cleaning Beechboro Perth WA",
+    "title": "Large covered paver area",
+    "description": "Large covered outdoor area with concrete block pavers showing grime, staining and mould buildup across the entire paved surface.",
+    "order": 69,
+    "tags": [
+      "pavers",
+      "covered",
+      "outdoor",
+      "grime",
+      "mould",
+      "before"
+    ]
+  },
+  {
+    "id": 36,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Concrete",
+    "suburb": "Craigie",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_8222.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_8225.jpeg",
+    "beforeAlt": "Concrete Exposed aggregate front path before — pressure cleaning Craigie Perth WA",
+    "afterAlt": "Concrete Exposed aggregate front path after — pressure cleaning Craigie Perth WA",
+    "title": "Exposed aggregate front path",
+    "description": "Exposed aggregate concrete front path beside a red brick home showing significant mould, dark staining and grime across the surface.",
+    "order": 71,
+    "tags": [
+      "aggregate",
+      "concrete",
+      "path",
+      "mould",
+      "staining",
+      "before"
+    ]
+  },
+  {
+    "id": 37,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Liquid limestone",
+    "suburb": "Karrinyup",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_8444.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_8456.jpeg",
+    "beforeAlt": "Liquid limestone Limestone tile side alley before — pressure cleaning Karrinyup Perth WA",
+    "afterAlt": "Liquid limestone Limestone tile side alley after — pressure cleaning Karrinyup Perth WA",
+    "title": "Limestone tile side alley",
+    "description": "Narrow side alley between two homes with large format limestone tiles showing grime and staining with weeds growing in the joint gaps.",
+    "order": 73,
+    "tags": [
+      "limestone",
+      "tiles",
+      "alley",
+      "grime",
+      "weeds",
+      "before"
+    ]
+  },
+  {
+    "id": 38,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Liquid limestone",
+    "suburb": "Karrinyup",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_8458.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_8457.jpeg",
+    "beforeAlt": "Liquid limestone Limestone tile side passage before — pressure cleaning Karrinyup Perth WA",
+    "afterAlt": "Liquid limestone Limestone tile side passage after — pressure cleaning Karrinyup Perth WA",
+    "title": "Limestone tile side passage",
+    "description": "Same limestone tile side passage showing grime, mould and dark staining across the tiles before cleaning.",
+    "order": 75,
+    "tags": [
+      "limestone",
+      "tiles",
+      "passage",
+      "grime",
+      "mould",
+      "before"
+    ]
+  },
+  {
+    "id": 40,
+    "service": "Alfresco & Patio Cleaning",
+    "area": "Alfresco/Patio",
+    "surface": "Limestone pavers",
+    "suburb": "North Beach",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_8542.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_8544.jpeg",
+    "beforeAlt": "Limestone pavers Sandstone patio step edge before — pressure cleaning North Beach Perth WA",
+    "afterAlt": "Limestone pavers Sandstone patio step edge after — pressure cleaning North Beach Perth WA",
+    "title": "Sandstone patio step edge",
+    "description": "Sandstone-look tiled patio step edge beside sliding doors showing heavy mould and dark staining across the step faces and top surface.",
+    "order": 79,
+    "tags": [
+      "sandstone",
+      "tiles",
+      "steps",
+      "patio",
+      "mould",
+      "staining",
+      "before"
+    ]
+  },
+  {
+    "id": 41,
+    "service": "Pathway Cleaning",
+    "area": "Pathway",
+    "surface": "Brick pavers",
+    "suburb": "Belmont",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_8677.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_8679.jpeg",
+    "beforeAlt": "Brick pavers Brick paver side passage before — pressure cleaning Belmont Perth WA",
+    "afterAlt": "Brick pavers Brick paver side passage after — pressure cleaning Belmont Perth WA",
+    "title": "Brick paver side passage",
+    "description": "Narrow side passage alongside a red brick home with herringbone brick pavers showing mould and grime buildup across the surface.",
+    "order": 81,
+    "tags": [
+      "brick",
+      "pavers",
+      "herringbone",
+      "passage",
+      "mould",
+      "before"
+    ]
+  },
+  {
+    "id": 42,
+    "service": "House Exterior Cleaning",
+    "area": "House Exterior",
+    "surface": "Brick pavers",
+    "suburb": "Innaloo",
+    "beforeUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_9809.jpeg",
+    "afterUrl": "https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/public/Gallery%20Before%20and%20After/IMG_9810.jpeg",
+    "beforeAlt": "Brick pavers House exterior brick wall before — pressure cleaning Innaloo Perth WA",
+    "afterAlt": "Brick pavers House exterior brick wall after — pressure cleaning Innaloo Perth WA",
+    "title": "House exterior brick wall",
+    "description": "Limestone brick exterior wall of a home showing heavy black mould and green algae streaking down from the guttering and corner joints.",
+    "order": 83,
+    "tags": [
+      "house",
+      "exterior",
+      "brick",
+      "wall",
+      "mould",
+      "algae",
+      "before"
+    ]
+  }
+];
+
+export const galleryServices: string[] = ["Alfresco & Patio Cleaning", "Driveway Cleaning", "House Exterior Cleaning", "Pathway Cleaning", "Paver Cleaning", "Pool Surround Cleaning"];

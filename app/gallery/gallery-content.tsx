@@ -1,90 +1,28 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { motion } from 'motion/react';
-import { Phone, Star, MapPin, Filter, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { useState } from 'react';
+import { Phone, Star, Filter, ArrowRight, CheckCircle2 } from 'lucide-react';
 import Link from 'next/link';
-import { projectId, publicAnonKey } from '../../utils/supabase/info';
-
-interface ImageMetadata {
-  id: string;
-  fileName: string;
-  category: string;
-  description: string;
-  uploadedAt: string;
-  signedUrl: string;
-  originalName: string;
-  size: number;
-  type: string;
-  showInGallery?: boolean;
-}
-
-interface ImagePair {
-  before: string;
-  after: string;
-  description: string;
-  category: string;
-}
+import { galleryPairs, galleryServices } from '@/data/gallery';
 
 const CATEGORIES = [
   { value: 'all', label: 'All Projects' },
-  { value: 'driveway', label: 'Driveway Cleaning' },
-  { value: 'limestone', label: 'Limestone Cleaning' },
-  { value: 'concrete', label: 'Concrete Cleaning' },
-  { value: 'house', label: 'House Washing' },
-  { value: 'paver', label: 'Paver Cleaning & Sealing' },
-  { value: 'roof', label: 'Roof Cleaning' },
-  { value: 'window', label: 'Window Cleaning' },
-  { value: 'commercial', label: 'Commercial Projects' },
+  ...galleryServices.map((s) => ({ value: s, label: s })),
 ];
 
 export default function GalleryContent() {
   const [selectedCategory, setSelectedCategory] = useState('all');
-  const [images, setImages] = useState<ImageMetadata[]>([]);
-  const [loading, setLoading] = useState(true);
 
-  const API_URL = `https://${projectId}.supabase.co/functions/v1/make-server-bb20e683`;
-
-  useEffect(() => {
-    async function fetchImages(showSpinner = false) {
-      try {
-        if (showSpinner) setLoading(true);
-        const url = selectedCategory === 'all' ? `${API_URL}/images` : `${API_URL}/images?category=${selectedCategory}`;
-        const response = await fetch(url, { headers: { Authorization: `Bearer ${publicAnonKey}` } });
-        if (!response.ok) throw new Error('Failed to load images');
-        const data = await response.json();
-        setImages(data.images && data.images.length > 0 ? data.images : []);
-      } catch (error) {
-        console.error('Error fetching gallery images:', error);
-        setImages([]);
-      } finally {
-        setLoading(false);
-      }
-    }
-
-    fetchImages(true);
-    const interval = setInterval(() => fetchImages(false), 30000);
-    return () => clearInterval(interval);
-  }, [selectedCategory, API_URL]);
-
-  const galleryImages = images.filter((img) => img.showInGallery === true);
-  const imagePairs: ImagePair[] = [];
-  for (let i = 0; i < galleryImages.length; i += 2) {
-    if (galleryImages[i + 1]) {
-      imagePairs.push({
-        before: galleryImages[i].signedUrl,
-        after: galleryImages[i + 1].signedUrl,
-        description: galleryImages[i].description || 'Perth',
-        category: galleryImages[i].category || 'general',
-      });
-    }
-  }
+  const pairs =
+    selectedCategory === 'all'
+      ? galleryPairs
+      : galleryPairs.filter((p) => p.service === selectedCategory);
 
   return (
     <>
       <section className="relative bg-gradient-to-br from-[#020B1C] to-[#06152E] text-white pt-32 pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="text-center max-w-3xl mx-auto">
+          <div className="text-center max-w-3xl mx-auto">
             <div className="inline-block bg-[#0057FF]/10 border border-[#0057FF]/30 text-[#0057FF] px-4 py-2 rounded-full text-sm font-semibold mb-6">
               BEFORE &amp; AFTER GALLERY
             </div>
@@ -104,7 +42,7 @@ export default function GalleryContent() {
                 <ArrowRight className="w-5 h-5" />
               </Link>
             </div>
-          </motion.div>
+          </div>
         </div>
       </section>
 
@@ -152,19 +90,15 @@ export default function GalleryContent() {
 
       <section className="bg-gray-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {loading ? (
-            <div className="flex items-center justify-center py-20">
-              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#0057FF]"></div>
-            </div>
-          ) : imagePairs.length === 0 ? (
+          {pairs.length === 0 ? (
             <div className="text-center py-20">
               <div className="bg-white rounded-2xl p-12 shadow-lg max-w-md mx-auto">
                 <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Filter className="w-8 h-8 text-gray-400" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">No images found</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">No projects found</h3>
                 <p className="text-gray-600">
-                  {selectedCategory === 'all' ? 'No gallery images available yet.' : `No images found for ${CATEGORIES.find((c) => c.value === selectedCategory)?.label || selectedCategory}.`}
+                  No projects found for {CATEGORIES.find((c) => c.value === selectedCategory)?.label || selectedCategory}.
                 </p>
                 <button onClick={() => setSelectedCategory('all')} className="mt-6 inline-flex items-center gap-2 text-[#0057FF] hover:text-[#0049d8] font-semibold">
                   View All Projects
@@ -176,32 +110,28 @@ export default function GalleryContent() {
             <>
               <div className="text-center mb-8">
                 <p className="text-gray-600">
-                  Showing <span className="font-semibold text-[#020B1C]">{imagePairs.length}</span> {imagePairs.length === 1 ? 'project' : 'projects'}
+                  Showing <span className="font-semibold text-[#020B1C]">{pairs.length}</span> {pairs.length === 1 ? 'project' : 'projects'}
                   {selectedCategory !== 'all' && (
                     <> in <span className="font-semibold text-[#020B1C]">{CATEGORIES.find((c) => c.value === selectedCategory)?.label}</span></>
                   )}
                 </p>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                {imagePairs.map((pair, index) => (
-                  <div key={index} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                {pairs.map((pair) => (
+                  <div key={pair.id} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
                     <div className="grid grid-cols-2 gap-0">
                       <div className="relative aspect-[3/4] bg-gray-200">
-                        <img src={pair.before} alt={`Before pressure cleaning - ${pair.description}`} className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+                        <img src={pair.beforeUrl} alt={pair.beforeAlt} className="absolute inset-0 w-full h-full object-cover" loading="lazy" decoding="async" />
                         <div className="absolute top-3 left-3 bg-[#020B1C]/80 text-white px-3 py-1.5 rounded-md text-xs font-semibold">Before</div>
                       </div>
                       <div className="relative aspect-[3/4] bg-gray-200">
-                        <img src={pair.after} alt={`After pressure cleaning - ${pair.description}`} className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+                        <img src={pair.afterUrl} alt={pair.afterAlt} className="absolute inset-0 w-full h-full object-cover" loading="lazy" decoding="async" />
                         <div className="absolute top-3 right-3 bg-[#0057FF]/90 text-[#020B1C] px-3 py-1.5 rounded-md text-xs font-semibold">After</div>
                       </div>
                     </div>
                     <div className="p-6">
-                      <div className="flex items-start justify-between gap-4">
-                        <div>
-                          <h3 className="text-lg font-semibold text-[#020B1C] mb-1">{pair.description}</h3>
-                          <p className="text-sm text-gray-500 capitalize">{pair.category.replace(/-/g, ' ')}</p>
-                        </div>
-                      </div>
+                      <h3 className="text-lg font-semibold text-[#020B1C] mb-1">{pair.title}</h3>
+                      <p className="text-sm text-gray-500">{pair.service} · {pair.suburb}, Perth</p>
                     </div>
                   </div>
                 ))}

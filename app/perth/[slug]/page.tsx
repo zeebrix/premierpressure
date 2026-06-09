@@ -152,7 +152,7 @@ export default async function SuburbPage({ params }: Props) {
               See the transformation we&apos;ve delivered for {suburb.name} homeowners
             </p>
           </div>
-          <BeforeAfterGallery />
+          <BeforeAfterGallery suburbName={suburb.name} showHeading={false} />
         </div>
       </section>
 

@@ -1,78 +1,66 @@
 'use client';
 
-import image_41faf7d8dc2e33e937b3a8d5a242a0b96f9b3f9e from '@/assets/41faf7d8dc2e33e937b3a8d5a242a0b96f9b3f9e.webp';
-import image_87d5f8ec1d66b7b825355f53597f786bcaca1fbc from '@/assets/87d5f8ec1d66b7b825355f53597f786bcaca1fbc.webp';
-import image_6bbaf4ca5bf4a991f067849bdb8c19880078fe6d from '@/assets/6bbaf4ca5bf4a991f067849bdb8c19880078fe6d.webp';
-import image_9f60771b69b9073d71cb6e9b0f8857c1f1462658 from '@/assets/9f60771b69b9073d71cb6e9b0f8857c1f1462658.webp';
-import image_69c22a3e1fa74dd17b18bde80f0c9cc3ea318b06 from '@/assets/69c22a3e1fa74dd17b18bde80f0c9cc3ea318b06.webp';
-import image_1ef480a4697ca3350ef723e0ead8e0aa6892ee92 from '@/assets/1ef480a4697ca3350ef723e0ead8e0aa6892ee92.webp';
 import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { galleryPairs } from '@/data/gallery';
 
-const galleryItems = [
-  {
-    before: image_1ef480a4697ca3350ef723e0ead8e0aa6892ee92,
-    after: image_41faf7d8dc2e33e937b3a8d5a242a0b96f9b3f9e,
-    service: 'Limestone Cleaning',
-    location: 'Burns Beach, Perth',
-  },
-  {
-    before: image_69c22a3e1fa74dd17b18bde80f0c9cc3ea318b06,
-    after: image_9f60771b69b9073d71cb6e9b0f8857c1f1462658,
-    service: 'Concrete Cleaning',
-    location: 'Como, Perth',
-  },
-  {
-    before: image_6bbaf4ca5bf4a991f067849bdb8c19880078fe6d,
-    after: image_87d5f8ec1d66b7b825355f53597f786bcaca1fbc,
-    service: 'Brick Cleaning',
-    location: 'Hillarys, Perth',
-  },
-];
+interface BeforeAfterGalleryProps {
+  /** When set, before/after pairs from this suburb are shown first. */
+  suburbName?: string;
+  /** Max number of pairs to rotate through (default 8). */
+  limit?: number;
+  /** Hide the component's own heading (e.g. when a parent section already has one). */
+  showHeading?: boolean;
+}
 
-export function BeforeAfterGallery() {
+export function BeforeAfterGallery({ suburbName, limit = 8, showHeading = true }: BeforeAfterGalleryProps) {
+  const local = suburbName
+    ? galleryPairs.filter((p) => p.suburb.toLowerCase() === suburbName.toLowerCase())
+    : [];
+  const ordered = local.length
+    ? [...local, ...galleryPairs.filter((p) => !local.includes(p))]
+    : galleryPairs;
+  const items = ordered.slice(0, limit);
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
-  const nextSlide = () => {
-    setCurrentIndex((prev) => (prev + 1) % galleryItems.length);
-  };
-
-  const prevSlide = () => {
-    setCurrentIndex((prev) => (prev - 1 + galleryItems.length) % galleryItems.length);
-  };
+  const nextSlide = () => setCurrentIndex((prev) => (prev + 1) % items.length);
+  const prevSlide = () => setCurrentIndex((prev) => (prev - 1 + items.length) % items.length);
 
   // Auto-rotation every 5 seconds
   useEffect(() => {
-    if (isPaused) return;
-
+    if (isPaused || items.length <= 1) return;
     const interval = setInterval(() => {
-      nextSlide();
+      setCurrentIndex((prev) => (prev + 1) % items.length);
     }, 5000);
-
     return () => clearInterval(interval);
-  }, [currentIndex, isPaused]);
+  }, [isPaused, items.length]);
 
-  const currentItem = galleryItems[currentIndex];
+  if (items.length === 0) return null;
+  const currentItem = items[currentIndex] ?? items[0];
+  const locationLabel = currentItem.suburb ? `${currentItem.suburb}, Perth` : 'Perth';
 
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-          className="text-center mb-12"
-        >
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#020B1C] mb-4">
-            Pressure Cleaning Results in Perth - Before &amp; After.
-          </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            See the incredible results our professional pressure cleaning delivers across Perth.
-          </p>
-        </motion.div>
+        {showHeading && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl sm:text-4xl font-bold text-[#020B1C] mb-4">
+              Pressure Cleaning Results in Perth - Before &amp; After.
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              See the incredible results our professional pressure cleaning delivers across Perth.
+            </p>
+          </motion.div>
+        )}
 
         <div className="max-w-5xl mx-auto"
           onMouseEnter={() => setIsPaused(true)}
@@ -84,8 +72,8 @@ export function BeforeAfterGallery() {
             <div className="relative rounded-xl overflow-hidden shadow-xl">
               <div className="relative aspect-[4/3] bg-gray-200">
                 <img
-                  src={currentItem.before.src}
-                  alt={`Before professional pressure cleaning Perth - ${currentItem.service} ${currentItem.location}`}
+                  src={currentItem.beforeUrl}
+                  alt={currentItem.beforeAlt}
                   className="absolute inset-0 w-full h-full object-cover"
                   loading="lazy"
                   decoding="async"
@@ -100,8 +88,8 @@ export function BeforeAfterGallery() {
             <div className="relative rounded-xl overflow-hidden shadow-xl">
               <div className="relative aspect-[4/3] bg-gray-200">
                 <img
-                  src={currentItem.after.src}
-                  alt={`After professional pressure cleaning Perth - ${currentItem.service} service transformation`}
+                  src={currentItem.afterUrl}
+                  alt={currentItem.afterAlt}
                   className="absolute inset-0 w-full h-full object-cover"
                   loading="lazy"
                   decoding="async"
@@ -118,6 +106,7 @@ export function BeforeAfterGallery() {
             <h3 className="text-xl font-semibold text-[#020B1C] mb-1">
               {currentItem.service}
             </h3>
+            <p className="text-gray-600">{locationLabel}</p>
           </div>
 
           {/* Navigation */}
@@ -129,9 +118,9 @@ export function BeforeAfterGallery() {
             >
               <ChevronLeft className="w-5 h-5" />
             </button>
-            
+
             <div className="flex gap-2">
-              {galleryItems.map((_, index) => (
+              {items.map((_, index) => (
                 <button
                   key={index}
                   onClick={() => {
