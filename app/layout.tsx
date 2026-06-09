@@ -90,14 +90,14 @@ import { ScrollToTop } from '@/app/components/scroll-to-top';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html lang="en" className={inter.variable} suppressHydrationWarning>
       <head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
       </head>
-      <body>
+      <body suppressHydrationWarning>
         <div className="min-h-screen flex flex-col">
           <ScrollToTop />
           <Header />

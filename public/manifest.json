@@ -4,8 +4,8 @@
   "description": "Professional pressure cleaning services across Perth. Driveways, house washing, roof cleaning, and more.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0a1628",
-  "theme_color": "#00d4ff",
+  "background_color": "#020B1C",
+  "theme_color": "#020B1C",
   "orientation": "portrait-primary",
   "icons": [
     {
