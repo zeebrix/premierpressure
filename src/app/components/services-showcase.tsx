@@ -43,6 +43,12 @@ const services = [
     image: '/service-images/paver-cleaning-perth.png',
     link: '/paver-cleaning',
   },
+  {
+    title: 'Solar Panel Cleaning',
+    description: 'Boost panel efficiency with a safe, gentle clean, handled as part of our roof cleaning service.',
+    image: '/service-images/roof-cleaning-perth.png',
+    link: '/roof-cleaning',
+  },
 ];
 
 const otherServices = [
