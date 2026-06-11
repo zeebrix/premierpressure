@@ -1,7 +1,3 @@
-'use client';
-
-import { useEffect, useRef } from 'react';
-
 interface GoogleReviewsProps {
   seed?: string;
 }
@@ -10,18 +6,7 @@ const TRUSTINDEX_SRC =
   'https://cdn.trustindex.io/loader.js?d7937c0732a1947099463ca7e40';
 
 export function GoogleReviews({ seed }: GoogleReviewsProps) {
-  const containerRef = useRef<HTMLDivElement>(null);
   const locationLabel = seed ? ` from ${seed} customers` : '';
-
-  useEffect(() => {
-    const el = containerRef.current;
-    if (!el || el.querySelector('script')) return; // don't inject twice
-    const script = document.createElement('script');
-    script.src = TRUSTINDEX_SRC;
-    script.defer = true;
-    script.async = true;
-    el.appendChild(script);
-  }, []);
 
   return (
     <section className="py-16 md:py-24 bg-white">
@@ -38,8 +23,16 @@ export function GoogleReviews({ seed }: GoogleReviewsProps) {
           </h2>
         </div>
 
-        {/* Trustindex Google reviews widget renders here */}
-        <div ref={containerRef} />
+        {/*
+          Trustindex Google reviews widget. The loader runs as a real,
+          server-rendered (parser-inserted) <script>, so document.currentScript
+          is valid and the loader replaces this script with the rendered widget
+          at this position. Injecting it client-side via useEffect does NOT work
+          — the loader throws on a null currentScript and renders nothing.
+        */}
+        <div className="trustindex-widget">
+          <script defer src={TRUSTINDEX_SRC}></script>
+        </div>
       </div>
     </section>
   );
