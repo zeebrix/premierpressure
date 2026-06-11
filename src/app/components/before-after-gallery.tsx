@@ -1,6 +1,8 @@
-import { galleryPairs } from '@/data/gallery';
+import { galleryPairs, type GalleryPair } from '@/data/gallery';
 
 interface BeforeAfterGalleryProps {
+  /** Explicit set of pairs to show (overrides suburb/featured selection). */
+  pairs?: GalleryPair[];
   /** When set, shows that suburb's own before/after jobs (falls back to featured). */
   suburbName?: string;
   /** Homepage mode: show only the featured pairs. */
@@ -9,16 +11,22 @@ interface BeforeAfterGalleryProps {
   limit?: number;
   /** Hide the component's own heading (e.g. when a parent section already has one). */
   showHeading?: boolean;
+  /** Image orientation. Suburb/job photos look best portrait; the curated homepage shots are landscape. */
+  imageAspect?: 'portrait' | 'landscape';
 }
 
 export function BeforeAfterGallery({
+  pairs,
   suburbName,
   featuredOnly = false,
   limit = 0,
   showHeading = true,
+  imageAspect = 'portrait',
 }: BeforeAfterGalleryProps) {
   let items;
-  if (suburbName) {
+  if (pairs) {
+    items = pairs;
+  } else if (suburbName) {
     const local = galleryPairs.filter(
       (p) => p.suburb.toLowerCase() === suburbName.toLowerCase(),
     );
@@ -30,6 +38,8 @@ export function BeforeAfterGallery({
   }
   if (limit > 0) items = items.slice(0, limit);
   if (items.length === 0) return null;
+
+  const aspect = imageAspect === 'landscape' ? 'aspect-[4/3]' : 'aspect-[3/4]';
 
   return (
     <section className="py-20 bg-white">
@@ -52,7 +62,7 @@ export function BeforeAfterGallery({
               className="bg-white rounded-2xl border border-gray-100 shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
             >
               <div className="grid grid-cols-2 gap-0">
-                <div className="relative aspect-[4/3] bg-gray-200">
+                <div className={`relative ${aspect} bg-gray-200`}>
                   <img
                     src={pair.beforeUrl}
                     alt={pair.beforeAlt}
@@ -64,7 +74,7 @@ export function BeforeAfterGallery({
                     Before
                   </span>
                 </div>
-                <div className="relative aspect-[4/3] bg-gray-200">
+                <div className={`relative ${aspect} bg-gray-200`}>
                   <img
                     src={pair.afterUrl}
                     alt={pair.afterAlt}

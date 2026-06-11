@@ -179,6 +179,12 @@ export function Header() {
                 Gallery
               </Link>
               <Link
+                href="/resources"
+                className="text-white transition-colors hover:text-[#0057FF]"
+              >
+                Resources
+              </Link>
+              <Link
                 href="/contact"
                 className="text-white transition-colors hover:text-[#0057FF]"
               >

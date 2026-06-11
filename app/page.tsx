@@ -5,6 +5,7 @@ import { ServicesShowcase } from '@/app/components/services-showcase';
 import { HowItWorks } from '@/app/components/how-it-works';
 import { FinalCTA } from '@/app/components/final-cta';
 import { BeforeAfterGallery } from '@/app/components/before-after-gallery';
+import { homepageGalleryPairs } from '@/data/homepage-gallery';
 import { TestimonialsCarousel } from '@/app/components/testimonials-carousel';
 
 const SITE_URL = 'https://www.ppsexteriorcleaning.com.au';
@@ -120,8 +121,8 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeStructuredData) }}
       />
       <HeroSection />
+      <BeforeAfterGallery pairs={homepageGalleryPairs} imageAspect="landscape" />
       <ServicesShowcase />
-      <BeforeAfterGallery featuredOnly />
       <HowItWorks />
 
       <section className="py-12 sm:py-16 lg:py-20 bg-white">
