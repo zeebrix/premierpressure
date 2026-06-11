@@ -1,5 +1,4 @@
-const TRUSTINDEX_SRC =
-  'https://cdn.trustindex.io/loader.js?d7937c0732a1947099463ca7e40';
+import { TrustindexReviews } from '@/app/components/trustindex-reviews';
 
 export function TestimonialsCarousel() {
   return (
@@ -23,22 +22,8 @@ export function TestimonialsCarousel() {
           </p>
         </div>
 
-        {/*
-          Trustindex Google reviews widget. The loader must be a REAL
-          parser-inserted <script> (so document.currentScript is valid and it
-          fetches + renders the widget) — but emitted via dangerouslySetInnerHTML
-          so React treats this subtree as opaque and does NOT reconcile away the
-          widget the loader injects during hydration. A plain JSX <script>
-          fetches the content but React then wipes the result; a useEffect
-          injection never renders at all (currentScript is null). This is the
-          only combination that paints.
-        */}
-        <div
-          className="trustindex-widget"
-          dangerouslySetInnerHTML={{
-            __html: `<script defer src="${TRUSTINDEX_SRC}"></script>`,
-          }}
-        />
+        {/* Google reviews — rendered in a self-contained iframe (see component) */}
+        <TrustindexReviews />
       </div>
     </section>
   );
