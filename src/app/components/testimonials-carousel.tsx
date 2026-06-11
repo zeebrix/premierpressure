@@ -24,15 +24,21 @@ export function TestimonialsCarousel() {
         </div>
 
         {/*
-          Trustindex Google reviews widget. The loader runs as a real,
-          server-rendered (parser-inserted) <script>, so document.currentScript
-          is valid and the loader replaces this script with the rendered widget
-          at this position. Injecting it client-side via useEffect does NOT work
-          — the loader throws on a null currentScript and renders nothing.
+          Trustindex Google reviews widget. The loader must be a REAL
+          parser-inserted <script> (so document.currentScript is valid and it
+          fetches + renders the widget) — but emitted via dangerouslySetInnerHTML
+          so React treats this subtree as opaque and does NOT reconcile away the
+          widget the loader injects during hydration. A plain JSX <script>
+          fetches the content but React then wipes the result; a useEffect
+          injection never renders at all (currentScript is null). This is the
+          only combination that paints.
         */}
-        <div className="trustindex-widget">
-          <script defer src={TRUSTINDEX_SRC}></script>
-        </div>
+        <div
+          className="trustindex-widget"
+          dangerouslySetInnerHTML={{
+            __html: `<script defer src="${TRUSTINDEX_SRC}"></script>`,
+          }}
+        />
       </div>
     </section>
   );
