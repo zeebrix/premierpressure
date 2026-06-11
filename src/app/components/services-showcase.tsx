@@ -44,8 +44,8 @@ const services = [
     link: '/paver-cleaning',
   },
   {
-    title: 'Roof & Solar Panel Cleaning',
-    description: 'Boost panel efficiency with a safe, gentle clean, handled as part of our roof cleaning service.',
+    title: 'Roof Cleaning',
+    description: 'Safe roof cleaning to remove moss, algae, lichen, and weather staining.',
     image: '/service-images/roof-cleaning-perth.png',
     link: '/roof-cleaning',
   },
@@ -57,12 +57,6 @@ const otherServices = [
     description: 'Crystal-clear windows that enhance your property\'s curb appeal and natural light.',
     image: 'https://iigpdyyiqskohqejmqob.supabase.co/storage/v1/object/sign/make-bb20e683-images/general/1772004571088-48a7ae73-d9df-4aae-91a6-8c219ad34901.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hMjhhMmJhNi1lYjVhLTQ5OGQtODVlMC0wZTUxMmZiNDJhNzIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJtYWtlLWJiMjBlNjgzLWltYWdlcy9nZW5lcmFsLzE3NzIwMDQ1NzEwODgtNDhhN2FlNzMtZDlkZi00YWFlLTkxYTYtOGMyMTlhZDM0OTAxLmpwZyIsImlhdCI6MTc3MjAwNDU3MSwiZXhwIjoxODAzNTQwNTcxfQ.ssBsWHZ0f1bfSTglyZPp2ON4bWQ9ZA-WRpcbPcMzcPI',
     link: '/window-cleaning',
-  },
-  {
-    title: 'Roof Cleaning',
-    description: 'Safe roof cleaning to remove moss, algae, lichen, and weather staining.',
-    image: '/service-images/roof-cleaning-perth.png',
-    link: '/roof-cleaning',
   },
 ];
 
