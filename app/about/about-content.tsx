@@ -1,6 +1,5 @@
 'use client';
 
-import image_3825eeae6ac41dce0ee90580b9d8c79b9558cd3f from '@/assets/3825eeae6ac41dce0ee90580b9d8c79b9558cd3f.webp';
 import { motion } from 'motion/react';
 import { Award, Shield, Users, Zap, CheckCircle, Phone } from 'lucide-react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
@@ -151,8 +150,8 @@ export default function AboutContent() {
               className="relative"
             >
               <ImageWithFallback
-                src={image_3825eeae6ac41dce0ee90580b9d8c79b9558cd3f.src}
-                alt="Pressure cleaning professional at work"
+                src="/about-driveway-cleaning.webp"
+                alt="PPS technician pressure cleaning a Perth driveway"
                 className="rounded-lg shadow-xl w-full h-[400px] object-cover"
               />
               <div className="absolute -bottom-6 -left-6 bg-[#0057FF] text-white px-8 py-6 rounded-lg shadow-lg">
